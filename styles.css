@@ -1352,6 +1352,29 @@ input[type="search"] {
 }
 .suggestion-button:hover { background: var(--blue); color: #fff; text-decoration: none; }
 .site-footer .footer-directory-link { margin-top: 14px; }
+.footer-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  max-width: 100%;
+  min-height: 44px;
+  padding: 12px 18px;
+  border: 1px solid var(--navy);
+  border-bottom: 3px solid var(--gold);
+  background: var(--page);
+  color: var(--navy);
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+}
+.footer-action > span:last-child { flex: none; }
+.footer-action:hover,
+.footer-action:focus-visible {
+  background: var(--navy);
+  color: #fff;
+  text-decoration: none;
+}
 .directory-topbar .brand-home { text-decoration: none; }
 .directory-nav { display: flex; gap: 24px; font-size: 14px; font-weight: 500; }
 .directory-nav a { color: var(--secondary); text-decoration: none; padding: 8px 0; }
