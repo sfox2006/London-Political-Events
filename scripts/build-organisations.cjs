@@ -43,7 +43,7 @@ const html = `<!DOCTYPE html>
   <link rel="canonical" href="https://sfox2006.github.io/London-Political-Events/organisations.html" />
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
-  <link rel="stylesheet" href="styles.css?v=6" />
+  <link rel="stylesheet" href="styles.css?v=7" />
 </head>
 <body class="directory-page">
   <a class="skip-link" href="#organisations">Skip to organisations</a>
@@ -64,7 +64,7 @@ const html = `<!DOCTYPE html>
         <p class="eyebrow">Our sources</p>
         <h1 id="organisations-heading">Organisations</h1>
         <p>The organisations we look to for event listings, from think tanks and campaign groups to local associations and university societies.</p>
-        <p class="directory-context">This British directory includes England, Scotland and Wales, plus UK-wide groups. The calendar currently uses simulated events. This source list is for collecting real listings, and includes organisations outside London.</p>
+        <p class="directory-context">This UK-wide directory includes England, Scotland, Wales and Northern Ireland. Parent organisations and local groups are listed separately. The calendar currently uses simulated events. This source list is for collecting real listings, and includes organisations outside London.</p>
         <p class="directory-context"><strong>${evidenced} with event evidence · ${candidates} needing verification.</strong> Evidence may be historical and does not guarantee an upcoming public event. Expand an organisation to see its notes and source. Directory checked on 6 October 2026.</p>
       </div>
       <form class="directory-filters" id="directory-filters" role="search" hidden>
@@ -84,7 +84,7 @@ const html = `<!DOCTYPE html>
     <div class="footer-suggestion"><h2>Suggest a listing or help verify an organisation</h2>${suggestion}</div>
     <p>An independent calendar of London politics and ideas events. <a href="./">Back to events</a>. The calendar currently contains simulated events only.</p>
   </footer>
-  <script src="organisations.js?v=6" defer></script>
+  <script src="organisations.js?v=7" defer></script>
 </body>
 </html>
 `;
