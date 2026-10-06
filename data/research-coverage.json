@@ -17740,6 +17740,1007 @@
         "unplaced": []
       },
       "coverage_complete": true
+    },
+    {
+      "row_id": "LUNI-IQ2",
+      "canonical_id": "LUNI-IQ2",
+      "name": "Intelligence Squared (UK)",
+      "source_url": "https://www.intelligencesquared.com/calendar",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "verified_events",
+          "checked_at": "2026-10-06T21:08:16.999511+00:00",
+          "notes": [
+            "Three current political/economic talks; later talks in reserve; arts/memoirs excluded",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.intelligencesquared.com/calendar"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [
+          "london-iq-gove-2026-10-19",
+          "london-iq-arctic-2026-10-20",
+          "london-iq-rachman-2026-10-28"
+        ],
+        "reserve": [
+          "london-iq-litvinenko-2026-11-09",
+          "london-iq-wolf-2026-11-12",
+          "london-iq-badawi-2026-11-25"
+        ],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 3,
+      "current_candidates": 3,
+      "reserve_candidates": 3,
+      "held_candidates": 2,
+      "geographic_scope": "London and UK-hosted online; inspect individual tour dates"
+    },
+    {
+      "row_id": "LUNI-RHUL",
+      "canonical_id": "LUNI-RHUL",
+      "name": "Royal Holloway, University of London",
+      "source_url": "https://www.royalholloway.ac.uk/about-us/events/",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "verified_events",
+          "checked_at": "2026-10-06T21:09:39.535170+00:00",
+          "notes": [
+            "Pages 1–2 cover current window. AI and gender-equity public lectures verified; general sociology held for scope review",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.royalholloway.ac.uk/about-us/events/"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [
+          "london-rh-ada-2026-10-14",
+          "london-rh-ai-2026-10-22"
+        ],
+        "reserve": [
+          "london-rh-ai-education-2026-11-05",
+          "london-rh-women-power-2026-11-09"
+        ],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 2,
+      "current_candidates": 2,
+      "reserve_candidates": 2,
+      "held_candidates": 1,
+      "geographic_scope": "Egham, Surrey, and central London campus"
+    },
+    {
+      "row_id": "LUNI-LSHTM",
+      "canonical_id": "LUNI-LSHTM",
+      "name": "London School of Hygiene & Tropical Medicine",
+      "source_url": "https://www.lshtm.ac.uk/newsevents/events",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "verified_events",
+          "checked_at": "2026-10-06T21:10:19.712522+00:00",
+          "notes": [
+            "Full upcoming feed checked. Health policy, health economics, public systems and governance events selected; clinical/methods-only events excluded",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.lshtm.ac.uk/newsevents/events"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [
+          "london-lshtm-belief-2026-10-07",
+          "london-lshtm-singapore-2026-10-08",
+          "london-lshtm-inclusion-2026-10-08",
+          "london-lshtm-healthsystems-2026-10-13",
+          "london-lshtm-nhs-2026-10-14",
+          "london-lshtm-cea-2026-10-22",
+          "london-lshtm-colonial-2026-10-26",
+          "london-lshtm-bcg-2026-10-27"
+        ],
+        "reserve": [
+          "london-lshtm-mogadishu-2026-11-12",
+          "london-lshtm-penda-2026-11-26"
+        ],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 8,
+      "current_candidates": 8,
+      "reserve_candidates": 2,
+      "held_candidates": 0,
+      "geographic_scope": "Bloomsbury, London, and UK-hosted online"
+    },
+    {
+      "row_id": "LUNI-KINGSTON",
+      "canonical_id": "LUNI-KINGSTON",
+      "name": "Kingston University",
+      "source_url": "https://www.kingston.ac.uk/about/events",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "reserve_only",
+          "checked_at": "2026-10-06T21:08:17.002837+00:00",
+          "notes": [
+            "Current calendar contains recruitment, psychology and student celebration events; relevant circular-economy event is 11 November, beyond window",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.kingston.ac.uk/about/events"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [
+          "london-kingston-green-2026-11-11"
+        ],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 1,
+      "held_candidates": 0,
+      "geographic_scope": "Kingston upon Thames, Greater London"
+    },
+    {
+      "row_id": "LUNI-BRUNEL",
+      "canonical_id": "LUNI-BRUNEL",
+      "name": "Brunel University of London",
+      "source_url": "https://www.brunel.ac.uk/news-and-events/events/upcoming",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "no_upcoming_relevant_verified",
+          "checked_at": "2026-10-06T21:10:14.176847+00:00",
+          "notes": [
+            "Pages 1–2 through November checked. Relevant climate conversation on 6 October had ended by check. Other current items are arts, campus tours, anniversary or technical computing conference",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.brunel.ac.uk/news-and-events/events/upcoming"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 0,
+      "held_candidates": 0,
+      "geographic_scope": "Uxbridge and Hillingdon, Greater London"
+    },
+    {
+      "row_id": "LUNI-MDX",
+      "canonical_id": "LUNI-MDX",
+      "name": "Middlesex University",
+      "source_url": "https://www.mdx.ac.uk/about-us/events/",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "no_upcoming_relevant_verified",
+          "checked_at": "2026-10-06T21:08:25.221400+00:00",
+          "notes": [
+            "Current main calendar is recruitment-focused; Distinguished Lecture Series explicitly says future lecture details will be updated",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.mdx.ac.uk/about-us/events/"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 0,
+      "held_candidates": 0,
+      "geographic_scope": "Hendon, Greater London"
+    },
+    {
+      "row_id": "LUNI-GREENWICH",
+      "canonical_id": "LUNI-GREENWICH",
+      "name": "University of Greenwich",
+      "source_url": "https://www.gre.ac.uk/events/public-events",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "calendar_content_incomplete",
+          "checked_at": "2026-10-06T21:08:22.180403+00:00",
+          "notes": [
+            "Public events page describes policy/current-affairs coverage but exposes no dated listings in retrieved content; cannot claim no events",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.gre.ac.uk/events/public-events"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 0,
+      "held_candidates": 0,
+      "geographic_scope": "Greenwich and Avery Hill, Greater London; exclude nonlocal campuses unless online"
+    },
+    {
+      "row_id": "LUNI-HERTS",
+      "canonical_id": "LUNI-HERTS",
+      "name": "University of Hertfordshire",
+      "source_url": "https://www.herts.ac.uk/about-us/news-and-events/events",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "no_upcoming_relevant_verified",
+          "checked_at": "2026-10-06T21:08:22.925363+00:00",
+          "notes": [
+            "Accessible main calendar lists recruitment events; separate student listings mostly social, wellbeing and careers; no eligible public policy talk verified",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.herts.ac.uk/about-us/news-and-events/events"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 0,
+      "held_candidates": 0,
+      "geographic_scope": "Hatfield, Hertfordshire"
+    },
+    {
+      "row_id": "LUNI-SURREY",
+      "canonical_id": "LUNI-SURREY",
+      "name": "University of Surrey",
+      "source_url": "https://www.surrey.ac.uk/politics-and-international-relations/events",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "no_upcoming_relevant_verified",
+          "checked_at": "2026-10-06T21:09:39.536344+00:00",
+          "notes": [
+            "Politics department lists recruitment events; Centre for Britain and Europe explicitly states no upcoming events",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.surrey.ac.uk/politics-and-international-relations/events"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 0,
+      "held_candidates": 0,
+      "geographic_scope": "Guildford, Surrey"
+    },
+    {
+      "row_id": "LUNI-LSBU",
+      "canonical_id": "LUNI-LSBU",
+      "name": "London South Bank University",
+      "source_url": "https://www.lsbu.ac.uk/whats-on",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "calendar_content_incomplete",
+          "checked_at": "2026-10-06T21:12:04.715244+00:00",
+          "notes": [
+            "Accessible main calendar exposes an open-day card; sitemap exposes enterprise/freelance workshops, not verified policy lectures",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.lsbu.ac.uk/whats-on"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 0,
+      "held_candidates": 0,
+      "geographic_scope": "Southwark and Croydon, Greater London"
+    },
+    {
+      "row_id": "LUNI-UEL",
+      "canonical_id": "LUNI-UEL",
+      "name": "University of East London",
+      "source_url": "https://www.uel.ac.uk/about/get-involved/newsroom",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "no_upcoming_relevant_verified",
+          "checked_at": "2026-10-06T21:09:39.538997+00:00",
+          "notes": [
+            "Newsroom event listing contains teachers/advisers recruitment conference; open events and alumni social listings excluded",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.uel.ac.uk/about/get-involved/newsroom"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 0,
+      "held_candidates": 0,
+      "geographic_scope": "Docklands and Stratford, Greater London"
+    },
+    {
+      "row_id": "LUNI-LONDONMET",
+      "canonical_id": "LUNI-LONDONMET",
+      "name": "London Metropolitan University",
+      "source_url": "https://www.londonmet.ac.uk/events/",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "calendar_content_incomplete",
+          "checked_at": "2026-10-06T21:10:14.178849+00:00",
+          "notes": [
+            "Public-events section exists but no current dated cards in retrieved HTML; search indexed past design shows",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.londonmet.ac.uk/events/"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 0,
+      "held_candidates": 0,
+      "geographic_scope": "Holloway, Aldgate and Shoreditch, London"
+    },
+    {
+      "row_id": "LUNI-RICHMOND",
+      "canonical_id": "LUNI-RICHMOND",
+      "name": "Richmond American University London",
+      "source_url": "https://www.richmond.ac.uk/news-events/",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "no_upcoming_relevant_verified",
+          "checked_at": "2026-10-06T21:10:18.701496+00:00",
+          "notes": [
+            "University news and events and indexed student calendar checked; current listings are orientation, student arts/software and culture events",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.richmond.ac.uk/news-events/"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 0,
+      "held_candidates": 0,
+      "geographic_scope": "Chiswick Park, London"
+    },
+    {
+      "row_id": "LUNI-LBOROLONDON",
+      "canonical_id": "LUNI-LBOROLONDON",
+      "name": "Loughborough University London",
+      "source_url": "https://www.lborolondon.ac.uk/news-events/",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "no_upcoming_relevant_verified",
+          "checked_at": "2026-10-06T21:10:18.960662+00:00",
+          "notes": [
+            "Current upcoming cards are scholarships and careers; do not include parent university Loughborough physical events",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.lborolondon.ac.uk/news-events/"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 0,
+      "held_candidates": 0,
+      "geographic_scope": "Here East, Queen Elizabeth Olympic Park, London"
+    },
+    {
+      "row_id": "LUNI-ROEHAMPTON",
+      "canonical_id": "LUNI-ROEHAMPTON",
+      "name": "University of Roehampton",
+      "source_url": "https://www.roehampton.ac.uk/research/",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "no_upcoming_relevant_verified",
+          "checked_at": "2026-10-06T21:12:54.919763+00:00",
+          "notes": [
+            "Research page welcomes wider community to events but no dated relevant event verified; purported research-events path unavailable",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.roehampton.ac.uk/research/"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 0,
+      "held_candidates": 0,
+      "geographic_scope": "Roehampton, southwest London"
+    },
+    {
+      "row_id": "LUNI-STMARYS",
+      "canonical_id": "LUNI-STMARYS",
+      "name": "St Mary's University, Twickenham",
+      "source_url": "https://www.stmarys.ac.uk/events",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "calendar_content_incomplete",
+          "checked_at": "2026-10-06T21:11:12+00:00",
+          "notes": [
+            "Official calendar web fetch states no results; search indexed recruitment events. No eligible public policy event verified",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.stmarys.ac.uk/events"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 0,
+      "held_candidates": 0,
+      "geographic_scope": "Twickenham, Greater London"
+    },
+    {
+      "row_id": "LUNI-UWL",
+      "canonical_id": "LUNI-UWL",
+      "name": "University of West London",
+      "source_url": "https://www.uwl.ac.uk/events",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "blocked_or_unavailable",
+          "checked_at": "2026-10-06T21:11:12+00:00",
+          "notes": [
+            "Current calendar inaccessible in web tool and direct retrieval did not produce verified evidence; retain source check pending rather than publish a verified directory record",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.uwl.ac.uk/events"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 0,
+      "held_candidates": 0,
+      "geographic_scope": "Ealing and Brentford, Greater London"
+    },
+    {
+      "row_id": "LUNI-READING",
+      "canonical_id": "LUNI-READING",
+      "name": "University of Reading",
+      "source_url": "https://www.reading.ac.uk/events/",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "held_geographic_boundary",
+          "checked_at": "2026-10-06T21:08:17.003151+00:00",
+          "notes": [
+            "One current public democracy lecture verified but Reading is not approved within this London expansion",
+            "Official public calendar and targeted subject search; finite pass, not a claim of exhaustive departmental coverage"
+          ],
+          "checked_urls": [
+            "https://www.reading.ac.uk/events/"
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "current_candidates": 0,
+      "reserve_candidates": 0,
+      "held_candidates": 1,
+      "geographic_scope": "Reading, Berkshire: outer-boundary lead held"
+    },
+    {
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "checked_at": "2026-10-06T21:07:33.062500+00:00",
+          "notes": [
+            "Event pages plus organiser-linked Eventbrite/Ticket Tailor checked. Multiple sales-ended/sold-out events held. Current topic-relevant calendars covered; historic naval/art events excluded."
+          ],
+          "checked_urls": [
+            null
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 12,
+      "geographic_scope": "London campuses: Strand, Aldwych and Guy’s"
+    },
+    {
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "checked_at": "2026-10-06T21:22:24.620751+00:00",
+          "notes": [
+            "Public JSONAPI listing recovered from site code: all96 future rows from Oct6 onward traversed in two50-item pages. Relevant individual pages inspected. Open days, recruitment fairs, arts/literary-only content excluded. Unknown public eligibility held. Risk event live page and API Oct14, older search cache Oct15."
+          ],
+          "checked_urls": [
+            null
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 9,
+      "geographic_scope": "Bloomsbury, London and explicitly hosted online"
+    },
+    {
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "checked_at": "2026-10-06T21:07:33.066457+00:00",
+          "notes": [
+            "Official main calendar and both relevant event pages read via web tool after direct fetch403. Economic Shocks explicitly free/open to all, exact room TBC; Cinema held pending explicit public-access evidence. Science, medicine, open days excluded."
+          ],
+          "checked_urls": [
+            null
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 1,
+      "geographic_scope": "Mile End, Greater London"
+    },
+    {
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "checked_at": "2026-10-06T21:07:33.065547+00:00",
+          "notes": [
+            "Calendar pages1–10 traversed through Nov3. Agri-food tagged Public lecture or event. Understanding Parliament explicitly current students only and excluded. Palestine/European Shiism held for public access/venue. Library, learning skills, careers and arts-only events excluded."
+          ],
+          "checked_urls": [
+            null
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 1,
+      "geographic_scope": "Bloomsbury, London and hosted online"
+    },
+    {
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "checked_at": "2026-10-06T21:09:46.841592+00:00",
+          "notes": [
+            "Full104-event2026 calendar loaded with num_ranks150. Detail pages explicitly verify Public/Free and BST/GMT. Calendar GMT values converted on detail pages: use detail page clock. Economics abstract-TBA disclosed. Craft Lecture at capacity held; Catholic social thought building conflict held; Representing Hostages exact location incomplete held. Algorithms duplicate public page preferred."
+          ],
+          "checked_urls": [
+            null
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 6,
+      "geographic_scope": "Clerkenwell, Bunhill Row and Tooting in Greater London; hosted online"
+    },
+    {
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "checked_at": "2026-10-06T21:07:39.187322+00:00",
+          "notes": [
+            "Public listing API pages0–9 traversed through Nov20, covering entire current window. Political theory, political history linked to contemporary policy, parliament/AI, migration and just transition included. Unrelated ancient history, arts, research training excluded. Individual democracy pop-up talk included rather than entire mixed-topic festival."
+          ],
+          "checked_urls": [
+            null
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 4,
+      "geographic_scope": "Senate House / Russell Square, London and hosted online"
+    },
+    {
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "checked_at": "2026-10-06T21:08:50.983715+00:00",
+          "notes": [
+            "Hidalgo recovered from official indexed calendar/detail and organiser-managed live Luma. Doors/talk/reception separated. Countdown to COP31 official source explicitly invitees only/invitation only, excluded. Other technical science/engineering events out of subject scope.403 detail retrieval limitation disclosed."
+          ],
+          "checked_urls": [
+            null
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 1,
+      "geographic_scope": "South Kensington, Greater London and hosted online"
+    },
+    {
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "checked_at": "2026-10-06T21:08:50.977645+00:00",
+          "notes": [
+            "Full91-event central listing retrieved using num_ranks200. No qualifying verified public political/economics/policy event in Oct6–Nov3 window. Arts, fiction, psychology and technical creativity events excluded. Nov4 People’s Emergency Briefing is later reserve lead, held pending explicit public access."
+          ],
+          "checked_urls": [
+            null
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 0,
+      "geographic_scope": "New Cross, Greater London"
+    },
+    {
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "checked_at": "2026-10-06T21:07:36.972583+00:00",
+          "notes": [
+            "Entire central upcoming calendar inspected and relevant detail pages read. Current CSD, international relations, China/geopolitics and materialist governance reading group verified. EU climate and China minerals events held because no public-access/cost statement. Student festivals, art/fashion-only events excluded."
+          ],
+          "checked_urls": [
+            null
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [],
+        "reserve": [],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 5,
+      "geographic_scope": "Regent Street/Wells Street, London and hosted online"
+    },
+    {
+      "row_id": "LUE-LSE",
+      "canonical_id": "LUE-LSE",
+      "name": "London School of Economics and Political Science (LSE)",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "verified_current_events",
+          "checked_at": "2026-10-06T21:15:48.523710+00:00",
+          "notes": [
+            "Later reserve coverage is not exhaustive; no physical Paris or Plymouth events published",
+            "Complete current-window public calendar pagination and focused political departments"
+          ],
+          "checked_urls": [
+            null
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [
+          "LUE-fe2533ed21c8",
+          "LUE-34dda15e9d7d",
+          "LUE-b4bf8b275e4b",
+          "LUE-105453332d8e",
+          "LUE-b9d9777b0938",
+          "LUE-58dd458866fa",
+          "LUE-0edce53e8c62",
+          "LUE-435aa357522c",
+          "LUE-20bf664c425d",
+          "LUE-dea1140465e5",
+          "LUE-7a9a9bde1bc8",
+          "LUE-dad01c594082",
+          "LUE-a46a98d06740",
+          "LUE-e0c4ecc165a6",
+          "LUE-ed86a4076afb",
+          "LUE-8f63288e1683",
+          "LUE-78893c9f1e3b",
+          "LUE-54a39a9507c8",
+          "LUE-285e46ff4bdc",
+          "LUE-817f6570a6bb",
+          "LUE-405df894606b",
+          "LUE-779031578409",
+          "LUE-3809a504830a",
+          "LUE-1f84ce5c993f",
+          "LUE-e0f03ef3b880",
+          "LUE-cda0da828aba",
+          "LUE-ef301286f753"
+        ],
+        "reserve": [
+          "LUE-56cefbce445d",
+          "LUE-7a4cf786cd9f",
+          "LUE-1dc6c04e413d",
+          "LUE-c4052f1ebbb9",
+          "LUE-59f3991a1ef3",
+          "LUE-cb56f6431058",
+          "LUE-485ad60b3075",
+          "LUE-3948a3dce83b",
+          "LUE-98b28c939b4a",
+          "LUE-adb5ec5f21dc",
+          "LUE-fd7b48f26dfb",
+          "LUE-ba0e65f97955",
+          "LUE-19f1be784d55",
+          "LUE-04d80198b20f",
+          "LUE-d3f2966969d9",
+          "LUE-299c4ebf388d",
+          "LUE-121353fafb58",
+          "LUE-06f97ca515db",
+          "LUE-b8e23849c7f9",
+          "LUE-879f959e40af",
+          "LUE-5b48368ddb3a",
+          "LUE-8d92a4a1fb4b",
+          "LUE-abfa4f3f5592"
+        ],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 27,
+      "geographic_scope": "London and UK-hosted online"
+    },
+    {
+      "row_id": "LUE-UCL",
+      "canonical_id": "LUE-UCL",
+      "name": "University College London (UCL)",
+      "research_batch": "university-and-intelligence-squared",
+      "coverage_complete": true,
+      "coverage_reports": [
+        {
+          "status": "verified_current_events",
+          "checked_at": "2026-10-06T21:15:48.523710+00:00",
+          "notes": [
+            "Later reserve coverage is not exhaustive; no physical Paris or Plymouth events published",
+            "Complete current-window public calendar pagination and focused political departments"
+          ],
+          "checked_urls": [
+            null
+          ]
+        }
+      ],
+      "events_by_status": {
+        "public": [
+          "LUE-516fbd60fe86",
+          "LUE-02b9187386a0",
+          "LUE-30017179724c",
+          "LUE-2fbc97fe3007",
+          "LUE-92ea2bbd71a0",
+          "LUE-899e8f7d0045",
+          "LUE-8d7514817664",
+          "LUE-1ec3c79ea298",
+          "LUE-5f398769e20c",
+          "LUE-968085ccf4a8",
+          "LUE-4f6737abd982",
+          "LUE-8ac27093eafd",
+          "LUE-e3d0673b3a2b",
+          "LUE-467504b6051d",
+          "LUE-a670a120a97b",
+          "LUE-1fec2d9d116d",
+          "LUE-3609e0ead0ac",
+          "LUE-33221908511f",
+          "LUE-692b24be8b3a",
+          "LUE-3fea271744a0",
+          "LUE-83ceaf98bf87",
+          "LUE-228223ea2022",
+          "LUE-d91cff8e8c6f",
+          "LUE-78655cd57b7a",
+          "LUE-9877aea3480b",
+          "LUE-80519c9d0456",
+          "LUE-f0b5cf763358",
+          "LUE-aa3726ce751b",
+          "LUE-0249b25da434",
+          "LUE-d55c1304a12c",
+          "LUE-a0873543bce0",
+          "LUE-9c630e4a8f89",
+          "LUE-3f2392c0d545",
+          "LUE-b5a719d4cad6",
+          "LUE-e61d81543129",
+          "LUE-489d674f99fc",
+          "LUE-3af2ea1be4db",
+          "LUE-a6870337e358",
+          "LUE-31d1a55cb33e",
+          "LUE-6b046ab97fbc",
+          "LUE-201c4aa98a49",
+          "LUE-6179934cf713",
+          "LUE-23da53779e0d",
+          "LUE-1c82b6fbddd5",
+          "LUE-e0564a58749d",
+          "LUE-8307c8ffce69"
+        ],
+        "reserve": [
+          "LUE-7f759d99df1a",
+          "LUE-bb33335a4f6e",
+          "LUE-7a3794c80bd2",
+          "LUE-2c7690522a92",
+          "LUE-f99351a7d65c"
+        ],
+        "held": [],
+        "expired": [],
+        "unplaced": []
+      },
+      "review_approved_current_count": 46,
+      "geographic_scope": "London and UK-hosted online"
     }
   ],
   "aliases": [
@@ -18262,14 +19263,14 @@
   ],
   "deduplications": [],
   "publication": {
-    "generated": "2026-10-07T00:22:10+01:00",
+    "generated": "2026-10-07T00:28:25+01:00",
     "window": {
       "start": "2026-10-07",
       "end": "2026-11-04"
     },
-    "public_events": 161,
-    "reserve_records": 233,
-    "coverage_rows": 371,
+    "public_events": 286,
+    "reserve_records": 277,
+    "coverage_rows": 400,
     "additional_omissions": [
       {
         "id": "B1-ff2e35a0563a",
@@ -18444,5 +19445,22 @@
         "reason": "Already started; end time unpublished."
       }
     ]
-  }
+  },
+  "supplemental_sources": [
+    {
+      "libraryFileId": "libfile_79d46d336fc48191861922e8c6cd12a4",
+      "version": "0",
+      "sourceGeneratedAt": "2026-10-06T21:31:52.207933+00:00",
+      "method": "Consumer-authored repository projection from supported Library text reads; source claims and full independent review remain in Library.",
+      "approved_source_events": 125,
+      "imported_current_events": 125,
+      "new_organisation_rows": 27,
+      "finite_coverage_rows": 29,
+      "reserve_records_added": 44,
+      "independent_review_holds": 11,
+      "source_held_records": 48,
+      "deduplicated_ids": [],
+      "limits": "Finite 29-source pass. Reserve candidates require fresh source and booking checks; held candidates and full independent-review evidence remain in Library."
+    }
+  ]
 }
