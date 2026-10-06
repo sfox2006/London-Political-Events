@@ -1374,7 +1374,10 @@
       state.miniYear = start.y;
       state.miniMonth = start.m;
     }
-    if (!event) return;
+    if (!event) {
+      if (params.get("view") === "calendar") state.view = "calendar";
+      return;
+    }
     if (!matches(event, getFilters())) {
       if (ideologies.length && !matchesIdeology(event, ideologies)) setIdeologies([]);
       if (formats.length && formats[0] !== formatKind(event.format)) setSegment("format", "all");
