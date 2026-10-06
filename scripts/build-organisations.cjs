@@ -4,6 +4,7 @@ const path = require('node:path');
 const root = path.join(__dirname, '..');
 const data = JSON.parse(fs.readFileSync(path.join(root, 'data/organisations.json'), 'utf8'));
 const form = 'https://docs.google.com/forms/d/e/1FAIpQLSe1uBIE4N7uRyIjUiO0GKFosXRj0UXuvFmdOlR7yx5oebiSGw/viewform';
+const newsletterForm = 'https://docs.google.com/forms/d/e/1FAIpQLSejuH1vnLTDNu3QnVgmQhCxsP7wgsy8Ub2RRqu-tZeuxtR-5Q/viewform';
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const records = data.organisations;
 const names = new Set();
@@ -31,40 +32,40 @@ const cards = [...records].sort((a,b)=>a.name.localeCompare(b.name,'en-GB')).map
         </div>
       </details>
     </article>`).join('\n');
-const suggestion = `<p>If you have an event or organisation that you believe should be listed and is missing, please fill out our Google Form.</p><a class="suggestion-button" href="${form}" target="_blank" rel="noopener noreferrer">Suggest an event or organisation <span aria-hidden="true">↗</span></a>`;
+const suggestion = `<p>Know an event or organisation that should be listed but is missing? Have current evidence for an organisation that needs verification? Please fill out our Google Form to suggest a listing or help verify an existing organisation. For verification, include a recent official event page or other current evidence, its date, and any corrections.</p><a class="suggestion-button" href="${form}" target="_blank" rel="noopener noreferrer">Suggest a listing or submit verification <span aria-hidden="true">↗</span></a>`;
 const html = `<!DOCTYPE html>
 <html lang="en-GB">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="description" content="Browse the organisations and event sources for London Political Events, and suggest a missing event or organisation." />
-  <meta name="theme-color" content="#0D0E51" />
+  <meta name="description" content="Browse the organisations and event sources for London Political Events. Suggest missing listings or submit current evidence to help verify an organisation." />
+  <meta name="theme-color" content="#16374D" />
   <title>Organisations | London Political Events</title>
   <link rel="canonical" href="https://sfox2006.github.io/London-Political-Events/organisations.html" />
-  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
-  <link rel="stylesheet" href="styles.css?v=6" />
+  <link rel="icon" href="assets/icon.svg?v=12" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=12" />
+  <link rel="stylesheet" href="styles.css?v=12" />
 </head>
 <body class="directory-page">
   <a class="skip-link" href="#organisations">Skip to organisations</a>
   <header class="topbar directory-topbar">
     <a class="brand-home" href="./" aria-label="London Political Events home">
       <span class="eyebrow">UK-wide &amp; online</span>
-      <span class="london-lockup"><img src="assets/mark.svg" width="40" height="56" alt="" /><span>London Political Events</span></span>
+      <span class="london-lockup"><img src="assets/fff-torch.png?v=12" width="44" height="44" alt="" /><span>London Political Events</span></span>
       <span class="brand-sub">Events, my dear boy, events</span>
     </a>
-    <nav class="directory-nav" aria-label="Main navigation"><a href="./">Events</a><a href="organisations.html" aria-current="page">Organisations</a></nav>
+    <nav class="directory-nav" aria-label="Main navigation"><a href="./">Events</a><a href="organisations.html" aria-current="page">Organisations</a><a href="${newsletterForm}" target="_blank" rel="noopener noreferrer">Weekly email</a></nav>
   </header>
   <main id="organisations" class="directory-main">
     <section class="suggestion-callout" aria-labelledby="suggestion-heading">
-      <div><h2 id="suggestion-heading">Something missing?</h2>${suggestion}</div>
+      <div><h2 id="suggestion-heading">Suggest a listing or help verify an organisation</h2>${suggestion}</div>
     </section>
     <section aria-labelledby="organisations-heading">
       <div class="directory-intro">
         <p class="eyebrow">Our sources</p>
         <h1 id="organisations-heading">Organisations</h1>
         <p>The organisations we look to for event listings, from think tanks and campaign groups to local associations and university societies.</p>
-        <p class="directory-context">This UK directory includes England, Scotland, Wales and Northern Ireland, plus UK-wide groups. The calendar researches events across the UK and online. In-person listings preserve their actual location, including venues outside London.</p>
+        <p class="directory-context">This UK directory includes England, Scotland, Wales and Northern Ireland, plus UK-wide groups. Parent organisations and local groups are listed separately. The calendar researches events across the UK and online. In-person listings preserve their actual location, including venues outside London.</p>
         <p class="directory-context"><strong>${evidenced} with event evidence · ${candidates} needing verification.</strong> Evidence may be historical and does not guarantee an upcoming public event. Expand an organisation to see its notes and source. Directory checked on 6 October 2026.</p>
       </div>
       <form class="directory-filters" id="directory-filters" role="search" hidden>
@@ -81,10 +82,12 @@ const html = `<!DOCTYPE html>
     </section>
   </main>
   <footer class="site-footer">
-    <div class="footer-suggestion"><h2>Know something we should list?</h2>${suggestion}</div>
+    <a class="brand-credit" href="https://www.fightingforafreefuture.com/" target="_blank" rel="noopener noreferrer"><img src="assets/fff-logo.png?v=12" width="160" height="160" alt="Fighting for a Free Future" loading="lazy" /></a>
+    <div class="footer-suggestion"><h2>Suggest a listing or help verify an organisation</h2>${suggestion}</div>
+    <div class="footer-suggestion"><h2>Get the weekly email</h2><p>A free Sunday roundup of London politics and ideas events.</p><a class="suggestion-button" href="${newsletterForm}" target="_blank" rel="noopener noreferrer">Sign up for the London weekly email <span aria-hidden="true">↗</span></a></div>
     <p>An independent calendar of politics, ideas and social events across the UK and online. <a href="./">Back to events</a>. Check each organiser's event page for current details.</p>
   </footer>
-  <script src="organisations.js?v=6" defer></script>
+  <script src="organisations.js?v=12" defer></script>
 </body>
 </html>
 `;

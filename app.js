@@ -11,10 +11,10 @@
   const MONTHS_TITLE = ["Jan", "Feb", "Mar", "Apr", "May", "June", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
   const MONTHS_SMALL = ["Jan.", "Feb.", "Mar.", "Apr.", "May", "June", "July", "Aug.", "Sept.", "Oct.", "Nov.", "Dec."];
   const IDEOLOGIES = [
-    { id: "libertarian", label: "Libertarian", color: "#C97703", text: "#5a4a1a" },
+    { id: "libertarian", label: "Libertarian", color: "#E37014", text: "#8c400b" },
     { id: "conservative", label: "Conservative", color: "#C64D2D" },
     { id: "progressive", label: "Progressive", color: "#4002B3" },
-    { id: "foreign_policy", label: "Foreign policy", color: "#0D0E51" },
+    { id: "foreign_policy", label: "Foreign policy", color: "#16374D" },
     { id: "abundance_yimby", label: "Abundance / YIMBY", color: "#006600" },
     { id: "nonpartisan", label: "Nonpartisan", color: "#0F5F6B" },
     { id: "centrist", label: "Centrist", color: "#3043B4" },
@@ -1588,7 +1588,7 @@
     const prep = preparedById.get(event.id);
     const open = state.openEventId === event.id;
     const ideo = prep ? prep.ideo : ideologyView(event);
-    const color = ideo ? ideo.color : "#CABEB1";
+    const color = ideo ? ideo.color : "#AFC0CA";
     const detailsId = domId("card-details", `${event.id}-${ymd ? ymdKey(ymd) : "x"}`);
     const org = prep ? prep.orgLine : orgLine(event);
     const badge = spanBadgeHtml(event, ymd);
@@ -2575,7 +2575,6 @@
     listWindowCache = null;
     const raw = eventsFromPayload(prepared);
     const hasSamples = raw.some((event) => event.simulated === true);
-    document.getElementById("demo-notice").hidden = !hasSamples;
     document.getElementById("data-status").textContent = hasSamples
       ? "Includes simulated listings, clearly labelled on each event."
       : `Check each organiser's event page for the latest details.${publishedWindow ? " Researched dates: " + publishedWindow.start + " to " + publishedWindow.end + "." : ""}`;
