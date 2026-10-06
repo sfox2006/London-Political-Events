@@ -4,6 +4,7 @@ const path = require('node:path');
 const root = path.join(__dirname, '..');
 const data = JSON.parse(fs.readFileSync(path.join(root, 'data/organisations.json'), 'utf8'));
 const form = 'https://docs.google.com/forms/d/e/1FAIpQLSe1uBIE4N7uRyIjUiO0GKFosXRj0UXuvFmdOlR7yx5oebiSGw/viewform';
+const newsletterForm = 'https://docs.google.com/forms/d/e/1FAIpQLSejuH1vnLTDNu3QnVgmQhCxsP7wgsy8Ub2RRqu-tZeuxtR-5Q/viewform';
 const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const records = data.organisations;
 const names = new Set();
@@ -43,7 +44,7 @@ const html = `<!DOCTYPE html>
   <link rel="canonical" href="https://sfox2006.github.io/London-Political-Events/organisations.html" />
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
-  <link rel="stylesheet" href="styles.css?v=7" />
+  <link rel="stylesheet" href="styles.css?v=8" />
 </head>
 <body class="directory-page">
   <a class="skip-link" href="#organisations">Skip to organisations</a>
@@ -53,7 +54,7 @@ const html = `<!DOCTYPE html>
       <span class="london-lockup"><img src="assets/mark.svg" width="40" height="56" alt="" /><span>London Political Events</span></span>
       <span class="brand-sub">Events, my dear boy, events</span>
     </a>
-    <nav class="directory-nav" aria-label="Main navigation"><a href="./">Events</a><a href="organisations.html" aria-current="page">Organisations</a></nav>
+    <nav class="directory-nav" aria-label="Main navigation"><a href="./">Events</a><a href="organisations.html" aria-current="page">Organisations</a><a href="${newsletterForm}" target="_blank" rel="noopener noreferrer">Weekly email</a></nav>
   </header>
   <main id="organisations" class="directory-main">
     <section class="suggestion-callout" aria-labelledby="suggestion-heading">
@@ -82,9 +83,10 @@ const html = `<!DOCTYPE html>
   </main>
   <footer class="site-footer">
     <div class="footer-suggestion"><h2>Suggest a listing or help verify an organisation</h2>${suggestion}</div>
+    <div class="footer-suggestion"><h2>Get the weekly email</h2><p>A free Sunday roundup of London politics and ideas events.</p><a class="suggestion-button" href="${newsletterForm}" target="_blank" rel="noopener noreferrer">Sign up for the London weekly email <span aria-hidden="true">↗</span></a></div>
     <p>An independent calendar of London politics and ideas events. <a href="./">Back to events</a>. The calendar currently contains simulated events only.</p>
   </footer>
-  <script src="organisations.js?v=7" defer></script>
+  <script src="organisations.js?v=8" defer></script>
 </body>
 </html>
 `;
