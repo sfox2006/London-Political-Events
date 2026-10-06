@@ -1,4 +1,4 @@
-# Supplying verified London event data
+# Supplying verified UK event data
 
 Research drafts should use the same envelope as the live feed. Validate a draft with `node scripts/validate-events.cjs path/to/draft.json`. The app loads only `data/events.json`.
 
@@ -11,6 +11,7 @@ This is a schema example, not an event to publish. Replace every placeholder wit
   "mode": "live",
   "timezone": "Europe/London",
   "generated": "2026-10-06T12:00:00+01:00",
+  "window": { "start": "2026-10-06", "end": "2026-11-03" },
   "events": [
     {
       "id": "organiser-event-slug-2026-10-12",
@@ -20,7 +21,7 @@ This is a schema example, not an event to publish. Replace every placeholder wit
       "start": "2026-10-12T18:00:00+01:00",
       "end": "2026-10-12T19:30:00+01:00",
       "venue": "Verified venue name",
-      "address": "Verified London address",
+      "address": "Verified UK address",
       "maps_url": "",
       "url": "https://example.org/replace-with-original-event-page",
       "rsvp_url": "",
@@ -61,16 +62,24 @@ This is a schema example, not an event to publish. Replace every placeholder wit
 
 Optional: `end`, `venue`, `address`, `maps_url`, `rsvp_url`, `description`, `speakers`, `org_acronym`, `notes`, `time`. Speakers may be strings or objects with `name` and `role`. Omit unknown details or leave text fields blank. If the end is unknown, omit it; calendar exports use a one-hour default.
 
+Use `notes` for source-supported doors times, fees, availability and other qualifications. Notes are shown in expanded details and calendar exports. A false perk tag means no verified offer; it does not establish that food or drink is unavailable. Retain an explicit unverified note where those details are unpublished. Use the programme start for `start` when doors and programme times are separately advertised.
+
+When only admission time is published, set `start` to that timestamp and `start_label` to `"doors"` or `"arrival"`; say in `notes` that the programme start is unknown. The label is retained in agenda rows, calendar cards, details and exports. A programme-time TBC note does not hide a verified doors time. Alternatively, use the programme's midnight/TBC placeholder and put the separate admission timestamp in `doors` or `arrival`. These optional fields use full ISO timestamps with the actual BST/GMT offset; they appear in details and calendar descriptions. Never silently present admission time as programme start.
+
 If the day is known but the time is not, set `start` to that day's London midnight, omit `end`, and add `time: "TBC"` and `notes: "Time TBC"`. Calendar exports become all-day entries. Exclude listings whose day is unknown.
 
 Use the offset at the actual event date, not the verification date. In 2026, the UK changes to GMT on 25 October. Avoid guessing an ambiguous clock-change-hour time; resolve it with the organiser.
 
 ## Consolidation
 
-1. Collect from original sources; exclude past, cancelled, invitation-only-unavailable or non-London in-person events. Online listings should be relevant to this London calendar.
+1. Collect every event type from original sources within the researched dates. Include in-person events in England, Scotland, Wales and Northern Ireland and relevant UK-hosted online events. Preserve exact venues and online/hybrid distinctions; exclude overseas in-person events. Exclude past or cancelled listings. Preserve members-only or invitation restrictions and unknown booking availability without implying public registration. Do not invent dated occurrences from a recurring pattern.
 2. Deduplicate by source URL, title, organiser and start time. Preserve IDs for already-published events so shared links keep working.
 3. Replace the sample array entirely. Set `mode: "live"`, retain `timezone: "Europe/London"`, remove `demo_anchor`, and set `generated` to the actual publication time.
 4. Run validation and tests. Both must pass before committing the feed.
 5. Review the agenda and calendar in the browser. Check access restrictions and unknown costs against their sources before publication.
 
-The app displays today through 21 days ahead, using London calendar days. Events outside that window are not displayed. The validator verifies structure, not whether a source page is accurate or still open; agents must perform those source checks themselves.
+The top-level `window` records the inclusive publication slice as YYYY-MM-DD dates. Public browsing rolls from the current London day through 28 days ahead: initially 6 October through 3 November 2026 inclusive. Live dates never shift. Confirmed-ended timed listings are hidden. Already-started timed sessions with unpublished ends are excluded without inventing a completion time. Time-TBC events remain visible throughout their listed day.
+
+Import a completed reviewed dataset with `node scripts/import-reviewed-events.cjs path/to/reviewed.json`. The importer validates timestamps and offsets, preserves existing stable IDs, rejects suspected duplicate host/title/day records, and splits public listings from later discoveries. `data/future-events.json` is a durable research reserve and is never loaded by the app. Recheck its original dated sources, booking availability, access, costs and cancellations before including any reserve record in a new reviewed public import. Save later events found in the initial sweep through 6 January 2027, plus any farther events discovered incidentally. Do not fabricate recurring occurrences or automatically promote a reserve.
+
+The validator verifies structure, not whether a source page is accurate or still open; agents must perform source checks themselves. Keep all 371 organisation coverage rows and omission/access-limit reasons in the Library research audit. Refreshes are intended every two days and scheduling is managed separately; the browser's Refresh button only reloads the last published feed.
