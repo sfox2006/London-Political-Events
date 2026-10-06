@@ -33,7 +33,7 @@ The header and footer link to `organisations.html`. It includes all 335 records 
 
 Edit `data/organisations.json`, then run `node scripts/build-organisations.cjs` to rebuild the static directory. All records and links remain readable without JavaScript; JavaScript adds search and filters. Commit both the JSON and generated HTML, and bump the shell/asset versions for subsequent directory updates.
 
-The suggestion Google Form accepts missing events or organisations, including a name and source link, optional details and optional contact email. It is public to anyone with the link, with no required sign-in or automatic email collection. Responses are viewed in the owner's Google Forms **Responses** tab. Suggestions require review before adding them to the calendar or directory.
+The Google Form accepts missing events or organisations and verification or corrections for existing organisations. It asks for the submission type, name and source link, with optional details and contact email. Verification submissions should identify the listed organisation and provide recent official event activity or other current evidence, its date, and any corrections. It is public to anyone with the link, with no required sign-in or automatic email collection. Responses are viewed in the owner's Google Forms **Responses** tab. Review submissions before adding listings or changing verification status.
 
 - [Public suggestion form](https://docs.google.com/forms/d/e/1FAIpQLSe1uBIE4N7uRyIjUiO0GKFosXRj0UXuvFmdOlR7yx5oebiSGw/viewform)
 - [Owner editor and responses](https://docs.google.com/forms/d/1r1FEVUBaNOkfsno3DtlUqpbCQSqFA04fwFPv4uueCh4/edit) (Google account access required)
