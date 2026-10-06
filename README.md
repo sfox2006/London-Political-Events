@@ -1,6 +1,6 @@
 # London Political Events
 
-A static London edition of [DC Political Events](https://sfox2006.github.io/DC-Political-events/), adapted from upstream commit `e7d50fe`. It retains the DC site's navy and gold identity, local Inter and Crimson Pro fonts, searchable agenda, calendar, mobile filter sheets, sharing, calendar exports, refresh and installable PWA. London's mark combines Big Ben with a gold flame of liberty, alongside GBP sample prices and `Europe/London` throughout.
+A static London edition of [DC Political Events](https://sfox2006.github.io/DC-Political-events/), adapted from upstream commit `e7d50fe`. It uses Fighting for a Free Future's dark blue (`#16374D`) and orange (`#E37014`) palette and original torch artwork, alongside local Inter and Crimson Pro fonts, searchable agenda, calendar, mobile filter sheets, sharing, calendar exports, refresh and an installable PWA. Sample prices use GBP and all times use `Europe/London`.
 
 **This initial edition contains 43 simulated events.** All hosts, titles, speakers, venues, prices and perks are fictional examples. Each row and calendar card is labelled **Simulated**. Sample calendar exports are prefixed `[Simulated]`; no sample event registration is connected. London newsletter signup is open for a roundup of verified events when real listings are available.
 
@@ -77,3 +77,12 @@ In **Settings → Pages**, choose **Deploy from a branch**, then **main**, **/ (
 Publishing is separate from the review branch. The PR does not turn on Pages or merge itself.
 
 When changing HTML, CSS, JS or assets after deployment, bump the shell cache version in `sw.js` and asset query versions in `index.html`. Changes to event JSON do not require a cache bump.
+
+## Brand assets
+
+Branding updated at the owner's request from [Fighting for a Free Future](https://www.fightingforafreefuture.com/). `assets/fff-torch.png` preserves its published 192px site icon; `assets/fff-logo.png` preserves its full logo artwork. App icons export the torch at the required sizes, with padding for maskable icons. No artwork is redrawn. Sources:
+
+- https://www.fightingforafreefuture.com/wp-content/uploads/2025/08/cropped-Favicon-1-scaled-1-192x192.png
+- https://www.fightingforafreefuture.com/wp-content/uploads/2026/09/20260820-Final-FFF-Logo-Visually-Balanced-Centred-scaled.png
+
+Keep both pages, the app icons, social preview and theme colour consistent when updating branding.

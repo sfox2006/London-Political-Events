@@ -23,23 +23,23 @@
 }
 
 :root {
-  --ink: #1a1714;
-  --secondary: #5e574f;
-  --tertiary: #5c564f;
-  --muted: #645e57;
-  --hairline: #e8ded3;
-  --control: #cabeb1;
+  --ink: #16374d;
+  --secondary: #496171;
+  --tertiary: #496171;
+  --muted: #536875;
+  --hairline: #dce5ea;
+  --control: #afc0ca;
   --page: #ffffff;
-  --sand: #f9f7f4;
-  --tag: #f2f3f6;
-  --blue: #3043b4;
-  --blue-hover: #465de4;
-  --range: #bfc7f8;
-  --highlight: #eff1fd;
-  --navy: #0d0e51;
-  --gold: #c97703;
-  --gold-light: #ffc97e;
-  --venue: #433e38;
+  --sand: #f5f8fa;
+  --tag: #edf3f6;
+  --blue: #16374d;
+  --blue-hover: #244e66;
+  --range: #dbe8ef;
+  --highlight: #fff1e5;
+  --navy: #16374d;
+  --gold: #e37014;
+  --gold-light: #ffb978;
+  --venue: #496171;
   --ease: cubic-bezier(0.4, 0, 0.2, 1);
   color-scheme: light;
 }
@@ -144,7 +144,7 @@ a:hover {
   font-size: 10px;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: #5a4a1a;
+  color: var(--navy);
   line-height: 1;
 }
 
@@ -645,7 +645,7 @@ body.is-calendar .sidebar {
 .chip[aria-pressed="true"] {
   border-color: var(--blue);
   background: var(--highlight);
-  color: #2c3b95;
+  color: #16374d;
 }
 
 .filter-footer {
@@ -2071,7 +2071,7 @@ body.filters-open {
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    color: #5a4a1a;
+    color: #8c400b;
   }
 
   .phone-num {
@@ -2496,17 +2496,24 @@ body.filters-open {
 
 /* London identity and sample-data states. */
 .london-lockup { display:flex; align-items:center; gap:10px; font-family:"Crimson Pro",Georgia,serif; font-size:32px; font-weight:600; line-height:1; color:var(--navy); }
-.london-lockup img { flex:none; }
+.london-lockup img { flex:none; width:44px; height:44px; object-fit:contain; }
 .newsletter-pending { display:flex; flex-direction:column; gap:2px; padding:8px 14px; background:var(--sand); font-size:12px; font-weight:500; color:var(--navy); }
 .newsletter-pending span { color:var(--muted); font-size:10px; font-weight:400; }
-.demo-notice { border-top:2px solid var(--gold); background:#fffaf0; color:var(--navy); }
+.demo-notice { border-top:2px solid var(--gold); background:#fff6ee; color:var(--navy); }
 .demo-notice h2 { color:var(--navy); }
 .demo-notice p { color:var(--secondary); }
-.demo-notice .newsletter-kicker { color:#705414; }
+.demo-notice .newsletter-kicker { color:#8c400b; }
 .demo-notice[hidden] { display:none; }
-.demo-stamp,.sample-badge { display:inline-block; border:1px solid #e6ce9a; padding:3px 7px; color:#705414; background:#fffaf0; font-family:Inter,system-ui,sans-serif; font-size:10px; font-weight:500; line-height:1.2; letter-spacing:.04em; text-transform:uppercase; }
+.demo-stamp,.sample-badge { display:inline-block; border:1px solid #f0c6a5; padding:3px 7px; color:#8c400b; background:#fff6ee; font-family:Inter,system-ui,sans-serif; font-size:10px; font-weight:500; line-height:1.2; letter-spacing:.04em; text-transform:uppercase; }
 .demo-stamp { white-space:nowrap; font-size:11px; padding:8px 10px; }
-.sample-detail { color:#705414; padding:10px 12px; border-left:2px solid var(--gold); background:#fffaf0; font-size:13px; }
+.sample-detail { color:#8c400b; padding:10px 12px; border-left:2px solid var(--gold); background:#fff6ee; font-size:13px; }
 @media(max-width:900px) { .london-lockup { font-size:28px; } }
-@media(max-width:700px) { .london-lockup { font-size:24px; gap:7px; } .london-lockup img { width:26px; height:36px; } .demo-notice { align-items:flex-start; gap:12px; } .demo-stamp { font-size:9px; padding:5px 7px; } .newsletter-pending { padding:8px; } }
+@media(max-width:700px) { .london-lockup { font-size:24px; gap:7px; } .london-lockup img { width:30px; height:30px; } .demo-notice { align-items:flex-start; gap:12px; } .demo-stamp { font-size:9px; padding:5px 7px; } .newsletter-pending { padding:8px; } }
 @media(max-width:380px) { .london-lockup { font-size:21px; } }
+
+/* Fighting for a Free Future brand accents. */
+.newsletter { border-top:3px solid var(--gold); }
+.btn-email { border-bottom:3px solid var(--gold); }
+.newsletter-cta { border-bottom:3px solid var(--gold); }
+.brand-credit { display:block; width:160px; margin:0 0 24px; }
+.brand-credit img { display:block; width:100%; height:auto; }
