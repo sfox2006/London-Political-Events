@@ -17,6 +17,7 @@ This is a self-contained static site, adapted from Sam's DC calendar. Preserve t
 ## UI and assets
 
 - Local fonts, icons, manifest and service worker use relative paths for GitHub Pages.
+- Use the original Fighting for a Free Future torch and logo assets with its dark blue `#16374D` and orange `#E37014` palette. Keep the calendar, organisations page, app icons and social preview consistent. README.md records the artwork sources.
 - All displayed and exported times use `Europe/London`.
 - London newsletter signup uses the London-specific Google Form linked in the header, newsletter card and footer. Keep it separate from the DC signup form and the event/organisation suggestion form. See README.md for the owner editor and response-management link.
 - If changing the app shell after publication, bump the shell cache version and HTML asset query versions together.
