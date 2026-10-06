@@ -18,7 +18,7 @@
     { id: "abundance_yimby", label: "Abundance / YIMBY", color: "#006600" },
     { id: "nonpartisan", label: "Nonpartisan", color: "#0F5F6B" },
     { id: "centrist", label: "Centrist", color: "#3043B4" },
-    { id: "other", label: "Other", color: "#7A3E52" },
+    { id: "other", label: "Other / unclassified", color: "#7A3E52" },
     { id: "law", label: "Law", color: "#7C756D", text: "#5c564f" },
   ];
   const IDEO_BY_ID = Object.fromEntries(IDEOLOGIES.map((item) => [item.id, item]));
@@ -372,8 +372,8 @@
     const startDate = new Date(event.start);
     if (Number.isNaN(startDate.getTime())) return false;
     // A midnight placeholder never expires an unknown-time event on its own day.
-    // Without a published end, do not invent the event's duration.
-    if (!timeIsUnknown(event) && event.end && Date.parse(event.end) <= Date.now()) return false;
+    // The publication rule excludes already-started sessions with an unpublished end.
+    if (!timeIsUnknown(event) && Date.parse(event.end || event.start) <= Date.now()) return false;
     const startYmd = eventYmdInTz(startDate);
     const window = listWindow();
     if (ymdCmp(startYmd, window.end) > 0) return false;
@@ -519,8 +519,12 @@
   function locationText(event) {
     const venue = usableVenueName(event.venue);
     const address = event.address ? String(event.address).trim() : "";
-    if (venue && address && venue !== address) return `${venue}, ${address}`;
-    return venue || address || "";
+    let location = venue && address && venue !== address ? `${venue}, ${address}` : venue || address || "";
+    if (event.format !== "online") for (const field of ["city","country"]) {
+      const value = fieldText(event[field]);
+      if (value && !location.toLowerCase().includes(value.toLowerCase())) location = [location,value].filter(Boolean).join(", ");
+    }
+    return location;
   }
 
   function speakersLabel(speakers) {
@@ -546,14 +550,17 @@
     const text = fieldText(cost).toLowerCase();
     if (!text || text === "unknown") return "unknown";
     if (text === "free") return "free";
+    if (/\bfree\b/.test(text) && /members|non-members|£/.test(text)) return "mixed";
+    if (/\bfree\b/.test(text) && !/£\s*\d/.test(text)) return "free";
+    if (!/£\s*\d/.test(text) && /unknown|not stated|not published|not verified|price depends|no.*price.*published|accreditation\/pass required/.test(text)) return "unknown";
     return "paid";
   }
 
   function matchesCost(event, cost) {
     if (!cost || cost === "all") return true;
     const kind = costKind(event.cost);
-    if (cost === "free") return kind === "free" || kind === "unknown";
-    if (cost === "paid") return kind === "paid" || kind === "unknown";
+    if (cost === "free") return kind === "free" || kind === "mixed" || kind === "unknown";
+    if (cost === "paid") return kind === "paid" || kind === "mixed" || kind === "unknown";
     return true;
   }
 
@@ -561,6 +568,7 @@
     const kind = costKind(event.cost);
     if (kind === "free") return "Free";
     if (kind === "paid") return "Paid";
+    if (kind === "mixed") return "Free / paid";
     return "Cost unlisted";
   }
 
@@ -866,8 +874,8 @@
 
   function matchesCostKind(kind, cost) {
     if (!cost || cost === "all") return true;
-    if (cost === "free") return kind === "free" || kind === "unknown";
-    if (cost === "paid") return kind === "paid" || kind === "unknown";
+    if (cost === "free") return kind === "free" || kind === "mixed" || kind === "unknown";
+    if (cost === "paid") return kind === "paid" || kind === "mixed" || kind === "unknown";
     return true;
   }
 
@@ -1100,6 +1108,8 @@
     }
     const access = fieldText(event.access);
     if (access) lines.push(`Access: ${access}`);
+    if (event.cost) lines.push(`Cost: ${event.cost}`);
+    for (const [key,label] of [["booking_fees","Booking fees"],["age_restrictions","Age restrictions"],["physical_accessibility","Accessibility"]]) if (event[key]) lines.push(`${label}: ${fieldText(event[key])}`);
     const notes = fieldText(event.notes);
     if (notes) lines.push(`Notes: ${notes}`);
     if (event.url) lines.push(String(event.url).trim());
@@ -1440,7 +1450,7 @@
     }
     if (rsvp && url && rsvp !== url) {
       parts.push(
-        `<a class="btn-secondary" href="${escapeHtml(rsvp)}" target="_blank" rel="noopener noreferrer">RSVP ↗</a>`
+        `<a class="btn-secondary" href="${escapeHtml(rsvp)}" target="_blank" rel="noopener noreferrer">Booking page ↗</a>`
       );
     }
     return `<div class="event-actions">${parts.join("")}</div>`;
@@ -1490,13 +1500,16 @@
     }
     const notes = fieldText(event.notes);
     if (notes) parts.push(`<p class="detail-line"><span class="detail-label">Notes</span> ${escapeHtml(notes)}</p>`);
+    for (const [key,label] of [["booking_fees","Booking fees"],["age_restrictions","Age"],["physical_accessibility","Accessibility"]]) {
+      if (event[key]) parts.push(`<p class="detail-line"><span class="detail-label">${label}</span> ${escapeHtml(fieldText(event[key]))}</p>`);
+    }
     const formatRaw = fieldText(event.format);
     const simpleFormat = prep ? prep.simpleFormat : isSimpleFormat(formatRaw);
     if (formatRaw && !simpleFormat) {
       parts.push(`<p class="detail-line"><span class="detail-label">Format</span> ${escapeHtml(formatRaw)}</p>`);
     }
-    const paid = costKind(event.cost) === "paid" ? fieldText(event.cost) : "";
-    if (paid && paid.toLowerCase() !== "paid") {
+    const paid = fieldText(event.cost);
+    if (paid && !["free","paid","unknown"].includes(paid.toLowerCase())) {
       parts.push(`<p class="detail-line"><span class="detail-label">Cost</span> ${escapeHtml(paid)}</p>`);
     }
     parts.push(actionsHtml(event, "list"));

@@ -11,7 +11,7 @@ const clone = () => structuredClone(fixture);
 // Exercise the actual app's pure calendar functions, without booting its DOM.
 const app = fs.readFileSync(path.join(__dirname, "../app.js"), "utf8").replace(
   /  init\(\);\s*\}\)\(\);\s*$/,
-  "  this.calendar = { eventEndYmd, googleCalendarUrl, outlookCalendarUrl, icsContent, searchHit, timeBucket, actionsHtml, detailsInner, startTimeLabel, inListWindow };\n}).call(this);"
+  "  this.calendar = { eventEndYmd, googleCalendarUrl, outlookCalendarUrl, icsContent, searchHit, timeBucket, actionsHtml, detailsInner, startTimeLabel, inListWindow, costKind, matchesCostKind };\n}).call(this);"
 );
 const context = vm.createContext({
   Intl, Date, URL, URLSearchParams, Set, Map, TextEncoder, console,
@@ -37,13 +37,37 @@ test("the four-week browsing range rolls across BST/GMT using London dates", () 
   const bad = clone(); bad.window = {start:"2026-02-30",end:"2027-01-06"};
   assert.match(data.validatePayload(bad).join("\n"), /window requires/);
 });
-test("confirmed-ended timed events are hidden without inventing an unpublished end", () => {
+test("every real listing exports its source, exact price and honest timing", () => {
+  if (production.mode !== "live") return;
+  for (const event of production.events) {
+    const google = new URL(calendar.googleCalendarUrl(event));
+    const outlook = new URL(calendar.outlookCalendarUrl(event));
+    assert.ok(google.searchParams.get("details").includes(event.url),event.id);
+    assert.ok(google.searchParams.get("details").includes(event.cost),event.id);
+    assert.ok(outlook.searchParams.get("body").includes(event.url),event.id);
+    if (event.time === "TBC") {
+      assert.equal(calendar.startTimeLabel(event),"Time TBC",event.id);
+      assert.match(google.searchParams.get("dates"), /^\d{8}\/\d{8}$/);
+      assert.match(calendar.icsContent(event), /DTSTART;VALUE=DATE:/);
+    }
+    if (event.doors) assert.ok(google.searchParams.get("details").includes("Doors:"),event.id);
+    assert.equal(google.searchParams.get("ctz"),"Europe/London");
+  }
+});
+test("ended events and already-started sessions with unpublished end are hidden", () => {
   const now = Date.now();
   const event = {...fixture.events[0],simulated:false,start:data.localStamp(new Date(now-3600000)),end:data.localStamp(new Date(now-1000))};
   assert.equal(calendar.inListWindow(event),false);
-  event.start = data.localStamp(data.midnight(data.browsingWindow(new Date()).start));
+  event.start = data.localStamp(new Date(now+3600000));
   delete event.end;
   assert.equal(calendar.inListWindow(event),true);
+});
+test("unknown and conditional member prices retain their meaning in filters", () => {
+  assert.equal(calendar.costKind("No separate price published; conference pass needed"),"unknown");
+  assert.equal(calendar.costKind("Free for members; £5 non-members on the door"),"mixed");
+  assert.equal(calendar.matchesCostKind("mixed","free"),true);
+  assert.equal(calendar.matchesCostKind("mixed","paid"),true);
+  assert.equal(calendar.costKind("Free; optional donation"),"free");
 });
 test("live time-TBC events stay visible on their London day and export as all-day", () => {
   const p = new Intl.DateTimeFormat("en-CA", {timeZone:"Europe/London",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());

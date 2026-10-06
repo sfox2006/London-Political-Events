@@ -46,7 +46,7 @@
     catch (_) { return false; }
   }
   function isoStamp(value) {
-    return typeof value === "string" && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$/.test(value) && Number.isFinite(Date.parse(value));
+    return typeof value === "string" && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2}(\.\d+)?)?(Z|[+-]\d{2}:\d{2})$/.test(value) && Number.isFinite(Date.parse(value));
   }
   function dateOnly(value) {
     return typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value) &&
