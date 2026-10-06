@@ -1,7 +1,7 @@
 {
   "publication": "research_reserve",
   "requires_reverification": true,
-  "generated": "2026-10-07T00:22:10+01:00",
+  "generated": "2026-10-07T00:28:25+01:00",
   "timezone": "Europe/London",
   "source_file": "uk-event-research-bundle.json",
   "source_version": 1,
@@ -147,6 +147,124 @@
       "host_role": "organiser_or_venue_programme",
       "fresh_check_required": true,
       "reserve_status": "source_backed_unreviewed"
+    },
+    {
+      "id": "LUE-7f759d99df1a",
+      "title": "Understanding the 2026 US Midterms: A Post-Election Analysis",
+      "org": "University College London (UCL)",
+      "org_acronym": "",
+      "start": "2026-11-04T17:00:00+00:00",
+      "end": "2026-11-04T19:00:00+00:00",
+      "venue": "Room 103",
+      "address": "51 Gordon Square, London, WC1H 0PN, United Kingdom",
+      "url": "https://www.ucl.ac.uk/social-historical-sciences/events/2026/nov/understanding-2026-us-midterms-post-election-analysis",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/understanding-the-2026-us-midterms-a-post-election-analysis-tickets-2000995539524",
+      "ideology": "foreign_policy",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Open to All; Pre-booking essential",
+      "source": "Official organiser event or registration page",
+      "description": "Post-election panel analysing the 2026 US midterm results.",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:02.922944+00:00",
+      "source_urls": [
+        "https://www.ucl.ac.uk/social-historical-sciences/events/2026/nov/understanding-2026-us-midterms-post-election-analysis",
+        "https://www.ucl.ac.uk/events/all-events?ucl_audience%5BPublic%5D=Public&0=39&page=9"
+      ],
+      "organisationIds": [
+        "LUE-UCL"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Registration destination linked by organiser; live ticket availability not independently checked."
+      ],
+      "notes": "Registration destination linked by organiser; live ticket availability not independently checked.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUC-bcc0764df499",
+      "title": "The Conservative Party’s Legacy: Asylum, Migration and Refugee Policy",
+      "org": "University of London / School of Advanced Study",
+      "org_acronym": "",
+      "start": "2026-11-04T18:30:00+00:00",
+      "end": "2026-11-04T19:30:00+00:00",
+      "venue": "IALS Lecture Theatre, Institute of Advanced Legal Studies, 17 Russell Square, London WC1B 5DR",
+      "address": "IALS Lecture Theatre, Institute of Advanced Legal Studies, 17 Russell Square, London WC1B 5DR",
+      "url": "https://www.sas.ac.uk/news-events/events/conservative-partys-legacy-asylum-migration-refugee-policy",
+      "rsvp_url": "https://sas.sym-online.com/registrationforms/rli-seminar-series-4-november/",
+      "ideology": "law",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "All welcome; advance booking required",
+      "source": "Official organiser event or registration page",
+      "description": "The Conservative Party’s Legacy: Asylum, Migration and Refugee PolicyHow have the UK’s political parties approached refugees and migration, and what shapes their positions today? This seminar series, organised by the Refugee Law Initiative and History & Policy, brings together politicians, policymakers, academics and practitioners to…",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:15:12.022913+00:00",
+      "source_urls": [
+        "https://www.sas.ac.uk/news-events/events/conservative-partys-legacy-asylum-migration-refugee-policy"
+      ],
+      "organisationIds": [
+        "LU-C-006"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [],
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUE-56cefbce445d",
+      "title": "The conservative tradition in sociological thought",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-04T18:30:00+00:00",
+      "end": "2026-11-04T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/conservative-tradition-sociological-thought",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the Department of Sociology. Participants: Professor Shamus Khan, Professor Sam Friedman.",
+      "speakers": [
+        "Professor Shamus Khan",
+        "Professor Sam Friedman"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:45.166607+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/conservative-tradition-sociological-thought",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
     },
     {
       "id": "nc-002-2026-11-04-945d462b2",
@@ -432,6 +550,44 @@
       "reserve_status": "reviewed_core"
     },
     {
+      "id": "LUC-60dc6cef8ed1",
+      "title": "Just Transitions to a Carbon-Neutral Economy: Employment Challenges Over the Next 25 Years",
+      "org": "University of London / School of Advanced Study",
+      "org_acronym": "",
+      "start": "2026-11-05T09:30:00+00:00",
+      "end": "2026-11-05T16:00:00+00:00",
+      "venue": "Hybrid | Online-via Zoom & IHR Wolfson Room NB01, Basement, IHR, Senate House, Malet Street, London WC1E 7HU",
+      "address": "Hybrid | Online-via Zoom & IHR Wolfson Room NB01, Basement, IHR, Senate House, Malet Street, London WC1E 7HU",
+      "url": "https://www.sas.ac.uk/news-events/events/just-transitions-carbon-neutral-economy-employment-challenges-over-next-25-years",
+      "rsvp_url": "https://sas.sym-online.com/registrationforms/ihrbooking_history_lab482255042660721/",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "In-person £30; standard online £10; student/unwaged online free; booking fees not verified",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "All welcome; advance booking required",
+      "source": "Official organiser event or registration page",
+      "description": "Transition to a green, carbon-neutral economy, or ‘net-zero’, is the urgent challenge facing us all given the reality of climate change. Informed opinion agrees that failure to act will lead to soaring temperatures and global catastrophe. The main question is how we organise for a just transition that involves workers and their unions in…",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:15:12.023382+00:00",
+      "source_urls": [
+        "https://www.sas.ac.uk/news-events/events/just-transitions-carbon-neutral-economy-employment-challenges-over-next-25-years"
+      ],
+      "organisationIds": [
+        "LU-C-006"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Registration checkout fees not verified"
+      ],
+      "notes": "Registration checkout fees not verified",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
       "id": "B3-2026-11-05-393d6ad9e7",
       "title": "Lunchtime Beetle Drive",
       "org": "Bexhill and Battle Conservatives",
@@ -562,6 +718,85 @@
       "reserve_status": "source_backed_unreviewed"
     },
     {
+      "id": "london-rh-ai-education-2026-11-05",
+      "title": "Age of AI: AI and the needs of education",
+      "org": "Royal Holloway, University of London",
+      "org_acronym": "",
+      "start": "2026-11-05T18:00:00+00:00",
+      "venue": "Stewart House",
+      "address": "32 Russell Square, London WC1B 5DN",
+      "url": "https://www.royalholloway.ac.uk/about-us/events/age-of-ai-ai-and-the-needs-of-education/",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/age-of-ai-ai-and-the-needs-of-education-tickets-2002626789637?aff=oddtdtcreator",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public lecture; advance booking essential",
+      "source": "Official organiser event page",
+      "description": "A panel discusses AI in education, academic integrity, intellectual property and critical thinking.",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:10:14.174297+00:00",
+      "source_urls": [
+        "https://www.royalholloway.ac.uk/about-us/events/age-of-ai-ai-and-the-needs-of-education",
+        "https://www.royalholloway.ac.uk/about-us/events/",
+        "https://www.royalholloway.ac.uk/about-us/events/?page=2"
+      ],
+      "organisationIds": [
+        "LUNI-RHUL"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "End time not stated; omitted",
+        "Eventbrite booking availability not verified"
+      ],
+      "notes": "End time not stated; omitted Eventbrite booking availability not verified",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUE-bb33335a4f6e",
+      "title": "Policy & practice seminar: Reimagining the future of Global Majority Giving",
+      "org": "University College London (UCL)",
+      "org_acronym": "",
+      "start": "2026-11-05T18:15:00+00:00",
+      "end": "2026-11-05T19:30:00+00:00",
+      "venue": "LG04",
+      "address": "26 Bedford Way, London, WC1H 0AP, United Kingdom",
+      "url": "https://www.ucl.ac.uk/social-historical-sciences/events/2026/nov/policy-practice-seminar-reimagining-future-global-majority-giving",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/policy-practice-seminar-reimagining-the-future-of-global-majority-giving-tickets-2002218927711?aff=website",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Open to All; Ticketed",
+      "source": "Official organiser event or registration page",
+      "description": "Policy discussion on philanthropy and giving across Global Majority communities.",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:07:15.589451+00:00",
+      "source_urls": [
+        "https://www.ucl.ac.uk/social-historical-sciences/events/2026/nov/policy-practice-seminar-reimagining-future-global-majority-giving"
+      ],
+      "organisationIds": [
+        "LUE-UCL"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Registration destination linked by organiser; live ticket availability not independently checked.",
+        "Seats are allocated first come, first served; registration does not guarantee a seat."
+      ],
+      "notes": "Registration destination linked by organiser; live ticket availability not independently checked. Seats are allocated first come, first served; registration does not guarantee a seat.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
       "id": "eh-220-2026-11-05-e1daae5e3",
       "title": "Bob Blackman MP: In Conversation",
       "org": "UCL Conservative Society",
@@ -625,6 +860,53 @@
       "host_role": "organiser_or_venue_programme",
       "fresh_check_required": true,
       "reserve_status": "source_backed_unreviewed"
+    },
+    {
+      "id": "LUE-7a4cf786cd9f",
+      "title": "Sustainability and behavioural change: a discussion",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-05T18:30:00+00:00",
+      "end": "2026-11-05T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/sustainability-behavioural-change",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the School of Public Policy and the Global School of Sustainability. Participants: Dr Liam Beiser-McGrath, Dr Kate Laffan, Baroness Parminter, Elizabeth J Z Robinson, Professor Liam Delaney.",
+      "speakers": [
+        "Dr Liam Beiser-McGrath",
+        "Dr Kate Laffan",
+        "Baroness Parminter",
+        "Elizabeth J Z Robinson",
+        "Professor Liam Delaney"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:51.800548+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/sustainability-behavioural-change",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
     },
     {
       "id": "B1-f0e7f90b77e6",
@@ -2048,6 +2330,203 @@
       "reserve_status": "reviewed_core"
     },
     {
+      "id": "LUC-ce5999888d76",
+      "title": "Book launch: Escaping the Conflict Trap?",
+      "org": "King's College London",
+      "org_acronym": "",
+      "start": "2026-11-09T14:00:00+00:00",
+      "end": "2026-11-09T15:30:00+00:00",
+      "venue": "Dockrill Room (KIN 628), Strand Campus",
+      "address": "Strand, London, WC2R 2LS",
+      "url": "https://www.kcl.ac.uk/events/book-launch-escaping-the-conflict-trap",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/book-launch-escaping-the-conflict-trap-tickets-2002616053525?aff=oddtdtcreator",
+      "ideology": "foreign_policy",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public registration; advance booking required; tickets on sale when checked",
+      "source": "Official organiser event or registration page",
+      "description": "Join the Africa Research Group for the launch of the new book 'Escaping the Conflict Trap?: Seeking Stability in Liberia and Sierra Leone' (Lynne",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:16:50.244189+00:00",
+      "availability": "on_sale",
+      "source_urls": [
+        "https://www.kcl.ac.uk/events/book-launch-escaping-the-conflict-trap",
+        "https://www.eventbrite.co.uk/e/book-launch-escaping-the-conflict-trap-tickets-2002616053525"
+      ],
+      "organisationIds": [
+        "LU-C-001"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [],
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUC-02904241e05b",
+      "title": "Manufacturing Vulnerability in the Uyghur Region: State-Imposed Forced Labour and the Crisis of Corporate Complicity",
+      "org": "SOAS University of London",
+      "org_acronym": "",
+      "start": "2026-11-09T17:00:00+00:00",
+      "end": "2026-11-09T18:30:00+00:00",
+      "venue": "RG01, SOAS Main Building",
+      "address": "10 Thornhaugh Street, Russell Square, London WC1H 0XG",
+      "url": "https://www.soas.ac.uk/about/event/manufacturing-vulnerability-uyghur-region-state-imposed-forced-labour-and-crisis",
+      "rsvp_url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=odBNZ2Kux0Kjn2nuGZU3qFEUObKn-zBLsyXnuI_VjBVURVNFQUFZQlU4VldESjJLMEpGSElIVVYxNi4u",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public registration; booking required",
+      "source": "Official organiser event or registration page",
+      "description": "The Uyghur Region of China (officially known as Xinjiang, known by many of its Indigenous people as East Turkestan) has been the center of the PRC's strategic program of state-sponsored forced labour.The nearly ubiquitous forced labour in the region affects global supply chains from apparel to renewable energy, plastics to electronics,…",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:15:10.773897+00:00",
+      "source_urls": [
+        "https://www.soas.ac.uk/about/event/manufacturing-vulnerability-uyghur-region-state-imposed-forced-labour-and-crisis"
+      ],
+      "organisationIds": [
+        "LU-C-002"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [],
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "london-rh-women-power-2026-11-09",
+      "title": "Writing a new history of women and power: Annual Bedford Lecture",
+      "org": "Royal Holloway, University of London",
+      "org_acronym": "",
+      "start": "2026-11-09T18:15:00+00:00",
+      "venue": "Beatrice Shilling Building",
+      "address": "Royal Holloway, Egham, Surrey TW20 0EX",
+      "url": "https://www.royalholloway.ac.uk/about-us/events/annual-bedford-lecture/",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/writing-a-new-history-of-women-and-power-tickets-1999522721285?aff=oddtdtcreator",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Unknown",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public lecture; advance booking essential",
+      "source": "Official organiser event page",
+      "description": "Professor Kate Williams discusses women and political power across history.",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:10:14.174800+00:00",
+      "source_urls": [
+        "https://www.royalholloway.ac.uk/about-us/events/annual-bedford-lecture",
+        "https://www.royalholloway.ac.uk/about-us/events/",
+        "https://www.royalholloway.ac.uk/about-us/events/?page=2"
+      ],
+      "organisationIds": [
+        "LUNI-RHUL"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "End time not stated; omitted",
+        "Eventbrite booking availability not verified"
+      ],
+      "notes": "End time not stated; omitted Eventbrite booking availability not verified",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUE-1dc6c04e413d",
+      "title": "Philanthropy and the impact economy",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-09T18:30:00+00:00",
+      "end": "2026-11-09T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/philanthropy-impact-economy",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the Marshall Institute. Participants: Jacqueline Novogratz, Professor Stephan Chambers.",
+      "speakers": [
+        "Jacqueline Novogratz",
+        "Professor Stephan Chambers"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:51.862546+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/philanthropy-impact-economy",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "london-iq-litvinenko-2026-11-09",
+      "title": "Marina Litvinenko on Russia, Putin and Resistance",
+      "org": "Intelligence Squared (UK)",
+      "org_acronym": "",
+      "start": "2026-11-09T19:30:00+00:00",
+      "end": "2026-11-09T20:45:00+00:00",
+      "venue": "Conway Hall",
+      "address": "25 Red Lion Square, London WC1R 4RL",
+      "url": "https://www.intelligencesquared.com/events/an-evening-with-marina-litvinenko",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/2001519366304",
+      "ideology": "foreign_policy",
+      "format": "in_person",
+      "cost": "Unknown",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public ticket sale through organiser-linked Eventbrite",
+      "source": "Official organiser event page",
+      "description": "",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:17.001777+00:00",
+      "source_urls": [
+        "https://www.intelligencesquared.com/events/an-evening-with-marina-litvinenko",
+        "https://www.intelligencesquared.com/calendar"
+      ],
+      "organisationIds": [
+        "LUNI-IQ2"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Later than publication window; recheck before publishing",
+        "Eventbrite price, fees and current inventory not verified",
+        "Cost detail: Unknown; ticketed"
+      ],
+      "notes": "Later than publication window; recheck before publishing Eventbrite price, fees and current inventory not verified Cost detail: Unknown; ticketed",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
       "id": "B1-6d304877ebfc",
       "title": "Getting a grip on the system: How the US Navy was rebuilt in the 1980s",
       "org": "Policy Exchange",
@@ -2115,6 +2594,41 @@
       },
       "fresh_check_required": true,
       "reserve_status": "reviewed_core"
+    },
+    {
+      "id": "LUC-a060d96d4cdd",
+      "title": "Sudan’s War: Political Economy, Regional Interests and the Search for a Viable Peace",
+      "org": "SOAS University of London",
+      "org_acronym": "",
+      "start": "2026-11-10T17:00:00+00:00",
+      "end": "2026-11-10T18:30:00+00:00",
+      "venue": "Main Building RB01, SOAS Main Building (RB01) & Online",
+      "address": "Online",
+      "url": "https://www.soas.ac.uk/about/event/sudans-war-political-economy-regional-interests-and-search-viable-peace",
+      "rsvp_url": "https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=odBNZ2Kux0Kjn2nuGZU3qNQxGyvuolVHrInpQGVsN9ZUNUc3SEZQMjJPRzlONUVVWllURjJUSTlGOC4u",
+      "ideology": "foreign_policy",
+      "format": "online",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public registration; booking required",
+      "source": "Official organiser event or registration page",
+      "description": "Why has the war in Sudan proved so difficult to end, and what are the domestic and external interests that sustain it? Professor Mekki Medani El Shibly will examine the political economy and regional dimensions of the conflict, and, importantly, the conditions and incentives that might make peace more viable than continued warfare. He…",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:11:52.332081+00:00",
+      "source_urls": [
+        "https://www.soas.ac.uk/about/event/sudans-war-political-economy-regional-interests-and-search-viable-peace"
+      ],
+      "organisationIds": [
+        "LU-C-002"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [],
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
     },
     {
       "id": "B1-b8900abed749",
@@ -2447,6 +2961,45 @@
       "reserve_status": "reviewed_core"
     },
     {
+      "id": "london-kingston-green-2026-11-11",
+      "title": "Think Green: Developing a circular economy for Kingston",
+      "org": "Kingston University; Kingston Council; Kingston Chamber of Commerce",
+      "org_acronym": "",
+      "start": "2026-11-11T00:00:00+00:00",
+      "time": "TBC",
+      "venue": "",
+      "address": "",
+      "url": "https://www.kingston.ac.uk/about/events/think-green-developing-a-circular-economy-for-kingston",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/developing-a-circular-economy-for-kingston-tickets-1982880428740?aff=oddtdtcreator&_gl=1%2A1rzl2hw%2A_up%2AMQ..%2A_ga%2AMjA5ODI2OTY5NS4xNzcwODI5Nzcz%2A_ga_TQVES5V6SH%2AczE3NzA4Mjk3NzIkbzEkZzAkdDE3NzA4Mjk3NzIkajYwJGwwJGgw",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Businesses, students, academics and borough residents invited; booking required",
+      "source": "Official organiser event page",
+      "description": "A public event on circular and regenerative local economies.",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:09:46.609456+00:00",
+      "notes": "Time TBC Exact event time and venue not stated on university page; recheck linked registration before entering publication window",
+      "source_urls": [
+        "https://www.kingston.ac.uk/about/events/think-green-developing-a-circular-economy-for-kingston",
+        "https://www.kingston.ac.uk/about/events"
+      ],
+      "organisationIds": [
+        "LUNI-KINGSTON"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Exact event time and venue not stated on university page; recheck linked registration before entering publication window"
+      ],
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
       "id": "eh-015-2026-11-11-c261d237d",
       "title": "Armistice Day Lunch with Major General Sir Evelyn Webb-Carter",
       "org": "Carlton Club",
@@ -2523,6 +3076,50 @@
       "host_role": "organiser_or_venue_programme",
       "fresh_check_required": true,
       "reserve_status": "source_backed_unreviewed"
+    },
+    {
+      "id": "LUE-c4052f1ebbb9",
+      "title": "How social media changed politics globally",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-11T18:30:00+00:00",
+      "end": "2026-11-11T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/social-media-changed-politics-globally",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the Department of Management. Participants: Professor Ekaterina Zhuravskaya, Professor Sarah Ashwin.",
+      "speakers": [
+        "Professor Ekaterina Zhuravskaya",
+        "Professor Sarah Ashwin"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:51.973111+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/social-media-changed-politics-globally",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
     },
     {
       "id": "B3-2026-11-12-951293b28c",
@@ -2735,6 +3332,130 @@
       "reserve_status": "reviewed_core"
     },
     {
+      "id": "london-lshtm-mogadishu-2026-11-12",
+      "title": "From Mogadishu to the world: Rethinking humanitarian health research in the horn of Africa",
+      "org": "London School of Hygiene & Tropical Medicine",
+      "org_acronym": "",
+      "start": "2026-11-12T17:30:00+00:00",
+      "end": "2026-11-12T19:00:00+00:00",
+      "venue": "John Snow Lecture Theatre, LSHTM",
+      "address": "Keppel Street, London WC1E 7HT",
+      "url": "https://www.lshtm.ac.uk/newsevents/events/mogadishu-world-rethinking-humanitarian-health-research-horn-africa",
+      "rsvp_url": "https://lshtm.zoom.us/j/88684278113",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Free and open to all; no registration required",
+      "source": "Official organiser event page",
+      "description": "Najib Isse Dirie and a panel discuss locally led humanitarian health research and international partnerships.",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:11:59.316942+00:00",
+      "source_urls": [
+        "https://www.lshtm.ac.uk/newsevents/events/mogadishu-world-rethinking-humanitarian-health-research-horn-africa",
+        "https://www.lshtm.ac.uk/newsevents/events-feed"
+      ],
+      "organisationIds": [
+        "LUNI-LSHTM"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [],
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUE-59f3991a1ef3",
+      "title": "Structural change and development",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-12T18:00:00+00:00",
+      "end": "2026-11-12T19:30:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/structural-change-and-development",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by Economica. Participants: Professor Richard Rogerson, Sir Christopher Pissarides.",
+      "speakers": [
+        "Professor Richard Rogerson",
+        "Sir Christopher Pissarides"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:52.051055+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/structural-change-and-development",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUE-cb56f6431058",
+      "title": "From values to impact: what can sustainable investing achieve?",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-12T18:30:00+00:00",
+      "end": "2026-11-12T19:35:00+00:00",
+      "venue": "Sheikh Zayed Theatre, Cheng Kin Ku Building",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/open/from-values-to-impact-what-can-sustainable-investing-achieve",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation. Participants: Professor Augustin Landier, Professor Amil Dasgupta.",
+      "speakers": [
+        "Professor Augustin Landier",
+        "Professor Amil Dasgupta"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:52.234758+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/open/from-values-to-impact-what-can-sustainable-investing-achieve",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Street address not independently verified; published campus venue retained."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Street address not independently verified; published campus venue retained.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
       "id": "B1-4cdd7290af67",
       "title": "Is free speech absolute?",
       "org": "East Midlands Salon; Academy of Ideas / Battle of Ideas (satellite partner)",
@@ -2795,6 +3516,47 @@
       "host_role": "Academy of Ideas/Battle of Ideas satellite partner; local host East Midlands Salon",
       "fresh_check_required": true,
       "reserve_status": "source_backed_unreviewed"
+    },
+    {
+      "id": "london-iq-wolf-2026-11-12",
+      "title": "The Threat of Capitalism without Democracy, with Martin Wolf",
+      "org": "Intelligence Squared (UK)",
+      "org_acronym": "",
+      "start": "2026-11-12T19:00:00+00:00",
+      "end": "2026-11-12T20:30:00+00:00",
+      "venue": "Conway Hall",
+      "address": "25 Red Lion Square, London WC1R 4RL",
+      "url": "https://www.intelligencesquared.com/events/the-threat-of-capitalism-without-democracy-with-martin-wolf",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/1997852398304",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Unknown",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public ticket sale through organiser-linked Eventbrite",
+      "source": "Official organiser event page",
+      "description": "",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:17.001102+00:00",
+      "source_urls": [
+        "https://www.intelligencesquared.com/events/the-threat-of-capitalism-without-democracy-with-martin-wolf",
+        "https://www.intelligencesquared.com/calendar"
+      ],
+      "organisationIds": [
+        "LUNI-IQ2"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Later than publication window; recheck before publishing",
+        "Eventbrite price, fees and current inventory not verified",
+        "Cost detail: Unknown; ticketed"
+      ],
+      "notes": "Later than publication window; recheck before publishing Eventbrite price, fees and current inventory not verified Cost detail: Unknown; ticketed",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
     },
     {
       "id": "eh-020-2026-11-12-25e84119d",
@@ -4531,6 +5293,251 @@
       "reserve_status": "reviewed_core"
     },
     {
+      "id": "LUE-7a3794c80bd2",
+      "title": "The Eastern Front 1914-18: Nick Lloyd in Conversation with Thomas Lorman",
+      "org": "University College London (UCL)",
+      "org_acronym": "",
+      "start": "2026-11-16T18:00:00+00:00",
+      "end": "2026-11-16T20:00:00+00:00",
+      "venue": "Masaryk room",
+      "address": "14-16 Taviton street, London, WC1H 0BW, United Kingdom",
+      "url": "https://www.ucl.ac.uk/arts-humanities/events/2026/nov/eastern-front-1914-18-nick-lloyd-conversation-thomas-lorman",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/the-eastern-front-1914-18-a-history-of-the-first-world-war-tickets-2000577371773?aff=oddtdtcreator&_gl=1%2A15yon6h%2A_up%2AMQ..%2A_ga%2AMjkwMTk0MzgwLjE3ODkxMjM2MzQ.%2A_ga_TQVES5V6SH%2AczE3ODkxMjM2MzEkbzEkZzAkdDE3ODkxMjM2MzEkajYwJGwwJGgw",
+      "ideology": "foreign_policy",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Open to All; Pre-booking essential",
+      "source": "Official organiser event or registration page",
+      "description": "Nick Lloyd and Thomas Lorman discuss the First World War’s Eastern Front.",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:16.883233+00:00",
+      "source_urls": [
+        "https://www.ucl.ac.uk/arts-humanities/events/2026/nov/eastern-front-1914-18-nick-lloyd-conversation-thomas-lorman"
+      ],
+      "organisationIds": [
+        "LUE-UCL"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Registration destination linked by organiser; live ticket availability not independently checked."
+      ],
+      "notes": "Registration destination linked by organiser; live ticket availability not independently checked.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUE-485ad60b3075",
+      "title": "Non-binary lives",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-16T18:30:00+00:00",
+      "end": "2026-11-16T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/non-binary-lives",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the Department of Anthropology and the Department of Gender Studies. Participants: Professor Marquis Bey, Dr SM Rodríguez, Sandip Roy, Dr Rohit K Dasgupta.",
+      "speakers": [
+        "Professor Marquis Bey",
+        "Dr SM Rodríguez",
+        "Sandip Roy",
+        "Dr Rohit K Dasgupta"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:52.278323+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/non-binary-lives",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUC-153f1d69a7d7",
+      "title": "CSD Seminar: In Defence of Democratic Noise",
+      "org": "University of Westminster",
+      "org_acronym": "",
+      "start": "2026-11-17T17:00:00+00:00",
+      "end": "2026-11-17T18:30:00+00:00",
+      "venue": "Westminster Forum, 5th floor",
+      "address": "32–38 Wells Street, London W1T 3UW",
+      "url": "https://www.westminster.ac.uk/events/csd-seminar-in-defence-of-democratic-noise",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/csd-seminar-in-defence-of-democratic-noise-tickets-2002793317727",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public Eventbrite registration",
+      "source": "Official organiser event or registration page",
+      "description": "Join the Centre for the Study of Democracy for a talk with Dr Aris Trantidis (Lincoln): In Defence of Democratic Noise: Equality, Voice and Social Knowledge in Climate Governance. Climate change revives an epistemic objection to democracy. Because citizens lack relevant scientific expertise and may resist measures which experts deem…",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:17:30.319040+00:00",
+      "source_urls": [
+        "https://www.westminster.ac.uk/events/csd-seminar-in-defence-of-democratic-noise",
+        "https://www.eventbrite.co.uk/e/csd-seminar-in-defence-of-democratic-noise-tickets-2002793317727"
+      ],
+      "organisationIds": [
+        "LU-C-009"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [],
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUC-f90abbbacf50",
+      "title": "Nick Couldry (LSE), Predatory AI: How We Can Resist Corporate Capture of the Human Mind",
+      "org": "University of London / School of Advanced Study",
+      "org_acronym": "",
+      "start": "2026-11-17T17:00:00+00:00",
+      "end": "2026-11-17T18:30:00+00:00",
+      "venue": "IALS Conference Room, Institute of Advanced Legal Studies, 17 Russell Square, London WC1B 5DR",
+      "address": "IALS Conference Room, Institute of Advanced Legal Studies, 17 Russell Square, London WC1B 5DR",
+      "url": "https://www.sas.ac.uk/law-humanities-hub/events/nick-couldry-lse-predatory-ai-how-we-can-resist-corporate-capture-human-mind",
+      "rsvp_url": "https://sas.sym-online.com/registrationforms/ials-booking54661095/",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "All welcome; advance booking required",
+      "source": "Official organiser event or registration page",
+      "description": "We are told that AI is inevitable, a revolutionary next stage in planetary intelligence. The calculative power that Big Tech is harnessing via its AI products cannot be doubted. But what if humanity is entering into the wrong social contract with AI? A good future for humanity cannot mean inputting our lives into predatory AI models…",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:15:12.024056+00:00",
+      "source_urls": [
+        "https://www.sas.ac.uk/law-humanities-hub/events/nick-couldry-lse-predatory-ai-how-we-can-resist-corporate-capture-human-mind"
+      ],
+      "organisationIds": [
+        "LU-C-006"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [],
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUE-3948a3dce83b",
+      "title": "Hope or despair: transatlantic relations at the crossroads",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-17T18:30:00+00:00",
+      "end": "2026-11-17T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/transatlantic-relations",
+      "rsvp_url": "",
+      "ideology": "foreign_policy",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the Phelan United States Centre. Participants: Professor Michael Cox, Sylvie Kauffmann, Sir Robin Niblett, Professor Peter Trubowitz.",
+      "speakers": [
+        "Professor Michael Cox",
+        "Sylvie Kauffmann",
+        "Sir Robin Niblett",
+        "Professor Peter Trubowitz"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:26.517375+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/transatlantic-relations",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUE-98b28c939b4a",
+      "title": "Power and the people: a history of British energy since 1810",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-17T18:30:00+00:00",
+      "end": "2026-11-17T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/european-institute/events/2026-27/power-and-the-people-a-history-of-british-energy-since-1810",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; advance registration/ticket required",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the LSE European Institute. Participants: Dr Arthur Downing, Dr Abby Innes.",
+      "speakers": [
+        "Dr Arthur Downing",
+        "Dr Abby Innes"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:26.517835+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/european-institute/events/2026-27/power-and-the-people-a-history-of-british-energy-since-1810",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
       "id": "B1-cd6c7a3f7da9",
       "title": "Debate: Has multiculturalism failed?",
       "org": "The Spectator",
@@ -4899,6 +5906,44 @@
       "reserve_status": "reviewed_core"
     },
     {
+      "id": "LUE-2c7690522a92",
+      "title": "Extractivist Capitalism in Southeastern Europe",
+      "org": "University College London (UCL)",
+      "org_acronym": "",
+      "start": "2026-11-18T18:00:00+00:00",
+      "end": "2026-11-18T20:00:00+00:00",
+      "venue": "Masaryk room",
+      "address": "14-16 Taviton street, London, WC1H 0BW, United Kingdom",
+      "url": "https://www.ucl.ac.uk/arts-humanities/events/2026/nov/extractivist-capitalism-southeastern-europe",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/extractivist-capitalism-in-southeastern-europe-tickets-2002725003397?aff=oddtdtcreator&_gl=1%2A4220vp%2A_up%2AMQ..%2A_ga%2AMTM0ODgzNDU5Ny4xNzkwODY0ODAy%2A_ga_TQVES5V6SH%2AczE3OTA4NjQ4MDEkbzEkZzAkdDE3OTA4NjQ4MDEkajYwJGwwJGgw",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Open to All; Pre-booking essential",
+      "source": "Official organiser event or registration page",
+      "description": "Seminar on extraction, capitalism and political economy in Southeastern Europe.",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:16.900484+00:00",
+      "source_urls": [
+        "https://www.ucl.ac.uk/arts-humanities/events/2026/nov/extractivist-capitalism-southeastern-europe"
+      ],
+      "organisationIds": [
+        "LUE-UCL"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Registration destination linked by organiser; live ticket availability not independently checked."
+      ],
+      "notes": "Registration destination linked by organiser; live ticket availability not independently checked.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
       "id": "eh-220-2026-11-18-c93acf65c",
       "title": "Sir Andy Street CBE: In Conversation",
       "org": "UCL Conservative Society",
@@ -4962,6 +6007,54 @@
       "host_role": "organiser_or_venue_programme",
       "fresh_check_required": true,
       "reserve_status": "source_backed_unreviewed"
+    },
+    {
+      "id": "LUE-adb5ec5f21dc",
+      "title": "Can global value chains go green? Trade, investment and the net-zero development challenge",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-18T18:30:00+00:00",
+      "end": "2026-11-18T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/global-value-chains",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the Department of Geography and Environment and the Global School of Sustainability. Participants: Professor Erik Berglöf, Professor Riccardo Crescenzi, Oliver Harman, Dr Ralph de Haas, Dr Daria Taglioni, Professor Jonathan Pershing.",
+      "speakers": [
+        "Professor Erik Berglöf",
+        "Professor Riccardo Crescenzi",
+        "Oliver Harman",
+        "Dr Ralph de Haas",
+        "Dr Daria Taglioni",
+        "Professor Jonathan Pershing"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:35.268936+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/global-value-chains",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
     },
     {
       "id": "B1-5f355d90f868",
@@ -5225,6 +6318,181 @@
       "host_role": "organiser_or_venue_programme",
       "fresh_check_required": true,
       "reserve_status": "source_backed_unreviewed"
+    },
+    {
+      "id": "LUE-f99351a7d65c",
+      "title": "Policy & practice seminar: Devolution and economic growth in the UK",
+      "org": "University College London (UCL)",
+      "org_acronym": "",
+      "start": "2026-11-19T18:15:00+00:00",
+      "end": "2026-11-19T19:30:00+00:00",
+      "venue": "Lecture Theatre G6",
+      "address": "Institute of Archaeology, 31-34 Gordon Square, London, WC1H 0PY, United Kingdom",
+      "url": "https://www.ucl.ac.uk/social-historical-sciences/events/2026/nov/policy-practice-seminar-devolution-and-economic-growth-uk",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/policy-practice-seminar-devolution-and-economic-growth-in-the-uk-tickets-2002423348138?aff=Website",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Open to All; Ticketed",
+      "source": "Official organiser event or registration page",
+      "description": "Policy panel examining UK devolution and economic growth.",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:07:15.637743+00:00",
+      "source_urls": [
+        "https://www.ucl.ac.uk/social-historical-sciences/events/2026/nov/policy-practice-seminar-devolution-and-economic-growth-uk"
+      ],
+      "organisationIds": [
+        "LUE-UCL"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Registration destination linked by organiser; live ticket availability not independently checked.",
+        "Seats are allocated first come, first served; registration does not guarantee a seat."
+      ],
+      "notes": "Registration destination linked by organiser; live ticket availability not independently checked. Seats are allocated first come, first served; registration does not guarantee a seat.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUE-ba0e65f97955",
+      "title": "Whose childhood, whose safety? Marginalised youth and social media bans",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-19T18:30:00+00:00",
+      "end": "2026-11-19T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/marginalised-youth-social-media-bans",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the Digital Futures for Children centre and 5Rights Foundation. Participants: Lisa Dittmer, Dr Sakshi Ghai, Professor Jessica Ringrose, Dr Devina Sarwatay, Professor Sonia Livingstone.",
+      "speakers": [
+        "Lisa Dittmer",
+        "Dr Sakshi Ghai",
+        "Professor Jessica Ringrose",
+        "Dr Devina Sarwatay",
+        "Professor Sonia Livingstone"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:35.732024+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/marginalised-youth-social-media-bans",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUE-fd7b48f26dfb",
+      "title": "The international politics of energy transitions, climate battles, and 21st century power rivalry",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-19T18:30:00+00:00",
+      "end": "2026-11-19T20:00:00+00:00",
+      "venue": "MAR.1.04, Marshall Building",
+      "address": "",
+      "url": "https://www.lse.ac.uk/european-institute/events/2026-27/the-international-politics-of-energy-transitions-climate-battles-and-21st-century-power-rivalry",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; advance registration/ticket required",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the European Institute and the Government and Opposition Journal. Participants: Professor Federica Genovese, Professor Erik Jones, Professor Yaprak Gürsoy.",
+      "speakers": [
+        "Professor Federica Genovese",
+        "Professor Erik Jones",
+        "Professor Yaprak Gürsoy"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:35.270093+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/european-institute/events/2026-27/the-international-politics-of-energy-transitions-climate-battles-and-21st-century-power-rivalry",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Street address not independently verified; published campus venue retained."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Street address not independently verified; published campus venue retained.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUE-19f1be784d55",
+      "title": "Backsliders of democracy",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-19T19:00:00+00:00",
+      "end": "2026-11-19T20:30:00+00:00",
+      "venue": "Old Theatre, Old Building",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/ralph-miliband-programme/the-backsliders-of-democracy",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation. Participants: Professor Susan Stokes, Dr Robin Archer.",
+      "speakers": [
+        "Professor Susan Stokes",
+        "Dr Robin Archer"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:35.818459+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/ralph-miliband-programme/the-backsliders-of-democracy",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Street address not independently verified; published campus venue retained."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Street address not independently verified; published campus venue retained.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
     },
     {
       "id": "eh-020-2026-11-19-25e84119d",
@@ -5646,6 +6914,43 @@
       "hold_reason": "Dated official programme or live registration details independently read; retain as future reserve and recheck ticket inventory/details before promotion.",
       "fresh_check_required": true,
       "reserve_status": "reviewed_core"
+    },
+    {
+      "id": "LUC-734adf96cf7e",
+      "title": "Is Capitalism the Enemy of Nature?",
+      "org": "King's College London",
+      "org_acronym": "",
+      "start": "2026-11-20T18:30:00+00:00",
+      "end": "2026-11-20T20:00:00+00:00",
+      "venue": "Bush House (NE) Lower Ground Level -1.01",
+      "address": "Bush House, 30 Aldwych, London WC2B 4BG",
+      "url": "https://csgs.kcl.ac.uk/events/is-capitalism-the-enemy-of-nature/",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; advance booking essential",
+      "source": "Official organiser event or registration page",
+      "description": "Many have argued that environmental problem such as climate change cannot be resolved within the framework of a market economy. This argument features centrally in the claims of ecosocialists, who say that the only way to create an environmentally sustainable economy is to overthrow capitalism and replace it with socialism. This is often…",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:16:59.755210+00:00",
+      "availability": "on_sale",
+      "source_urls": [
+        "https://csgs.kcl.ac.uk/events/is-capitalism-the-enemy-of-nature/",
+        "https://www.eventbrite.co.uk/e/is-capitalism-the-enemy-of-nature-tickets-1998956569911?aff=oddtdtcreator"
+      ],
+      "organisationIds": [
+        "LU-C-001"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [],
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
     },
     {
       "id": "regional-2026-11-20-selina-graham-supper",
@@ -6702,6 +8007,50 @@
       "reserve_status": "reviewed_core"
     },
     {
+      "id": "LUE-04d80198b20f",
+      "title": "What Europeans think about immigration and why it matters",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-24T18:30:00+00:00",
+      "end": "2026-11-24T20:00:00+00:00",
+      "venue": "MAR.1.08, Marshall Building",
+      "address": "",
+      "url": "https://www.lse.ac.uk/european-institute/events/2026-27/what-europeans-think-about-immigration-and-why-it-matters",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; advance registration/ticket required",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the European Institute. Participants: James Dennison, Dr Eiko Thielemann.",
+      "speakers": [
+        "James Dennison",
+        "Dr Eiko Thielemann"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:36.424645+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/european-institute/events/2026-27/what-europeans-think-about-immigration-and-why-it-matters",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Street address not independently verified; published campus venue retained."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Street address not independently verified; published campus venue retained.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
       "id": "B1-97f7356fc374",
       "title": "Unite for Education: Edinburgh",
       "org": "Unite for Education",
@@ -6782,6 +8131,50 @@
       "host_role": "Christian Concern exhibitor; Unite for Education host",
       "fresh_check_required": true,
       "reserve_status": "reviewed_core"
+    },
+    {
+      "id": "LUE-d3f2966969d9",
+      "title": "Anti-fascist economics",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-24T19:00:00+00:00",
+      "end": "2026-11-24T20:30:00+00:00",
+      "venue": "Old Theatre, Old Building",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/ralph-miliband-programme/anti-fascist-economics-in-defense-of-affordability-dignity-and-democracy",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation. Participants: Isabella Weber, Professor Lea Ypi.",
+      "speakers": [
+        "Isabella Weber",
+        "Professor Lea Ypi"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:36.594767+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/ralph-miliband-programme/anti-fascist-economics-in-defense-of-affordability-dignity-and-democracy",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Street address not independently verified; published campus venue retained."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Street address not independently verified; published campus venue retained.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
     },
     {
       "id": "eh-020-2026-11-24-4212e6497",
@@ -7042,6 +8435,50 @@
       "reserve_status": "source_backed_unreviewed"
     },
     {
+      "id": "LUE-299c4ebf388d",
+      "title": "Addressing the adverse consequences of inequality",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-25T18:30:00+00:00",
+      "end": "2026-11-25T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/consequences-inequality",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the International Inequalities Institute. Participants: Professor Sir Richard Blundell, Professor Francisco H. G. Ferreira.",
+      "speakers": [
+        "Professor Sir Richard Blundell",
+        "Professor Francisco H. G. Ferreira"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:36.674946+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/consequences-inequality",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
       "id": "B3-2026-11-25-ab4a0d6cdb",
       "title": "A City Christmas Reception",
       "org": "City of London Conservatives",
@@ -7179,6 +8616,47 @@
       "hold_reason": "Independent publication approval not established",
       "fresh_check_required": true,
       "reserve_status": "source_backed_unreviewed"
+    },
+    {
+      "id": "london-iq-badawi-2026-11-25",
+      "title": "An African History of Africa, with Zeinab Badawi",
+      "org": "Intelligence Squared (UK)",
+      "org_acronym": "",
+      "start": "2026-11-25T19:00:00+00:00",
+      "end": "2026-11-25T20:30:00+00:00",
+      "venue": "Conway Hall",
+      "address": "25 Red Lion Square, London WC1R 4RL",
+      "url": "https://www.intelligencesquared.com/events/an-african-history-of-africa-with-zeinab-badawi-4",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/1996637420272",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Unknown",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public ticket sale through organiser-linked Eventbrite",
+      "source": "Official organiser event page",
+      "description": "",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:09:46.935348+00:00",
+      "source_urls": [
+        "https://www.intelligencesquared.com/events/an-african-history-of-africa-with-zeinab-badawi-4",
+        "https://www.intelligencesquared.com/calendar"
+      ],
+      "organisationIds": [
+        "LUNI-IQ2"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Later than publication window; recheck before publishing",
+        "Eventbrite price, fees and current inventory not verified",
+        "Cost detail: Unknown; ticketed"
+      ],
+      "notes": "Later than publication window; recheck before publishing Eventbrite price, fees and current inventory not verified Cost detail: Unknown; ticketed",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
     },
     {
       "id": "B3-2026-11-26-488d869a15",
@@ -7386,6 +8864,88 @@
       "host_role": "venue-listed event; separate promoter where identified",
       "fresh_check_required": true,
       "reserve_status": "source_backed_unreviewed"
+    },
+    {
+      "id": "london-lshtm-penda-2026-11-26",
+      "title": "Accessing the mainstream: PENDA Conference on evidence to inform disability action",
+      "org": "London School of Hygiene & Tropical Medicine",
+      "org_acronym": "",
+      "start": "2026-11-26T09:00:00+00:00",
+      "venue": "Senate House",
+      "address": "University of London, Malet Street, London WC1E 7HU",
+      "url": "https://www.lshtm.ac.uk/newsevents/events/accessing-mainstream-penda-conference-evidence-inform-disability-action",
+      "rsvp_url": "https://giftstore.lshtm.ac.uk/",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Registration fee payable; concessions for students and attendees from low- and middle-income countries; amount unverified",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Registration required; registration advertised open",
+      "source": "Official organiser event page",
+      "description": "Two-day conference on evidence for disability-inclusive development, 26–27 November. Listed daily window 09:00–17:00; final daily agenda needs recheck.",
+      "simulated": false,
+      "verified_at": "2026-10-06T21:11:59.317453+00:00",
+      "source_urls": [
+        "https://www.lshtm.ac.uk/newsevents/events/accessing-mainstream-penda-conference-evidence-inform-disability-action",
+        "https://www.lshtm.ac.uk/newsevents/events-feed"
+      ],
+      "organisationIds": [
+        "LUNI-LSHTM"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Do not interpret 26–27 November as an overnight continuous session; publish separate verified daily sessions after agenda recheck"
+      ],
+      "notes": "Do not interpret 26–27 November as an overnight continuous session; publish separate verified daily sessions after agenda recheck",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUE-121353fafb58",
+      "title": "The economics of chance: what random events reveal about forces shaping health",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-26T18:30:00+00:00",
+      "end": "2026-11-26T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/economics-chance-health",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by LSE Health. Participants: Professor Anupam B Jena, Professor Joan Costa-i-Font.",
+      "speakers": [
+        "Professor Anupam B Jena",
+        "Professor Joan Costa-i-Font"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:26.512334+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/economics-chance-health",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
     },
     {
       "id": "eh-020-2026-11-26-25e84119d",
@@ -8846,6 +10406,52 @@
       "reserve_status": "source_backed_unreviewed"
     },
     {
+      "id": "LUE-06f97ca515db",
+      "title": "British progress and the centre-right",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-12-01T18:30:00+00:00",
+      "end": "2026-12-01T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/british-progress",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the Hayek Programme in Economics and Liberal Political Economy. Participants: Steve Baker, Luke Johnson, Julia Willemyns, Professor Luis Garicano.",
+      "speakers": [
+        "Steve Baker",
+        "Luke Johnson",
+        "Julia Willemyns",
+        "Professor Luis Garicano"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:26.512891+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/british-progress",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
       "id": "eh-014-2026-12-02-fa42847d6",
       "title": "Christmas Dinner",
       "org": "Canvey Island Conservative Club",
@@ -8915,6 +10521,94 @@
       "host_role": "organiser_or_venue_programme",
       "fresh_check_required": true,
       "reserve_status": "source_backed_unreviewed"
+    },
+    {
+      "id": "LUE-b8e23849c7f9",
+      "title": "Women's suffrage, the Women's Library and me",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-12-02T18:00:00+00:00",
+      "end": "2026-12-02T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/library/whats-on/events/womens-suffrage-the-womens-library-and-me-1",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation. Participants: Elizabeth Crawford, Dr Ellie Whittingdale.",
+      "speakers": [
+        "Elizabeth Crawford",
+        "Dr Ellie Whittingdale"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:26.513387+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/library/whats-on/events/womens-suffrage-the-womens-library-and-me-1",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
+      "id": "LUE-879f959e40af",
+      "title": "The good, the bad, and the ugly: civil-military relations under Trump",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-12-02T18:30:00+00:00",
+      "end": "2026-12-02T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/civil-military-relations-under-trump",
+      "rsvp_url": "",
+      "ideology": "foreign_policy",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the Phelan United States Centre. Participants: Dr Kori Schake, Professor Peter Trubowitz.",
+      "speakers": [
+        "Dr Kori Schake",
+        "Professor Peter Trubowitz"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:26.513978+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/civil-military-relations-under-trump",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
     },
     {
       "id": "B2-012",
@@ -10462,6 +12156,50 @@
       "reserve_status": "reviewed_core"
     },
     {
+      "id": "LUE-5b48368ddb3a",
+      "title": "Policing the crisis, carceral racism, and abolitionist resistance in Europe",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-12-07T18:30:00+00:00",
+      "end": "2026-12-07T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/racism-1",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by LSE Sociology and LSE Human Rights. Participants: Dr Vanessa Thompson, Dr Sara Salem.",
+      "speakers": [
+        "Dr Vanessa Thompson",
+        "Dr Sara Salem"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:26.516063+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/racism-1",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
+    },
+    {
       "id": "eh-017-2026-12-07-0b7da8767",
       "title": "Whist",
       "org": "Court Barn Conservative Club",
@@ -10662,6 +12400,51 @@
       "host_role": "organiser_or_venue_programme",
       "fresh_check_required": true,
       "reserve_status": "source_backed_unreviewed"
+    },
+    {
+      "id": "LUE-8d92a4a1fb4b",
+      "title": "The science of second chances",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-12-09T18:30:00+00:00",
+      "end": "2026-12-09T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/science-second-chances",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the Centre for Economic Performance. Participants: Jennifer Doleac, Tom Kirchmaier, Stephen Machin.",
+      "speakers": [
+        "Jennifer Doleac",
+        "Tom Kirchmaier",
+        "Stephen Machin"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:26.516762+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/science-second-chances",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
     },
     {
       "id": "B1-f663287d8b7f",
@@ -11047,6 +12830,51 @@
       "reserve_status": "reviewed_core",
       "address": "London, England",
       "public_location_redacted": true
+    },
+    {
+      "id": "LUE-abfa4f3f5592",
+      "title": "Climate, nature and prosperity",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-12-10T18:30:00+00:00",
+      "end": "2026-12-10T20:00:00+00:00",
+      "venue": "LSE campus, venue tbc to ticketholders",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/climate-nature-prosperity",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "cost": "Free (LSE public events programme)",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "source": "Official organiser event or registration page",
+      "description": "Public panel or conversation hosted by the Department of Geography and Environment and the Global School of Sustainability. Participants: Eugenie Dugoua, Professor Geoffrey Heal, Lord Stern.",
+      "speakers": [
+        "Eugenie Dugoua",
+        "Professor Geoffrey Heal",
+        "Lord Stern"
+      ],
+      "simulated": false,
+      "verified_at": "2026-10-06T21:08:36.766645+00:00",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/climate-nature-prosperity",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "organisationIds": [
+        "LUE-LSE"
+      ],
+      "independently_reviewed": false,
+      "publication_approved": false,
+      "verificationCaveats": [
+        "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking.",
+        "Exact campus venue will be confirmed to ticket holders."
+      ],
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders.",
+      "reserveReason": "Later than 2026-11-03; requires fresh source and booking recheck before publication"
     },
     {
       "id": "B3-2026-12-10-c931e90ced",
@@ -15272,6 +17100,14 @@
       "hold_reason": "Independent publication approval not established",
       "fresh_check_required": true,
       "reserve_status": "source_backed_unreviewed"
+    }
+  ],
+  "supplemental_sources": [
+    {
+      "libraryFileId": "libfile_79d46d336fc48191861922e8c6cd12a4",
+      "version": "0",
+      "sourceGeneratedAt": "2026-10-06T21:31:52.207933+00:00",
+      "method": "Consumer-authored repository projection from supported Library text reads; source claims and full independent review remain in Library."
     }
   ]
 }

@@ -48,7 +48,13 @@ For real data, set `mode` to `"live"`, keep `timezone: "Europe/London"`, remove 
 
 The publication slice records today through 28 days ahead in `window`. `node scripts/import-reviewed-events.cjs path/to/reviewed.json` imports completed source-reviewed records, checks UK offsets and deduplication, and splits later discoveries into `data/future-events.json`. That durable reserve is never loaded or auto-promoted by the app; source details must be rechecked before publication. The initial research sweep can save events through 6 January 2027 and any farther discoveries. Full organisation coverage and omission reasons stay in the Library research audit. Refreshes are intended every two days, with scheduling managed separately; the browser's Refresh button reloads the last published data.
 
-Reserve candidates use a separate `records` array with their reviewed, unreviewed and held flags intact. `data/research-coverage.json` retains all 371 organisation rows, including source limits, holds, aliases and publication-time omissions; the complete evidence bundle stays in Library. `node scripts/export-events.cjs` regenerates the public CSV with programme time, separate doors/arrival times and unverified perks clearly distinguished.
+Reserve candidates use a separate `records` array with their reviewed, unreviewed and held flags intact. `data/research-coverage.json` retains the original 371 organisation rows plus 29 university/Intelligence Squared coverage rows, including source limits, holds, aliases and publication-time omissions; the complete evidence bundle stays in Library. `node scripts/export-events.cjs` regenerates the public CSV with programme time, separate doors/arrival times and unverified perks clearly distinguished.
+
+## University and Intelligence Squared expansion
+
+The reviewed 6 October supplement adds 125 approved current listings and 27 directory rows, giving 286 current events and 398 organisations in the 7 October–4 November publication slice. All existing event category IDs and original directory rows are preserved. This is a finite 29-source institution/organisation pass, not exhaustive departmental coverage. Costs, public-access evidence, ballot conditions, sold-out physical attendance, online routes, doors and programme/reception times retain their source qualifications.
+
+The repository is a consumer-authored projection from supported text reads of `London university and Intelligence Squared import.json`, Library identity `libfile_79d46d336fc48191861922e8c6cd12a4`, version 0. Full source claims and independent-review evidence remain in Library. The 11 independent-review holds remain outside the public feed. The 44 added reserve candidates bring the reserve to 277; they require fresh source and booking checks before promotion. No private correspondence or precise private-home locations are published.
 
 ## Weekly email signup
 
