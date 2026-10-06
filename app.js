@@ -28,7 +28,6 @@
     online: "Online",
   };
   const LAW_AREA = /\blaw\b|\blegal\b|constitutional|supreme court|\bcourts?\b|judiciary|first amendment|\bcle\b/i;
-  const HORIZON_DAYS = 21;
   const TOPIC_MIN = 2;
   const TOPIC_MAX = 16;
   const TOPIC_RULES = [
@@ -147,6 +146,7 @@
   let viewCache = null;
   let dataGeneration = 0;
   let listWindowCache = null;
+  let publishedWindow = null;
   let todayStamp = 0;
   let todayValue = null;
   let ideoCountKey = "";
@@ -348,7 +348,7 @@
     const start = todayYmd();
     const key = ymdKey(start);
     if (listWindowCache && listWindowCache.key === key) return listWindowCache.value;
-    const value = { start, end: addDays(start, HORIZON_DAYS) };
+    const value = LondonEventData.browsingWindow(new Date());
     listWindowCache = { key, value };
     return value;
   }
@@ -371,6 +371,9 @@
     if (!event || !event.start) return false;
     const startDate = new Date(event.start);
     if (Number.isNaN(startDate.getTime())) return false;
+    // A midnight placeholder never expires an unknown-time event on its own day.
+    // Without a published end, do not invent the event's duration.
+    if (!timeIsUnknown(event) && event.end && Date.parse(event.end) <= Date.now()) return false;
     const startYmd = eventYmdInTz(startDate);
     const window = listWindow();
     if (ymdCmp(startYmd, window.end) > 0) return false;
@@ -454,15 +457,28 @@
   /* No real clock time: an explicit notes/time marker, or midnight with no end. */
   function timeIsUnknown(event) {
     if (!event) return false;
-    if (marksTimeUnknown(event.time) || marksTimeUnknown(event.notes)) return true;
+    if (marksTimeUnknown(event.time) || (!admissionLabel(event) && marksTimeUnknown(event.notes))) return true;
     return minutesInTz(event.start) === 0 && !fieldText(event.end);
   }
 
   function startTimeLabel(event) {
     const prep = event && preparedById.get(event.id);
     if (prep) return prep.timeLabel;
+    return sourceTimeLabel(event);
+  }
+
+  function admissionLabel(event) {
+    return event.start_label === "doors" ? "Doors" : event.start_label === "arrival" ? "Arrival" : "";
+  }
+
+  function sourceTimeLabel(event) {
     if (timeIsUnknown(event)) return "Time TBC";
-    return formatStartTime(event.start);
+    return [admissionLabel(event), formatStartTime(event.start)].filter(Boolean).join(" ");
+  }
+
+  function eventCalendarTitle(event) {
+    const label = admissionLabel(event);
+    return (event.simulated ? "[Simulated] " : "") + (label ? `[${label}] ` : "") + (event.title || "Event");
   }
 
   function formatLongDate(ymd) {
@@ -787,7 +803,7 @@
   }
 
   function searchHit(event, query) {
-    const hay = [event.title, event.description, event.org, event.org_acronym, speakersLabel(event.speakers)]
+    const hay = [event.title, event.description, event.org, event.org_acronym, event.venue, event.address, speakersLabel(event.speakers)]
       .filter(Boolean)
       .join(" ")
       .toLowerCase();
@@ -949,7 +965,7 @@
       endMs: endDate && !Number.isNaN(endDate.getTime()) ? endDate.getTime() : NaN,
       badges,
       timeUnknown,
-      timeLabel: timeUnknown ? "Time TBC" : formatStartTime(event.start),
+      timeLabel: sourceTimeLabel(event),
       endTimeLabel: !timeUnknown && event.end ? formatStartTime(event.end) : "",
       timeBucket: timeUnknown ? null : timeBucket(event.start),
       formatKind: formatKind(event.format),
@@ -959,7 +975,7 @@
       costShort: costShort(event),
       orgLine: orgLine(event),
       meta: metaLine(event),
-      searchHay: [event.title, event.description, event.org, event.org_acronym, speakers]
+      searchHay: [event.title, event.description, event.org, event.org_acronym, event.venue, event.address, speakers]
         .filter(Boolean)
         .join(" ")
         .toLowerCase(),
@@ -1072,6 +1088,10 @@
     const lines = event.simulated ? ["SIMULATED EVENT — fictional example. Do not attend."] : [];
     const description = fieldText(event.description);
     if (description) lines.push(description);
+    const label = admissionLabel(event);
+    if (label && !timeIsUnknown(event)) lines.push(`Calendar start is the advertised ${label.toLowerCase()} time: ${formatStartTime(event.start)} UK time.`);
+    for (const field of ["doors","arrival"]) if (event[field]) lines.push(`${field === "doors" ? "Doors" : "Arrival"}: ${formatStartTime(event[field])} UK time.`);
+    if (!event.end && !timeIsUnknown(event)) lines.push("End time is unpublished; the calendar end uses a one-hour placeholder.");
     const speakers = speakersLabel(event.speakers);
     if (speakers) lines.push(`Speakers: ${speakers}`);
     const formatRaw = fieldText(event.format);
@@ -1080,6 +1100,8 @@
     }
     const access = fieldText(event.access);
     if (access) lines.push(`Access: ${access}`);
+    const notes = fieldText(event.notes);
+    if (notes) lines.push(`Notes: ${notes}`);
     if (event.url) lines.push(String(event.url).trim());
     const rsvp = fieldText(event.rsvp_url);
     if (rsvp && rsvp !== fieldText(event.url)) lines.push(`RSVP: ${rsvp}`);
@@ -1111,7 +1133,7 @@
     }
     const parts = [
       "action=TEMPLATE",
-      `text=${encodeURIComponent((event.simulated ? "[Simulated] " : "") + (event.title || "Event"))}`,
+      `text=${encodeURIComponent(eventCalendarTitle(event))}`,
       `dates=${dates}`,
       `ctz=${encodeURIComponent(TZ)}`,
     ];
@@ -1153,7 +1175,7 @@
     const parts = [
       "path=/calendar/action/compose",
       "rru=addevent",
-      `subject=${encodeURIComponent((event.simulated ? "[Simulated] " : "") + (event.title || "Event"))}`,
+      `subject=${encodeURIComponent(eventCalendarTitle(event))}`,
     ];
     if (timeIsUnknown(event)) {
       const bounds = allDayBounds(event);
@@ -1216,7 +1238,7 @@
       lines.push(`DTSTART:${toUtcStamp(event.start)}`);
       lines.push(`DTEND:${toUtcStamp(eventEndIso(event))}`);
     }
-    lines.push(`SUMMARY:${icsEscape((event.simulated ? "[Simulated] " : "") + (event.title || "Event"))}`);
+    lines.push(`SUMMARY:${icsEscape(eventCalendarTitle(event))}`);
     const loc = locationText(event);
     if (loc) lines.push(`LOCATION:${icsEscape(loc)}`);
     const details = calendarDetails(event);
@@ -1439,6 +1461,9 @@
     }
     const prep = preparedById.get(event.id);
     const timeUnknown = prep ? prep.timeUnknown : timeIsUnknown(event);
+    const label = admissionLabel(event);
+    if (label && !timeUnknown) parts.push(`<p class="detail-line"><span class="detail-label">${label}</span> ${escapeHtml(formatStartTime(event.start))}</p>`);
+    for (const field of ["doors","arrival"]) if (event[field]) parts.push(`<p class="detail-line"><span class="detail-label">${field === "doors" ? "Doors" : "Arrival"}</span> ${escapeHtml(formatStartTime(event[field]))}</p>`);
     if (timeUnknown) {
       parts.push(`<p class="detail-line">Time TBC</p>`);
     } else if (event.end) {
@@ -1463,6 +1488,8 @@
     if (access && access.toLowerCase() !== "rsvp") {
       parts.push(`<p class="detail-line"><span class="detail-label">Access</span> ${escapeHtml(access)}</p>`);
     }
+    const notes = fieldText(event.notes);
+    if (notes) parts.push(`<p class="detail-line"><span class="detail-label">Notes</span> ${escapeHtml(notes)}</p>`);
     const formatRaw = fieldText(event.format);
     const simpleFormat = prep ? prep.simpleFormat : isSimpleFormat(formatRaw);
     if (formatRaw && !simpleFormat) {
@@ -2523,21 +2550,27 @@
   function eventsFromPayload(data) {
     if (Array.isArray(data)) return data;
     if (!data || typeof data !== "object") return [];
-    /* `window` may describe the published slice. The page horizon stays today + 21 days. */
+    /* Published dates stay fixed. Future reserves are never loaded by the app. */
     if (Array.isArray(data.events)) return data.events;
     return [];
   }
 
   function applyEventsPayload(data) {
+    if (data.mode !== "live") throw new Error("Only source-verified live events can be shown.");
     const prepared = LondonEventData.preparePayload(data);
+    publishedWindow = prepared.mode === "live" ? prepared.window || null : null;
+    listWindowCache = null;
     const raw = eventsFromPayload(prepared);
     const hasSamples = raw.some((event) => event.simulated === true);
     document.getElementById("demo-notice").hidden = !hasSamples;
     document.getElementById("data-status").textContent = hasSamples
       ? "Includes simulated listings, clearly labelled on each event."
-      : "Check each organiser’s event page for the latest details.";
+      : `Check each organiser's event page for the latest details.${publishedWindow ? " Researched dates: " + publishedWindow.start + " to " + publishedWindow.end + "." : ""}`;
     allEvents = raw.filter(inListWindow);
     const win = listWindow();
+    if (state.listStart && ymdCmp(state.listStart, win.start) < 0) state.listStart = win.start;
+    if (state.weekStart && ymdCmp(state.weekStart, win.start) < 0) state.weekStart = win.start;
+    if (state.stripDay && ymdCmp(state.stripDay, win.start) < 0) state.stripDay = win.start;
     const min = ymdKey(win.start);
     const max = ymdKey(win.end);
     if (els.dateFrom) {
@@ -2604,7 +2637,7 @@
       const payload = await fetchEventsDocument(`${LOCAL_EVENTS_URL}?ts=${Date.now()}`);
       lastFetchedAt = Date.now();
       const payloadDay = ymdKey(todayYmd());
-      if (payload.text === lastPayload && lastPayloadDay === payloadDay && eventsLoaded) {
+      if (payload.text === lastPayload && lastPayloadDay === payloadDay && eventsLoaded && !allEvents.some(event => !inListWindow(event))) {
         if (explicit) {
           setRefreshStatus(payload.fromCache ? "Offline — saved copy" : "Updated just now", payload.fromCache ? "error" : "");
         }
@@ -2791,6 +2824,15 @@
     registerServiceWorker();
     render();
     loadEvents("startup");
+    // Prune confirmed-ended listings while the page stays open; this checks no sources.
+    window.setInterval(() => {
+      if (!eventsLoaded || !lastPayload) return;
+      const day = ymdKey(todayYmd());
+      if (lastPayloadDay !== day || allEvents.some(event => !inListWindow(event))) {
+        applyEventsPayload(parseEventsText(lastPayload));
+        lastPayloadDay = day;
+      }
+    }, 60000);
   }
 
   init();

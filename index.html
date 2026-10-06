@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="description" content="Explore a preview of London politics and ideas events with simulated listings, search, filters, and a calendar." />
+  <meta name="description" content="Find verified politics, ideas and social events across the UK and online, with source links, search, filters and a calendar." />
   <meta name="theme-color" content="#0D0E51" />
   <meta name="mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -19,7 +19,7 @@
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="London Political Events" />
   <meta property="og:title" content="London Political Events" />
-  <meta property="og:description" content="Explore a preview of London politics and ideas events with simulated listings, search, filters, and a calendar." />
+  <meta property="og:description" content="Find verified politics, ideas and social events across the UK and online, with source links, search, filters and a calendar." />
   <meta property="og:url" content="https://sfox2006.github.io/London-Political-Events/" />
   <meta property="og:image" content="https://sfox2006.github.io/London-Political-Events/assets/og-image.png" />
   <meta property="og:image:width" content="1200" />
@@ -27,12 +27,12 @@
   <meta property="og:image:alt" content="London Political Events" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="London Political Events" />
-  <meta name="twitter:description" content="Explore a preview of London politics and ideas events with simulated listings, search, filters, and a calendar." />
+  <meta name="twitter:description" content="Find verified politics, ideas and social events across the UK and online, with source links, search, filters and a calendar." />
   <meta name="twitter:image" content="https://sfox2006.github.io/London-Political-Events/assets/og-image.png" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,400..600,0..1,0" />
-  <link rel="stylesheet" href="styles.css?v=5" />
+  <link rel="stylesheet" href="styles.css?v=6" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to events</a>
@@ -41,7 +41,7 @@
   <header class="topbar">
     <h1 class="brand-title">
       <button type="button" class="brand-home" id="brand-home">
-        <span class="eyebrow">London, UK</span>
+      <span class="eyebrow">UK-wide &amp; online</span>
         <span class="london-lockup"><img src="assets/mark.svg" width="40" height="56" alt="" /><span>London Political Events</span></span>
         <span class="brand-sub">Events, my dear boy, events</span>
       </button>
@@ -133,9 +133,9 @@
         <label class="filter-label" for="search">Search</label>
         <div class="search-field">
           <span class="ms" aria-hidden="true">search</span>
-          <input type="search" id="search" placeholder="Title, speaker, organisation" autocomplete="off" />
+          <input type="search" id="search" placeholder="Title, speaker, organisation, location" autocomplete="off" />
         </div>
-        <p class="filter-hint">Matches any selected topic, or words in the title, description, speakers, or organisation.</p>
+            <p class="filter-hint">Matches any selected topic, or words in the title, description, speakers, organisation, or location.</p>
       </div>
       </div>
 
@@ -299,7 +299,7 @@
     </aside>
 
     <main class="main" id="main">
-      <section class="newsletter demo-notice" id="demo-notice" aria-labelledby="demo-heading">
+      <section class="newsletter demo-notice" id="demo-notice" aria-labelledby="demo-heading" hidden>
         <div class="newsletter-copy">
           <span class="newsletter-kicker">Preview edition · Simulated data</span>
           <h2 id="demo-heading">London’s ideas, in one place.</h2>
@@ -365,10 +365,10 @@
       <p class="footer-directory-link"><a href="organisations.html">Browse the organisations we collect from</a></p>
     </div>
     <p>
-      A curated listing of upcoming London politics and ideas events,
+      A curated listing of upcoming politics, ideas and social events across England, Scotland, Wales and Northern Ireland,
       including in-person, hybrid, and online —
       think tanks, policy briefings, happy hours, and meetups.
-      Times are UK time (BST / GMT). <span id="data-status">This preview contains simulated events only.</span>
+      Times are UK time (BST / GMT). <span id="data-status">Check the organiser's event page for the latest details.</span>
       Not exhaustive, and not an official calendar.
     </p>
   </footer>
@@ -382,16 +382,16 @@
     </div>
     <h2 id="about-heading">What this is</h2>
     <p class="about-lead">
-      A curated listing of upcoming London politics and ideas events, including in-person, hybrid, and online, across the spectrum — libertarian, conservative, progressive, foreign policy, and abundance/YIMBY. This initial edition uses fictional events to demonstrate the calendar. Every sample is labelled Simulated.
+      A curated listing of politics, ideas and social events across the UK and online. This edition researches the supplied directory of right-of-centre and related organisations. In-person venues retain their actual locations in England, Scotland or Wales; online and hybrid events are labelled separately.
     </p>
     <dl class="about-facts">
       <div>
         <dt>Window</dt>
-        <dd>The list and calendar show the next 3 weeks, in UK time (BST / GMT). A multi-day event is listed on each day it runs inside that window.</dd>
+        <dd>Browse the rolling next four weeks (today through 28 days ahead), in UK time (BST / GMT), using the calendar or date filters. A multi-day event appears on each day it runs inside that window. Confirmed-ended events are hidden.</dd>
       </div>
       <div>
         <dt>Sources</dt>
-        <dd>The preview uses fictional hosts, speakers and listings. Real listings will link to their original event pages when added.</dd>
+        <dd>Listings link to original organiser or registration pages. Prices, access restrictions and unknown details remain visible. Perk labels appear only when an offer is source-supported; an absent label does not establish that no perk is provided.</dd>
       </div>
       <div>
         <dt>Times</dt>
@@ -399,7 +399,7 @@
       </div>
       <div>
         <dt>Maintenance</dt>
-        <dd>Real events will be added after source verification. Sample dates roll forward to keep the preview populated; real event dates will stay fixed.</dd>
+        <dd>Events are added after source verification and their dates stay fixed. Check the organiser's page for changed details, cancellations and current booking availability.</dd>
       </div>
       <div>
         <dt>Install</dt>
@@ -407,13 +407,13 @@
       </div>
       <div>
         <dt>Newsletter</dt>
-        <dd>The London weekly email is coming soon. No signup is connected in this preview.</dd>
+        <dd>The London weekly email is coming soon. No signup is connected.</dd>
       </div>
     </dl>
-    <p class="about-note">An independent calendar. Sample events are fictional; the calendar is not an official listing.</p>
+    <p class="about-note">An independent calendar, not an official listing. Research may be limited where source pages require access or do not publish dated events.</p>
   </dialog>
 
-  <script src="event-data.js?v=5"></script>
-  <script src="app.js?v=5"></script>
+  <script src="event-data.js?v=6"></script>
+  <script src="app.js?v=6"></script>
 </body>
 </html>

@@ -4,13 +4,14 @@ const fs = require("node:fs");
 const path = require("node:path");
 const vm = require("node:vm");
 const data = require("../event-data.js");
-const fixture = JSON.parse(fs.readFileSync(path.join(__dirname, "../data/events.json"), "utf8"));
+const fixture = JSON.parse(fs.readFileSync(path.join(__dirname, "fixtures/demo-events.json"), "utf8"));
+const production = JSON.parse(fs.readFileSync(path.join(__dirname, "../data/events.json"), "utf8"));
 const clone = () => structuredClone(fixture);
 
 // Exercise the actual app's pure calendar functions, without booting its DOM.
 const app = fs.readFileSync(path.join(__dirname, "../app.js"), "utf8").replace(
   /  init\(\);\s*\}\)\(\);\s*$/,
-  "  this.calendar = { eventEndYmd, googleCalendarUrl, outlookCalendarUrl, icsContent, searchHit, timeBucket, actionsHtml };\n}).call(this);"
+  "  this.calendar = { eventEndYmd, googleCalendarUrl, outlookCalendarUrl, icsContent, searchHit, timeBucket, actionsHtml, detailsInner, startTimeLabel, inListWindow };\n}).call(this);"
 );
 const context = vm.createContext({
   Intl, Date, URL, URLSearchParams, Set, Map, TextEncoder, console,
@@ -22,6 +23,57 @@ vm.runInContext(app, context);
 const calendar = context.calendar;
 assert.ok(calendar, "calendar functions loaded from production app");
 
+test("the published dataset validates independently of the simulated test fixture", () => {
+  assert.deepEqual(data.validatePayload(production), []);
+  if (production.mode === "live") {
+    assert.ok(production.events.every((event) => event.simulated === false && !event.id.startsWith("demo-london-")));
+  }
+});
+test("the four-week browsing range rolls across BST/GMT using London dates", () => {
+  assert.deepEqual(data.browsingWindow(new Date("2026-10-06T14:00:00Z")), {start:{y:2026,m:10,d:6},end:{y:2026,m:11,d:3}});
+  assert.deepEqual(data.browsingWindow(new Date("2026-10-24T23:30:00Z")), {start:{y:2026,m:10,d:25},end:{y:2026,m:11,d:22}});
+  assert.deepEqual(data.browsingWindow(new Date("2026-10-26T00:30:00Z")), {start:{y:2026,m:10,d:26},end:{y:2026,m:11,d:23}});
+  assert.deepEqual(data.browsingWindow(new Date("2026-12-31T14:00:00Z")), {start:{y:2026,m:12,d:31},end:{y:2027,m:1,d:28}});
+  const bad = clone(); bad.window = {start:"2026-02-30",end:"2027-01-06"};
+  assert.match(data.validatePayload(bad).join("\n"), /window requires/);
+});
+test("confirmed-ended timed events are hidden without inventing an unpublished end", () => {
+  const now = Date.now();
+  const event = {...fixture.events[0],simulated:false,start:data.localStamp(new Date(now-3600000)),end:data.localStamp(new Date(now-1000))};
+  assert.equal(calendar.inListWindow(event),false);
+  event.start = data.localStamp(data.midnight(data.browsingWindow(new Date()).start));
+  delete event.end;
+  assert.equal(calendar.inListWindow(event),true);
+});
+test("live time-TBC events stay visible on their London day and export as all-day", () => {
+  const p = new Intl.DateTimeFormat("en-CA", {timeZone:"Europe/London",year:"numeric",month:"2-digit",day:"2-digit"}).format(new Date());
+  const event = {...fixture.events[0], simulated:false, start:data.localStamp(data.midnight({y:+p.slice(0,4),m:+p.slice(5,7),d:+p.slice(8,10)})), time:"TBC", notes:"Time TBC; registration availability not published."};
+  delete event.end;
+  assert.equal(calendar.inListWindow(event),true);
+  assert.equal(calendar.startTimeLabel(event),"Time TBC");
+  assert.match(calendar.icsContent(event), /DTSTART;VALUE=DATE:/);
+  assert.doesNotMatch(calendar.detailsInner(event), /00:00/);
+});
+test("UK-wide venue search and source notes are retained in details and exports", () => {
+  const event = {...fixture.events[0],simulated:false,venue:"Assembly Rooms",address:"Edinburgh, Scotland",notes:"Doors 18:00; programme 18:30. Food and drinks unverified."};
+  assert.equal(calendar.searchHit(event,"edinburgh"),true);
+  assert.match(calendar.detailsInner(event), /Doors 18:00; programme 18:30/);
+  assert.match(new URL(calendar.googleCalendarUrl(event)).searchParams.get("details"), /Food and drinks unverified/);
+});
+test("doors-only times remain labelled when programme time is TBC, including exports", () => {
+  const event = {...fixture.events[0],simulated:false,start:"2026-10-12T18:15:00+01:00",start_label:"doors",notes:"Programme time TBC; only doors time is advertised."};
+  delete event.end;
+  assert.equal(calendar.startTimeLabel(event),"Doors 18:15");
+  assert.match(calendar.detailsInner(event), /Doors<\/span> 18:15/);
+  assert.match(new URL(calendar.googleCalendarUrl(event)).searchParams.get("text"), /^\[Doors\]/);
+  assert.match(new URL(calendar.outlookCalendarUrl(event)).searchParams.get("subject"), /^\[Doors\]/);
+  assert.match(calendar.icsContent(event), /SUMMARY:\[Doors\]/);
+  assert.match(new URL(calendar.googleCalendarUrl(event)).searchParams.get("details"), /programme time is advertised|only doors time is advertised/);
+  const tbc = {...event,start:"2026-10-12T00:00:00+01:00",start_label:"programme",time:"TBC",doors:"2026-10-12T18:15:00+01:00"};
+  assert.equal(calendar.startTimeLabel(tbc),"Time TBC");
+  assert.match(calendar.detailsInner(tbc), /Doors<\/span> 18:15/);
+  assert.match(calendar.icsContent(tbc), /DTSTART;VALUE=DATE:/);
+});
 test("the complete sample dataset validates and exercises all areas and formats", () => {
   assert.deepEqual(data.validatePayload(fixture), []);
   assert.equal(new Set(fixture.events.map((e) => e.ideology)).size, 9);

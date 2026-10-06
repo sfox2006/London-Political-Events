@@ -43,13 +43,13 @@ const html = `<!DOCTYPE html>
   <link rel="canonical" href="https://sfox2006.github.io/London-Political-Events/organisations.html" />
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
-  <link rel="stylesheet" href="styles.css?v=5" />
+  <link rel="stylesheet" href="styles.css?v=6" />
 </head>
 <body class="directory-page">
   <a class="skip-link" href="#organisations">Skip to organisations</a>
   <header class="topbar directory-topbar">
     <a class="brand-home" href="./" aria-label="London Political Events home">
-      <span class="eyebrow">London, UK</span>
+      <span class="eyebrow">UK-wide &amp; online</span>
       <span class="london-lockup"><img src="assets/mark.svg" width="40" height="56" alt="" /><span>London Political Events</span></span>
       <span class="brand-sub">Events, my dear boy, events</span>
     </a>
@@ -64,7 +64,7 @@ const html = `<!DOCTYPE html>
         <p class="eyebrow">Our sources</p>
         <h1 id="organisations-heading">Organisations</h1>
         <p>The organisations we look to for event listings, from think tanks and campaign groups to local associations and university societies.</p>
-        <p class="directory-context">This British directory includes England, Scotland and Wales, plus UK-wide groups. The calendar currently uses simulated events. This source list is for collecting real listings, and includes organisations outside London.</p>
+        <p class="directory-context">This UK directory includes England, Scotland, Wales and Northern Ireland, plus UK-wide groups. The calendar researches events across the UK and online. In-person listings preserve their actual location, including venues outside London.</p>
         <p class="directory-context"><strong>${evidenced} with event evidence · ${candidates} needing verification.</strong> Evidence may be historical and does not guarantee an upcoming public event. Expand an organisation to see its notes and source. Directory checked on 6 October 2026.</p>
       </div>
       <form class="directory-filters" id="directory-filters" role="search" hidden>
@@ -82,9 +82,9 @@ const html = `<!DOCTYPE html>
   </main>
   <footer class="site-footer">
     <div class="footer-suggestion"><h2>Know something we should list?</h2>${suggestion}</div>
-    <p>An independent calendar of London politics and ideas events. <a href="./">Back to events</a>. The calendar currently contains simulated events only.</p>
+    <p>An independent calendar of politics, ideas and social events across the UK and online. <a href="./">Back to events</a>. Check each organiser's event page for current details.</p>
   </footer>
-  <script src="organisations.js?v=5" defer></script>
+  <script src="organisations.js?v=6" defer></script>
 </body>
 </html>
 `;

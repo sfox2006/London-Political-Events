@@ -48,11 +48,21 @@
   function isoStamp(value) {
     return typeof value === "string" && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?(Z|[+-]\d{2}:\d{2})$/.test(value) && Number.isFinite(Date.parse(value));
   }
+  function dateOnly(value) {
+    return typeof value === "string" && /^\d{4}-\d{2}-\d{2}$/.test(value) &&
+      Number.isFinite(Date.parse(value)) && new Date(value).toISOString().slice(0, 10) === value;
+  }
+  function browsingWindow(now = new Date()) {
+    const p = parts(now);
+    const end = new Date(Date.UTC(+p.year, +p.month - 1, +p.day + 28));
+    return { start: {y:+p.year,m:+p.month,d:+p.day}, end: {y:end.getUTCFullYear(),m:end.getUTCMonth()+1,d:end.getUTCDate()} };
+  }
   function validatePayload(data) {
     const errors = [];
     if (!data || Array.isArray(data) || typeof data !== "object") return ["Use an object containing mode, timezone and events."];
     if (!["demo", "live"].includes(data.mode)) errors.push('mode must be "demo" or "live".');
     if (data.timezone !== TZ) errors.push(`timezone must be "${TZ}".`);
+    if (data.window && (!dateOnly(data.window.start) || !dateOnly(data.window.end) || data.window.end < data.window.start)) errors.push("window requires ordered YYYY-MM-DD start and end dates (inclusive).");
     if (!Array.isArray(data.events)) return [...errors, "events must be an array."];
     if (data.mode === "demo" && (!/^\d{4}-\d{2}-\d{2}$/.test(data.demo_anchor || "") || !Number.isFinite(Date.parse(data.demo_anchor)))) errors.push("Demo mode requires demo_anchor (YYYY-MM-DD).");
     const ids = new Set();
@@ -66,8 +76,10 @@
       ids.add(event.id);
       if (!isoStamp(event.start)) errors.push(`${label}.start must be an ISO timestamp with a UTC offset.`);
       if (event.end && (!isoStamp(event.end) || Date.parse(event.end) <= Date.parse(event.start))) errors.push(`${label}.end must be after start, with an offset.`);
+      for (const field of ["doors","arrival"]) if (event[field] && !isoStamp(event[field])) errors.push(`${label}.${field} must be an ISO timestamp with a UTC offset.`);
       if (!IDEOLOGIES.has(event.ideology)) errors.push(`${label}.ideology is invalid.`);
       if (!FORMATS.has(event.format)) errors.push(`${label}.format is invalid.`);
+      if (event.start_label && !["doors","arrival","programme"].includes(event.start_label)) errors.push(`${label}.start_label must be doors, arrival or programme.`);
       if (!event.tags || ["free_food", "free_drinks", "young_professionals"].some((key) => typeof event.tags[key] !== "boolean")) errors.push(`${label}.tags requires three booleans.`);
       for (const key of ["url", "rsvp_url", "maps_url"]) if (!safeUrl(event[key])) errors.push(`${label}.${key} must be blank or an HTTP(S) URL.`);
       if (data.mode === "demo" && event.simulated !== true) errors.push(`${label} must have simulated: true in demo mode.`);
@@ -88,5 +100,5 @@
     const days = Math.round((today - Date.parse(`${data.demo_anchor}T00:00:00Z`)) / 86400000);
     return { ...data, events: data.events.map((event) => ({ ...event, start: shiftStamp(event.start, days), end: shiftStamp(event.end, days) })) };
   }
-  return { TZ, midnight, localStamp, shiftStamp, safeUrl, validatePayload, preparePayload };
+  return { TZ, midnight, localStamp, shiftStamp, browsingWindow, safeUrl, validatePayload, preparePayload };
 });

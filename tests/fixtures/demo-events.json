@@ -1,0 +1,1515 @@
+{
+  "mode": "demo",
+  "timezone": "Europe/London",
+  "demo_anchor": "2026-10-06",
+  "generated": "2026-10-06T12:00:00+01:00",
+  "events": [
+    {
+      "id": "demo-london-001",
+      "title": "Can London build its way out of the housing crisis?",
+      "org": "London Liberty Forum",
+      "org_acronym": "LLF",
+      "start": "2026-10-06T09:30:00+01:00",
+      "end": "2026-10-06T11:00:00+01:00",
+      "venue": "Westminster Policy Rooms (fictional venue)",
+      "address": "Westminster, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "libertarian",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": true,
+        "free_drinks": true,
+        "young_professionals": true
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of can london build its way out of the housing crisis. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-002",
+      "title": "Growth, tax and the next British economy",
+      "org": "Westminster Ideas Society",
+      "org_acronym": "WIS",
+      "start": "2026-10-06T12:00:00+01:00",
+      "end": "2026-10-06T13:30:00+01:00",
+      "venue": "Bloomsbury Policy Rooms (fictional venue)",
+      "address": "Bloomsbury, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "conservative",
+      "format": "hybrid",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of growth, tax and the next british economy. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-003",
+      "title": "Britain’s place in a changing world",
+      "org": "Capital Social Policy Lab",
+      "org_acronym": "CSPL",
+      "start": "2026-10-06T18:30:00+01:00",
+      "end": "2026-10-06T20:00:00+01:00",
+      "venue": "Online",
+      "address": "",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "progressive",
+      "format": "online",
+      "cost": "£12",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of britain’s place in a changing world. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Taylor Reed",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-004",
+      "title": "AI regulation: innovation and public trust",
+      "org": "London Global Affairs Forum",
+      "org_acronym": "LGAF",
+      "start": "2026-10-07T15:30:00+01:00",
+      "end": "2026-10-07T17:00:00+01:00",
+      "venue": "South Bank Policy Rooms (fictional venue)",
+      "address": "South Bank, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "foreign_policy",
+      "format": "in_person",
+      "cost": "Unknown",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of ai regulation: innovation and public trust. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-005",
+      "title": "Young policy professionals: an evening of ideas",
+      "org": "More Homes London Collective",
+      "org_acronym": "MHLC",
+      "start": "2026-10-07T17:30:00+01:00",
+      "end": "2026-10-07T19:00:00+01:00",
+      "venue": "Marylebone Policy Rooms (fictional venue)",
+      "address": "Marylebone, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "abundance_yimby",
+      "format": "hybrid",
+      "cost": "£5 students / £20 general",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": true
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of young policy professionals: an evening of ideas. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-006",
+      "title": "The future of free speech on campus",
+      "org": "Civic Evidence Institute",
+      "org_acronym": "CEI",
+      "start": "2026-10-07T09:30:00+01:00",
+      "end": "2026-10-07T11:00:00+01:00",
+      "venue": "Online",
+      "address": "",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "online",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of the future of free speech on campus. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Taylor Reed",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-007",
+      "title": "Net zero and the cost of energy",
+      "org": "Centre for Practical Reform",
+      "org_acronym": "CPR",
+      "start": "2026-10-08T12:00:00+01:00",
+      "end": "2026-10-08T13:30:00+01:00",
+      "venue": "Bloomsbury Policy Rooms (fictional venue)",
+      "address": "Bloomsbury, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "centrist",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of net zero and the cost of energy. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-008",
+      "title": "Constitutional reform and the rule of law",
+      "org": "Bloomsbury Ideas Club",
+      "org_acronym": "BIC",
+      "start": "2026-10-08T18:30:00+01:00",
+      "end": "2026-10-08T20:00:00+01:00",
+      "venue": "Holborn Policy Rooms (fictional venue)",
+      "address": "Holborn, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "other",
+      "format": "hybrid",
+      "cost": "£12",
+      "tags": {
+        "free_food": false,
+        "free_drinks": true,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of constitutional reform and the rule of law. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-009",
+      "title": "The case for planning reform",
+      "org": "Westminster Legal Forum",
+      "org_acronym": "WLF",
+      "start": "2026-10-08T15:30:00+01:00",
+      "end": "2026-10-08T17:00:00+01:00",
+      "venue": "Online",
+      "address": "",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "law",
+      "format": "online",
+      "cost": "Unknown",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": true
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of the case for planning reform. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Taylor Reed",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-010",
+      "title": "Public services: what would better delivery look like?",
+      "org": "London Liberty Forum",
+      "org_acronym": "LLF",
+      "start": "2026-10-09T17:30:00+01:00",
+      "end": "2026-10-09T19:00:00+01:00",
+      "venue": "Marylebone Policy Rooms (fictional venue)",
+      "address": "Marylebone, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "libertarian",
+      "format": "in_person",
+      "cost": "£5 students / £20 general",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of public services: what would better delivery look like. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-011",
+      "title": "Trade after Brexit: the next chapter",
+      "org": "Westminster Ideas Society",
+      "org_acronym": "WIS",
+      "start": "2026-10-09T09:30:00+01:00",
+      "end": "2026-10-09T11:00:00+01:00",
+      "venue": "Westminster Policy Rooms (fictional venue)",
+      "address": "Westminster, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "conservative",
+      "format": "hybrid",
+      "cost": "Free",
+      "tags": {
+        "free_food": true,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of trade after brexit: the next chapter. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-012",
+      "title": "Democracy, devolution and local power",
+      "org": "Capital Social Policy Lab",
+      "org_acronym": "CSPL",
+      "start": "2026-10-10T12:00:00+01:00",
+      "end": "2026-10-10T13:30:00+01:00",
+      "venue": "Online",
+      "address": "",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "progressive",
+      "format": "online",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of democracy, devolution and local power. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Taylor Reed",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-013",
+      "title": "Immigration, skills and economic growth",
+      "org": "London Global Affairs Forum",
+      "org_acronym": "LGAF",
+      "start": "2026-10-11T18:30:00+01:00",
+      "end": "2026-10-11T20:00:00+01:00",
+      "venue": "Holborn Policy Rooms (fictional venue)",
+      "address": "Holborn, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "foreign_policy",
+      "format": "in_person",
+      "cost": "£12",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": true
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of immigration, skills and economic growth. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-014",
+      "title": "Defence and deterrence in Europe",
+      "org": "More Homes London Collective",
+      "org_acronym": "MHLC",
+      "start": "2026-10-12T15:30:00+01:00",
+      "end": "2026-10-12T17:00:00+01:00",
+      "venue": "South Bank Policy Rooms (fictional venue)",
+      "address": "South Bank, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "abundance_yimby",
+      "format": "hybrid",
+      "cost": "Unknown",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of defence and deterrence in europe. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-015",
+      "title": "Book discussion: liberty in everyday life",
+      "org": "Civic Evidence Institute",
+      "org_acronym": "CEI",
+      "start": "2026-10-12T17:30:00+01:00",
+      "end": "2026-10-12T19:00:00+01:00",
+      "venue": "Online",
+      "address": "",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "online",
+      "cost": "£5 students / £20 general",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of book discussion: liberty in everyday life. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Taylor Reed",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-016",
+      "title": "Housing abundance: lessons for London",
+      "org": "Centre for Practical Reform",
+      "org_acronym": "CPR",
+      "start": "2026-10-13T09:30:00+01:00",
+      "end": "2026-10-13T11:00:00+01:00",
+      "venue": "Westminster Policy Rooms (fictional venue)",
+      "address": "Westminster, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "centrist",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": true,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of housing abundance: lessons for london. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-017",
+      "title": "Higher education and opportunity",
+      "org": "Bloomsbury Ideas Club",
+      "org_acronym": "BIC",
+      "start": "2026-10-13T12:00:00+01:00",
+      "end": "2026-10-13T13:30:00+01:00",
+      "venue": "Bloomsbury Policy Rooms (fictional venue)",
+      "address": "Bloomsbury, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "other",
+      "format": "hybrid",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": true
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of higher education and opportunity. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-018",
+      "title": "China, Britain and the future of diplomacy",
+      "org": "Westminster Legal Forum",
+      "org_acronym": "WLF",
+      "start": "2026-10-14T18:30:00+01:00",
+      "end": "2026-10-14T20:00:00+01:00",
+      "venue": "Online",
+      "address": "",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "law",
+      "format": "online",
+      "cost": "£12",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of china, britain and the future of diplomacy. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Taylor Reed",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-019",
+      "title": "Making government work: a policy workshop",
+      "org": "London Liberty Forum",
+      "org_acronym": "LLF",
+      "start": "2026-10-14T15:30:00+01:00",
+      "end": "2026-10-14T17:00:00+01:00",
+      "venue": "South Bank Policy Rooms (fictional venue)",
+      "address": "South Bank, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "libertarian",
+      "format": "in_person",
+      "cost": "Unknown",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of making government work: a policy workshop. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-020",
+      "title": "Health policy beyond the headlines",
+      "org": "Westminster Ideas Society",
+      "org_acronym": "WIS",
+      "start": "2026-10-15T17:30:00+01:00",
+      "end": "2026-10-15T19:00:00+01:00",
+      "venue": "Marylebone Policy Rooms (fictional venue)",
+      "address": "Marylebone, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "conservative",
+      "format": "hybrid",
+      "cost": "£5 students / £20 general",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of health policy beyond the headlines. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-021",
+      "title": "Markets, competition and consumer choice",
+      "org": "Capital Social Policy Lab",
+      "org_acronym": "CSPL",
+      "start": "2026-10-15T09:30:00+01:00",
+      "end": "2026-10-15T11:00:00+01:00",
+      "venue": "Online",
+      "address": "",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "progressive",
+      "format": "online",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": true
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of markets, competition and consumer choice. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Taylor Reed",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-022",
+      "title": "Ukraine and European security",
+      "org": "London Global Affairs Forum",
+      "org_acronym": "LGAF",
+      "start": "2026-10-16T12:00:00+01:00",
+      "end": "2026-10-16T13:30:00+01:00",
+      "venue": "Bloomsbury Policy Rooms (fictional venue)",
+      "address": "Bloomsbury, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "foreign_policy",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": true,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of ukraine and european security. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-023",
+      "title": "The future of work, wages and technology",
+      "org": "More Homes London Collective",
+      "org_acronym": "MHLC",
+      "start": "2026-10-16T18:30:00+01:00",
+      "end": "2026-10-16T20:00:00+01:00",
+      "venue": "Holborn Policy Rooms (fictional venue)",
+      "address": "Holborn, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "abundance_yimby",
+      "format": "hybrid",
+      "cost": "£12",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of the future of work, wages and technology. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-024",
+      "title": "Courts, rights and parliamentary sovereignty",
+      "org": "Civic Evidence Institute",
+      "org_acronym": "CEI",
+      "start": "2026-10-17T15:30:00+01:00",
+      "end": "2026-10-17T17:00:00+01:00",
+      "venue": "Online",
+      "address": "",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "online",
+      "cost": "Unknown",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of courts, rights and parliamentary sovereignty. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Taylor Reed",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-025",
+      "title": "Climate policy: an evidence-led debate",
+      "org": "Centre for Practical Reform",
+      "org_acronym": "CPR",
+      "start": "2026-10-18T17:30:00+01:00",
+      "end": "2026-10-18T19:00:00+01:00",
+      "venue": "Marylebone Policy Rooms (fictional venue)",
+      "address": "Marylebone, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "centrist",
+      "format": "in_person",
+      "cost": "£5 students / £20 general",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": true
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of climate policy: an evidence-led debate. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-026",
+      "title": "Transport and the growing city",
+      "org": "Bloomsbury Ideas Club",
+      "org_acronym": "BIC",
+      "start": "2026-10-19T09:30:00+01:00",
+      "end": "2026-10-19T11:00:00+01:00",
+      "venue": "Westminster Policy Rooms (fictional venue)",
+      "address": "Westminster, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "other",
+      "format": "hybrid",
+      "cost": "Free",
+      "tags": {
+        "free_food": true,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of transport and the growing city. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-027",
+      "title": "Fiscal choices and the next generation",
+      "org": "Westminster Legal Forum",
+      "org_acronym": "WLF",
+      "start": "2026-10-19T12:00:00+01:00",
+      "end": "2026-10-19T13:30:00+01:00",
+      "venue": "Online",
+      "address": "",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "law",
+      "format": "online",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of fiscal choices and the next generation. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Taylor Reed",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-028",
+      "title": "A beginner’s guide to public policy",
+      "org": "London Liberty Forum",
+      "org_acronym": "LLF",
+      "start": "2026-10-20T18:30:00+01:00",
+      "end": "2026-10-20T20:00:00+01:00",
+      "venue": "Holborn Policy Rooms (fictional venue)",
+      "address": "Holborn, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "libertarian",
+      "format": "in_person",
+      "cost": "£12",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of a beginner’s guide to public policy. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-029",
+      "title": "Labour markets and the skills gap",
+      "org": "Westminster Ideas Society",
+      "org_acronym": "WIS",
+      "start": "2026-10-20T15:30:00+01:00",
+      "end": "2026-10-20T17:00:00+01:00",
+      "venue": "South Bank Policy Rooms (fictional venue)",
+      "address": "South Bank, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "conservative",
+      "format": "hybrid",
+      "cost": "Unknown",
+      "tags": {
+        "free_food": false,
+        "free_drinks": true,
+        "young_professionals": true
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of labour markets and the skills gap. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-030",
+      "title": "Energy security and the British grid",
+      "org": "Capital Social Policy Lab",
+      "org_acronym": "CSPL",
+      "start": "2026-10-21T17:30:00+01:00",
+      "end": "2026-10-21T19:00:00+01:00",
+      "venue": "Online",
+      "address": "",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "progressive",
+      "format": "online",
+      "cost": "£5 students / £20 general",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of energy security and the british grid. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Taylor Reed",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-031",
+      "title": "Civil society and democratic renewal",
+      "org": "London Global Affairs Forum",
+      "org_acronym": "LGAF",
+      "start": "2026-10-21T09:30:00+01:00",
+      "end": "2026-10-21T11:00:00+01:00",
+      "venue": "Westminster Policy Rooms (fictional venue)",
+      "address": "Westminster, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "foreign_policy",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": true,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of civil society and democratic renewal. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-032",
+      "title": "Migration and the future of cities",
+      "org": "More Homes London Collective",
+      "org_acronym": "MHLC",
+      "start": "2026-10-22T12:00:00+01:00",
+      "end": "2026-10-22T13:30:00+01:00",
+      "venue": "Bloomsbury Policy Rooms (fictional venue)",
+      "address": "Bloomsbury, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "abundance_yimby",
+      "format": "hybrid",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of migration and the future of cities. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-033",
+      "title": "Meet the next generation of policy thinkers",
+      "org": "Civic Evidence Institute",
+      "org_acronym": "CEI",
+      "start": "2026-10-22T18:30:00+01:00",
+      "end": "2026-10-22T20:00:00+01:00",
+      "venue": "Online",
+      "address": "",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "format": "online",
+      "cost": "£12",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": true
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of meet the next generation of policy thinkers. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Taylor Reed",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-034",
+      "title": "Regulation, enterprise and small business",
+      "org": "Centre for Practical Reform",
+      "org_acronym": "CPR",
+      "start": "2026-10-23T15:30:00+01:00",
+      "end": "2026-10-23T17:00:00+01:00",
+      "venue": "South Bank Policy Rooms (fictional venue)",
+      "address": "South Bank, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "centrist",
+      "format": "in_person",
+      "cost": "Unknown",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of regulation, enterprise and small business. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-035",
+      "title": "The economics of a more affordable London",
+      "org": "Bloomsbury Ideas Club",
+      "org_acronym": "BIC",
+      "start": "2026-10-23T17:30:00+01:00",
+      "end": "2026-10-23T19:00:00+01:00",
+      "venue": "Marylebone Policy Rooms (fictional venue)",
+      "address": "Marylebone, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "other",
+      "format": "hybrid",
+      "cost": "£5 students / £20 general",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of the economics of a more affordable london. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-036",
+      "title": "Foreign policy careers: an open conversation",
+      "org": "Westminster Legal Forum",
+      "org_acronym": "WLF",
+      "start": "2026-10-24T09:30:00+01:00",
+      "end": "2026-10-24T11:00:00+01:00",
+      "venue": "Online",
+      "address": "",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "law",
+      "format": "online",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of foreign policy careers: an open conversation. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Taylor Reed",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-037",
+      "title": "Student debate: should cities have more power?",
+      "org": "London Liberty Forum",
+      "org_acronym": "LLF",
+      "start": "2026-10-25T12:00:00+00:00",
+      "end": "2026-10-25T13:30:00+00:00",
+      "venue": "Bloomsbury Policy Rooms (fictional venue)",
+      "address": "Bloomsbury, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "libertarian",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": true
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of student debate: should cities have more power. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-038",
+      "title": "A new agenda for public service reform",
+      "org": "Westminster Ideas Society",
+      "org_acronym": "WIS",
+      "start": "2026-10-26T18:30:00+00:00",
+      "end": "2026-10-26T20:00:00+00:00",
+      "venue": "Holborn Policy Rooms (fictional venue)",
+      "address": "Holborn, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "conservative",
+      "format": "hybrid",
+      "cost": "£12",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of a new agenda for public service reform. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-039",
+      "title": "What can local government learn from abroad?",
+      "org": "Capital Social Policy Lab",
+      "org_acronym": "CSPL",
+      "start": "2026-10-26T15:30:00+00:00",
+      "end": "2026-10-26T17:00:00+00:00",
+      "venue": "Online",
+      "address": "",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "progressive",
+      "format": "online",
+      "cost": "Unknown",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of what can local government learn from abroad. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Taylor Reed",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-040",
+      "title": "Digital democracy and civic participation",
+      "org": "London Global Affairs Forum",
+      "org_acronym": "LGAF",
+      "start": "2026-10-27T17:30:00+00:00",
+      "end": "2026-10-27T19:00:00+00:00",
+      "venue": "Marylebone Policy Rooms (fictional venue)",
+      "address": "Marylebone, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "foreign_policy",
+      "format": "in_person",
+      "cost": "£5 students / £20 general",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of digital democracy and civic participation. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-041",
+      "title": "The future of constitutional law",
+      "org": "More Homes London Collective",
+      "org_acronym": "MHLC",
+      "start": "2026-10-27T09:30:00+00:00",
+      "end": "2026-10-27T11:00:00+00:00",
+      "venue": "Westminster Policy Rooms (fictional venue)",
+      "address": "Westminster, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "abundance_yimby",
+      "format": "hybrid",
+      "cost": "Free",
+      "tags": {
+        "free_food": true,
+        "free_drinks": false,
+        "young_professionals": true
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional discussion of the future of constitutional law. Explore policy perspectives and questions from the audience. This sample event, host, speakers, venue, price and perks are invented for the London calendar preview.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-multiday",
+      "title": "London Ideas Weekend: a three-day policy forum",
+      "org": "Bloomsbury Ideas Club",
+      "org_acronym": "BIC",
+      "start": "2026-10-09T10:00:00+01:00",
+      "end": "2026-10-11T16:00:00+01:00",
+      "venue": "Westminster Policy Rooms (fictional venue)",
+      "address": "Westminster, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "other",
+      "format": "in_person",
+      "cost": "£25",
+      "tags": {
+        "free_food": true,
+        "free_drinks": true,
+        "young_professionals": true
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional three-day forum on housing, energy, democracy and technology. This sample demonstrates listings that span multiple calendar days.",
+      "speakers": [
+        {
+          "name": "Alex Morgan",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ]
+    },
+    {
+      "id": "demo-london-time-tbc",
+      "title": "Student policy roundtable: ideas for a better London",
+      "org": "Westminster Ideas Society",
+      "org_acronym": "WIS",
+      "start": "2026-10-08T00:00:00+01:00",
+      "end": null,
+      "venue": "Bloomsbury Policy Rooms (fictional venue)",
+      "address": "Bloomsbury, London — sample location",
+      "maps_url": "",
+      "url": "",
+      "rsvp_url": "",
+      "ideology": "conservative",
+      "format": "hybrid",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Simulated listing — registration is not available",
+      "source": "Simulated fixture",
+      "simulated": true,
+      "description": "A fictional student roundtable. The start time has not been specified in this sample, demonstrating all-day calendar exports.",
+      "speakers": [
+        {
+          "name": "Jamie Ellis",
+          "role": "Fictional policy researcher"
+        },
+        {
+          "name": "Robin Blake",
+          "role": "Fictional moderator"
+        }
+      ],
+      "time": "TBC",
+      "notes": "Time TBC"
+    }
+  ]
+}
