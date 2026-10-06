@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 112">
+  <title>Big Ben and the flame of liberty</title>
+  <path fill="#C97703" d="M41 0c2 9 12 12 10 20 4-3 6-7 5-11 9 12 3 25-12 27-16 2-25-9-16-20 0 6 6 8 8 2 5-7 1-12 5-18Z"/>
+  <path fill="#fffaf0" d="M41 19c0 6 9 8 5 14-4 4-11 2-12-3-1-4 3-7 7-11Z"/>
+  <path fill="#0D0E51" d="M36 36h8v8h7v8h8v53H21V52h8v-8h7Z"/>
+  <path fill="#C97703" d="M27 48h26v3H27Zm-11 57h48v7H16Z"/>
+  <circle cx="40" cy="66" r="12" fill="#fffaf0" stroke="#C97703" stroke-width="2"/>
+  <path d="M40 57v9l6 3" fill="none" stroke="#0D0E51" stroke-width="2" stroke-linecap="round"/>
+  <path d="M28 99V86a2 2 0 0 1 4 0v13m6 0V86a2 2 0 0 1 4 0v13m6 0V86a2 2 0 0 1 4 0v13" fill="none" stroke="#C97703" stroke-width="2"/>
+</svg>

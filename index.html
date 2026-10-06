@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="description" content="Explore a preview of London politics and ideas events with simulated listings, search, filters, and a calendar." />
+  <meta name="theme-color" content="#0D0E51" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="London Events" />
+  <title>London Political Events</title>
+  <link rel="canonical" href="https://sfox2006.github.io/London-Political-Events/" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/favicon.ico" sizes="any" />
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" sizes="180x180" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="London Political Events" />
+  <meta property="og:title" content="London Political Events" />
+  <meta property="og:description" content="Explore a preview of London politics and ideas events with simulated listings, search, filters, and a calendar." />
+  <meta property="og:url" content="https://sfox2006.github.io/London-Political-Events/" />
+  <meta property="og:image" content="https://sfox2006.github.io/London-Political-Events/assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="London Political Events" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="London Political Events" />
+  <meta name="twitter:description" content="Explore a preview of London politics and ideas events with simulated listings, search, filters, and a calendar." />
+  <meta name="twitter:image" content="https://sfox2006.github.io/London-Political-Events/assets/og-image.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,400..600,0..1,0" />
+  <link rel="stylesheet" href="styles.css?v=4" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to events</a>
+
+  <div class="sticky-chrome">
+  <header class="topbar">
+    <h1 class="brand-title">
+      <button type="button" class="brand-home" id="brand-home">
+        <span class="eyebrow">London, UK</span>
+        <span class="london-lockup"><img src="assets/mark.svg" width="40" height="56" alt="" /><span>London Political Events</span></span>
+        <span class="brand-sub">Events, my dear boy, events</span>
+      </button>
+    </h1>
+    <div class="top-actions">
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="overflow-menu" aria-label="Open menu">
+        <span class="ms" aria-hidden="true">menu</span>
+      </button>
+      <div class="top-actions-row" id="overflow-menu">
+        <button type="button" class="view-toggle" id="view-toggle" aria-pressed="false">
+          <span class="ms" aria-hidden="true">calendar_month</span>
+          <span id="view-toggle-label">Calendar</span>
+        </button>
+        <button type="button" class="btn-text" id="refresh-events">
+          <span class="ms" aria-hidden="true">refresh</span>
+          Refresh
+        </button>
+        <button type="button" class="btn-text" id="about-open">About</button>
+        <button type="button" class="btn-text" id="install-app" hidden>Install app</button>
+        <span class="newsletter-pending">Weekly email <span>Coming soon</span></span>
+      </div>
+      <p class="refresh-status" id="refresh-status" role="status" aria-live="polite"></p>
+    </div>
+  </header>
+  <div class="phone-bar" id="phone-bar">
+    <div class="phone-search-row">
+      <div id="phone-search-slot"></div>
+      <button type="button" class="filters-open-btn phone-filters" id="open-filters-phone" aria-haspopup="dialog" aria-controls="sidebar">
+        <span class="ms" aria-hidden="true">tune</span>
+        Filters
+        <span class="filter-count" data-filter-count hidden>0</span>
+      </button>
+    </div>
+    <div class="phone-dayrow">
+      <div class="phone-strip" id="phone-strip" role="tablist" aria-label="Upcoming days"></div>
+      <button type="button" class="phone-cal-btn" id="open-month" aria-haspopup="dialog" aria-controls="month-sheet">
+        <span class="ms" aria-hidden="true">calendar_month</span>
+        Calendar
+      </button>
+    </div>
+  </div>
+  </div>
+
+  <p class="pull-indicator" id="pull-indicator" hidden>Pull to refresh</p>
+  <div class="install-tip" id="install-tip" hidden>
+    <p>On iPhone or iPad: tap Share, then <strong>Add to Home Screen</strong>.</p>
+    <button type="button" class="btn-text" id="dismiss-install-tip">Dismiss</button>
+  </div>
+
+  <div class="layout">
+    <button type="button" class="sheet-backdrop" id="sheet-backdrop" aria-label="Close filters" hidden></button>
+    <aside class="sidebar" id="sidebar" aria-label="Event filters">
+      <div class="sheet-only sheet-chrome">
+        <span class="sheet-grabber" aria-hidden="true"></span>
+        <div class="sheet-title-row">
+          <h2 id="filters-heading">Filters</h2>
+          <button type="button" class="text-link" id="sheet-clear">Clear filters</button>
+        </div>
+      </div>
+      <div class="sidebar-scroll">
+
+      <div id="mini-home">
+      <div class="filter-block mini-cal-block">
+        <div class="mini-cal-head">
+          <span class="mini-cal-title" id="calendar-month">Calendar</span>
+          <span class="mini-nav">
+            <button type="button" id="cal-prev" aria-label="Previous month">
+              <span class="ms" aria-hidden="true">chevron_left</span>
+            </button>
+            <button type="button" id="cal-next" aria-label="Next month">
+              <span class="ms" aria-hidden="true">chevron_right</span>
+            </button>
+          </span>
+        </div>
+        <div class="mini-dow" aria-hidden="true">
+          <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+        </div>
+        <div class="mini-grid" id="calendar-grid" role="group" aria-label="Choose a day"></div>
+        <button type="button" class="cal-open-link" id="open-calendar">
+          <span class="ms" aria-hidden="true">calendar_month</span>
+          Open calendar view
+        </button>
+      </div>
+      </div>
+
+      <div id="search-home">
+      <div class="filter-block" id="search-block">
+        <label class="filter-label" for="search">Search</label>
+        <div class="search-field">
+          <span class="ms" aria-hidden="true">search</span>
+          <input type="search" id="search" placeholder="Title, speaker, organisation" autocomplete="off" />
+        </div>
+        <p class="filter-hint">Matches any selected topic, or words in the title, description, speakers, or organisation.</p>
+      </div>
+      </div>
+
+      <div class="filter-block" id="topic-block" hidden>
+        <button type="button" class="section-toggle" aria-expanded="true" aria-controls="topic-panel">
+          <span class="filter-label" id="topic-label">Topics</span>
+          <span class="ms section-chevron" aria-hidden="true">expand_less</span>
+        </button>
+        <div class="section-body" id="topic-panel">
+          <div class="chip-row" id="topic-group" data-filter="topic" role="group" aria-labelledby="topic-label"></div>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <button type="button" class="section-toggle" aria-expanded="true" aria-controls="ideo-panel">
+          <span class="filter-label" id="ideo-label">Ideology / area</span>
+          <span class="ms section-chevron" aria-hidden="true">expand_less</span>
+        </button>
+        <div class="section-body" id="ideo-panel">
+        <div class="ideo-list" id="ideo-list" role="group" aria-labelledby="ideo-label">
+          <label class="ideo-row">
+            <input type="checkbox" value="libertarian" />
+            <span class="ideo-swatch" style="background:#C97703"></span>
+            <span class="ideo-name">Libertarian</span>
+            <span class="ideo-count" data-count-for="libertarian">0</span>
+          </label>
+          <label class="ideo-row">
+            <input type="checkbox" value="conservative" />
+            <span class="ideo-swatch" style="background:#C64D2D"></span>
+            <span class="ideo-name">Conservative</span>
+            <span class="ideo-count" data-count-for="conservative">0</span>
+          </label>
+          <label class="ideo-row">
+            <input type="checkbox" value="progressive" />
+            <span class="ideo-swatch" style="background:#4002B3"></span>
+            <span class="ideo-name">Progressive</span>
+            <span class="ideo-count" data-count-for="progressive">0</span>
+          </label>
+          <label class="ideo-row">
+            <input type="checkbox" value="foreign_policy" />
+            <span class="ideo-swatch" style="background:#0D0E51"></span>
+            <span class="ideo-name">Foreign policy</span>
+            <span class="ideo-count" data-count-for="foreign_policy">0</span>
+          </label>
+          <label class="ideo-row">
+            <input type="checkbox" value="abundance_yimby" />
+            <span class="ideo-swatch" style="background:#006600"></span>
+            <span class="ideo-name">Abundance / YIMBY</span>
+            <span class="ideo-count" data-count-for="abundance_yimby">0</span>
+          </label>
+          <label class="ideo-row">
+            <input type="checkbox" value="nonpartisan" />
+            <span class="ideo-swatch" style="background:#0F5F6B"></span>
+            <span class="ideo-name">Nonpartisan</span>
+            <span class="ideo-count" data-count-for="nonpartisan">0</span>
+          </label>
+          <label class="ideo-row">
+            <input type="checkbox" value="centrist" />
+            <span class="ideo-swatch" style="background:#3043B4"></span>
+            <span class="ideo-name">Centrist</span>
+            <span class="ideo-count" data-count-for="centrist">0</span>
+          </label>
+          <label class="ideo-row">
+            <input type="checkbox" value="other" />
+            <span class="ideo-swatch" style="background:#7A3E52"></span>
+            <span class="ideo-name">Other</span>
+            <span class="ideo-count" data-count-for="other">0</span>
+          </label>
+          <label class="ideo-row">
+            <input type="checkbox" value="law" />
+            <span class="ideo-swatch" style="background:#7C756D"></span>
+            <span class="ideo-name">Law</span>
+            <span class="ideo-count" data-count-for="law">0</span>
+          </label>
+        </div>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <button type="button" class="section-toggle" aria-expanded="true" aria-controls="format-panel">
+          <span class="filter-label" id="format-label">Format</span>
+          <span class="ms section-chevron" aria-hidden="true">expand_less</span>
+        </button>
+        <div class="section-body" id="format-panel">
+        <div class="segmented segmented-4" role="radiogroup" aria-labelledby="format-label" data-filter="format">
+          <button type="button" role="radio" data-value="all" aria-checked="true">All</button>
+          <button type="button" role="radio" data-value="in_person" aria-checked="false">In person</button>
+          <button type="button" role="radio" data-value="hybrid" aria-checked="false">Hybrid</button>
+          <button type="button" role="radio" data-value="online" aria-checked="false">Online</button>
+        </div>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <button type="button" class="section-toggle" aria-expanded="true" aria-controls="cost-panel">
+          <span class="filter-label" id="cost-label">Cost</span>
+          <span class="ms section-chevron" aria-hidden="true">expand_less</span>
+        </button>
+        <div class="section-body" id="cost-panel">
+        <div class="segmented segmented-3" role="radiogroup" aria-labelledby="cost-label" data-filter="cost">
+          <button type="button" role="radio" data-value="all" aria-checked="true">All</button>
+          <button type="button" role="radio" data-value="free" aria-checked="false">Free</button>
+          <button type="button" role="radio" data-value="paid" aria-checked="false">Paid</button>
+        </div>
+        <p class="filter-hint">Events with unlisted cost appear under both.</p>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <button type="button" class="section-toggle" aria-expanded="true" aria-controls="time-panel">
+          <span class="filter-label" id="time-label">Time of day</span>
+          <span class="ms section-chevron" aria-hidden="true">expand_less</span>
+        </button>
+        <div class="section-body" id="time-panel">
+        <div class="chip-row" data-filter="time" role="group" aria-labelledby="time-label">
+          <button type="button" class="chip" data-value="morning" aria-pressed="false" title="Before 11:00 UK time">Morning</button>
+          <button type="button" class="chip" data-value="midday" aria-pressed="false" title="11:00–12:59 UK time">Midday</button>
+          <button type="button" class="chip" data-value="early_afternoon" aria-pressed="false" title="13:00–15:29 UK time">Early afternoon</button>
+          <button type="button" class="chip" data-value="late_afternoon" aria-pressed="false" title="15:30–17:29 UK time">Late afternoon</button>
+          <button type="button" class="chip" data-value="evening" aria-pressed="false" title="17:30 UK time and later">Evening</button>
+        </div>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <button type="button" class="section-toggle" aria-expanded="true" aria-controls="perk-panel">
+          <span class="filter-label" id="perk-label">Perks</span>
+          <span class="ms section-chevron" aria-hidden="true">expand_less</span>
+        </button>
+        <div class="section-body" id="perk-panel">
+        <div class="chip-row" data-filter="perk" role="group" aria-labelledby="perk-label">
+          <button type="button" class="chip" data-value="free_food" aria-pressed="false">Free food</button>
+          <button type="button" class="chip" data-value="free_drinks" aria-pressed="false">Free drinks</button>
+          <button type="button" class="chip" data-value="young_professionals" aria-pressed="false">Young professionals</button>
+        </div>
+        </div>
+      </div>
+
+      <div class="filter-block">
+        <button type="button" class="section-toggle" aria-expanded="true" aria-controls="dates-panel">
+          <span class="filter-label" id="dates-label">Dates</span>
+          <span class="ms section-chevron" aria-hidden="true">expand_less</span>
+        </button>
+        <div class="section-body" id="dates-panel">
+          <div class="filter-footer">
+            <button type="button" id="more-dates" aria-expanded="false" aria-controls="date-range">More: dates</button>
+            <button type="button" class="text-link" id="clear-filters">Clear filters</button>
+          </div>
+          <div id="date-range" class="date-range" hidden>
+            <label>From <input type="date" id="date-from" /></label>
+            <label>To <input type="date" id="date-to" /></label>
+          </div>
+        </div>
+      </div>
+      </div>
+
+      <div class="sheet-actions sheet-only">
+        <button type="button" class="sheet-clear-bottom" id="sheet-clear-bottom">Clear</button>
+        <button type="button" class="sheet-apply" id="close-filters">Show events</button>
+      </div>
+    </aside>
+
+    <main class="main" id="main">
+      <section class="newsletter demo-notice" id="demo-notice" aria-labelledby="demo-heading">
+        <div class="newsletter-copy">
+          <span class="newsletter-kicker">Preview edition · Simulated data</span>
+          <h2 id="demo-heading">London’s ideas, in one place.</h2>
+          <p>Explore the calendar with fictional events. Dates, hosts, speakers, venues and prices are examples — these events are not taking place.</p>
+        </div>
+        <span class="demo-stamp">Sample listings</span>
+      </section>
+
+      <div class="heading-row">
+        <div class="heading-left">
+          <button type="button" class="week-nav" id="week-prev" hidden aria-label="Previous week">
+            <span class="ms" aria-hidden="true">chevron_left</span>
+          </button>
+          <h2 class="main-title" id="main-title">Next three days</h2>
+          <button type="button" class="week-nav" id="week-next" hidden aria-label="Next week">
+            <span class="ms" aria-hidden="true">chevron_right</span>
+          </button>
+          <p class="main-range" id="main-range"></p>
+          <button type="button" class="text-link back-today" id="back-today" hidden>Back to today</button>
+        </div>
+        <div class="heading-right">
+          <button type="button" class="filters-open-btn" id="open-filters" aria-haspopup="dialog" aria-controls="sidebar">
+            <span class="ms" aria-hidden="true">tune</span>
+            Filters
+            <span class="filter-count" data-filter-count hidden>0</span>
+          </button>
+          <p class="tz-label">UK time (BST / GMT)</p>
+        </div>
+      </div>
+
+      <p id="results-meta" class="sr-only" aria-live="polite"></p>
+
+      <div id="list-view">
+        <div id="event-list" aria-label="Events"></div>
+      </div>
+      <div id="cal-view" hidden>
+        <div id="week-board" class="week-board" aria-label="Week"></div>
+        <div id="day-strip" class="day-strip" role="tablist" aria-label="Days this week"></div>
+        <div id="strip-day" class="strip-day"></div>
+      </div>
+    </main>
+  </div>
+
+  <div class="month-sheet" id="month-sheet" hidden>
+    <button type="button" class="sheet-backdrop month-backdrop" id="month-backdrop" aria-label="Close calendar"></button>
+    <div class="month-panel" role="dialog" aria-modal="true" aria-labelledby="month-heading">
+      <div class="sheet-chrome">
+        <span class="sheet-grabber" aria-hidden="true"></span>
+        <div class="sheet-title-row">
+          <h2 id="month-heading">Calendar</h2>
+          <button type="button" class="text-link" id="close-month">Close</button>
+        </div>
+      </div>
+      <div id="month-slot" class="month-slot"></div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <p>
+      A curated listing of upcoming London politics and ideas events,
+      including in-person, hybrid, and online —
+      think tanks, policy briefings, happy hours, and meetups.
+      Times are UK time (BST / GMT). <span id="data-status">This preview contains simulated events only.</span>
+      Not exhaustive, and not an official calendar.
+    </p>
+  </footer>
+
+  <dialog id="about-dialog" aria-labelledby="about-heading">
+    <div class="dialog-head">
+      <p class="eyebrow">About</p>
+      <button type="button" class="icon-btn" id="about-close" aria-label="Close about">
+        <span class="ms" aria-hidden="true">close</span>
+      </button>
+    </div>
+    <h2 id="about-heading">What this is</h2>
+    <p class="about-lead">
+      A curated listing of upcoming London politics and ideas events, including in-person, hybrid, and online, across the spectrum — libertarian, conservative, progressive, foreign policy, and abundance/YIMBY. This initial edition uses fictional events to demonstrate the calendar. Every sample is labelled Simulated.
+    </p>
+    <dl class="about-facts">
+      <div>
+        <dt>Window</dt>
+        <dd>The list and calendar show the next 3 weeks, in UK time (BST / GMT). A multi-day event is listed on each day it runs inside that window.</dd>
+      </div>
+      <div>
+        <dt>Sources</dt>
+        <dd>The preview uses fictional hosts, speakers and listings. Real listings will link to their original event pages when added.</dd>
+      </div>
+      <div>
+        <dt>Times</dt>
+        <dd>UK time (BST / GMT).</dd>
+      </div>
+      <div>
+        <dt>Maintenance</dt>
+        <dd>Real events will be added after source verification. Sample dates roll forward to keep the preview populated; real event dates will stay fixed.</dd>
+      </div>
+      <div>
+        <dt>Install</dt>
+        <dd>Add this page to your home screen to open it like an app. On iPhone or iPad: Share, then Add to Home Screen. On Android or desktop Chrome: Install app, or the browser’s install menu. Refresh loads the latest published events.</dd>
+      </div>
+      <div>
+        <dt>Newsletter</dt>
+        <dd>The London weekly email is coming soon. No signup is connected in this preview.</dd>
+      </div>
+    </dl>
+    <p class="about-note">An independent calendar. Sample events are fictional; the calendar is not an official listing.</p>
+  </dialog>
+
+  <script src="event-data.js?v=4"></script>
+  <script src="app.js?v=4"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "london-political-events",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static London politics and ideas calendar adapted from DC Political Events.",
+  "scripts": {
+    "validate": "node scripts/validate-events.cjs",
+    "test": "node --test tests/*.test.cjs"
+  }
+}
