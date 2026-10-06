@@ -7,20 +7,47 @@
   <meta name="theme-color" content="#16374D" />
   <title>Organisations | London Political Events</title>
   <link rel="canonical" href="https://sfox2006.github.io/London-Political-Events/organisations.html" />
-  <link rel="icon" href="assets/icon.svg?v=11" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=11" />
-  <link rel="stylesheet" href="styles.css?v=11" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/icon.svg?v=12" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=12" />
+  <link rel="stylesheet" href="styles.css?v=12" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,400..600,0..1,0" />
 </head>
 <body class="directory-page">
   <a class="skip-link" href="#organisations">Skip to organisations</a>
-  <header class="topbar directory-topbar">
-    <a class="brand-home" href="./" aria-label="London Political Events home">
-      <span class="eyebrow">London, UK</span>
-      <span class="london-lockup"><img src="assets/fff-torch.png?v=11" width="44" height="44" alt="" /><span>London Political Events</span></span>
-      <span class="brand-sub">Events, my dear boy, events</span>
-    </a>
-    <nav class="directory-nav" aria-label="Main navigation"><a href="./">Events</a><a href="organisations.html" aria-current="page">Organisations</a><a href="https://docs.google.com/forms/d/e/1FAIpQLSejuH1vnLTDNu3QnVgmQhCxsP7wgsy8Ub2RRqu-tZeuxtR-5Q/viewform" target="_blank" rel="noopener noreferrer">Weekly email</a></nav>
-  </header>
+  <div class="sticky-chrome"><header class="topbar">
+    <h1 class="brand-title">
+      <a class="brand-home" id="brand-home" href="./" aria-label="London Political Events home">
+        <span class="eyebrow">London, UK</span>
+        <span class="london-lockup"><img src="assets/fff-torch.png?v=12" width="44" height="44" alt="" /><span>London Political Events</span></span>
+        <span class="brand-sub">Events, my dear boy, events</span>
+      </a>
+    </h1>
+    <div class="top-actions">
+      <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="overflow-menu" aria-label="Open menu">
+        <span class="ms" aria-hidden="true">menu</span>
+      </button>
+      <div class="top-actions-row" id="overflow-menu">
+        <a class="view-toggle" id="view-toggle" href="./?view=calendar">
+          <span class="ms" aria-hidden="true">calendar_month</span>
+          <span id="view-toggle-label">Calendar</span>
+        </a>
+        <button type="button" class="btn-text" id="refresh-events">
+          <span class="ms" aria-hidden="true">refresh</span>
+          Refresh
+        </button>
+        <a class="btn-text" href="organisations.html" aria-current="page">Organisations</a>
+        <button type="button" class="btn-text" id="about-open">About</button>
+        <button type="button" class="btn-text" id="install-app" hidden>Install app</button>
+        <a class="btn-email" href="https://docs.google.com/forms/d/e/1FAIpQLSejuH1vnLTDNu3QnVgmQhCxsP7wgsy8Ub2RRqu-tZeuxtR-5Q/viewform" target="_blank" rel="noopener noreferrer">Weekly email</a>
+      </div>
+      <p class="refresh-status" id="refresh-status" role="status" aria-live="polite"></p>
+    </div>
+  </header></div>
+  <div class="install-tip" id="install-tip" hidden>
+    <p>On iPhone or iPad: tap Share, then <strong>Add to Home Screen</strong>.</p>
+    <button type="button" class="btn-text" id="dismiss-install-tip">Dismiss</button>
+  </div>
   <main id="organisations" class="directory-main">
     <section class="suggestion-callout" aria-labelledby="suggestion-heading">
       <div><h2 id="suggestion-heading">Suggest a listing or help verify an organisation</h2><p>Know an event or organisation that should be listed but is missing? Have current evidence for an organisation that needs verification? Please fill out our Google Form to suggest a listing or help verify an existing organisation. For verification, include a recent official event page or other current evidence, its date, and any corrections.</p><a class="suggestion-button" href="https://docs.google.com/forms/d/e/1FAIpQLSe1uBIE4N7uRyIjUiO0GKFosXRj0UXuvFmdOlR7yx5oebiSGw/viewform" target="_blank" rel="noopener noreferrer">Suggest a listing or submit verification <span aria-hidden="true">↗</span></a></div>
@@ -5284,11 +5311,51 @@
     </section>
   </main>
   <footer class="site-footer">
-    <a class="brand-credit" href="https://www.fightingforafreefuture.com/" target="_blank" rel="noopener noreferrer"><img src="assets/fff-logo.png?v=11" width="160" height="160" alt="Fighting for a Free Future" loading="lazy" /></a>
+    <a class="brand-credit" href="https://www.fightingforafreefuture.com/" target="_blank" rel="noopener noreferrer"><img src="assets/fff-logo.png?v=12" width="160" height="160" alt="Fighting for a Free Future" loading="lazy" /></a>
     <div class="footer-suggestion"><h2>Suggest a listing or help verify an organisation</h2><p>Know an event or organisation that should be listed but is missing? Have current evidence for an organisation that needs verification? Please fill out our Google Form to suggest a listing or help verify an existing organisation. For verification, include a recent official event page or other current evidence, its date, and any corrections.</p><a class="suggestion-button" href="https://docs.google.com/forms/d/e/1FAIpQLSe1uBIE4N7uRyIjUiO0GKFosXRj0UXuvFmdOlR7yx5oebiSGw/viewform" target="_blank" rel="noopener noreferrer">Suggest a listing or submit verification <span aria-hidden="true">↗</span></a></div>
     <div class="footer-suggestion"><h2>Get the weekly email</h2><p>A free Sunday roundup of London politics and ideas events.</p><a class="suggestion-button" href="https://docs.google.com/forms/d/e/1FAIpQLSejuH1vnLTDNu3QnVgmQhCxsP7wgsy8Ub2RRqu-tZeuxtR-5Q/viewform" target="_blank" rel="noopener noreferrer">Sign up for the London weekly email <span aria-hidden="true">↗</span></a></div>
     <p>An independent calendar of London politics and ideas events. <a href="./">Back to events</a>. The calendar currently contains simulated events only.</p>
   </footer>
-  <script src="organisations.js?v=11" defer></script>
+  <dialog id="about-dialog" aria-labelledby="about-heading">
+    <div class="dialog-head">
+      <p class="eyebrow">About</p>
+      <button type="button" class="icon-btn" id="about-close" aria-label="Close about">
+        <span class="ms" aria-hidden="true">close</span>
+      </button>
+    </div>
+    <h2 id="about-heading">What this is</h2>
+    <p class="about-lead">
+      A curated listing of upcoming London politics and ideas events, including in-person, hybrid, and online, across the spectrum — libertarian, conservative, progressive, foreign policy, and abundance/YIMBY. This initial edition uses fictional events to demonstrate the calendar. Every sample is labelled Simulated.
+    </p>
+    <dl class="about-facts">
+      <div>
+        <dt>Window</dt>
+        <dd>The list and calendar show the next 3 weeks, in UK time (BST / GMT). A multi-day event is listed on each day it runs inside that window.</dd>
+      </div>
+      <div>
+        <dt>Sources</dt>
+        <dd>The preview uses fictional hosts, speakers and listings. Real listings will link to their original event pages when added.</dd>
+      </div>
+      <div>
+        <dt>Times</dt>
+        <dd>UK time (BST / GMT).</dd>
+      </div>
+      <div>
+        <dt>Maintenance</dt>
+        <dd>Real events will be added after source verification. Sample dates roll forward to keep the preview populated; real event dates will stay fixed.</dd>
+      </div>
+      <div>
+        <dt>Install</dt>
+        <dd>Add this page to your home screen to open it like an app. On iPhone or iPad: Share, then Add to Home Screen. On Android or desktop Chrome: Install app, or the browser’s install menu. Refresh loads the latest published events.</dd>
+      </div>
+      <div>
+        <dt>Newsletter</dt>
+        <dd>Sign up for the free Sunday roundup through our London Google Form. It asks for your name, email and institution, with optional interests and event preferences. Signup is opt-in. The roundup will use verified events when real listings are available.</dd>
+      </div>
+    </dl>
+    <p class="about-note">An independent calendar. Sample events are fictional; the calendar is not an official listing.</p>
+  </dialog>
+  <script src="directory-header.js?v=12" defer></script>
+  <script src="organisations.js?v=12" defer></script>
 </body>
 </html>
