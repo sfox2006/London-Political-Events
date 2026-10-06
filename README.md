@@ -2,7 +2,7 @@
 
 A static London edition of [DC Political Events](https://sfox2006.github.io/DC-Political-events/), adapted from upstream commit `e7d50fe`. It retains the DC site's navy and gold identity, local Inter and Crimson Pro fonts, searchable agenda, calendar, mobile filter sheets, sharing, calendar exports, refresh and installable PWA. London's mark combines Big Ben with a gold flame of liberty, alongside GBP sample prices and `Europe/London` throughout.
 
-**This initial edition contains 43 simulated events.** All hosts, titles, speakers, venues, prices and perks are fictional examples. Each row and calendar card is labelled **Simulated**. Sample calendar exports are prefixed `[Simulated]`; no event registration or newsletter signup is connected.
+**This initial edition contains 43 simulated events.** All hosts, titles, speakers, venues, prices and perks are fictional examples. Each row and calendar card is labelled **Simulated**. Sample calendar exports are prefixed `[Simulated]`; no sample event registration is connected. London newsletter signup is open for a roundup of verified events when real listings are available.
 
 ## Run locally
 
@@ -46,7 +46,16 @@ The top-level object contains `mode`, `timezone`, `generated` and `events`. In `
 
 For real data, set `mode` to `"live"`, keep `timezone: "Europe/London"`, remove `demo_anchor`, and replace the entire sample array with verified events. Each real event must have `simulated: false`, its source event URL, and `verified_at`. **Live event dates are never shifted.** The sample banner disappears automatically. An empty live array is valid and shows an empty calendar.
 
-The London newsletter remains **Coming soon** until a London-specific signup destination is supplied. The copied DC form is intentionally absent.
+## Weekly email signup
+
+The header **Weekly email** button and **Get the weekly email** card open a dedicated London Google Form, matching the DC site's signup flow. The calendar and organisations page footers also link to it.
+
+The form requires name, email (with email-address validation), and institution / affiliation. Optional questions capture interests, event format, days, cost, social extras and full-versus-short roundup preference. Evening preferences use UK time. Submitting opts the visitor into the free weekly Sunday London email. No Google sign-in is required, response summaries remain private, and existing DC subscribers are not imported.
+
+- [Public London newsletter signup](https://docs.google.com/forms/d/e/1FAIpQLSejuH1vnLTDNu3QnVgmQhCxsP7wgsy8Ub2RRqu-tZeuxtR-5Q/viewform)
+- [Owner editor and subscriber responses](https://docs.google.com/forms/d/1dvqMw-vdH5tzKS-MLCxbBjrFr-YhW3NoSHnT89oW3k4/edit) (Google account access required)
+
+Subscribers are stored in this form's **Responses** tab. Newsletter preparation and delivery are managed separately, as on the DC site; this static repository does not send emails. The signup page explains that the calendar is still a simulated preview and roundups will cover verified listings when available.
 
 ## Validate and test
 

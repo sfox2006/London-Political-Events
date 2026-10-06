@@ -18,5 +18,5 @@ This is a self-contained static site, adapted from Sam's DC calendar. Preserve t
 
 - Local fonts, icons, manifest and service worker use relative paths for GitHub Pages.
 - All displayed and exported times use `Europe/London`.
-- No London email subscription destination is configured yet. Do not connect the DC signup form by assumption.
+- London newsletter signup uses the London-specific Google Form linked in the header, newsletter card and footer. Keep it separate from the DC signup form and the event/organisation suggestion form. See README.md for the owner editor and response-management link.
 - If changing the app shell after publication, bump the shell cache version and HTML asset query versions together.

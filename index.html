@@ -32,7 +32,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,400..600,0..1,0" />
-  <link rel="stylesheet" href="styles.css?v=7" />
+  <link rel="stylesheet" href="styles.css?v=8" />
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to events</a>
@@ -62,7 +62,7 @@
         <a class="btn-text" href="organisations.html">Organisations</a>
         <button type="button" class="btn-text" id="about-open">About</button>
         <button type="button" class="btn-text" id="install-app" hidden>Install app</button>
-        <span class="newsletter-pending">Weekly email <span>Coming soon</span></span>
+        <a class="btn-email" href="https://docs.google.com/forms/d/e/1FAIpQLSejuH1vnLTDNu3QnVgmQhCxsP7wgsy8Ub2RRqu-tZeuxtR-5Q/viewform" target="_blank" rel="noopener noreferrer">Weekly email</a>
       </div>
       <p class="refresh-status" id="refresh-status" role="status" aria-live="polite"></p>
     </div>
@@ -299,6 +299,14 @@
     </aside>
 
     <main class="main" id="main">
+      <section class="newsletter" aria-labelledby="newsletter-heading">
+        <div class="newsletter-copy">
+          <span class="newsletter-kicker">Newsletter</span>
+          <h2 id="newsletter-heading">Get the weekly email</h2>
+          <p>A free Sunday roundup of London politics and ideas events. Sign up now for the first edition with verified listings.</p>
+        </div>
+        <a class="newsletter-cta" href="https://docs.google.com/forms/d/e/1FAIpQLSejuH1vnLTDNu3QnVgmQhCxsP7wgsy8Ub2RRqu-tZeuxtR-5Q/viewform" target="_blank" rel="noopener noreferrer">Sign up ↗</a>
+      </section>
       <section class="newsletter demo-notice" id="demo-notice" aria-labelledby="demo-heading">
         <div class="newsletter-copy">
           <span class="newsletter-kicker">Preview edition · Simulated data</span>
@@ -363,6 +371,7 @@
       <p>Know an event or organisation that should be listed but is missing? Have current evidence for an organisation that needs verification? Please fill out our Google Form to suggest a listing or help verify an existing organisation. For verification, include a recent official event page or other current evidence, its date, and any corrections.</p>
       <a class="suggestion-button" href="https://docs.google.com/forms/d/e/1FAIpQLSe1uBIE4N7uRyIjUiO0GKFosXRj0UXuvFmdOlR7yx5oebiSGw/viewform" target="_blank" rel="noopener noreferrer">Suggest a listing or submit verification <span aria-hidden="true">↗</span></a>
       <p class="footer-directory-link"><a href="organisations.html">Browse the organisations we collect from</a></p>
+      <p class="footer-directory-link"><a href="https://docs.google.com/forms/d/e/1FAIpQLSejuH1vnLTDNu3QnVgmQhCxsP7wgsy8Ub2RRqu-tZeuxtR-5Q/viewform" target="_blank" rel="noopener noreferrer">Sign up for the London weekly email</a></p>
     </div>
     <p>
       A curated listing of upcoming London politics and ideas events,
@@ -407,13 +416,13 @@
       </div>
       <div>
         <dt>Newsletter</dt>
-        <dd>The London weekly email is coming soon. No signup is connected in this preview.</dd>
+        <dd>Sign up for the free Sunday roundup through our London Google Form. It asks for your name, email and institution, with optional interests and event preferences. Signup is opt-in. The roundup will use verified events when real listings are available.</dd>
       </div>
     </dl>
     <p class="about-note">An independent calendar. Sample events are fictional; the calendar is not an official listing.</p>
   </dialog>
 
-  <script src="event-data.js?v=7"></script>
-  <script src="app.js?v=7"></script>
+  <script src="event-data.js?v=8"></script>
+  <script src="app.js?v=8"></script>
 </body>
 </html>
