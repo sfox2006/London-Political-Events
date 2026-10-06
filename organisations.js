@@ -31,5 +31,4 @@
     setTimeout(filter, 0);
   });
   filter();
-  if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(() => {});
 })();

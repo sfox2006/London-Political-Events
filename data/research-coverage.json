@@ -6592,12 +6592,13 @@
       ],
       "events_by_status": {
         "public": [
-          "B1-2c1997d079c5",
           "B1-051a29e13026"
         ],
         "reserve": [],
         "held": [],
-        "expired": [],
+        "expired": [
+          "B1-2c1997d079c5"
+        ],
         "unplaced": []
       },
       "coverage_complete": true
@@ -6911,12 +6912,12 @@
         }
       ],
       "events_by_status": {
-        "public": [
-          "B2-006"
-        ],
+        "public": [],
         "reserve": [],
         "held": [],
-        "expired": [],
+        "expired": [
+          "B2-006"
+        ],
         "unplaced": []
       },
       "coverage_complete": true
@@ -7394,12 +7395,12 @@
         }
       ],
       "events_by_status": {
-        "public": [
-          "B2-007"
-        ],
+        "public": [],
         "reserve": [],
         "held": [],
-        "expired": [],
+        "expired": [
+          "B2-007"
+        ],
         "unplaced": []
       },
       "coverage_complete": true
@@ -8018,12 +8019,13 @@
       ],
       "events_by_status": {
         "public": [
-          "B2-005",
           "B2-009"
         ],
         "reserve": [],
         "held": [],
-        "expired": [],
+        "expired": [
+          "B2-005"
+        ],
         "unplaced": []
       },
       "coverage_complete": true
@@ -8153,12 +8155,12 @@
         }
       ],
       "events_by_status": {
-        "public": [
-          "B2-003"
-        ],
+        "public": [],
         "reserve": [],
         "held": [],
-        "expired": [],
+        "expired": [
+          "B2-003"
+        ],
         "unplaced": []
       },
       "coverage_complete": true
@@ -8287,12 +8289,12 @@
         }
       ],
       "events_by_status": {
-        "public": [
-          "B2-004"
-        ],
+        "public": [],
         "reserve": [],
         "held": [],
-        "expired": [],
+        "expired": [
+          "B2-004"
+        ],
         "unplaced": []
       },
       "coverage_complete": true
@@ -9535,13 +9537,12 @@
         }
       ],
       "events_by_status": {
-        "public": [
-          "B1-939e4706565b"
-        ],
+        "public": [],
         "reserve": [],
         "held": [],
         "expired": [
-          "B1-84cd1a1fa1eb"
+          "B1-84cd1a1fa1eb",
+          "B1-939e4706565b"
         ],
         "unplaced": []
       },
@@ -9788,13 +9789,12 @@
         }
       ],
       "events_by_status": {
-        "public": [
-          "B1-ab4adcd0b950"
-        ],
+        "public": [],
         "reserve": [],
         "held": [],
         "expired": [
-          "B1-ff2e35a0563a"
+          "B1-ff2e35a0563a",
+          "B1-ab4adcd0b950"
         ],
         "unplaced": []
       },
@@ -18263,12 +18263,12 @@
   ],
   "deduplications": [],
   "publication": {
-    "generated": "2026-10-06T16:41:52+01:00",
+    "generated": "2026-10-06T20:17:54+01:00",
     "window": {
       "start": "2026-10-06",
       "end": "2026-11-03"
     },
-    "public_events": 173,
+    "public_events": 165,
     "reserve_records": 233,
     "coverage_rows": 371,
     "additional_omissions": [
@@ -18304,6 +18304,97 @@
         "url": "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf",
         "source_row_ids": [
           "EH-150"
+        ],
+        "reason": "Already started; end time unpublished."
+      },
+      {
+        "id": "B1-939e4706565b",
+        "org": "Centre for Policy Studies",
+        "title": "In Conversation with Andrew Griffith MP",
+        "start": "2026-10-06T16:30:00+01:00",
+        "end": "2026-10-06T17:30:00+01:00",
+        "url": "https://cps.org.uk/events/post/2026/conservative-party-conference-2026/",
+        "source_row_ids": [
+          "EH-193"
+        ],
+        "reason": "Confirmed ended before publication."
+      },
+      {
+        "id": "B2-003",
+        "org": "Conservative Councillors’ Association",
+        "title": "Different Chambers, Same Goals: The CCA/Shadow MHCLG Q&A",
+        "start": "2026-10-06T17:00:00+01:00",
+        "url": "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf",
+        "source_row_ids": [
+          "EH-163"
+        ],
+        "reason": "Already started; end time unpublished."
+      },
+      {
+        "id": "B1-ab4adcd0b950",
+        "org": "Onward",
+        "title": "In conversation with Neil O’Brien MP",
+        "start": "2026-10-06T17:00:00+01:00",
+        "end": "2026-10-06T18:00:00+01:00",
+        "url": "https://ukonward.com/events/in-conversation-with-neil-obrien-mp/",
+        "source_row_ids": [
+          "EH-198"
+        ],
+        "reason": "Confirmed ended before publication."
+      },
+      {
+        "id": "B2-004",
+        "org": "Young Conservatives",
+        "title": "Got a Policy Idea That Could Change the World?",
+        "start": "2026-10-06T17:45:00+01:00",
+        "url": "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf",
+        "source_row_ids": [
+          "EH-166"
+        ],
+        "reason": "Already started; end time unpublished."
+      },
+      {
+        "id": "B1-2c1997d079c5",
+        "org": "ConservativeHome",
+        "title": "Future Challenges in Defence",
+        "start": "2026-10-06T18:00:00+01:00",
+        "end": "2026-10-06T19:00:00+01:00",
+        "url": "https://partyconference.co.uk/conservative-conference-fringe/",
+        "source_row_ids": [
+          "EH-129"
+        ],
+        "reason": "Confirmed ended before publication."
+      },
+      {
+        "id": "B2-005",
+        "org": "LGBT+ Conservatives; Terrence Higgins Trust",
+        "title": "Terrence Higgins Trust and LGBT+ Conservatives Reception",
+        "start": "2026-10-06T18:00:00+01:00",
+        "url": "https://www.lgbtconservatives.org.uk/events/cpc26-terrence-higgins-trust-teception",
+        "source_row_ids": [
+          "EH-160"
+        ],
+        "reason": "Already started; end time unpublished."
+      },
+      {
+        "id": "B2-006",
+        "org": "Blue Collar Conservatism",
+        "title": "Towards a Majority: Winning Back the Trust of Reform Voters",
+        "start": "2026-10-06T18:00:00+01:00",
+        "url": "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf",
+        "source_row_ids": [
+          "EH-135"
+        ],
+        "reason": "Already started; end time unpublished."
+      },
+      {
+        "id": "B2-007",
+        "org": "Conservative Friends of India",
+        "title": "Conservative Friends of India Reception",
+        "start": "2026-10-06T19:00:00+01:00",
+        "url": "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf",
+        "source_row_ids": [
+          "EH-146"
         ],
         "reason": "Already started; end time unpublished."
       }

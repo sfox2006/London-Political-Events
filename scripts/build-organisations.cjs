@@ -2,6 +2,17 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const root = path.join(__dirname, '..');
+const eventsPage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+// Derive shared header and About content from the events page to prevent drift.
+const header = eventsPage.match(/<header class="topbar">[\s\S]*?<\/header>/)[0]
+  .replace(/<button type="button" class="brand-home" id="brand-home">([\s\S]*?)<\/button>/,
+    '<a class="brand-home" id="brand-home" href="./" aria-label="London Political Events home">$1</a>')
+  .replace(/<button type="button" class="view-toggle" id="view-toggle" aria-pressed="false">([\s\S]*?)<\/button>/,
+    '<a class="view-toggle" id="view-toggle" href="./?view=calendar">$1</a>')
+  .replace('href="organisations.html"', 'href="organisations.html" aria-current="page"');
+const about = eventsPage.match(/<dialog id="about-dialog"[\s\S]*?<\/dialog>/)[0];
+const installTip = eventsPage.match(/<div class="install-tip"[\s\S]*?<\/div>/)[0];
+const symbolStyles = eventsPage.match(/<link rel="stylesheet" href="https:\/\/fonts.googleapis.com\/css2\?family=Material[^\n]+/)[0];
 const data = JSON.parse(fs.readFileSync(path.join(root, 'data/organisations.json'), 'utf8'));
 const form = 'https://docs.google.com/forms/d/e/1FAIpQLSe1uBIE4N7uRyIjUiO0GKFosXRj0UXuvFmdOlR7yx5oebiSGw/viewform';
 const newsletterForm = 'https://docs.google.com/forms/d/e/1FAIpQLSejuH1vnLTDNu3QnVgmQhCxsP7wgsy8Ub2RRqu-tZeuxtR-5Q/viewform';
@@ -42,20 +53,16 @@ const html = `<!DOCTYPE html>
   <meta name="theme-color" content="#16374D" />
   <title>Organisations | London Political Events</title>
   <link rel="canonical" href="https://sfox2006.github.io/London-Political-Events/organisations.html" />
-  <link rel="icon" href="assets/icon.svg?v=12" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=12" />
-  <link rel="stylesheet" href="styles.css?v=12" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/icon.svg?v=13" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=13" />
+  <link rel="stylesheet" href="styles.css?v=13" />
+  ${symbolStyles}
 </head>
 <body class="directory-page">
   <a class="skip-link" href="#organisations">Skip to organisations</a>
-  <header class="topbar directory-topbar">
-    <a class="brand-home" href="./" aria-label="London Political Events home">
-      <span class="eyebrow">UK-wide &amp; online</span>
-      <span class="london-lockup"><img src="assets/fff-torch.png?v=12" width="44" height="44" alt="" /><span>London Political Events</span></span>
-      <span class="brand-sub">Events, my dear boy, events</span>
-    </a>
-    <nav class="directory-nav" aria-label="Main navigation"><a href="./">Events</a><a href="organisations.html" aria-current="page">Organisations</a><a href="${newsletterForm}" target="_blank" rel="noopener noreferrer">Weekly email</a></nav>
-  </header>
+  <div class="sticky-chrome">${header}</div>
+  ${installTip}
   <main id="organisations" class="directory-main">
     <section class="suggestion-callout" aria-labelledby="suggestion-heading">
       <div><h2 id="suggestion-heading">Suggest a listing or help verify an organisation</h2>${suggestion}</div>
@@ -82,12 +89,14 @@ const html = `<!DOCTYPE html>
     </section>
   </main>
   <footer class="site-footer">
-    <a class="brand-credit" href="https://www.fightingforafreefuture.com/" target="_blank" rel="noopener noreferrer"><img src="assets/fff-logo.png?v=12" width="160" height="160" alt="Fighting for a Free Future" loading="lazy" /></a>
+    <a class="brand-credit" href="https://www.fightingforafreefuture.com/" target="_blank" rel="noopener noreferrer"><img src="assets/fff-logo.png?v=13" width="160" height="160" alt="Fighting for a Free Future" loading="lazy" /></a>
     <div class="footer-suggestion"><h2>Suggest a listing or help verify an organisation</h2>${suggestion}</div>
     <div class="footer-suggestion"><h2>Get the weekly email</h2><p>A free Sunday roundup of London politics and ideas events.</p><a class="suggestion-button" href="${newsletterForm}" target="_blank" rel="noopener noreferrer">Sign up for the London weekly email <span aria-hidden="true">↗</span></a></div>
     <p>An independent calendar of politics, ideas and social events across the UK and online. <a href="./">Back to events</a>. Check each organiser's event page for current details.</p>
   </footer>
-  <script src="organisations.js?v=12" defer></script>
+  ${about}
+  <script src="directory-header.js?v=13" defer></script>
+  <script src="organisations.js?v=13" defer></script>
 </body>
 </html>
 `;
