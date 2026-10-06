@@ -44,7 +44,7 @@ Research agents should read [AGENTS.md](AGENTS.md) and [docs/REAL_EVENTS.md](doc
 
 The top-level object contains `mode`, `timezone`, `generated` and `events`. In `mode: "demo"`, `demo_anchor` identifies the fixture's starting date. The browser shifts sample dates to the current London day while preserving local clock times and event IDs. The source file is never changed by the browser. This keeps the preview populated in future visits.
 
-For real data, set `mode` to `"live"`, keep `timezone: "Europe/London"`, remove `demo_anchor`, and replace the entire sample array with verified events. Each real event must have `simulated: false`, its source event URL, and `verified_at`. **Live event dates are never shifted.** The sample banner disappears automatically. An empty live array is valid and shows an empty calendar.
+For real data, set `mode` to `"live"`, keep `timezone: "Europe/London"`, remove `demo_anchor`, and replace the entire sample array with verified events. Each real event must have `simulated: false`, its source event URL, and `verified_at`. **Live event dates are never shifted.** Simulated labels and the footer's sample-data wording update according to the feed. An empty live array is valid and shows an empty calendar.
 
 ## Weekly email signup
 
