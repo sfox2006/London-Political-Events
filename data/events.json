@@ -1,7 +1,7 @@
 {
   "mode": "live",
   "timezone": "Europe/London",
-  "generated": "2026-10-06T20:17:54+01:00",
+  "generated": "2026-10-06T20:35:24+01:00",
   "window": {
     "start": "2026-10-06",
     "end": "2026-11-03"
@@ -142,65 +142,6 @@
         "applied_values": {
           "availability": "Request to join; host approval required",
           "cost": "Free"
-        }
-      },
-      "source_ideology": "Not classified"
-    },
-    {
-      "id": "B2-008",
-      "title": "Conservative Friends of Kurdistan Region Drinks Reception",
-      "org": "Kurdistan Regional Government UK Representation",
-      "start": "2026-10-06T20:30:00+01:00",
-      "ideology": "other",
-      "format": "in_person",
-      "cost": "Unknown",
-      "source": "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf",
-      "access": "Conference accreditation applies to secure conference venues; event-specific availability and admission requirements not stated.",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "url": "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf",
-      "simulated": false,
-      "verified_at": "2026-10-06T14:49:55.909948+00:00",
-      "venue": "Birmingham ICC, Hall 10b",
-      "notes": "No event-specific booking availability or price was published in the handbook; programme may change. | Handbook organiser is Kurdistan Regional Government UK Representation; network is named in event title, preserved without claiming sole hosting. | Availability: not independently confirmed | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
-      "city": "Birmingham",
-      "country": "England",
-      "availability": "not independently confirmed",
-      "cancellation": "Unknown; no refund or cancellation policy verified",
-      "source_row_ids": [
-        "EH-148"
-      ],
-      "source_urls": [
-        "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf",
-        "https://www.conservatives.com/conference/agenda",
-        "https://www.conservatives.com/conference/tickets"
-      ],
-      "review_decision": "correction",
-      "publication_approved": true,
-      "date": "2026-10-06",
-      "origin": "batch2/events.json",
-      "booking_fees": "Unknown unless explicitly stated in price",
-      "age_restrictions": "Unknown unless explicitly stated in access",
-      "physical_accessibility": "Unknown",
-      "source_checked_at": "2026-10-06T14:46:06.145899+00:00",
-      "evidence_checks": [],
-      "review_checked_at_original": "2026-10-06T 14:49:55.909948+00:00",
-      "review_source_urls": [
-        "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf",
-        "https://www.conservatives.com/conference/agenda",
-        "https://www.conservatives.com/conference/tickets"
-      ],
-      "correction_audit": {
-        "original_values": {
-          "rsvp": "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf",
-          "organisation": "Kurdistan Regional Government UK Representation; Conservative Friends of Kurdistan Region"
-        },
-        "applied_values": {
-          "rsvp": null,
-          "organisation": "Kurdistan Regional Government UK Representation"
         }
       },
       "source_ideology": "Not classified"

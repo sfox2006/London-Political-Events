@@ -7483,12 +7483,12 @@
         }
       ],
       "events_by_status": {
-        "public": [
-          "B2-008"
-        ],
+        "public": [],
         "reserve": [],
         "held": [],
-        "expired": [],
+        "expired": [
+          "B2-008"
+        ],
         "unplaced": []
       },
       "coverage_complete": true
@@ -18263,12 +18263,12 @@
   ],
   "deduplications": [],
   "publication": {
-    "generated": "2026-10-06T20:17:54+01:00",
+    "generated": "2026-10-06T20:35:24+01:00",
     "window": {
       "start": "2026-10-06",
       "end": "2026-11-03"
     },
-    "public_events": 165,
+    "public_events": 164,
     "reserve_records": 233,
     "coverage_rows": 371,
     "additional_omissions": [
@@ -18395,6 +18395,17 @@
         "url": "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf",
         "source_row_ids": [
           "EH-146"
+        ],
+        "reason": "Already started; end time unpublished."
+      },
+      {
+        "id": "B2-008",
+        "org": "Kurdistan Regional Government UK Representation",
+        "title": "Conservative Friends of Kurdistan Region Drinks Reception",
+        "start": "2026-10-06T20:30:00+01:00",
+        "url": "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf",
+        "source_row_ids": [
+          "EH-148"
         ],
         "reason": "Already started; end time unpublished."
       }
