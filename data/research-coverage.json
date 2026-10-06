@@ -6591,13 +6591,12 @@
         }
       ],
       "events_by_status": {
-        "public": [
-          "B1-051a29e13026"
-        ],
+        "public": [],
         "reserve": [],
         "held": [],
         "expired": [
-          "B1-2c1997d079c5"
+          "B1-2c1997d079c5",
+          "B1-051a29e13026"
         ],
         "unplaced": []
       },
@@ -8018,13 +8017,12 @@
         }
       ],
       "events_by_status": {
-        "public": [
-          "B2-009"
-        ],
+        "public": [],
         "reserve": [],
         "held": [],
         "expired": [
-          "B2-005"
+          "B2-005",
+          "B2-009"
         ],
         "unplaced": []
       },
@@ -9383,7 +9381,6 @@
       ],
       "events_by_status": {
         "public": [
-          "B1-d26d75f2d76e",
           "B1-d63785af47e9",
           "B1-f5495b4bf089",
           "B1-44000c41c0ef",
@@ -9394,7 +9391,9 @@
           "B1-7a36f9569798"
         ],
         "held": [],
-        "expired": [],
+        "expired": [
+          "B1-d26d75f2d76e"
+        ],
         "unplaced": []
       },
       "coverage_complete": true
@@ -18263,12 +18262,12 @@
   ],
   "deduplications": [],
   "publication": {
-    "generated": "2026-10-06T20:41:44+01:00",
+    "generated": "2026-10-07T00:22:10+01:00",
     "window": {
-      "start": "2026-10-06",
-      "end": "2026-11-03"
+      "start": "2026-10-07",
+      "end": "2026-11-04"
     },
-    "public_events": 164,
+    "public_events": 161,
     "reserve_records": 233,
     "coverage_rows": 371,
     "additional_omissions": [
@@ -18406,6 +18405,41 @@
         "url": "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf",
         "source_row_ids": [
           "EH-148"
+        ],
+        "reason": "Already started; end time unpublished."
+      },
+      {
+        "id": "B1-051a29e13026",
+        "org": "ConservativeHome",
+        "title": "The Reception for Change: Building a Safer Future for Women and Girls",
+        "start": "2026-10-06T19:30:00+01:00",
+        "end": "2026-10-06T20:45:00+01:00",
+        "url": "https://partyconference.co.uk/conservative-conference-fringe/",
+        "source_row_ids": [
+          "EH-129"
+        ],
+        "reason": "Confirmed ended before publication."
+      },
+      {
+        "id": "B1-d26d75f2d76e",
+        "org": "Adam Smith Institute",
+        "title": "Conservative Conference: The Rally for Liberty",
+        "start": "2026-10-06T20:00:00+01:00",
+        "end": "2026-10-06T22:00:00+01:00",
+        "url": "https://www.adamsmith.org/events/the-rally-for-liberty",
+        "source_row_ids": [
+          "EH-190"
+        ],
+        "reason": "Confirmed ended before publication."
+      },
+      {
+        "id": "B2-009",
+        "org": "LGBT+ Conservatives",
+        "title": "CPC26 Closing Party",
+        "start": "2026-10-06T21:30:00+01:00",
+        "url": "https://www.lgbtconservatives.org.uk/events/cpc26-closing-party",
+        "source_row_ids": [
+          "EH-160"
         ],
         "reason": "Already started; end time unpublished."
       }

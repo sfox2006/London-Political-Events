@@ -8,10 +8,14 @@ const ids=new Set(feed.events.map(e=>e.id));
 const omitted=reviewed.filter(e=>!ids.has(e.id)).map(e=>({id:e.id,org:e.org,title:e.title,start:e.start,end:e.end,url:e.url,source_row_ids:e.source_row_ids,reason:e.end?"Confirmed ended before publication.":"Already started; end time unpublished."}));
 const missing=new Set(omitted.map(e=>e.id));
 for(const row of audit.coverage){
+  if(!row.events_by_status) continue;
   const moved=row.events_by_status.public.filter(id=>missing.has(id));
   row.events_by_status.public=row.events_by_status.public.filter(id=>!missing.has(id));
   row.events_by_status.expired=[...new Set([...row.events_by_status.expired,...moved])];
 }
-audit.publication={generated:feed.generated,window:feed.window,public_events:feed.events.length,reserve_records:233,coverage_rows:audit.coverage.length,additional_omissions:omitted};
+const previousOmissions=audit.publication?.additional_omissions||[];
+const allOmissions=[...new Map([...previousOmissions,...omitted].map(event=>[event.id,event])).values()];
+const reserve=JSON.parse(fs.readFileSync(path.join(root,"data/future-events.json"),"utf8"));
+audit.publication={generated:feed.generated,window:feed.window,public_events:feed.events.length,reserve_records:(reserve.records||reserve.events||[]).length,coverage_rows:audit.coverage.length,additional_omissions:allOmissions};
 fs.writeFileSync(file,JSON.stringify(audit,null,2)+"\n");
 console.log(`Publication audit: ${feed.events.length} public, ${omitted.length} additional omissions, ${audit.coverage.length} coverage rows.`);
