@@ -27,6 +27,17 @@ Open `http://127.0.0.1:8080/`. JSON fetches require an HTTP server; opening `ind
 - The installable app caches its shell and uses network-first event data with an offline fallback. Its cache names are separate from the DC app's caches.
 - All clocks and exports use UK time, including the BST/GMT changes. Times display in 24-hour format.
 
+## Organisations and suggestions
+
+The header and footer link to `organisations.html`. It includes all 335 records from the supplied `british-right-of-centre-event-organisations.xlsx`: 227 on **Event hosts** and 108 on **Needs checking**. The import preserves their classifications, evidence, access notes, source links and checked dates. These are research sources, not claims that the simulated events came from these organisations. Britain-wide and non-London records are included.
+
+Edit `data/organisations.json`, then run `node scripts/build-organisations.cjs` to rebuild the static directory. All records and links remain readable without JavaScript; JavaScript adds search and filters. Commit both the JSON and generated HTML, and bump the shell/asset versions for subsequent directory updates.
+
+The suggestion Google Form accepts missing events or organisations, including a name and source link, optional details and optional contact email. It is public to anyone with the link, with no required sign-in or automatic email collection. Responses are viewed in the owner's Google Forms **Responses** tab. Suggestions require review before adding them to the calendar or directory.
+
+- [Public suggestion form](https://docs.google.com/forms/d/e/1FAIpQLSe1uBIE4N7uRyIjUiO0GKFosXRj0UXuvFmdOlR7yx5oebiSGw/viewform)
+- [Owner editor and responses](https://docs.google.com/forms/d/1r1FEVUBaNOkfsno3DtlUqpbCQSqFA04fwFPv4uueCh4/edit) (Google account access required)
+
 ## Replace the samples with real events
 
 Research agents should read [AGENTS.md](AGENTS.md) and [docs/REAL_EVENTS.md](docs/REAL_EVENTS.md). **`data/events.json` is the only event feed consumed by the app.** No frontend edits are needed to publish verified events.
