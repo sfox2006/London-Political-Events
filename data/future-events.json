@@ -1,7 +1,7 @@
 {
   "publication": "research_reserve",
   "requires_reverification": true,
-  "generated": "2026-10-06T20:35:24+01:00",
+  "generated": "2026-10-06T20:41:44+01:00",
   "timezone": "Europe/London",
   "source_file": "uk-event-research-bundle.json",
   "source_version": 1,
@@ -10998,9 +10998,9 @@
       "simulated": false,
       "verified_at": "2026-10-06T15:09:31.207957+00:00",
       "end": "2026-12-10T20:30:00+00:00",
-      "venue": "Private home five minutes’ walk from House of Lords",
+      "venue": "Private home; ask organiser for location",
       "rsvp_url": "https://tickets.twocitiesconservatives.org.uk/events/twocitiesconservatives/2453101",
-      "notes": "Venue shared 48 hours before. | Availability: Listed; live ticket availability not verified | Cancellation/refunds: No cancellation notice found in sources checked; live status remains subject to organiser confirmation",
+      "notes": "Venue shared 48 hours before. | Availability: Listed; live ticket availability not verified | Cancellation/refunds: No cancellation notice found in sources checked; live status remains subject to organiser confirmation Private-home location omitted from this public calendar; ask organiser for details.",
       "city": "London",
       "country": "England",
       "availability": "Listed; live ticket availability not verified",
@@ -11044,7 +11044,9 @@
       ],
       "hold_reason": "Dated official programme or live registration details independently read; retain as future reserve and recheck ticket inventory/details before promotion.",
       "fresh_check_required": true,
-      "reserve_status": "reviewed_core"
+      "reserve_status": "reviewed_core",
+      "address": "London, England",
+      "public_location_redacted": true
     },
     {
       "id": "B3-2026-12-10-c931e90ced",

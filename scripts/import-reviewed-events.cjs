@@ -3,6 +3,7 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const data = require("../event-data.js");
+const publicLocation = require("./public-location.cjs");
 const root = path.join(__dirname, "..");
 const filename = process.argv[2];
 if (!filename) throw new Error("Supply the reviewed event JSON file.");
@@ -20,11 +21,11 @@ const incomingErrors = data.validatePayload({mode:"live",timezone:data.TZ,events
 if (incomingErrors.length) throw new Error(incomingErrors.join("\n"));
 const normal = value => String(value).normalize("NFKC").toLowerCase().replace(/\s+/g," ").trim();
 const eventKey = event => [normal(event.org), normal(event.title), event.start.slice(0,10)].join("|");
-const reserveRecords = reserve.records || reserve.events || [];
+const reserveRecords = (reserve.records || reserve.events || []).map(publicLocation);
 const currentIds = new Map([...(current.mode === "live" ? current.events : []),...reserveRecords].map(event => [eventKey(event), event.id]));
 const keys = new Map();
 const events = rows.map(source => {
-  const event = structuredClone(source);
+  const event = publicLocation(source);
   if (event.simulated !== false || String(event.id).startsWith("demo-london-")) throw new Error(`Not a reviewed real event: ${event.id}`);
   if (event.publication_approved !== true) throw new Error(`Record lacks publication approval: ${event.id}`);
   for (const key of ["start", "end", "doors", "arrival"]) {

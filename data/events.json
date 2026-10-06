@@ -1,7 +1,7 @@
 {
   "mode": "live",
   "timezone": "Europe/London",
-  "generated": "2026-10-06T20:35:24+01:00",
+  "generated": "2026-10-06T20:41:44+01:00",
   "window": {
     "start": "2026-10-06",
     "end": "2026-11-03"
@@ -861,11 +861,11 @@
       "url": "https://www.bracknellconservatives.org.uk/events/post-conference-coffee-morning",
       "simulated": false,
       "verified_at": "2026-10-06T15:09:31.207957+00:00",
-      "venue": "Private home",
-      "address": "8 Dale Gardens, Little Sandhurst, Berkshire, GU47 8LA",
+      "venue": "Private home; ask organiser for location",
+      "address": "Little Sandhurst, England",
       "rsvp_url": "https://www.bracknellconservatives.org.uk/events/post-conference-coffee-morning",
       "description": "Conference reflections and questions with James Sunderland and other attendees",
-      "notes": "Availability: Listed; live ticket availability not verified | Cancellation/refunds: No cancellation notice found in sources checked; live status remains subject to organiser confirmation | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "notes": "Availability: Listed; live ticket availability not verified | Cancellation/refunds: No cancellation notice found in sources checked; live status remains subject to organiser confirmation | Ideology not classified; affiliation does not establish the views of attendees or performers. Private-home location omitted from this public calendar; ask organiser for details. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "city": "Little Sandhurst",
       "country": "England",
       "availability": "Listed; live ticket availability not verified",
@@ -929,7 +929,8 @@
         }
       },
       "calendar_publisher": "Bracknell Conservatives",
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "public_location_redacted": true
     },
     {
       "id": "B3-2026-10-09-4ea04db00e",
@@ -2378,9 +2379,9 @@
       "simulated": false,
       "verified_at": "2026-10-06T15:09:31.207957+00:00",
       "end": "2026-10-12T21:30:00+01:00",
-      "venue": "Private home in Hampstead Lane, Highgate",
+      "venue": "Private home; ask organiser for location",
       "rsvp_url": "https://www.hampsteadandhighgateconservatives.org.uk/events/drinks-reception-chairman-conservative-party-rt-hon-kevin-hollinrake-mp",
-      "notes": "Arrival 19:00 for 19:30; full address provided with ticket. | Arrival/doors time: 2026-10-12T19:00:00+01:00; distinct from programme start | Availability: Listed; live ticket availability not verified | Cancellation/refunds: No cancellation notice found in sources checked; live status remains subject to organiser confirmation | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "notes": "Arrival 19:00 for 19:30; full address provided with ticket. | Arrival/doors time: 2026-10-12T19:00:00+01:00; distinct from programme start | Availability: Listed; live ticket availability not verified | Cancellation/refunds: No cancellation notice found in sources checked; live status remains subject to organiser confirmation | Ideology not classified; affiliation does not establish the views of attendees or performers. Private-home location omitted from this public calendar; ask organiser for details. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "doors": "2026-10-12T19:00:00+01:00",
       "city": "London",
       "country": "England",
@@ -2418,7 +2419,9 @@
         "https://www.hampsteadandhighgateconservatives.org.uk/events/drinks-reception-chairman-conservative-party-rt-hon-kevin-hollinrake-mp",
         "https://www.hampsteadandhighgateconservatives.org.uk/events"
       ],
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "address": "London, England",
+      "public_location_redacted": true
     },
     {
       "id": "B1-e44e90d2bdb0",
