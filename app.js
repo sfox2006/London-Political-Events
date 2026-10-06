@@ -2532,7 +2532,6 @@
     const prepared = LondonEventData.preparePayload(data);
     const raw = eventsFromPayload(prepared);
     const hasSamples = raw.some((event) => event.simulated === true);
-    document.getElementById("demo-notice").hidden = !hasSamples;
     document.getElementById("data-status").textContent = hasSamples
       ? "Includes simulated listings, clearly labelled on each event."
       : "Check each organiser’s event page for the latest details.";
