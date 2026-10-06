@@ -29,7 +29,7 @@ Open `http://127.0.0.1:8080/`. JSON fetches require an HTTP server; opening `ind
 
 ## Organisations and suggestions
 
-The header and footer link to `organisations.html`. It includes all 335 records from the supplied `british-right-of-centre-event-organisations.xlsx`: 227 on **Event hosts** and 108 on **Needs checking**. The import preserves their classifications, evidence, access notes, source links and checked dates. These are research sources, not claims that the simulated events came from these organisations. Britain-wide and non-London records are included.
+The header and footer link to `organisations.html`. It includes all 371 records from the supplied `uk-right-of-centre-event-organisations.xlsx`: 241 on **Event hosts** and 130 on **Needs checking**. This replaces the earlier British directory and adds 36 entries. The import preserves their classifications, evidence, access notes, source links and checked dates. These are research sources, not claims that the simulated events came from these organisations. Coverage includes England, Scotland, Wales and Northern Ireland, with parent organisations and local groups listed separately. Non-London records are included.
 
 Edit `data/organisations.json`, then run `node scripts/build-organisations.cjs` to rebuild the static directory. All records and links remain readable without JavaScript; JavaScript adds search and filters. Commit both the JSON and generated HTML, and bump the shell/asset versions for subsequent directory updates.
 
