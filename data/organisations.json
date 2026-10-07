@@ -3,22 +3,6 @@
   "source_checked_on": "2026-10-06",
   "organisations": [
     {
-      "name": "CARE (Christian Action Research and Education)",
-      "type": "Campaign / educational charity",
-      "tradition": "Cross-party / social conservative issues",
-      "reach": "Britain / UK-wide",
-      "area": "Britain-wide and online",
-      "events": "Talks, webinars, policy discussions",
-      "evidence_status": "Event listing",
-      "evidence": "2026 online and regional events",
-      "access": "Check organiser / event booking",
-      "url": "https://care.org.uk/events",
-      "notes": "",
-      "checked_on": "2026-10-06",
-      "source_sheet": "Event hosts",
-      "source_row": 9
-    },
-    {
       "name": "Family Education Trust",
       "type": "Campaign / educational charity",
       "tradition": "Social conservative / family policy",
@@ -33,38 +17,6 @@
       "checked_on": "2026-10-06",
       "source_sheet": "Event hosts",
       "source_row": 10
-    },
-    {
-      "name": "The Christian Institute",
-      "type": "Campaign / educational charity",
-      "tradition": "Social conservative / Christian",
-      "reach": "Britain / UK-wide",
-      "area": "Britain-wide",
-      "events": "Local meetings, lectures, conferences",
-      "evidence_status": "Programme described",
-      "evidence": "Local meetings and lecture programme",
-      "access": "Check organiser / event booking",
-      "url": "https://www.christian.org.uk/",
-      "notes": "",
-      "checked_on": "2026-10-06",
-      "source_sheet": "Event hosts",
-      "source_row": 11
-    },
-    {
-      "name": "Christian Concern",
-      "type": "Campaign / educational organisation",
-      "tradition": "Social conservative / Christian",
-      "reach": "Britain / UK-wide",
-      "area": "Britain-wide",
-      "events": "Conferences, training, talks",
-      "evidence_status": "Event listing",
-      "evidence": "Calendar includes organisation's own training and events",
-      "access": "Check organiser / event booking",
-      "url": "https://christianconcern.com/events/",
-      "notes": "",
-      "checked_on": "2026-10-06",
-      "source_sheet": "Event hosts",
-      "source_row": 12
     },
     {
       "name": "Free Speech Union",
@@ -121,13 +73,13 @@
       "reach": "Britain / UK-wide",
       "area": "Britain-wide",
       "events": "Policy talks and joint conference events",
-      "evidence_status": "Event listing",
-      "evidence": "Co-hosted 2025 conference prayer breakfast with CCF",
+      "evidence_status": "Needs current verification",
+      "evidence": "Current policy advocacy described on the official website; no standalone upcoming event verified.",
       "access": "Check organiser / event booking",
-      "url": "https://public.conservatives.com/publicweb/CPC25_Handbook_web_version.pdf",
-      "notes": "",
-      "checked_on": "2026-10-06",
-      "source_sheet": "Event hosts",
+      "url": "https://righttolife.org.uk/about-us",
+      "notes": "Recheck current non-religious event activity before listing.",
+      "checked_on": "2026-10-07",
+      "source_sheet": "Needs checking",
       "source_row": 16
     },
     {
@@ -2195,22 +2147,6 @@
       "source_row": 145
     },
     {
-      "name": "Conservative Christian Fellowship",
-      "type": "Party network",
-      "tradition": "Conservative / Christian",
-      "reach": "Britain / UK-wide",
-      "area": "Britain-wide",
-      "events": "Talks, fellowship, prayer, conference receptions",
-      "evidence_status": "Event listing",
-      "evidence": "2026 programme",
-      "access": "Check organiser / event booking",
-      "url": "https://www.theccf.co.uk/events",
-      "notes": "",
-      "checked_on": "2026-10-06",
-      "source_sheet": "Event hosts",
-      "source_row": 146
-    },
-    {
       "name": "Conservative Disability Group",
       "type": "Party network",
       "tradition": "Conservative",
@@ -2449,22 +2385,6 @@
       "checked_on": "2026-10-06",
       "source_sheet": "Event hosts",
       "source_row": 161
-    },
-    {
-      "name": "Conservative Muslim Forum",
-      "type": "Party network",
-      "tradition": "Conservative",
-      "reach": "Britain / UK-wide",
-      "area": "Britain-wide",
-      "events": "Receptions, discussions, community events",
-      "evidence_status": "Event listing",
-      "evidence": "Official event information and booking page",
-      "access": "Check organiser / event booking",
-      "url": "https://www.conservativemuslimforum.org/future-events/",
-      "notes": "",
-      "checked_on": "2026-10-06",
-      "source_sheet": "Event hosts",
-      "source_row": 162
     },
     {
       "name": "Conservative Policy Forum",
@@ -3057,22 +2977,6 @@
       "checked_on": "2026-10-06",
       "source_sheet": "Event hosts",
       "source_row": 199
-    },
-    {
-      "name": "Centre for Enterprise, Markets and Ethics",
-      "type": "Think tank",
-      "tradition": "Free market / enterprise ethics",
-      "reach": "England",
-      "area": "Oxford and elsewhere",
-      "events": "Lectures, conferences, discussions",
-      "evidence_status": "Event listing",
-      "evidence": "Events programme",
-      "access": "Check organiser / event booking",
-      "url": "https://theceme.org/category/events/",
-      "notes": "",
-      "checked_on": "2026-10-06",
-      "source_sheet": "Event hosts",
-      "source_row": 200
     },
     {
       "name": "Centre for Policy Studies",
@@ -3761,70 +3665,6 @@
       "checked_on": "2026-10-06",
       "source_sheet": "Event hosts",
       "source_row": 243
-    },
-    {
-      "name": "Precious Life",
-      "type": "Campaign organisation",
-      "tradition": "Pro-life / Christian social conservative issues",
-      "reach": "Northern Ireland",
-      "area": "Belfast and Northern Ireland",
-      "events": "Rallies, marches and public campaigning events",
-      "evidence_status": "Event report",
-      "evidence": "Co-organised the Belfast Rally for Life, Liberty and Faith on 4 July 2026.",
-      "access": "Public rally; check future listings",
-      "url": "https://www.preciouslife.com/news/1264/belfast-rally-draws-people-from-across-ireland-to-defend-life-liberty-and-faith/",
-      "notes": "Issue-based inclusion; not evidence that all supporters share a party or economic ideology.",
-      "checked_on": "2026-10-06",
-      "source_sheet": "Event hosts",
-      "source_row": 244
-    },
-    {
-      "name": "Youth for Life NI",
-      "type": "Youth / campaign organisation",
-      "tradition": "Pro-life / social conservative issues",
-      "reach": "Northern Ireland",
-      "area": "Belfast / Derry / Northern Ireland",
-      "events": "Street outreach, pizza nights and social events",
-      "evidence_status": "Programme described",
-      "evidence": "Official parent page describes weekly Belfast outreach, monthly Derry outreach and organised social events.",
-      "access": "Age 16–30; contact organiser",
-      "url": "https://www.preciouslife.com/campaigns/63/youth-for-life-ni/",
-      "notes": "Youth project associated with Precious Life; schedule described by organiser, not individually verified for each date.",
-      "checked_on": "2026-10-06",
-      "source_sheet": "Event hosts",
-      "source_row": 245
-    },
-    {
-      "name": "CARE Northern Ireland",
-      "type": "Regional / local network",
-      "tradition": "Cross-party / Christian social conservative issues",
-      "reach": "Northern Ireland",
-      "area": "Northern Ireland",
-      "events": "Church engagement, policy resources and events",
-      "evidence_status": "Programme described",
-      "evidence": "Official NI page describes regional activities and Engage updates carrying event information.",
-      "access": "Join regional Engage updates / contact team",
-      "url": "https://care.org.uk/care-in-ni",
-      "notes": "Regional team of CARE, already included nationally; no specific forthcoming event established.",
-      "checked_on": "2026-10-06",
-      "source_sheet": "Event hosts",
-      "source_row": 246
-    },
-    {
-      "name": "Both Lives (formerly Both Lives Matter)",
-      "type": "Campaign / educational organisation",
-      "tradition": "Cross-party / pro-life issues; adjacent",
-      "reach": "Northern Ireland / UK-wide",
-      "area": "Northern Ireland, wider UK and online",
-      "events": "Talks, seminars and pregnancy crisis roundtables",
-      "evidence_status": "Event report",
-      "evidence": "2025 review describes talks, seminars and a Belfast satellite roundtable.",
-      "access": "Contact organiser for event access",
-      "url": "https://www.eauk.org/news-and-views/spotlight-with-both-lives",
-      "notes": "Evangelical Alliance initiative with NI origins; broad cross-community membership, not a partisan right-wing label.",
-      "checked_on": "2026-10-06",
-      "source_sheet": "Event hosts",
-      "source_row": 247
     },
     {
       "name": "Francis Hutcheson Institute",
@@ -5811,22 +5651,6 @@
       "source_row": 130
     },
     {
-      "name": "Liberty NI",
-      "type": "Campaign organisation",
-      "tradition": "Christian / faith, speech and parental-rights advocacy",
-      "reach": "Northern Ireland",
-      "area": "Northern Ireland",
-      "events": "Check network for events",
-      "evidence_status": "Needs current verification",
-      "evidence": "Rally organiser describes Liberty NI and its spokesperson appearing at the July 2026 Belfast rally.",
-      "access": "Check organiser / event booking",
-      "url": "https://thelifeinstitute.net/campaigns/rally2026",
-      "notes": "Speaking at another organisation’s rally does not prove hosting. Own event programme not verified; do not infer free-market economics from the name.",
-      "checked_on": "2026-10-06",
-      "source_sheet": "Needs checking",
-      "source_row": 131
-    },
-    {
       "name": "North Antrim Ulster Unionist Constituency Association",
       "type": "Local association",
       "tradition": "UUP / unionist / broad centre right",
@@ -6194,23 +6018,6 @@
       "source_row": null
     },
     {
-      "organisation_id": "LUNI-STMARYS",
-      "name": "St Mary's University, Twickenham",
-      "type": "University / public events",
-      "tradition": "Academic / public policy; event-level views vary",
-      "reach": "London and nearby areas",
-      "area": "Twickenham, Greater London",
-      "events": "Public lectures, policy discussions, debates and seminars within existing site subjects",
-      "evidence_status": "Programme described / source checked",
-      "evidence": "Official calendar web fetch states no results; search indexed recruitment events. No eligible public policy event verified",
-      "access": "Check individual event listing for public eligibility, booking, cost and availability",
-      "url": "https://www.stmarys.ac.uk/events",
-      "notes": "Only existing event categories; exclude unrelated arts, sport, technical science and admissions activities. Official calendar web fetch states no results; search indexed recruitment events. No eligible public policy event verified",
-      "checked_on": "2026-10-06",
-      "source_sheet": "Event hosts",
-      "source_row": null
-    },
-    {
       "organisation_id": "LUE-LSE",
       "name": "London School of Economics and Political Science (LSE)",
       "type": "University / public events programme",
@@ -6405,5 +6212,6 @@
       "sourceGeneratedAt": "2026-10-06T21:31:52.207933+00:00",
       "method": "Consumer-authored repository projection from supported Library text reads; source claims and full independent review remain in Library."
     }
-  ]
+  ],
+  "editorial_scope": "Non-religious organisations and events; see data/listing-policy.json."
 }

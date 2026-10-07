@@ -96,3 +96,7 @@ Branding updated at the owner's request from [Fighting for a Free Future](https:
 - https://www.fightingforafreefuture.com/wp-content/uploads/2026/09/20260820-Final-FFF-Logo-Visually-Balanced-Centred-scaled.png
 
 Keep both pages, the app icons, social preview and theme colour consistent when updating branding.
+
+## Non-religious editorial scope
+
+At the owner’s request on 7 October 2026, 13 current events, 16 reserve candidates and 12 faith-based organisation rows were removed. The current published datasets contain 273 events, 261 reserve candidates and 386 organisations. Right To Life UK remains as an issue-based group needing verification; its former prayer-breakfast evidence was replaced by its official policy-advocacy page. Religious content and faith-based sources are excluded from future collection. The machine-readable reviewed exclusions are in `data/listing-policy.json`; import and directory generation enforce them. Review new candidates for religious content rather than relying on keyword matches. Church venues, personal names and ordinary seasonal social events alone do not determine eligibility. Original removed records remain in `data/research-coverage.json` as an audit, outside the calendar and directory.
