@@ -4,12 +4,15 @@ const fs = require("node:fs");
 const path = require("node:path");
 const data = require("../event-data.js");
 const publicLocation = require("./public-location.cjs");
+const { excludesEvent } = require("./listing-policy.cjs");
 const root = path.join(__dirname, "..");
 const filename = process.argv[2];
 if (!filename) throw new Error("Supply the reviewed event JSON file.");
 const reviewed = JSON.parse(fs.readFileSync(filename, "utf8"));
-const rows = Array.isArray(reviewed) ? reviewed : reviewed.events;
-if (!Array.isArray(rows)) throw new Error("Reviewed input must contain an events array.");
+const inputRows = Array.isArray(reviewed) ? reviewed : reviewed.events;
+if (!Array.isArray(inputRows)) throw new Error("Reviewed input must contain an events array.");
+const excluded = inputRows.filter(excludesEvent).map(event => ({id:event.id, title:event.title, reason:"Outside the non-religious editorial scope."}));
+const rows = inputRows.filter(event => !excludesEvent(event));
 const now = new Date();
 const dateKey = day => `${day.y}-${String(day.m).padStart(2,"0")}-${String(day.d).padStart(2,"0")}`;
 const range = data.browsingWindow(now);
@@ -21,7 +24,7 @@ const incomingErrors = data.validatePayload({mode:"live",timezone:data.TZ,events
 if (incomingErrors.length) throw new Error(incomingErrors.join("\n"));
 const normal = value => String(value).normalize("NFKC").toLowerCase().replace(/\s+/g," ").trim();
 const eventKey = event => [normal(event.org), normal(event.title), event.start.slice(0,10)].join("|");
-const reserveRecords = (reserve.records || reserve.events || []).map(publicLocation);
+const reserveRecords = (reserve.records || reserve.events || []).filter(event => !excludesEvent(event)).map(publicLocation);
 const currentIds = new Map([...(current.mode === "live" ? current.events : []),...reserveRecords].map(event => [eventKey(event), event.id]));
 const keys = new Map();
 const events = rows.map(source => {
@@ -63,4 +66,4 @@ const futurePayload = {...reserve,timezone:data.TZ,generated:data.localStamp(now
 delete futurePayload.events;
 fs.writeFileSync(path.join(root,"data/events.json"), JSON.stringify(payload,null,2)+"\n");
 fs.writeFileSync(reservePath, JSON.stringify(futurePayload,null,2)+"\n");
-console.log(JSON.stringify({public_events:publicEvents.length,reserve_events:futurePayload.records.length,window,omitted}));
+console.log(JSON.stringify({public_events:publicEvents.length,reserve_events:futurePayload.records.length,window,omitted,excluded}));

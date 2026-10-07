@@ -1,0 +1,72 @@
+{
+  "updated": "2026-10-07",
+  "scope": "Exclude religious organisations, faith-based advocacy, worship/prayer/carol events and religion-centred talks from listings and future research. Review content and organiser evidence; do not infer religion from a personal name, venue, country or political position. Ordinary seasonal social events remain eligible.",
+  "organisation_names": [
+    "CARE (Christian Action Research and Education)",
+    "The Christian Institute",
+    "Christian Concern",
+    "Conservative Christian Fellowship",
+    "Conservative Muslim Forum",
+    "Precious Life",
+    "Youth for Life NI",
+    "CARE Northern Ireland",
+    "Both Lives (formerly Both Lives Matter)",
+    "Liberty NI",
+    "Centre for Enterprise, Markets and Ethics",
+    "St Mary's University, Twickenham"
+  ],
+  "event_organiser_aliases": [
+    "Unite for Education",
+    "Christ Church Haywards Heath",
+    "Mid Sussex Islamic Centre",
+    "Ezra Institute",
+    "Ezra Centre for Christian Thought"
+  ],
+  "event_ids": [
+    "B2-010",
+    "B1-14d1c228106e",
+    "B1-38c031e1c478",
+    "B1-1a4d574ac02a",
+    "B1-759bfbb1a38f",
+    "B1-e44e90d2bdb0",
+    "LUE-1fec2d9d116d",
+    "B2-011",
+    "B1-d3526ebe7bc4",
+    "B1-94db6c832f5b",
+    "B1-c4c0b2f1d486",
+    "B1-98b5968e1c13",
+    "B1-f0e7f90b77e6",
+    "B1-4c3a195c19f2",
+    "B1-6e5f7d907d85",
+    "B1-b08535019550",
+    "B1-952e1e74ec5d",
+    "B1-a3f3b20d656e",
+    "B1-97f7356fc374",
+    "B2-012",
+    "B1-lead-a0cf539b7182",
+    "B1-lead-f46cf5cb0ee4",
+    "B1-lead-5cd8b4bbea28",
+    "B1-8edfb9d956b2",
+    "eh-026-2026-12-04-580716723",
+    "B3-2026-12-10-4874d13197",
+    "eh-020-2026-12-16-37d68f81c",
+    "B1-0d3ccdbe0946",
+    "B1-338b254a327e"
+  ],
+  "source_domains": [
+    "care.org.uk",
+    "christian.org.uk",
+    "christianconcern.com",
+    "theccf.co.uk",
+    "conservativemuslimforum.org",
+    "preciouslife.com",
+    "eauk.org",
+    "theceme.org",
+    "stmarys.ac.uk"
+  ],
+  "sources": [
+    "https://theceme.org/about-us/",
+    "https://www.stmarys.ac.uk/events/2026/human-flourishing-in-the-age-of-artificial-intelligence",
+    "https://club.unherd.com/event/the-case-for-re-enchantment/"
+  ]
+}

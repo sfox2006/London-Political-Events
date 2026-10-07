@@ -19462,5 +19462,2111 @@
       "deduplicated_ids": [],
       "limits": "Finite 29-source pass. Reserve candidates require fresh source and booking checks; held candidates and full independent-review evidence remain in Library."
     }
-  ]
+  ],
+  "editorial_cleanup": {
+    "date": "2026-10-07",
+    "reason": "Owner requested removal of religious content. Original research is retained as an audit, not an active collection list.",
+    "removed_public_events": [
+      {
+        "id": "B2-010",
+        "title": "Prayer Breakfast with Right to Life",
+        "org": "Conservative Christian Fellowship; Right to Life",
+        "start": "2026-10-07T07:30:00+01:00",
+        "ideology": "other",
+        "format": "in_person",
+        "cost": "Unknown",
+        "source": "https://www.theccf.co.uk/events/2026/10/5/care-prayer-breakfast-3bnct-wmajm",
+        "access": "Booking, cost, membership and conference-pass requirement not stated on event page",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://www.theccf.co.uk/events/2026/10/5/care-prayer-breakfast-3bnct-wmajm",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:49:55.909948+00:00",
+        "end": "2026-10-07T08:30:00+01:00",
+        "venue": "Novotel Birmingham Centre",
+        "address": "70 Broad Street, Birmingham B1 2HT",
+        "rsvp_url": "https://www.theccf.co.uk/events/2026/10/5/care-prayer-breakfast-3bnct-wmajm",
+        "notes": "Handbook prints two entries at same time/venue with same cohosts; deduplicated as one breakfast using organiser event page. URL slug contains Oct5 but displayed date clearly says Oct7. | Availability: not independently confirmed | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+        "city": "Birmingham",
+        "country": "England",
+        "availability": "not independently confirmed",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-138"
+        ],
+        "source_urls": [
+          "https://www.theccf.co.uk/events/2026/10/5/care-prayer-breakfast-3bnct-wmajm",
+          "https://www.theccf.co.uk/events",
+          "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf"
+        ],
+        "review_decision": "pass",
+        "publication_approved": true,
+        "date": "2026-10-07",
+        "origin": "batch2/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T14:46:06.145899+00:00",
+        "evidence_checks": [],
+        "review_checked_at_original": "2026-10-06T 14:49:55.909948+00:00",
+        "review_source_urls": [
+          "https://www.theccf.co.uk/events",
+          "https://www.theccf.co.uk/events/2026/10/5/care-prayer-breakfast-3bnct-wmajm",
+          "https://cdn.prod.website-files.com/6760307b23436bea5cfc749e/6ab391a7b5d0f2aaf1017bed_9f22d8f9ec208facc292df3bfe239b74_CPC26_Handbook_DIGITAL-new_compressed.pdf"
+        ],
+        "source_ideology": "Not classified"
+      },
+      {
+        "id": "B1-14d1c228106e",
+        "title": "Unite for Education: Aberdeen",
+        "org": "Unite for Education",
+        "start": "2026-10-08T19:00:00+01:00",
+        "ideology": "other",
+        "format": "in_person",
+        "cost": "Free",
+        "source": "https://christianconcern.com/ccevents/unite-for-education-aberdeen/",
+        "access": "Information evening for leaders, parents, pastors, guardians and teachers",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://christianconcern.com/ccevents/unite-for-education-aberdeen/",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:46:32.768363+00:00",
+        "end": "2026-10-08T21:00:00+01:00",
+        "venue": "Doxa Theo Christian School",
+        "address": "7 Don Place, Woodside, Aberdeen AB24 2SF",
+        "rsvp_url": "https://buytickets.at/uniteforeducation/2378251",
+        "description": "Christian education information evening. Christian Concern is exhibiting; event is organised by Unite for Education.",
+        "notes": "Arrival/doors time: 2026-10-08T18:30:00+01:00; distinct from programme start | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+        "doors": "2026-10-08T18:30:00+01:00",
+        "availability": "Unknown; current ticket availability not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-004"
+        ],
+        "source_urls": [
+          "https://christianconcern.com/ccevents/unite-for-education-aberdeen/",
+          "https://christianconcern.com/events/",
+          "https://uniteforeducation.uk/",
+          "https://uniteforeducation.uk/event/aberdeen-education-information-evening-8-october-7pm/",
+          "https://buytickets.at/uniteforeducation/2378251"
+        ],
+        "review_decision": "correction",
+        "publication_approved": true,
+        "date": "2026-10-08",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.083271+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://christianconcern.com/ccevents/unite-for-education-aberdeen/",
+            "checked_at": "2026-10-06T14:42:31.864216+00:00",
+            "result": "200\thttps://christianconcern.com/ccevents/unite-for-education-aberdeen/"
+          },
+          {
+            "url": "https://christianconcern.com/events/",
+            "checked_at": "2026-10-06T14:40:48.177772+00:00",
+            "result": "200\thttps://christianconcern.com/events/"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T 14:46:32.768363+00:00",
+        "review_source_urls": [
+          "https://christianconcern.com/ccevents/unite-for-education-aberdeen/",
+          "https://uniteforeducation.uk/",
+          "https://uniteforeducation.uk/event/aberdeen-education-information-evening-8-october-7pm/",
+          "https://buytickets.at/uniteforeducation/2378251"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "org": "Christian Concern",
+            "organiserRole": "Christian Concern: exhibitor",
+            "cost": "Not published",
+            "doors": null,
+            "rsvp_url": "https://uniteforeducation.uk/"
+          },
+          "applied_values": {
+            "org": "Unite for Education",
+            "organiserRole": "Christian Concern: exhibitor; retain EH-004 as source association",
+            "cost": "Free",
+            "doors": "18:30",
+            "rsvp_url": "https://buytickets.at/uniteforeducation/2378251"
+          }
+        },
+        "host_role": "Christian Concern: exhibitor; retain EH-004 as source association",
+        "source_ideology": "Not classified"
+      },
+      {
+        "id": "B1-38c031e1c478",
+        "title": "Awake, Arise! Aberdeen",
+        "org": "Christian Concern",
+        "start": "2026-10-10T10:00:00+01:00",
+        "ideology": "other",
+        "format": "in_person",
+        "cost": "Published ticket tiers conflict; organiser lists £25 general / £40 from 29 September and £105 group of 3",
+        "source": "https://christianconcern.com/ccevents/awake-arise-aberdeen/",
+        "access": "Ticket sales stated to end 5 October 2026; entry at organiser discretion",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://christianconcern.com/ccevents/awake-arise-aberdeen/",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:46:32.768363+00:00",
+        "end": "2026-10-10T16:30:00+01:00",
+        "venue": "King’s Church",
+        "address": "King’s Way, Bridge of Don, Aberdeen AB23 8BL",
+        "rsvp_url": "https://www.eventbrite.co.uk/e/awake-arise-aberdeen-tickets-1981333088604",
+        "description": "Day of Christian teaching, worship, prayer and testimonies with Andrea Williams and Andrew Marsh. Doors open 09:30. Refreshments and a sandwich lunch included.",
+        "notes": "Ticket deadline passed as of research; Eventbrite unavailable; inconsistent organiser price table retained without assuming availability | Refreshments and sandwich lunch included | Arrival/doors time: 2026-10-10T09:30:00+01:00; distinct from programme start | Availability: Conflicting booking information: organiser says sales ended 5 October; Eventbrite metadata lists InStock. Current booking not confirmed. | Cancellation/refunds: No refunds; ticket transfer permitted by contacting organiser | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+        "doors": "2026-10-10T09:30:00+01:00",
+        "availability": "Conflicting booking information: organiser says sales ended 5 October; Eventbrite metadata lists InStock. Current booking not confirmed.",
+        "cancellation": "No refunds; ticket transfer permitted by contacting organiser",
+        "source_row_ids": [
+          "EH-004"
+        ],
+        "source_urls": [
+          "https://christianconcern.com/ccevents/awake-arise-aberdeen/",
+          "https://christianconcern.com/events/",
+          "https://www.eventbrite.co.uk/e/awake-arise-aberdeen-tickets-1981333088604"
+        ],
+        "review_decision": "correction",
+        "publication_approved": true,
+        "date": "2026-10-10",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.083280+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://christianconcern.com/ccevents/awake-arise-aberdeen/",
+            "checked_at": "2026-10-06T14:42:31.864452+00:00",
+            "result": "200\thttps://christianconcern.com/ccevents/awake-arise-aberdeen/"
+          },
+          {
+            "url": "https://christianconcern.com/events/",
+            "checked_at": "2026-10-06T14:40:48.177772+00:00",
+            "result": "200\thttps://christianconcern.com/events/"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T 14:46:32.768363+00:00",
+        "review_source_urls": [
+          "https://christianconcern.com/ccevents/awake-arise-aberdeen/",
+          "https://www.eventbrite.co.uk/e/awake-arise-aberdeen-tickets-1981333088604"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "availability": "booking deadline passed",
+            "cancellation": null
+          },
+          "applied_values": {
+            "availability": "Conflicting booking information: organiser says sales ended 5 October; Eventbrite metadata lists InStock. Current booking not confirmed.",
+            "cancellation": "No refunds; ticket transfer permitted by contacting organiser"
+          }
+        },
+        "source_ideology": "Not classified"
+      },
+      {
+        "id": "B1-1a4d574ac02a",
+        "title": "State of the Nation",
+        "org": "CRC Scotland; Christian Concern speaker Andrea Williams",
+        "start": "2026-10-11T14:30:00+01:00",
+        "ideology": "other",
+        "format": "in_person",
+        "cost": "Unknown",
+        "source": "https://christianconcern.com/ccevents/state-of-the-nation-14/",
+        "access": "Registration open to all",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://christianconcern.com/ccevents/state-of-the-nation-14/",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:52:23.078773+00:00",
+        "venue": "CRC Scotland",
+        "address": "12 Casselbank Street, Edinburgh EH6 5HA",
+        "rsvp_url": "https://www.crcscotland.com/state-of-the-nation-event",
+        "description": "Talk by Christian Concern chief executive Andrea Williams at CRC Scotland.",
+        "notes": "End time not published | Availability: Official registration form visible; remaining capacity not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+        "availability": "Official registration form visible; remaining capacity not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-004"
+        ],
+        "source_urls": [
+          "https://christianconcern.com/ccevents/state-of-the-nation-14/",
+          "https://christianconcern.com/events/",
+          "https://www.crcscotland.com/state-of-the-nation-event"
+        ],
+        "review_decision": "correction",
+        "publication_approved": true,
+        "date": "2026-10-11",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.086790+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://christianconcern.com/ccevents/state-of-the-nation-14/",
+            "checked_at": "2026-10-06T14:42:31.865415+00:00",
+            "result": "200\thttps://christianconcern.com/ccevents/state-of-the-nation-14/"
+          },
+          {
+            "url": "https://christianconcern.com/events/",
+            "checked_at": "2026-10-06T14:40:48.177772+00:00",
+            "result": "200\thttps://christianconcern.com/events/"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T 14:52:23.078773+00:00",
+        "review_source_urls": [
+          "https://christianconcern.com/ccevents/state-of-the-nation-14/",
+          "https://www.crcscotland.com/state-of-the-nation-event"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "org": "Christian Concern",
+            "availability": null
+          },
+          "applied_values": {
+            "org": "CRC Scotland; Christian Concern speaker Andrea Williams",
+            "availability": "Official registration form visible; remaining capacity not verified"
+          }
+        },
+        "host_role": "CRC Scotland host; Christian Concern speaker",
+        "source_ideology": "Not classified"
+      },
+      {
+        "id": "B1-759bfbb1a38f",
+        "title": "National Week of Prayer CARE Online Gathering",
+        "org": "CARE (Christian Action Research and Education)",
+        "start": "2026-10-12T12:00:00+01:00",
+        "ideology": "other",
+        "format": "online",
+        "cost": "Unknown",
+        "source": "https://care.org.uk/events/2026/10/nwop",
+        "access": "Everyone welcome; request Zoom link from events@care.org.uk",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://care.org.uk/events/2026/10/nwop",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:52:23.078773+00:00",
+        "end": "2026-10-12T12:45:00+01:00",
+        "venue": "Zoom",
+        "address": "Online; Britain-hosted by CARE, London",
+        "rsvp_url": "https://care.org.uk/events/2026/10/nwop",
+        "description": "Online prayer gathering focused on politics and government; small-group participation is optional.",
+        "notes": "Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+        "availability": "Unknown; current ticket availability not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-001"
+        ],
+        "source_urls": [
+          "https://care.org.uk/events/2026/10/nwop",
+          "https://care.org.uk/events"
+        ],
+        "review_decision": "pass",
+        "publication_approved": true,
+        "date": "2026-10-12",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.086521+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://care.org.uk/events/2026/10/nwop",
+            "checked_at": "2026-10-06T14:42:31.862371+00:00",
+            "result": "200\thttps://care.org.uk/events/2026/10/nwop"
+          },
+          {
+            "url": "https://care.org.uk/events",
+            "checked_at": "2026-10-06T14:40:48.176836+00:00",
+            "result": "200\thttps://care.org.uk/events"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T 14:52:23.078773+00:00",
+        "review_source_urls": [
+          "https://care.org.uk/events/2026/10/nwop"
+        ],
+        "source_ideology": "Not classified"
+      },
+      {
+        "id": "B1-e44e90d2bdb0",
+        "title": "Colin Hart Lectures 2026: Revival",
+        "org": "The Christian Institute",
+        "start": "2026-10-12T19:30:00+01:00",
+        "ideology": "other",
+        "format": "in_person",
+        "cost": "Unknown",
+        "source": "https://www.christian.org.uk/colin-hart-lectures-2026-revival/",
+        "access": "See organiser for access details",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://www.christian.org.uk/colin-hart-lectures-2026-revival/",
+        "simulated": false,
+        "verified_at": "2026-10-06T15:07:27.317199+00:00",
+        "end": "2026-10-12T21:15:00+01:00",
+        "venue": "Elswick Parish Church",
+        "address": "Newcastle upon Tyne; street address not published on organiser page",
+        "rsvp_url": "https://www.christian.org.uk/colin-hart-lectures-2026-revival/",
+        "description": "Part of the explicitly dated Monday-evening lecture series on the history of Christian revival.",
+        "notes": "Individual lecture-title-to-date mapping not explicit in extracted page; generic series title retained | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+        "availability": "Unknown; current ticket availability not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-003"
+        ],
+        "source_urls": [
+          "https://www.christian.org.uk/colin-hart-lectures-2026-revival/",
+          "https://www.christian.org.uk/"
+        ],
+        "review_decision": "pass",
+        "publication_approved": true,
+        "date": "2026-10-12",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.102844+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://www.christian.org.uk/colin-hart-lectures-2026-revival/",
+            "checked_at": "2026-10-06T14:54:28.159680+00:00",
+            "result": "200\thttps://www.christian.org.uk/colin-hart-lectures-2026-revival/"
+          },
+          {
+            "url": "https://www.christian.org.uk/",
+            "checked_at": "2026-10-06T14:40:48.177520+00:00",
+            "result": "200\thttps://www.christian.org.uk/"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T15:07:27.317199+00:00",
+        "review_source_urls": [
+          "https://www.christian.org.uk/colin-hart-lectures-2026-revival/"
+        ],
+        "source_ideology": "Not classified"
+      },
+      {
+        "id": "LUE-1fec2d9d116d",
+        "title": "Sickle and Veil: Communist Gender and Policies towards Muslim Minorities in Eastern Europe",
+        "org": "University College London (UCL)",
+        "org_acronym": "",
+        "start": "2026-10-14T18:00:00+01:00",
+        "end": "2026-10-14T20:00:00+01:00",
+        "venue": "Masaryk room",
+        "address": "14-16 Taviton street, London, WC1H 0BW, United Kingdom",
+        "url": "https://www.ucl.ac.uk/arts-humanities/events/2026/oct/sickle-and-veil-communist-gender-and-policies-towards-muslim-minorities-eastern-europe",
+        "rsvp_url": "https://www.eventbrite.co.uk/e/book-talk-sickle-and-veil-tickets-2002190640102?aff=oddtdtcreator&_gl=1%2A66j4w%2A_up%2AMQ..%2A_ga%2AMTM2NjA0MzEzNy4xNzkwMjM4NDY3%2A_ga_TQVES5V6SH%2AczE3OTAyMzg0NjYkbzEkZzAkdDE3OTAyMzg0NjYkajYwJGwwJGgw",
+        "ideology": "nonpartisan",
+        "format": "in_person",
+        "cost": "Free",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "access": "Open to All; Pre-booking essential",
+        "source": "Official organiser event or registration page",
+        "description": "Seminar on communist gender policies and Muslim minorities in Eastern Europe.",
+        "simulated": false,
+        "verified_at": "2026-10-06T21:07:21.455373+00:00",
+        "source_urls": [
+          "https://www.ucl.ac.uk/arts-humanities/events/2026/oct/sickle-and-veil-communist-gender-and-policies-towards-muslim-minorities-eastern-europe"
+        ],
+        "organisationIds": [
+          "LUE-UCL"
+        ],
+        "review_decision": "approve",
+        "reviewed_at": "2026-10-06T21:24:16.317335+00:00",
+        "independently_reviewed": true,
+        "publication_approved": true,
+        "verificationCaveats": [
+          "Registration destination linked by organiser; live ticket availability not independently checked."
+        ],
+        "review_source_urls": [
+          "https://www.ucl.ac.uk/arts-humanities/events/2026/oct/sickle-and-veil-communist-gender-and-policies-towards-muslim-minorities-eastern-europe"
+        ],
+        "notes": "Registration destination linked by organiser; live ticket availability not independently checked. Free food, free drinks and young-professional offers are unverified unless labelled."
+      },
+      {
+        "id": "B2-011",
+        "title": "Parliamentary Prayer Meeting and Panel Discussion",
+        "org": "Conservative Christian Fellowship",
+        "start": "2026-10-14T18:30:00+01:00",
+        "ideology": "other",
+        "format": "in_person",
+        "cost": "Unknown",
+        "source": "https://www.theccf.co.uk/events/2026/9/15/ckrnu3ik05er1a9l93hm2h0jozhypj",
+        "access": "Parliament access/registration details not stated on current event page",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://www.theccf.co.uk/events/2026/9/15/ckrnu3ik05er1a9l93hm2h0jozhypj",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:49:55.909948+00:00",
+        "end": "2026-10-14T19:30:00+01:00",
+        "venue": "House of Commons",
+        "rsvp_url": "https://www.theccf.co.uk/events/2026/9/15/ckrnu3ik05er1a9l93hm2h0jozhypj",
+        "notes": "No event-specific RSVP or access information published. URL slug differs from displayed date; displayed Oct14 is authoritative. | Availability: not independently confirmed | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+        "city": "London",
+        "country": "England",
+        "availability": "not independently confirmed",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-138"
+        ],
+        "source_urls": [
+          "https://www.theccf.co.uk/events/2026/9/15/ckrnu3ik05er1a9l93hm2h0jozhypj",
+          "https://www.theccf.co.uk/events"
+        ],
+        "review_decision": "pass",
+        "publication_approved": true,
+        "date": "2026-10-14",
+        "origin": "batch2/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T14:46:06.145899+00:00",
+        "evidence_checks": [],
+        "review_checked_at_original": "2026-10-06T 14:49:55.909948+00:00",
+        "review_source_urls": [
+          "https://www.theccf.co.uk/events",
+          "https://www.theccf.co.uk/events/2026/9/15/ckrnu3ik05er1a9l93hm2h0jozhypj"
+        ],
+        "source_ideology": "Not classified"
+      },
+      {
+        "id": "B1-d3526ebe7bc4",
+        "title": "Dialogue with an Imam: How do we get to Heaven?",
+        "org": "Christ Church Haywards Heath and Mid Sussex Islamic Centre",
+        "start": "2026-10-18T14:30:00+01:00",
+        "ideology": "other",
+        "format": "in_person",
+        "cost": "Free",
+        "source": "https://christianconcern.com/ccevents/dialogue-with-an-imam-on-how-we-get-to-heaven/",
+        "access": "All welcome",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://christianconcern.com/ccevents/dialogue-with-an-imam-on-how-we-get-to-heaven/",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:52:23.078773+00:00",
+        "venue": "Christ Church",
+        "address": "Haywards Heath RH16 3LE",
+        "rsvp_url": "https://christianconcern.com/ccevents/dialogue-with-an-imam-on-how-we-get-to-heaven/",
+        "description": "Discussion between Tim Dieppe and a Muslim Imam, hosted by Christ Church Haywards Heath with Mid Sussex Islamic Centre.",
+        "notes": "End time conflicts: 17:30 event header, 17:00 body, independent reviewer found 16:30 on council listing; end left unconfirmed | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+        "availability": "Unknown; current ticket availability not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-004"
+        ],
+        "source_urls": [
+          "https://christianconcern.com/ccevents/dialogue-with-an-imam-on-how-we-get-to-heaven/",
+          "https://christianconcern.com/events/",
+          "https://www.haywardsheath.gov.uk/events-and-activities"
+        ],
+        "review_decision": "correction",
+        "publication_approved": true,
+        "date": "2026-10-18",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.086846+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://christianconcern.com/ccevents/dialogue-with-an-imam-on-how-we-get-to-heaven/",
+            "checked_at": "2026-10-06T14:42:31.865708+00:00",
+            "result": "200\thttps://christianconcern.com/ccevents/dialogue-with-an-imam-on-how-we-get-to-heaven/"
+          },
+          {
+            "url": "https://christianconcern.com/events/",
+            "checked_at": "2026-10-06T14:40:48.177772+00:00",
+            "result": "200\thttps://christianconcern.com/events/"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T 14:52:23.078773+00:00",
+        "review_source_urls": [
+          "https://christianconcern.com/ccevents/dialogue-with-an-imam-on-how-we-get-to-heaven/",
+          "https://www.haywardsheath.gov.uk/events-and-activities"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "org": "Christian Concern",
+            "end": null
+          },
+          "applied_values": {
+            "org": "Christ Church Haywards Heath and Mid Sussex Islamic Centre",
+            "end": null
+          }
+        },
+        "host_role": "Christian Concern speaker; Christ Church and Mid Sussex Islamic Centre hosts",
+        "source_ideology": "Not classified"
+      },
+      {
+        "id": "B1-94db6c832f5b",
+        "title": "Colin Hart Lectures 2026: Revival",
+        "org": "The Christian Institute",
+        "start": "2026-10-19T19:30:00+01:00",
+        "ideology": "other",
+        "format": "in_person",
+        "cost": "Unknown",
+        "source": "https://www.christian.org.uk/colin-hart-lectures-2026-revival/",
+        "access": "See organiser for access details",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://www.christian.org.uk/colin-hart-lectures-2026-revival/",
+        "simulated": false,
+        "verified_at": "2026-10-06T15:07:27.317199+00:00",
+        "end": "2026-10-19T21:15:00+01:00",
+        "venue": "Elswick Parish Church",
+        "address": "Newcastle upon Tyne; street address not published on organiser page",
+        "rsvp_url": "https://www.christian.org.uk/colin-hart-lectures-2026-revival/",
+        "description": "Part of the explicitly dated Monday-evening lecture series on the history of Christian revival.",
+        "notes": "Individual lecture-title-to-date mapping not explicit in extracted page; generic series title retained | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+        "availability": "Unknown; current ticket availability not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-003"
+        ],
+        "source_urls": [
+          "https://www.christian.org.uk/colin-hart-lectures-2026-revival/",
+          "https://www.christian.org.uk/"
+        ],
+        "review_decision": "pass",
+        "publication_approved": true,
+        "date": "2026-10-19",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.102908+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://www.christian.org.uk/colin-hart-lectures-2026-revival/",
+            "checked_at": "2026-10-06T14:54:28.159680+00:00",
+            "result": "200\thttps://www.christian.org.uk/colin-hart-lectures-2026-revival/"
+          },
+          {
+            "url": "https://www.christian.org.uk/",
+            "checked_at": "2026-10-06T14:40:48.177520+00:00",
+            "result": "200\thttps://www.christian.org.uk/"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T15:07:27.317199+00:00",
+        "review_source_urls": [
+          "https://www.christian.org.uk/colin-hart-lectures-2026-revival/"
+        ],
+        "source_ideology": "Not classified"
+      },
+      {
+        "id": "B1-c4c0b2f1d486",
+        "title": "Human Flourishing in the Age of Artificial Intelligence",
+        "org": "St Mary’s University, CCLA and Centre for Enterprise, Markets and Ethics",
+        "start": "2026-10-26T10:00:00+00:00",
+        "ideology": "other",
+        "format": "in_person",
+        "cost": "£25; free for St Mary’s students/staff and programme contributors",
+        "source": "https://theceme.org/human-flourishing-in-the-age-of-artificial-intelligence/",
+        "access": "Advance registration",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://theceme.org/human-flourishing-in-the-age-of-artificial-intelligence/",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:56:00.452369+00:00",
+        "end": "2026-10-26T16:15:00+00:00",
+        "venue": "Waldegrave Drawing Room, St Mary’s University",
+        "address": "Twickenham, London TW1 4SX",
+        "rsvp_url": "https://estore.stmarys.ac.uk/product-catalogue/conferences-events/school-of-theology-and-the-arts/human-flourishing-in-the-age-of-artificial-intelligence-26th-october-2026",
+        "description": "Conference co-sponsored by CEME, CCLA and St Mary’s University. Tea/coffee from 09:30 and hosted lunch in programme.",
+        "notes": "Tea/coffee and hosted lunch advertised | Arrival/doors time: 2026-10-26T09:30:00+00:00; distinct from programme start | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+        "doors": "2026-10-26T09:30:00+00:00",
+        "availability": "Unknown; current ticket availability not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-192"
+        ],
+        "source_urls": [
+          "https://theceme.org/human-flourishing-in-the-age-of-artificial-intelligence/",
+          "https://theceme.org/category/events/",
+          "https://estore.stmarys.ac.uk/product-catalogue/conferences-events/school-of-theology-and-the-arts/human-flourishing-in-the-age-of-artificial-intelligence-26th-october-2026"
+        ],
+        "review_decision": "correction",
+        "publication_approved": true,
+        "date": "2026-10-26",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.092486+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://theceme.org/human-flourishing-in-the-age-of-artificial-intelligence/",
+            "checked_at": "2026-10-06T14:42:57.161432+00:00",
+            "result": "200\thttps://theceme.org/human-flourishing-in-the-age-of-artificial-intelligence/"
+          },
+          {
+            "url": "https://theceme.org/category/events/",
+            "checked_at": "2026-10-06T14:41:05.487146+00:00",
+            "result": "200\thttps://theceme.org/category/events/"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T 14:56:00.452369+00:00",
+        "review_source_urls": [
+          "https://theceme.org/human-flourishing-in-the-age-of-artificial-intelligence/",
+          "https://estore.stmarys.ac.uk/product-catalogue/conferences-events/school-of-theology-and-the-arts/human-flourishing-in-the-age-of-artificial-intelligence-26th-october-2026"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "org": "Centre for Enterprise, Markets and Ethics"
+          },
+          "applied_values": {
+            "org": "St Mary’s University, CCLA and Centre for Enterprise, Markets and Ethics"
+          }
+        },
+        "source_ideology": "Not classified"
+      },
+      {
+        "id": "B1-98b5968e1c13",
+        "title": "National Day of Prayer for Life 2026: Zoom Prayer Meeting",
+        "org": "Both Lives (formerly Both Lives Matter)",
+        "start": "2026-10-27T20:00:00+00:00",
+        "ideology": "other",
+        "format": "online",
+        "cost": "Free",
+        "source": "https://www.eauk.org/what-we-do/initiatives/both-lives/national-day-of-prayer-for-life/national-day-of-prayer-for-life-2026",
+        "access": "Registration required; different denominations welcome",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://www.eauk.org/what-we-do/initiatives/both-lives/national-day-of-prayer-for-life/national-day-of-prayer-for-life-2026",
+        "simulated": false,
+        "verified_at": "2026-10-06T15:10:14.440427+00:00",
+        "end": "2026-10-27T21:00:00+00:00",
+        "venue": "Zoom",
+        "address": "UK-hosted online by Both Lives / Evangelical Alliance",
+        "rsvp_url": "https://www.eauk.org/what-we-do/initiatives/both-lives/national-day-of-prayer-for-life/national-day-of-prayer-for-life-2026",
+        "description": "Online prayer meeting themed Confession and Strongholds, with short presentations and time for prayer. No pressure to pray aloud.",
+        "notes": "Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+        "availability": "Unknown; current ticket availability not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-239"
+        ],
+        "source_urls": [
+          "https://www.eauk.org/what-we-do/initiatives/both-lives/national-day-of-prayer-for-life/national-day-of-prayer-for-life-2026",
+          "https://www.eauk.org/what-we-do/initiatives/both-lives/national-day-of-prayer-for-life"
+        ],
+        "review_decision": "pass",
+        "publication_approved": true,
+        "date": "2026-10-27",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.112017+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://www.eauk.org/what-we-do/initiatives/both-lives/national-day-of-prayer-for-life/national-day-of-prayer-for-life-2026",
+            "checked_at": "2026-10-06T15:02:11.606584+00:00",
+            "result": "200\thttps://www.eauk.org/what-we-do/initiatives/both-lives/national-day-of-prayer-for-life/national-day-of-prayer-for-life-2026"
+          },
+          {
+            "url": "https://www.eauk.org/what-we-do/initiatives/both-lives/national-day-of-prayer-for-life",
+            "checked_at": "2026-10-06T14:58:51.471696+00:00",
+            "result": "200\thttps://www.eauk.org/what-we-do/initiatives/both-lives/national-day-of-prayer-for-life"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T15:10:14.440427+00:00",
+        "review_source_urls": [
+          "https://www.eauk.org/what-we-do/initiatives/both-lives/national-day-of-prayer-for-life/national-day-of-prayer-for-life-2026"
+        ],
+        "source_ideology": "Not classified"
+      },
+      {
+        "id": "B1-0d3ccdbe0946",
+        "title": "Capital with a Postcode: the local multiplier?",
+        "org": "Centre for Enterprise, Markets and Ethics",
+        "start": "2026-10-22T19:00:00+01:00",
+        "ideology": "other",
+        "format": "in_person",
+        "cost": "Unknown",
+        "source": "https://theceme.org/capital-with-a-postcode-the-local-multiplier/",
+        "access": "RSVP required",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://theceme.org/capital-with-a-postcode-the-local-multiplier/",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:56:00.452369+00:00",
+        "venue": "One Great George Street, Council Room",
+        "address": "Westminster, London SW1P 3AA",
+        "description": "Roundtable on local investment and development with Karen Davies and Aoifinn Devitt, followed by a drinks reception.",
+        "notes": "Drinks reception advertised | Arrival/doors time: 2026-10-22T18:45:00+01:00; distinct from programme start | Availability: Event details available; linked RSVP is general mailing-list signup, not event booking | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+        "doors": "2026-10-22T18:45:00+01:00",
+        "availability": "Event details available; linked RSVP is general mailing-list signup, not event booking",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-192"
+        ],
+        "source_urls": [
+          "https://theceme.org/capital-with-a-postcode-the-local-multiplier/",
+          "https://theceme.org/category/events/",
+          "https://mailchi.mp/7cd7d8485785/signup-form"
+        ],
+        "review_decision": "correction",
+        "publication_approved": true,
+        "date": "2026-10-22",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.092374+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://theceme.org/category/events/",
+            "checked_at": "2026-10-06T14:41:05.487146+00:00",
+            "result": "200\thttps://theceme.org/category/events/"
+          },
+          {
+            "url": "https://theceme.org/capital-with-a-postcode-the-local-multiplier/",
+            "checked_at": "2026-10-06T14:42:56.932085+00:00",
+            "result": "200\thttps://theceme.org/capital-with-a-postcode-the-local-multiplier/"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T 14:56:00.452369+00:00",
+        "review_source_urls": [
+          "https://theceme.org/capital-with-a-postcode-the-local-multiplier/",
+          "https://mailchi.mp/7cd7d8485785/signup-form"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "rsvp_url": "https://mailchi.mp/7cd7d8485785/signup-form",
+            "availability": null
+          },
+          "applied_values": {
+            "rsvp_url": null,
+            "availability": "Event details available; linked RSVP is general mailing-list signup, not event booking"
+          }
+        },
+        "source_ideology": "Not classified"
+      }
+    ],
+    "removed_reserve_records": [
+      {
+        "id": "B1-f0e7f90b77e6",
+        "title": "Worship & Prayer for the Nation in Birmingham",
+        "org": "CARE (Christian Action Research and Education)",
+        "start": "2026-11-05T19:00:00+00:00",
+        "ideology": "Not classified",
+        "format": "in_person",
+        "cost": "Complimentary tickets",
+        "source": "https://care.org.uk/events/2026/11/worship-and-prayer-for-the-nation-in-birmingham",
+        "access": "CARE partners and guests invited; reserve through Eventbrite",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://care.org.uk/events/2026/11/worship-and-prayer-for-the-nation-in-birmingham",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:52:23.078773+00:00",
+        "end": "2026-11-05T21:30:00+00:00",
+        "venue": "St John’s Harborne",
+        "address": "St John’s Harborne, High Street, Harborne, Birmingham B17 9PT",
+        "rsvp_url": "https://www.eventbrite.co.uk/e/worship-and-prayer-for-the-nation-in-birmingham-tickets-1999686922415?aff=oddtdtcreator&_gl=1*fyk425*_up*MQ..*_ga*NzI4ODc2OTE0LjE3ODg0NDIyODI.*_ga_TQVES5V6SH*czE3ODg0NDQ3MjIkbzIkZzAkdDE3ODg0NDQ3MjIkajYwJGwwJGgw&keep_tld=true",
+        "description": "Worship and prayer with Graham Kendrick, Celia Bowring and CARE updates from James Mildred. Tea, coffee and pastries from 18:30.",
+        "notes": "Tea, coffee and pastries from 18:30 | Arrival/doors time: 2026-11-05T18:30:00+00:00; distinct from programme start | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified",
+        "doors": "2026-11-05T18:30:00+00:00",
+        "availability": "Unknown; current ticket availability not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-001"
+        ],
+        "source_urls": [
+          "https://care.org.uk/events/2026/11/worship-and-prayer-for-the-nation-in-birmingham",
+          "https://care.org.uk/events",
+          "https://www.eventbrite.co.uk/e/worship-and-prayer-for-the-nation-in-birmingham-tickets-1999686922415"
+        ],
+        "review_decision": "correction",
+        "publication_approved": false,
+        "date": "2026-11-05",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.086729+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://care.org.uk/events",
+            "checked_at": "2026-10-06T14:40:48.176836+00:00",
+            "result": "200\thttps://care.org.uk/events"
+          },
+          {
+            "url": "https://care.org.uk/events/2026/11/worship-and-prayer-for-the-nation-in-birmingham",
+            "checked_at": "2026-10-06T14:42:31.862698+00:00",
+            "result": "200\thttps://care.org.uk/events/2026/11/worship-and-prayer-for-the-nation-in-birmingham"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T 14:52:23.078773+00:00",
+        "review_source_urls": [
+          "https://care.org.uk/events/2026/11/worship-and-prayer-for-the-nation-in-birmingham",
+          "https://www.eventbrite.co.uk/e/worship-and-prayer-for-the-nation-in-birmingham-tickets-1999686922415"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "address": "High Street, Harborne, Birmingham B17 9PT"
+          },
+          "applied_values": {
+            "address": "St John’s Harborne, High Street, Harborne, Birmingham B17 9PT"
+          }
+        },
+        "fresh_check_required": true,
+        "reserve_status": "reviewed_core"
+      },
+      {
+        "id": "B1-4c3a195c19f2",
+        "title": "Mission of God 2026",
+        "org": "Christian Concern and Ezra Centre for Christian Thought (Ezra Institute)",
+        "start": "2026-11-07T09:30:00+00:00",
+        "ideology": "Not classified",
+        "format": "in_person",
+        "cost": "£59 early bird through 12 October; £75 general thereafter (organiser says from 12 October, booking page says 13 October). Group discount for 3+. Fees not confirmed.",
+        "source": "https://christianconcern.com/ccevents/mission-of-god-2026/",
+        "access": "Advance booking; admission at Christian Concern and Ezra Institute discretion",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://christianconcern.com/ccevents/mission-of-god-2026/",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:46:32.768363+00:00",
+        "end": "2026-11-07T17:00:00+00:00",
+        "venue": "Yarnfield Park Training and Conference Centre",
+        "address": "Yarnfield, Staffordshire ST15 0NL",
+        "rsvp_url": "https://www.eventbrite.co.uk/e/mission-of-god-conference-2026-tickets-1996212525400",
+        "description": "One-day conference on family, marriage and culture, jointly hosted by Christian Concern and the Ezra Institute. Hot buffet lunch and refreshments included.",
+        "notes": "Early-bird ends12October and general begins12October on live organiser page, an overlapping boundary | Current ticket inventory/fees unverified | Hot buffet lunch and refreshments included | Arrival/doors time: 2026-11-07T09:00:00+00:00; distinct from programme start | Availability: Eventbrite lists InStock; live checkout capacity not independently confirmed | Cancellation/refunds: No refunds",
+        "doors": "2026-11-07T09:00:00+00:00",
+        "availability": "Eventbrite lists InStock; live checkout capacity not independently confirmed",
+        "cancellation": "No refunds",
+        "source_row_ids": [
+          "EH-004"
+        ],
+        "source_urls": [
+          "https://christianconcern.com/ccevents/mission-of-god-2026/",
+          "https://christianconcern.com/events/",
+          "https://www.eventbrite.co.uk/e/mission-of-god-conference-2026-tickets-1996212525400"
+        ],
+        "review_decision": "correction",
+        "publication_approved": false,
+        "date": "2026-11-07",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.083288+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://christianconcern.com/ccevents/mission-of-god-2026/",
+            "checked_at": "2026-10-06T14:42:31.865915+00:00",
+            "result": "200\thttps://christianconcern.com/ccevents/mission-of-god-2026/"
+          },
+          {
+            "url": "https://christianconcern.com/events/",
+            "checked_at": "2026-10-06T14:40:48.177772+00:00",
+            "result": "200\thttps://christianconcern.com/events/"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T 14:46:32.768363+00:00",
+        "review_source_urls": [
+          "https://christianconcern.com/ccevents/mission-of-god-2026/",
+          "https://www.eventbrite.co.uk/e/mission-of-god-conference-2026-tickets-1996212525400"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "org": "Christian Concern",
+            "cost": "£59 early bird until 23:59 Monday 12 October; £75 general listed from 12 October; group discounts for 3+",
+            "start": "2026-11-07T09:00:00+00:00",
+            "doors": null,
+            "cancellation": null,
+            "availability": null
+          },
+          "applied_values": {
+            "org": "Christian Concern and Ezra Centre for Christian Thought (Ezra Institute)",
+            "cost": "£59 early bird through 12 October; £75 general thereafter (organiser says from 12 October, booking page says 13 October). Group discount for 3+. Fees not confirmed.",
+            "start": "2026-11-07T09:30:00+00:00",
+            "doors": "09:00",
+            "cancellation": "No refunds",
+            "availability": "Eventbrite lists InStock; live checkout capacity not independently confirmed"
+          }
+        },
+        "fresh_check_required": true,
+        "reserve_status": "reviewed_core"
+      },
+      {
+        "id": "B1-6e5f7d907d85",
+        "title": "Engage Podcast Live",
+        "org": "CARE (Christian Action Research and Education)",
+        "start": "2026-11-10T19:30:00+00:00",
+        "ideology": "Not classified",
+        "format": "in_person",
+        "cost": "£5; booking fees not verified",
+        "source": "https://care.org.uk/events/2026/11/engagelive",
+        "access": "Open to all; under-16s must attend with parent/carer; ages 16–17 may attend independently. Photo ID may be requested for alcohol.",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://care.org.uk/events/2026/11/engagelive",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:46:32.768363+00:00",
+        "end": "2026-11-10T21:00:00+00:00",
+        "venue": "St James the Less Church",
+        "address": "Off Thorndike St, Moreton St, London SW1V 2PS",
+        "rsvp_url": "https://www.eventbrite.co.uk/e/care-engage-podcast-live-tickets-1989897025570",
+        "description": "Live podcast recording with James Mildred, Peter Ladd and Tim Farron MP, with Q&A. Arrivals and drinks from 19:00; recording starts 19:30 for approximately 75 minutes. Overall event advertised to 21:00. Cost-barrier tickets available through organiser.",
+        "notes": "Eventbrite page not retrieved; current ticket inventory/fees unverified | Drinks on arrival advertised | Arrival/doors time: 2026-11-10T19:00:00+00:00; distinct from programme start | Availability: Eventbrite lists InStock; checkout capacity and fees not independently confirmed | Cancellation/refunds: Refunds up to 21 days before the event",
+        "doors": "2026-11-10T19:00:00+00:00",
+        "availability": "Eventbrite lists InStock; checkout capacity and fees not independently confirmed",
+        "cancellation": "Refunds up to 21 days before the event",
+        "source_row_ids": [
+          "EH-001"
+        ],
+        "source_urls": [
+          "https://care.org.uk/events/2026/11/engagelive",
+          "https://care.org.uk/events",
+          "https://www.eventbrite.co.uk/e/care-engage-podcast-live-tickets-1989897025570"
+        ],
+        "review_decision": "correction",
+        "publication_approved": false,
+        "date": "2026-11-10",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.083256+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://care.org.uk/events",
+            "checked_at": "2026-10-06T14:40:48.176836+00:00",
+            "result": "200\thttps://care.org.uk/events"
+          },
+          {
+            "url": "https://care.org.uk/events/2026/11/engagelive",
+            "checked_at": "2026-10-06T14:42:31.862887+00:00",
+            "result": "200\thttps://care.org.uk/events/2026/11/engagelive"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T 14:46:32.768363+00:00",
+        "review_source_urls": [
+          "https://care.org.uk/events/2026/11/engagelive",
+          "https://www.eventbrite.co.uk/e/care-engage-podcast-live-tickets-1989897025570"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "access": "Open to all; advance booking through Eventbrite",
+            "cancellation": null,
+            "availability": null
+          },
+          "applied_values": {
+            "access": "Open to all; under-16s must attend with parent/carer; ages 16–17 may attend independently. Photo ID may be requested for alcohol.",
+            "cancellation": "Refunds up to 21 days before the event",
+            "availability": "Eventbrite lists InStock; checkout capacity and fees not independently confirmed"
+          }
+        },
+        "fresh_check_required": true,
+        "reserve_status": "reviewed_core"
+      },
+      {
+        "id": "B1-b08535019550",
+        "title": "Scottish Family Party Conference 2026",
+        "org": "Scottish Family Party",
+        "start": "2026-11-14T10:30:00+00:00",
+        "ideology": "Not classified",
+        "format": "in_person",
+        "cost": "£20 conference including lunch/refreshments; optional dinner £12 deposit with £10 credited to final bill; fees unverified",
+        "source": "https://christianconcern.com/ccevents/scottish-family-party-conference-2026/",
+        "access": "Open to members and non-members; optional dinner booking closes 9 November",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://christianconcern.com/ccevents/scottish-family-party-conference-2026/",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:52:23.078773+00:00",
+        "end": "2026-11-14T16:30:00+00:00",
+        "venue": "GLO Conference Centre",
+        "address": "78 Muir Street, Motherwell ML1 1BN",
+        "rsvp_url": "https://www.tickettailor.com/events/scottishfamilyparty/2433230",
+        "description": "Scottish Family Party conference; Christian Concern exhibits. Registration 09:45, programme 10:30–16:30. Optional dinner 17:30–20:00 at a local restaurant.",
+        "notes": "Ticket headline10:00 differs from detailed conference start10:30; detailed timetable used | Buffet lunch and refreshments included | Arrival/doors time: 2026-11-14T09:45:00+00:00; distinct from programme start | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified",
+        "doors": "2026-11-14T09:45:00+00:00",
+        "availability": "Unknown; current ticket availability not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-004",
+          "EH-171"
+        ],
+        "source_urls": [
+          "https://christianconcern.com/ccevents/scottish-family-party-conference-2026/",
+          "https://christianconcern.com/events/",
+          "https://www.tickettailor.com/events/scottishfamilyparty/2433230"
+        ],
+        "review_decision": "correction",
+        "publication_approved": false,
+        "date": "2026-11-14",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.086937+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://www.tickettailor.com/events/scottishfamilyparty/2433230",
+            "checked_at": "2026-10-06T14:46:13.743295+00:00",
+            "result": "200\thttps://www.tickettailor.com/events/scottishfamilyparty/2433230"
+          },
+          {
+            "url": "https://christianconcern.com/ccevents/scottish-family-party-conference-2026/",
+            "checked_at": "2026-10-06T14:42:31.866330+00:00",
+            "result": "200\thttps://christianconcern.com/ccevents/scottish-family-party-conference-2026/"
+          },
+          {
+            "url": "https://christianconcern.com/events/",
+            "checked_at": "2026-10-06T14:40:48.177772+00:00",
+            "result": "200\thttps://christianconcern.com/events/"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T 14:52:23.078773+00:00",
+        "review_source_urls": [
+          "https://christianconcern.com/ccevents/scottish-family-party-conference-2026/",
+          "https://www.tickettailor.com/events/scottishfamilyparty/2433230"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "org": "Christian Concern; Scottish Family Party",
+            "start": "2026-11-14T10:30:00+00:00",
+            "doors": "09:45",
+            "venue": "GLO Conference Centre",
+            "cost": "£20 delegate, buffet lunch and refreshments included; optional dinner deposit£12 with£10 credited to final bill"
+          },
+          "applied_values": {
+            "org": "Scottish Family Party",
+            "start": "2026-11-14T10:30:00+00:00",
+            "doors": "09:45",
+            "venue": "GLO Conference Centre",
+            "cost": "£20 conference including lunch/refreshments; optional dinner £12 deposit with £10 credited to final bill; fees unverified"
+          }
+        },
+        "host_role": "Scottish Family Party host; Christian Concern exhibitor",
+        "fresh_check_required": true,
+        "reserve_status": "reviewed_core"
+      },
+      {
+        "id": "B1-952e1e74ec5d",
+        "title": "Pray for Politics – November",
+        "org": "CARE (Christian Action Research and Education)",
+        "start": "2026-11-18T12:00:00+00:00",
+        "ideology": "Not classified",
+        "format": "online",
+        "cost": "Unknown",
+        "source": "https://care.org.uk/events/2026/11/prayer-for-politics-3-2-2-2",
+        "access": "Everyone welcome; request Zoom link from events@care.org.uk",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://care.org.uk/events/2026/11/prayer-for-politics-3-2-2-2",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:52:23.078773+00:00",
+        "end": "2026-11-18T12:45:00+00:00",
+        "venue": "Zoom",
+        "address": "Online; Britain-hosted by CARE, London",
+        "rsvp_url": "https://care.org.uk/events/2026/11/prayer-for-politics-3-2-2-2",
+        "description": "Online prayer gathering focused on politics and government; small-group participation is optional.",
+        "notes": "Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Price and any booking fees are unknown",
+        "availability": "Unknown; current ticket availability not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-001"
+        ],
+        "source_urls": [
+          "https://care.org.uk/events/2026/11/prayer-for-politics-3-2-2-2",
+          "https://care.org.uk/events"
+        ],
+        "review_decision": "pass",
+        "publication_approved": false,
+        "date": "2026-11-18",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.086579+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://care.org.uk/events/2026/11/prayer-for-politics-3-2-2-2",
+            "checked_at": "2026-10-06T14:42:31.863270+00:00",
+            "result": "200\thttps://care.org.uk/events/2026/11/prayer-for-politics-3-2-2-2"
+          },
+          {
+            "url": "https://care.org.uk/events",
+            "checked_at": "2026-10-06T14:40:48.176836+00:00",
+            "result": "200\thttps://care.org.uk/events"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T 14:52:23.078773+00:00",
+        "review_source_urls": [
+          "https://care.org.uk/events/2026/11/prayer-for-politics-3-2-2-2"
+        ],
+        "fresh_check_required": true,
+        "reserve_status": "reviewed_core"
+      },
+      {
+        "id": "B1-a3f3b20d656e",
+        "title": "Awake, Arise! Belfast",
+        "org": "Christian Concern",
+        "start": "2026-11-21T10:00:00+00:00",
+        "ideology": "Not classified",
+        "format": "in_person",
+        "cost": "£25 early bird until 23:59 on 21 October; £30 general; group discounts for 3+",
+        "source": "https://christianconcern.com/ccevents/awake-arise-belfast/",
+        "access": "Advance booking; entry at organiser discretion",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://christianconcern.com/ccevents/awake-arise-belfast/",
+        "simulated": false,
+        "verified_at": "2026-10-06T15:04:00.218728+00:00",
+        "end": "2026-11-21T16:30:00+00:00",
+        "venue": "Carnmoney Church",
+        "address": "258 Carnmoney Road, Newtownabbey BT36 6JZ",
+        "rsvp_url": "https://www.eventbrite.co.uk/e/awake-arise-belfast-tickets-1994005627509?aff=oddtdtcreator",
+        "description": "Day of teaching, worship, prayer and testimonies, with a sandwich lunch and refreshments included.",
+        "notes": "Sandwich lunch and refreshments included | Arrival/doors time: 2026-11-21T09:30:00+00:00; distinct from programme start | Availability: Eventbrite lists InStock at check time; live ticket capacity unconfirmed | Cancellation/refunds: No refunds; ticket transfers can be arranged through organiser",
+        "doors": "2026-11-21T09:30:00+00:00",
+        "availability": "Eventbrite lists InStock at check time; live ticket capacity unconfirmed",
+        "cancellation": "No refunds; ticket transfers can be arranged through organiser",
+        "source_row_ids": [
+          "EH-004"
+        ],
+        "source_urls": [
+          "https://christianconcern.com/ccevents/awake-arise-belfast/",
+          "https://christianconcern.com/events/",
+          "https://www.eventbrite.co.uk/e/awake-arise-belfast-tickets-1994005627509?aff=oddtdtcreator"
+        ],
+        "review_decision": "correction",
+        "publication_approved": false,
+        "date": "2026-11-21",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.096619+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://christianconcern.com/ccevents/awake-arise-belfast/",
+            "checked_at": "2026-10-06T14:46:13.744579+00:00",
+            "result": "200\thttps://christianconcern.com/ccevents/awake-arise-belfast/"
+          },
+          {
+            "url": "https://christianconcern.com/events/",
+            "checked_at": "2026-10-06T14:40:48.177772+00:00",
+            "result": "200\thttps://christianconcern.com/events/"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T15:04:00.218728+00:00",
+        "review_source_urls": [
+          "https://christianconcern.com/ccevents/awake-arise-belfast/",
+          "https://www.eventbrite.co.uk/e/awake-arise-belfast-tickets-1994005627509?aff=oddtdtcreator"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "cancellation": null,
+            "availability": null
+          },
+          "applied_values": {
+            "cancellation": "No refunds; ticket transfers can be arranged through organiser",
+            "availability": "Eventbrite lists InStock at check time; live ticket capacity unconfirmed"
+          }
+        },
+        "fresh_check_required": true,
+        "reserve_status": "reviewed_core"
+      },
+      {
+        "id": "B1-97f7356fc374",
+        "title": "Unite for Education: Edinburgh",
+        "org": "Unite for Education",
+        "start": "2026-11-24T19:00:00+00:00",
+        "ideology": "Not classified",
+        "format": "in_person",
+        "cost": "Free",
+        "source": "https://christianconcern.com/ccevents/unite-for-education-edinburgh/",
+        "access": "Information evening for leaders, parents, pastors, guardians and teachers",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://christianconcern.com/ccevents/unite-for-education-edinburgh/",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:52:23.078773+00:00",
+        "end": "2026-11-24T21:00:00+00:00",
+        "venue": "Grace Church Leith",
+        "address": "Grace Church Leith, 3 Shrubhill Walk, Edinburgh EH7 4RB",
+        "rsvp_url": "https://buytickets.at/uniteforeducation/2370743",
+        "description": "Christian education information evening organised by Unite for Education, with Christian Concern exhibiting.",
+        "notes": "Detail header says 24 November; copied body incorrectly says 8 October; actual host date independently checked by reviewer | Arrival/doors time: 2026-11-24T18:30:00+00:00; distinct from programme start | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified",
+        "doors": "2026-11-24T18:30:00+00:00",
+        "availability": "Unknown; current ticket availability not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-004"
+        ],
+        "source_urls": [
+          "https://christianconcern.com/ccevents/unite-for-education-edinburgh/",
+          "https://christianconcern.com/events/",
+          "https://uniteforeducation.uk/event/edinburgh-education-information-evening-24-november-7pm/",
+          "https://buytickets.at/uniteforeducation/2370743"
+        ],
+        "review_decision": "correction",
+        "publication_approved": false,
+        "date": "2026-11-24",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.086993+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://christianconcern.com/ccevents/unite-for-education-edinburgh/",
+            "checked_at": "2026-10-06T14:42:31.866492+00:00",
+            "result": "200\thttps://christianconcern.com/ccevents/unite-for-education-edinburgh/"
+          },
+          {
+            "url": "https://christianconcern.com/events/",
+            "checked_at": "2026-10-06T14:40:48.177772+00:00",
+            "result": "200\thttps://christianconcern.com/events/"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T 14:52:23.078773+00:00",
+        "review_source_urls": [
+          "https://christianconcern.com/ccevents/unite-for-education-edinburgh/",
+          "https://uniteforeducation.uk/event/edinburgh-education-information-evening-24-november-7pm/",
+          "https://buytickets.at/uniteforeducation/2370743"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "org": "Christian Concern",
+            "doors": null,
+            "cost": "Not published",
+            "rsvp_url": "https://uniteforeducation.uk/",
+            "address": "Edinburgh EH7 4RB"
+          },
+          "applied_values": {
+            "org": "Unite for Education",
+            "doors": "18:30",
+            "cost": "Free",
+            "rsvp_url": "https://buytickets.at/uniteforeducation/2370743",
+            "address": "Grace Church Leith, 3 Shrubhill Walk, Edinburgh EH7 4RB"
+          }
+        },
+        "host_role": "Christian Concern exhibitor; Unite for Education host",
+        "fresh_check_required": true,
+        "reserve_status": "reviewed_core"
+      },
+      {
+        "id": "B1-8edfb9d956b2",
+        "title": "Tom Holland & Malcolm Guite: The case for re-enchantment",
+        "org": "UnHerd",
+        "start": "2026-11-27T19:00:00+00:00",
+        "ideology": "Not classified",
+        "format": "in_person",
+        "cost": "Non-subscriber ticket £40, £0 booking fee; other member/subscriber tiers not verified",
+        "source": "https://club.unherd.com/event/the-case-for-re-enchantment/",
+        "access": "Ticket options differ for subscribers, club members and public",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://club.unherd.com/event/the-case-for-re-enchantment/",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:56:00.452369+00:00",
+        "end": "2026-11-27T20:30:00+00:00",
+        "venue": "Emmanuel Centre",
+        "address": "Westminster, London",
+        "rsvp_url": "https://www.tickettailor.com/checkout/view-event/id/8830476/chk/c63eb090125356d81c9d2a52e463c424?a=NONSUBSCRIBER",
+        "description": "Discussion on Arthurian legend, myth-making and re-enchantment.",
+        "notes": "Subscriber/club member prices not checked | Availability: Non-subscriber ticket selector visible; no purchase or capacity guarantee | Cancellation/refunds: Unknown; no refund or cancellation policy verified",
+        "availability": "Non-subscriber ticket selector visible; no purchase or capacity guarantee",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-133"
+        ],
+        "source_urls": [
+          "https://club.unherd.com/event/the-case-for-re-enchantment/",
+          "https://club.unherd.com/",
+          "https://www.tickettailor.com/checkout/new-session/id/8830476/chk/c63eb090125356d81c9d2a52e463c424/?a=NONSUBSCRIBER"
+        ],
+        "review_decision": "correction",
+        "publication_approved": false,
+        "date": "2026-11-27",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.091442+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://club.unherd.com/event/the-case-for-re-enchantment/",
+            "checked_at": "2026-10-06T14:42:49.889718+00:00",
+            "result": "200\thttps://club.unherd.com/event/the-case-for-re-enchantment/"
+          },
+          {
+            "url": "https://club.unherd.com/",
+            "checked_at": "2026-10-06T14:40:59.835132+00:00",
+            "result": "200\thttps://club.unherd.com/"
+          },
+          {
+            "url": "https://www.tickettailor.com/checkout/new-session/id/8830476/chk/c63eb090125356d81c9d2a52e463c424/?a=NONSUBSCRIBER",
+            "checked_at": "2026-10-06T14:54:33.468312+00:00",
+            "result": "200\thttps://www.tickettailor.com/checkout/view-event/id/8830476/chk/c63eb090125356d81c9d2a52e463c424?a=NONSUBSCRIBER"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T 14:56:00.452369+00:00",
+        "review_source_urls": [
+          "https://club.unherd.com/event/the-case-for-re-enchantment/",
+          "https://www.tickettailor.com/checkout/new-session/id/8830476/chk/c63eb090125356d81c9d2a52e463c424/?a=NONSUBSCRIBER"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "start": "2026-11-27T19:00:00+00:00",
+            "end": "2026-11-27T20:30:00+00:00",
+            "timeTBC": false,
+            "cost": "Public/non-subscriber£40;£0 booking fee shown",
+            "availability": null,
+            "rsvp_url": "https://www.tickettailor.com/checkout/new-session/id/8830476/chk/c63eb090125356d81c9d2a52e463c424/?a=NONSUBSCRIBER"
+          },
+          "applied_values": {
+            "start": "2026-11-27T19:00:00+00:00",
+            "end": "2026-11-27T20:30:00+00:00",
+            "timeTBC": false,
+            "cost": "Non-subscriber ticket £40, £0 booking fee; other member/subscriber tiers not verified",
+            "availability": "Non-subscriber ticket selector visible; no purchase or capacity guarantee",
+            "rsvp_url": "https://www.tickettailor.com/checkout/view-event/id/8830476/chk/c63eb090125356d81c9d2a52e463c424?a=NONSUBSCRIBER"
+          }
+        },
+        "fresh_check_required": true,
+        "reserve_status": "reviewed_core"
+      },
+      {
+        "id": "B2-012",
+        "title": "CCF Christmas Carol Service",
+        "org": "Conservative Christian Fellowship",
+        "start": "2026-12-02T19:00:00+00:00",
+        "ideology": "Not classified",
+        "format": "in_person",
+        "cost": "Free",
+        "source": "https://www.theccf.co.uk/events/2026/12/2/ccf-christmas-service",
+        "access": "Registration linked by organiser",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://www.theccf.co.uk/events/2026/12/2/ccf-christmas-service",
+        "simulated": false,
+        "verified_at": "2026-10-06T14:49:55.909948+00:00",
+        "end": "2026-12-02T20:00:00+00:00",
+        "venue": "Wesley Chapel, Methodist Central Hall Westminster",
+        "address": "Storey’s Gate, London SW1H 9NH",
+        "rsvp_url": "https://luma.com/dku90nyq",
+        "notes": "Registration status can change; further programme details to follow. | Free general admission registration | Availability: Free registration available at check time; no host approval required | Cancellation/refunds: Unknown; no refund or cancellation policy verified",
+        "city": "London",
+        "country": "England",
+        "availability": "Free registration available at check time; no host approval required",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-138"
+        ],
+        "source_urls": [
+          "https://www.theccf.co.uk/events/2026/12/2/ccf-christmas-service",
+          "https://www.theccf.co.uk/events",
+          "https://luma.com/dku90nyq"
+        ],
+        "review_decision": "correction",
+        "publication_approved": false,
+        "date": "2026-12-02",
+        "origin": "batch2/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T14:56:42.649080+00:00",
+        "evidence_checks": [],
+        "review_checked_at_original": "2026-10-06T 14:49:55.909948+00:00",
+        "review_source_urls": [
+          "https://www.theccf.co.uk/events",
+          "https://www.theccf.co.uk/events/2026/12/2/ccf-christmas-service",
+          "https://luma.com/dku90nyq"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "availability": "Registration open; not sold out in current booking data",
+            "cost": 0
+          },
+          "applied_values": {
+            "availability": "Free registration available at check time; no host approval required",
+            "cost": "Free"
+          }
+        },
+        "fresh_check_required": true,
+        "reserve_status": "reviewed_core"
+      },
+      {
+        "id": "eh-026-2026-12-04-580716723",
+        "title": "Carol Playing with Ringwood and Burley Band",
+        "org": "Ringwood and Burley Band / New Milton Conservative Club",
+        "start": "2026-12-04T20:00:00+00:00",
+        "ideology": "Not classified",
+        "format": "in_person",
+        "cost": "Unknown",
+        "source": "https://ringwoodandburleyband.co.uk/events/",
+        "access": "Club members only",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://ringwoodandburleyband.co.uk/events/",
+        "simulated": false,
+        "verified_at": "2026-10-06T15:09:31.207957+00:00",
+        "venue": "New Milton Conservative Club",
+        "address": "24 Station Road, New Milton BH25 6JX",
+        "description": "Carol Playing with Ringwood and Burley Band at New Milton Conservative Club.",
+        "notes": "Official band calendar supplies date, time and member-only access; club entertainment PDF unavailable. | Availability: Advertised; ticket availability not verified | Cancellation/refunds: Not stated | Price and any booking fees are unknown",
+        "city": "New Milton, Hampshire",
+        "country": "England",
+        "availability": "Advertised; ticket availability not verified",
+        "cancellation": "Not stated",
+        "source_row_ids": [
+          "EH-026"
+        ],
+        "source_urls": [
+          "https://ringwoodandburleyband.co.uk/events/",
+          "https://www.newmiltonconclub.co.uk/files/regevents.pdf"
+        ],
+        "review_decision": "reserve_not_independently_reviewed",
+        "publication_approved": false,
+        "date": "2026-12-04",
+        "origin": "batch5/events.json",
+        "booking_fees": "Not stated",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T14:46:45.439224+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://ringwoodandburleyband.co.uk/events/",
+            "checked_at": "2026-10-06T14:46:45.439224+00:00",
+            "result": "retrieved"
+          },
+          {
+            "url": "https://www.newmiltonconclub.co.uk/files/regevents.pdf",
+            "checked_at": "2026-10-06T14:44:01.263928+00:00",
+            "result": "HTTP Error 502: Bad Gateway"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T15:09:31.207957+00:00",
+        "review_source_urls": [
+          "https://ringwoodandburleyband.co.uk/events/",
+          "https://www.newmiltonconclub.co.uk/files/regevents.pdf"
+        ],
+        "hold_reason": "Independent publication approval not established",
+        "host_role": "Club performance listed by the official performing band",
+        "fresh_check_required": true,
+        "reserve_status": "source_backed_unreviewed"
+      },
+      {
+        "id": "B3-2026-12-10-4874d13197",
+        "title": "Coffee, Cake & Carols",
+        "org": "North East Hertfordshire Conservatives",
+        "start": "2026-12-10T11:00:00+00:00",
+        "ideology": "Not classified",
+        "format": "in_person",
+        "cost": "£15; fees not stated",
+        "source": "https://www.nehertsconservatives.org.uk/events/coffee-cake-carols",
+        "access": "Email association office to book; membership/age rules not stated",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://www.nehertsconservatives.org.uk/events/coffee-cake-carols",
+        "simulated": false,
+        "verified_at": "2026-10-06T15:09:31.207957+00:00",
+        "venue": "Michael and Margo Leach’s house",
+        "address": "Letchworth Garden City, SG6; exact address not published",
+        "rsvp_url": "https://www.nehertsconservatives.org.uk/events/coffee-cake-carols",
+        "notes": "Availability: Listed; live ticket availability not verified | Cancellation/refunds: No cancellation notice found in sources checked; live status remains subject to organiser confirmation",
+        "city": "Letchworth Garden City",
+        "country": "England",
+        "availability": "Listed; live ticket availability not verified",
+        "cancellation": "No cancellation notice found in sources checked; live status remains subject to organiser confirmation",
+        "source_row_ids": [
+          "EH-081"
+        ],
+        "source_urls": [
+          "https://www.nehertsconservatives.org.uk/events/coffee-cake-carols",
+          "https://www.nehertsconservatives.org.uk/events"
+        ],
+        "review_decision": "reserve_not_independently_reviewed",
+        "publication_approved": false,
+        "date": "2026-12-10",
+        "origin": "batch3/events.json",
+        "booking_fees": "See price field where verified; otherwise not published/verified",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Not published in retrieved event details",
+        "source_checked_at": "2026-10-06T14:53:30Z",
+        "evidence_checks": [
+          {
+            "url": "https://www.nehertsconservatives.org.uk/events/coffee-cake-carols",
+            "checked_at": "2026-10-06T14:42:10.882953Z",
+            "result": "retrieved"
+          },
+          {
+            "url": "https://www.nehertsconservatives.org.uk/events",
+            "checked_at": "2026-10-06T14:41:06.549476Z",
+            "result": "retrieved"
+          },
+          {
+            "url": "https://www.nehertsconservatives.org.uk/events",
+            "checked_at": "2026-10-06T14:41:12.909622Z",
+            "result": "retrieved"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T15:09:31.207957+00:00",
+        "review_source_urls": [
+          "https://www.nehertsconservatives.org.uk/events/coffee-cake-carols",
+          "https://www.nehertsconservatives.org.uk/events"
+        ],
+        "hold_reason": "Independent publication approval not established",
+        "fresh_check_required": true,
+        "reserve_status": "source_backed_unreviewed"
+      },
+      {
+        "id": "eh-020-2026-12-16-37d68f81c",
+        "title": "Jacky Webb’s Choir: Christmas Carols",
+        "org": "Fairwater Conservative Club",
+        "start": "2026-12-16T19:00:00+00:00",
+        "ideology": "Not classified",
+        "format": "in_person",
+        "cost": "Unknown",
+        "source": "https://www.fairwatercons.co.uk/copy-of-club-events",
+        "access": "Members and guests only",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://www.fairwatercons.co.uk/copy-of-club-events",
+        "simulated": false,
+        "verified_at": "2026-10-06T15:09:31.207957+00:00",
+        "end": "2026-12-16T22:00:00+00:00",
+        "venue": "Fairwater Conservative Club",
+        "address": "61 Ely Road, Llandaff, Cardiff CF5 2BY",
+        "description": "Jacky Webb’s Choir: Christmas Carols at Fairwater Conservative Club.",
+        "notes": "Availability: Advertised; ticket availability not verified | Cancellation/refunds: Not stated | Price and any booking fees are unknown",
+        "city": "Cardiff",
+        "country": "Wales",
+        "availability": "Advertised; ticket availability not verified",
+        "cancellation": "Not stated",
+        "source_row_ids": [
+          "EH-020"
+        ],
+        "source_urls": [
+          "https://www.fairwatercons.co.uk/copy-of-club-events",
+          "https://www.fairwatercons.co.uk/"
+        ],
+        "review_decision": "reserve_core_reviewed",
+        "publication_approved": false,
+        "date": "2026-12-16",
+        "origin": "batch5/events.json",
+        "booking_fees": "Not stated",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T14:55:50.974184+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://www.fairwatercons.co.uk/copy-of-club-events",
+            "checked_at": "2026-10-06T14:55:50.974184+00:00",
+            "result": "retrieved"
+          },
+          {
+            "url": "https://www.fairwatercons.co.uk/",
+            "checked_at": "2026-10-06T14:43:57.267832+00:00",
+            "result": "retrieved"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T15:09:31.207957+00:00",
+        "review_source_urls": [
+          "https://www.fairwatercons.co.uk/copy-of-club-events",
+          "https://www.fairwatercons.co.uk/"
+        ],
+        "hold_reason": "Same independently read official programme explicitly dates this occurrence/year. Retain as reserve and recheck practical details before promotion.",
+        "host_role": "organiser_or_venue_programme",
+        "fresh_check_required": true,
+        "reserve_status": "reviewed_core"
+      },
+      {
+        "id": "B1-lead-a0cf539b7182",
+        "title": "Christian Schools Trust Conference2027",
+        "org": "Christian Concern",
+        "start": "2027-02-19T00:00:00+00:00",
+        "ideology": "Not classified",
+        "format": null,
+        "cost": "Unknown",
+        "source": "https://christianconcern.com/ccevents/christian-schools-trust-conference-2027/",
+        "access": "Unknown; check organiser before booking",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://christianconcern.com/ccevents/christian-schools-trust-conference-2027/",
+        "simulated": false,
+        "verified_at": null,
+        "venue": "Derbyshire",
+        "notes": "Outside initial research horizon; only index date/region checked | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Price and any booking fees are unknown",
+        "time": "TBC",
+        "availability": "Unknown; current ticket availability not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-004"
+        ],
+        "source_urls": [
+          "https://christianconcern.com/ccevents/christian-schools-trust-conference-2027/"
+        ],
+        "review_decision": "not_independently_reviewed",
+        "publication_approved": false,
+        "date": "2027-02-19",
+        "origin": "batch1/farther_future_leads.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": null,
+        "evidence_checks": [],
+        "hold_reason": "Independent publication approval not established",
+        "fresh_check_required": true,
+        "reserve_status": "source_backed_unreviewed"
+      },
+      {
+        "id": "B1-lead-f46cf5cb0ee4",
+        "title": "Education Revolution2027",
+        "org": "Christian Concern",
+        "start": "2027-04-24T00:00:00+01:00",
+        "ideology": "Not classified",
+        "format": null,
+        "cost": "Unknown",
+        "source": "https://christianconcern.com/ccevents/education-revolution-2027/",
+        "access": "Unknown; check organiser before booking",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://christianconcern.com/ccevents/education-revolution-2027/",
+        "simulated": false,
+        "verified_at": null,
+        "venue": "Oxford",
+        "notes": "Outside initial research horizon; only index date/region checked | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Price and any booking fees are unknown",
+        "time": "TBC",
+        "availability": "Unknown; current ticket availability not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-004"
+        ],
+        "source_urls": [
+          "https://christianconcern.com/ccevents/education-revolution-2027/"
+        ],
+        "review_decision": "not_independently_reviewed",
+        "publication_approved": false,
+        "date": "2027-04-24",
+        "origin": "batch1/farther_future_leads.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": null,
+        "evidence_checks": [],
+        "hold_reason": "Independent publication approval not established",
+        "fresh_check_required": true,
+        "reserve_status": "source_backed_unreviewed"
+      },
+      {
+        "id": "B1-lead-5cd8b4bbea28",
+        "title": "Colin Hart Lectures: Revival – Oxford date",
+        "org": "The Christian Institute",
+        "start": "2027-05-15T00:00:00+01:00",
+        "ideology": "Not classified",
+        "format": null,
+        "cost": "Unknown",
+        "source": "https://www.christian.org.uk/colin-hart-lectures-2026-revival/",
+        "access": "Unknown; check organiser before booking",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://www.christian.org.uk/colin-hart-lectures-2026-revival/",
+        "simulated": false,
+        "verified_at": null,
+        "venue": "Oxford Presbyterian Church",
+        "notes": "Outside initial research horizon; time, cost and programme unverified | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Price and any booking fees are unknown",
+        "time": "TBC",
+        "availability": "Unknown; current ticket availability not verified",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-003"
+        ],
+        "source_urls": [
+          "https://www.christian.org.uk/colin-hart-lectures-2026-revival/"
+        ],
+        "review_decision": "not_independently_reviewed",
+        "publication_approved": false,
+        "date": "2027-05-15",
+        "origin": "batch1/farther_future_leads.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": null,
+        "evidence_checks": [],
+        "hold_reason": "Independent publication approval not established",
+        "fresh_check_required": true,
+        "reserve_status": "source_backed_unreviewed"
+      },
+      {
+        "id": "B1-338b254a327e",
+        "title": "Mass Flourishing: Morality, Ethics and Markets",
+        "org": "Vinson Centre, Institute of Economic Affairs and Centre for Enterprise, Markets and Ethics",
+        "start": "2026-11-13T09:45:00+00:00",
+        "ideology": "Not classified",
+        "format": "in_person",
+        "cost": "Free",
+        "source": "https://theceme.org/mass-flourishing-morality-ethics-and-markets/",
+        "access": "Ages 18+; registration required",
+        "tags": {
+          "free_food": false,
+          "free_drinks": false,
+          "young_professionals": false
+        },
+        "url": "https://theceme.org/mass-flourishing-morality-ethics-and-markets/",
+        "simulated": false,
+        "verified_at": "2026-10-06T15:04:00.218728+00:00",
+        "end": "2026-11-13T16:30:00+00:00",
+        "venue": "Vinson Centre, University of Buckingham",
+        "address": "21 Hunter Street, Buckingham MK18 1EG",
+        "rsvp_url": "https://www.eventbrite.co.uk/e/annual-policy-conference-vinson-centreieaceme-tickets-1996812783789?aff=oddtdtcreator",
+        "description": "Annual Policy Conference co-hosted by Vinson, IEA and CEME, inspired by Edmund Phelps. Arrival 09:30; welcome 09:45; first lecture 10:00.",
+        "notes": "Vinson headline start10:00 differs from CEME detailed welcome09:45; detailed schedule used | Ticket page says doors09:00, arrival09:30; detailed welcome09:45 retained | Arrival/doors time: 2026-11-13T09:00:00+00:00; distinct from programme start | Availability: Eventbrite lists InStock at check time | Cancellation/refunds: Unknown; no refund or cancellation policy verified",
+        "doors": "2026-11-13T09:00:00+00:00",
+        "availability": "Eventbrite lists InStock at check time",
+        "cancellation": "Unknown; no refund or cancellation policy verified",
+        "source_row_ids": [
+          "EH-192",
+          "EH-197",
+          "EH-205"
+        ],
+        "source_urls": [
+          "https://theceme.org/mass-flourishing-morality-ethics-and-markets/",
+          "https://theceme.org/category/events/",
+          "https://vinsoncentre.com/events/",
+          "https://www.eventbrite.com/e/1996812783789?aff=oddtdtcreator",
+          "https://www.eventbrite.co.uk/e/annual-policy-conference-vinson-centreieaceme-tickets-1996812783789?aff=oddtdtcreator"
+        ],
+        "review_decision": "correction",
+        "publication_approved": false,
+        "date": "2026-11-13",
+        "origin": "batch1/events.json",
+        "booking_fees": "Unknown unless explicitly stated in price",
+        "age_restrictions": "Unknown unless explicitly stated in access",
+        "physical_accessibility": "Unknown",
+        "source_checked_at": "2026-10-06T15:06:11.097794+00:00",
+        "evidence_checks": [
+          {
+            "url": "https://theceme.org/mass-flourishing-morality-ethics-and-markets/",
+            "checked_at": "2026-10-06T14:42:56.740689+00:00",
+            "result": "200\thttps://theceme.org/mass-flourishing-morality-ethics-and-markets/"
+          },
+          {
+            "url": "https://theceme.org/category/events/",
+            "checked_at": "2026-10-06T14:41:05.487146+00:00",
+            "result": "200\thttps://theceme.org/category/events/"
+          },
+          {
+            "url": "https://www.eventbrite.com/e/1996812783789?aff=oddtdtcreator",
+            "checked_at": "2026-10-06T14:54:37.113874+00:00",
+            "result": "200\thttps://www.eventbrite.co.uk/e/annual-policy-conference-vinson-centreieaceme-tickets-1996812783789?aff=oddtdtcreator"
+          },
+          {
+            "url": "https://vinsoncentre.com/events/",
+            "checked_at": "2026-10-06T14:41:11.358202+00:00",
+            "result": "200\thttps://vinsoncentre.com/events/"
+          }
+        ],
+        "review_checked_at_original": "2026-10-06T15:04:00.218728+00:00",
+        "review_source_urls": [
+          "https://theceme.org/mass-flourishing-morality-ethics-and-markets/",
+          "https://www.eventbrite.co.uk/e/annual-policy-conference-vinson-centreieaceme-tickets-1996812783789?aff=oddtdtcreator"
+        ],
+        "correction_audit": {
+          "original_values": {
+            "cost": "Free (zero-price ticket offer in official registration metadata)",
+            "org": "Centre for Enterprise, Markets and Ethics; Institute of Economic Affairs; Vinson Centre",
+            "doors": "09:30",
+            "availability": "InStock in ticket-source metadata"
+          },
+          "applied_values": {
+            "cost": "Free",
+            "org": "Vinson Centre, Institute of Economic Affairs and Centre for Enterprise, Markets and Ethics",
+            "doors": "09:00",
+            "availability": "Eventbrite lists InStock at check time"
+          }
+        },
+        "fresh_check_required": true,
+        "reserve_status": "reviewed_core"
+      }
+    ],
+    "removed_directory_organisations": [
+      {
+        "name": "CARE (Christian Action Research and Education)",
+        "type": "Campaign / educational charity",
+        "tradition": "Cross-party / social conservative issues",
+        "reach": "Britain / UK-wide",
+        "area": "Britain-wide and online",
+        "events": "Talks, webinars, policy discussions",
+        "evidence_status": "Event listing",
+        "evidence": "2026 online and regional events",
+        "access": "Check organiser / event booking",
+        "url": "https://care.org.uk/events",
+        "notes": "",
+        "checked_on": "2026-10-06",
+        "source_sheet": "Event hosts",
+        "source_row": 9
+      },
+      {
+        "name": "The Christian Institute",
+        "type": "Campaign / educational charity",
+        "tradition": "Social conservative / Christian",
+        "reach": "Britain / UK-wide",
+        "area": "Britain-wide",
+        "events": "Local meetings, lectures, conferences",
+        "evidence_status": "Programme described",
+        "evidence": "Local meetings and lecture programme",
+        "access": "Check organiser / event booking",
+        "url": "https://www.christian.org.uk/",
+        "notes": "",
+        "checked_on": "2026-10-06",
+        "source_sheet": "Event hosts",
+        "source_row": 11
+      },
+      {
+        "name": "Christian Concern",
+        "type": "Campaign / educational organisation",
+        "tradition": "Social conservative / Christian",
+        "reach": "Britain / UK-wide",
+        "area": "Britain-wide",
+        "events": "Conferences, training, talks",
+        "evidence_status": "Event listing",
+        "evidence": "Calendar includes organisation's own training and events",
+        "access": "Check organiser / event booking",
+        "url": "https://christianconcern.com/events/",
+        "notes": "",
+        "checked_on": "2026-10-06",
+        "source_sheet": "Event hosts",
+        "source_row": 12
+      },
+      {
+        "name": "Conservative Christian Fellowship",
+        "type": "Party network",
+        "tradition": "Conservative / Christian",
+        "reach": "Britain / UK-wide",
+        "area": "Britain-wide",
+        "events": "Talks, fellowship, prayer, conference receptions",
+        "evidence_status": "Event listing",
+        "evidence": "2026 programme",
+        "access": "Check organiser / event booking",
+        "url": "https://www.theccf.co.uk/events",
+        "notes": "",
+        "checked_on": "2026-10-06",
+        "source_sheet": "Event hosts",
+        "source_row": 146
+      },
+      {
+        "name": "Conservative Muslim Forum",
+        "type": "Party network",
+        "tradition": "Conservative",
+        "reach": "Britain / UK-wide",
+        "area": "Britain-wide",
+        "events": "Receptions, discussions, community events",
+        "evidence_status": "Event listing",
+        "evidence": "Official event information and booking page",
+        "access": "Check organiser / event booking",
+        "url": "https://www.conservativemuslimforum.org/future-events/",
+        "notes": "",
+        "checked_on": "2026-10-06",
+        "source_sheet": "Event hosts",
+        "source_row": 162
+      },
+      {
+        "name": "Centre for Enterprise, Markets and Ethics",
+        "type": "Think tank",
+        "tradition": "Free market / enterprise ethics",
+        "reach": "England",
+        "area": "Oxford and elsewhere",
+        "events": "Lectures, conferences, discussions",
+        "evidence_status": "Event listing",
+        "evidence": "Events programme",
+        "access": "Check organiser / event booking",
+        "url": "https://theceme.org/category/events/",
+        "notes": "",
+        "checked_on": "2026-10-06",
+        "source_sheet": "Event hosts",
+        "source_row": 200
+      },
+      {
+        "name": "Precious Life",
+        "type": "Campaign organisation",
+        "tradition": "Pro-life / Christian social conservative issues",
+        "reach": "Northern Ireland",
+        "area": "Belfast and Northern Ireland",
+        "events": "Rallies, marches and public campaigning events",
+        "evidence_status": "Event report",
+        "evidence": "Co-organised the Belfast Rally for Life, Liberty and Faith on 4 July 2026.",
+        "access": "Public rally; check future listings",
+        "url": "https://www.preciouslife.com/news/1264/belfast-rally-draws-people-from-across-ireland-to-defend-life-liberty-and-faith/",
+        "notes": "Issue-based inclusion; not evidence that all supporters share a party or economic ideology.",
+        "checked_on": "2026-10-06",
+        "source_sheet": "Event hosts",
+        "source_row": 244
+      },
+      {
+        "name": "Youth for Life NI",
+        "type": "Youth / campaign organisation",
+        "tradition": "Pro-life / social conservative issues",
+        "reach": "Northern Ireland",
+        "area": "Belfast / Derry / Northern Ireland",
+        "events": "Street outreach, pizza nights and social events",
+        "evidence_status": "Programme described",
+        "evidence": "Official parent page describes weekly Belfast outreach, monthly Derry outreach and organised social events.",
+        "access": "Age 16–30; contact organiser",
+        "url": "https://www.preciouslife.com/campaigns/63/youth-for-life-ni/",
+        "notes": "Youth project associated with Precious Life; schedule described by organiser, not individually verified for each date.",
+        "checked_on": "2026-10-06",
+        "source_sheet": "Event hosts",
+        "source_row": 245
+      },
+      {
+        "name": "CARE Northern Ireland",
+        "type": "Regional / local network",
+        "tradition": "Cross-party / Christian social conservative issues",
+        "reach": "Northern Ireland",
+        "area": "Northern Ireland",
+        "events": "Church engagement, policy resources and events",
+        "evidence_status": "Programme described",
+        "evidence": "Official NI page describes regional activities and Engage updates carrying event information.",
+        "access": "Join regional Engage updates / contact team",
+        "url": "https://care.org.uk/care-in-ni",
+        "notes": "Regional team of CARE, already included nationally; no specific forthcoming event established.",
+        "checked_on": "2026-10-06",
+        "source_sheet": "Event hosts",
+        "source_row": 246
+      },
+      {
+        "name": "Both Lives (formerly Both Lives Matter)",
+        "type": "Campaign / educational organisation",
+        "tradition": "Cross-party / pro-life issues; adjacent",
+        "reach": "Northern Ireland / UK-wide",
+        "area": "Northern Ireland, wider UK and online",
+        "events": "Talks, seminars and pregnancy crisis roundtables",
+        "evidence_status": "Event report",
+        "evidence": "2025 review describes talks, seminars and a Belfast satellite roundtable.",
+        "access": "Contact organiser for event access",
+        "url": "https://www.eauk.org/news-and-views/spotlight-with-both-lives",
+        "notes": "Evangelical Alliance initiative with NI origins; broad cross-community membership, not a partisan right-wing label.",
+        "checked_on": "2026-10-06",
+        "source_sheet": "Event hosts",
+        "source_row": 247
+      },
+      {
+        "name": "Liberty NI",
+        "type": "Campaign organisation",
+        "tradition": "Christian / faith, speech and parental-rights advocacy",
+        "reach": "Northern Ireland",
+        "area": "Northern Ireland",
+        "events": "Check network for events",
+        "evidence_status": "Needs current verification",
+        "evidence": "Rally organiser describes Liberty NI and its spokesperson appearing at the July 2026 Belfast rally.",
+        "access": "Check organiser / event booking",
+        "url": "https://thelifeinstitute.net/campaigns/rally2026",
+        "notes": "Speaking at another organisation’s rally does not prove hosting. Own event programme not verified; do not infer free-market economics from the name.",
+        "checked_on": "2026-10-06",
+        "source_sheet": "Needs checking",
+        "source_row": 131
+      },
+      {
+        "organisation_id": "LUNI-STMARYS",
+        "name": "St Mary's University, Twickenham",
+        "type": "University / public events",
+        "tradition": "Academic / public policy; event-level views vary",
+        "reach": "London and nearby areas",
+        "area": "Twickenham, Greater London",
+        "events": "Public lectures, policy discussions, debates and seminars within existing site subjects",
+        "evidence_status": "Programme described / source checked",
+        "evidence": "Official calendar web fetch states no results; search indexed recruitment events. No eligible public policy event verified",
+        "access": "Check individual event listing for public eligibility, booking, cost and availability",
+        "url": "https://www.stmarys.ac.uk/events",
+        "notes": "Only existing event categories; exclude unrelated arts, sport, technical science and admissions activities. Official calendar web fetch states no results; search indexed recruitment events. No eligible public policy event verified",
+        "checked_on": "2026-10-06",
+        "source_sheet": "Event hosts",
+        "source_row": null
+      }
+    ]
+  }
 }

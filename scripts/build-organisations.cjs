@@ -1,6 +1,7 @@
 /* Rebuild the public directory after editing data/organisations.json. */
 const fs = require('node:fs');
 const path = require('node:path');
+const { excludesOrganisation } = require('./listing-policy.cjs');
 const root = path.join(__dirname, '..');
 const eventsPage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 // Derive shared header and About content from the events page to prevent drift.
@@ -20,6 +21,7 @@ const escape = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<'
 const records = data.organisations;
 const names = new Set();
 for (const org of records) {
+  if (excludesOrganisation(org)) throw new Error(`Outside the non-religious editorial scope: ${org.name}`);
   if (!org.name || names.has(org.name)) throw new Error(`Missing or duplicate name: ${org.name}`);
   names.add(org.name);
   if (!['https:', 'http:'].includes(new URL(org.url).protocol)) throw new Error(`Invalid source URL: ${org.name}`);
@@ -54,9 +56,9 @@ const html = `<!DOCTYPE html>
   <title>Organisations | London Political Events</title>
   <link rel="canonical" href="https://sfox2006.github.io/London-Political-Events/organisations.html" />
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" href="assets/icon.svg?v=15" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=15" />
-  <link rel="stylesheet" href="styles.css?v=15" />
+  <link rel="icon" href="assets/icon.svg?v=16" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=16" />
+  <link rel="stylesheet" href="styles.css?v=16" />
   ${symbolStyles}
 </head>
 <body class="directory-page">
@@ -89,14 +91,14 @@ const html = `<!DOCTYPE html>
     </section>
   </main>
   <footer class="site-footer">
-    <a class="brand-credit" href="https://www.fightingforafreefuture.com/" target="_blank" rel="noopener noreferrer"><img src="assets/fff-logo.png?v=15" width="160" height="160" alt="Fighting for a Free Future" loading="lazy" /></a>
+    <a class="brand-credit" href="https://www.fightingforafreefuture.com/" target="_blank" rel="noopener noreferrer"><img src="assets/fff-logo.png?v=16" width="160" height="160" alt="Fighting for a Free Future" loading="lazy" /></a>
     <div class="footer-suggestion"><h2>Suggest a listing or help verify an organisation</h2>${suggestion}</div>
     <div class="footer-suggestion"><h2>Get the weekly email</h2><p>A free Sunday roundup of London politics and ideas events.</p><a class="suggestion-button" href="${newsletterForm}" target="_blank" rel="noopener noreferrer">Sign up for the London weekly email <span aria-hidden="true">↗</span></a></div>
     <p>An independent calendar of politics, ideas and social events across the UK and online. <a href="./">Back to events</a>. Check each organiser's event page for current details.</p>
   </footer>
   ${about}
-  <script src="directory-header.js?v=15" defer></script>
-  <script src="organisations.js?v=15" defer></script>
+  <script src="directory-header.js?v=16" defer></script>
+  <script src="organisations.js?v=16" defer></script>
 </body>
 </html>
 `;

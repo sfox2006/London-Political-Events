@@ -21,3 +21,7 @@ This is a self-contained static site, adapted from Sam's DC calendar. Preserve t
 - All displayed and exported times use `Europe/London`.
 - London newsletter signup uses the London-specific Google Form linked in the header, newsletter card and footer. Keep it separate from the DC signup form and the event/organisation suggestion form. See README.md for the owner editor and response-management link.
 - If changing the app shell after publication, bump the shell cache version and HTML asset query versions together.
+
+## Editorial scope
+
+The owner excludes religious organisations and religious content. Do not collect or publish worship, prayer, carol services, religious education or religion-centred talks, including academic events primarily about religion. Check `data/listing-policy.json` for reviewed exclusions before researching or importing. Add newly reviewed exclusions to that file. Do not infer religion from a personal name, a church venue, a country or a political position. Seasonal social events and secular issue groups remain eligible. The original research coverage is an audit only; excluded sources must not be reintroduced from it.
