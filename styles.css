@@ -2533,6 +2533,29 @@ body.filters-open {
 /* London identity and sample-data states. */
 .london-lockup { display:flex; align-items:center; gap:10px; font-family:"Crimson Pro",Georgia,serif; font-size:32px; font-weight:600; line-height:1; color:var(--navy); }
 .london-lockup img { flex:none; width:44px; height:44px; object-fit:contain; }
+.site-title-line {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px 10px;
+  min-width: 0;
+  line-height: 1.1;
+}
+.beta-badge {
+  flex: none;
+  padding: 4px 7px;
+  border: 1px solid var(--gold);
+  border-radius: 3px;
+  background: #fff1e5;
+  color: #8c400b;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: .05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
 .newsletter-pending { display:flex; flex-direction:column; gap:2px; padding:8px 14px; background:var(--sand); font-size:12px; font-weight:500; color:var(--navy); }
 .newsletter-pending span { color:var(--muted); font-size:10px; font-weight:400; }
 .demo-notice { border-top:2px solid var(--gold); background:#fff6ee; color:var(--navy); }
