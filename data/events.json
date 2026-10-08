@@ -1,597 +1,12 @@
 {
   "mode": "live",
   "timezone": "Europe/London",
-  "generated": "2026-10-07T00:28:25+01:00",
+  "generated": "2026-10-08T14:30:23+01:00",
   "window": {
-    "start": "2026-10-07",
-    "end": "2026-11-04"
+    "start": "2026-10-08",
+    "end": "2026-11-05"
   },
   "events": [
-    {
-      "id": "eh-027-2026-10-07-17b010758",
-      "title": "NECC Quiz Night with Mark & Sally",
-      "org": "North Enfield Conservative Club",
-      "start": "2026-10-07T00:00:00+01:00",
-      "ideology": "other",
-      "format": "in_person",
-      "cost": "Unknown",
-      "source": "https://neccenfieldnorth.co.uk/events.php",
-      "access": "Private members’ club; check guest eligibility and event booking",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "url": "https://neccenfieldnorth.co.uk/events.php",
-      "simulated": false,
-      "verified_at": "2026-10-06T15:09:31.207957+00:00",
-      "end": "2026-10-07T22:30:00+01:00",
-      "venue": "North Enfield Social Club, Main Hall",
-      "address": "278 Baker Street, Enfield EN1 3LD",
-      "description": "NECC Quiz Night with Mark & Sally at North Enfield Conservative Club.",
-      "notes": "Public calendar time may include doors/opening; separate programme start not stated. | Published calendar time: 2026-10-07T18:00:00+01:00; programme start is TBC | Availability: Advertised; ticket availability not verified | Cancellation/refunds: Not stated | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
-      "time": "TBC",
-      "city": "Enfield, London",
-      "country": "England",
-      "availability": "Advertised; ticket availability not verified",
-      "cancellation": "Not stated",
-      "source_row_ids": [
-        "EH-027"
-      ],
-      "source_urls": [
-        "https://neccenfieldnorth.co.uk/events.php",
-        "https://neccenfieldnorth.co.uk/",
-        "https://neccenfieldnorth.co.uk/contact.php"
-      ],
-      "review_decision": "pass_with_caveats",
-      "publication_approved": true,
-      "date": "2026-10-07",
-      "origin": "batch5/events.json",
-      "booking_fees": "Not stated",
-      "age_restrictions": "Unknown unless explicitly stated in access",
-      "physical_accessibility": "Unknown",
-      "source_checked_at": "2026-10-06T14:44:01.952873+00:00",
-      "evidence_checks": [
-        {
-          "url": "https://neccenfieldnorth.co.uk/events.php",
-          "checked_at": "2026-10-06T14:42:54+00:00",
-          "result": null
-        },
-        {
-          "url": "https://neccenfieldnorth.co.uk/",
-          "checked_at": "2026-10-06T14:41:27+00:00",
-          "result": null
-        }
-      ],
-      "review_checked_at_original": "2026-10-06T15:09:31.207957+00:00",
-      "review_source_urls": [
-        "https://neccenfieldnorth.co.uk/events.php",
-        "https://neccenfieldnorth.co.uk/",
-        "https://neccenfieldnorth.co.uk/contact.php"
-      ],
-      "host_role": "organiser_or_venue_programme",
-      "source_ideology": "Not classified"
-    },
-    {
-      "id": "B1-3a2648f675a5",
-      "title": "JVF Female Founder Ambition Series Report Launch",
-      "org": "The Entrepreneurs Network and Jessica Vollman Foundation",
-      "start": "2026-10-07T09:30:00+01:00",
-      "ideology": "other",
-      "format": "in_person",
-      "cost": "Free",
-      "source": "https://www.tenentrepreneurs.org/events/jvf-report-launch",
-      "access": "Request a place; patrons, advisers and supporters given priority; relevant professional audience",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "url": "https://www.tenentrepreneurs.org/events/jvf-report-launch",
-      "simulated": false,
-      "verified_at": "2026-10-06T14:56:00.452369+00:00",
-      "end": "2026-10-07T11:00:00+01:00",
-      "venue": "IDEALondon",
-      "address": "69 Wilson Street, London EC2A 2BB",
-      "rsvp_url": "https://luma.com/x0i6nprs",
-      "description": "Report launch with the Jessica Vollman Foundation.",
-      "notes": "Availability: Request to join; host approval required | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
-      "availability": "Request to join; host approval required",
-      "cancellation": "Unknown; no refund or cancellation policy verified",
-      "source_row_ids": [
-        "EH-201"
-      ],
-      "source_urls": [
-        "https://www.tenentrepreneurs.org/events/jvf-report-launch",
-        "https://www.tenentrepreneurs.org/events/",
-        "https://luma.com/event/evt-NihIACoFXEu1UBW",
-        "https://luma.com/x0i6nprs"
-      ],
-      "review_decision": "correction",
-      "publication_approved": true,
-      "date": "2026-10-07",
-      "origin": "batch1/events.json",
-      "booking_fees": "Unknown unless explicitly stated in price",
-      "age_restrictions": "Unknown unless explicitly stated in access",
-      "physical_accessibility": "Unknown",
-      "source_checked_at": "2026-10-06T15:06:11.092721+00:00",
-      "evidence_checks": [
-        {
-          "url": "https://www.tenentrepreneurs.org/events/",
-          "checked_at": "2026-10-06T14:41:09.736722+00:00",
-          "result": "200\thttps://www.tenentrepreneurs.org/events/"
-        },
-        {
-          "url": "https://www.tenentrepreneurs.org/events/jvf-report-launch",
-          "checked_at": "2026-10-06T14:43:06.640676+00:00",
-          "result": "200\thttps://www.tenentrepreneurs.org/events/jvf-report-launch"
-        }
-      ],
-      "review_checked_at_original": "2026-10-06T 14:56:00.452369+00:00",
-      "review_source_urls": [
-        "https://www.tenentrepreneurs.org/events/jvf-report-launch",
-        "https://luma.com/event/evt-NihIACoFXEu1UBW",
-        "https://luma.com/x0i6nprs"
-      ],
-      "correction_audit": {
-        "original_values": {
-          "rsvp_url": "https://www.tenentrepreneurs.org/events/jvf-report-launch",
-          "availability": null,
-          "org": "The Entrepreneurs Network",
-          "cost": "Free"
-        },
-        "applied_values": {
-          "rsvp_url": "https://luma.com/x0i6nprs",
-          "availability": "Request to join; host approval required",
-          "org": "The Entrepreneurs Network and Jessica Vollman Foundation",
-          "cost": "Free"
-        }
-      },
-      "source_ideology": "Not classified"
-    },
-    {
-      "id": "B1-7b0b09ba6654",
-      "title": "Conservative Party Conference 2026: Closing-day main programme",
-      "org": "Conservative Party",
-      "start": "2026-10-07T10:00:00+01:00",
-      "ideology": "other",
-      "format": "in_person",
-      "cost": "Conference accreditation/pass required; price depends on pass category",
-      "source": "https://www.conservatives.com/conference/agenda",
-      "access": "Conference secure-zone access required",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "url": "https://www.conservatives.com/conference/agenda",
-      "simulated": false,
-      "verified_at": "2026-10-06T15:07:27.317199+00:00",
-      "end": "2026-10-07T12:00:00+01:00",
-      "venue": "Symphony Hall, ICC Birmingham",
-      "address": "Birmingham ICC, Broad Street / Centenary Square, Birmingham",
-      "rsvp_url": "https://www.conservatives.com/conference",
-      "description": "Closing-day session includes From Party to Movement, Restoring Consequences and the Leader’s Speech. Times are for the whole main-hall session.",
-      "notes": "Timetable verified in official CPC26 handbook printedpage29; exact individual speech times not published | Pass availability/price not checked | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
-      "availability": "Unknown; current ticket availability not verified",
-      "cancellation": "Unknown; no refund or cancellation policy verified",
-      "source_row_ids": [
-        "EH-167"
-      ],
-      "source_urls": [
-        "https://www.conservatives.com/conference/agenda",
-        "https://www.conservatives.com/conference",
-        "https://www.conservatives.com/conference/faqs"
-      ],
-      "review_decision": "pass",
-      "publication_approved": true,
-      "date": "2026-10-07",
-      "origin": "batch1/events.json",
-      "booking_fees": "Unknown unless explicitly stated in price",
-      "age_restrictions": "Unknown unless explicitly stated in access",
-      "physical_accessibility": "Unknown",
-      "source_checked_at": "2026-10-06T15:06:11.107754+00:00",
-      "evidence_checks": [
-        {
-          "url": "https://www.conservatives.com/conference",
-          "checked_at": "2026-10-06T14:41:00.053450+00:00",
-          "result": "200\thttps://www.conservatives.com/conference"
-        }
-      ],
-      "review_checked_at_original": "2026-10-06T15:07:27.317199+00:00",
-      "review_source_urls": [
-        "https://www.conservatives.com/conference/agenda",
-        "https://www.conservatives.com/conference",
-        "https://www.conservatives.com/conference/faqs"
-      ],
-      "source_ideology": "Not classified"
-    },
-    {
-      "id": "LUE-516fbd60fe86",
-      "title": "Speaking Welsh and Feeling Welsh: Nationalism, belonging and language revival in Wales’ capital city",
-      "org": "University College London (UCL)",
-      "org_acronym": "",
-      "start": "2026-10-07T11:00:00+01:00",
-      "end": "2026-10-07T13:00:00+01:00",
-      "venue": "Room 106",
-      "address": "Gordon House, 29 Gordon Square, London, WC1H 0PP, United Kingdom",
-      "url": "https://www.ucl.ac.uk/social-historical-sciences/events/2026/oct/speaking-welsh-and-feeling-welsh-nationalism-belonging-and-language-revival-wales-capital-city",
-      "rsvp_url": "",
-      "ideology": "nonpartisan",
-      "format": "in_person",
-      "cost": "Free",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "access": "Listed in UCL’s Public events calendar; Open",
-      "source": "Official organiser event or registration page",
-      "description": "Seminar on Welsh nationalism, identity and language revival in Cardiff.",
-      "simulated": false,
-      "verified_at": "2026-10-06T21:08:13.302099+00:00",
-      "source_urls": [
-        "https://www.ucl.ac.uk/social-historical-sciences/events/2026/oct/speaking-welsh-and-feeling-welsh-nationalism-belonging-and-language-revival-wales-capital-city",
-        "https://www.ucl.ac.uk/events/all-events?ucl_audience%5BPublic%5D=Public&0=39&page=1"
-      ],
-      "organisationIds": [
-        "LUE-UCL"
-      ],
-      "review_decision": "approve",
-      "reviewed_at": "2026-10-06T21:24:16.314563+00:00",
-      "independently_reviewed": true,
-      "publication_approved": true,
-      "verificationCaveats": [
-        "End time appears in the official event calendar but is omitted from the event detail page."
-      ],
-      "review_source_urls": [
-        "https://www.ucl.ac.uk/social-historical-sciences/events/2026/oct/speaking-welsh-and-feeling-welsh-nationalism-belonging-and-language-revival-wales-capital-city",
-        "https://www.ucl.ac.uk/events/all-events?ucl_audience%5BPublic%5D=Public&0=39&page=1"
-      ],
-      "notes": "End time appears in the official event calendar but is omitted from the event detail page. Free food, free drinks and young-professional offers are unverified unless labelled."
-    },
-    {
-      "id": "london-lshtm-belief-2026-10-07",
-      "title": "Beyond belief: How evidence shows what really works",
-      "org": "London School of Hygiene & Tropical Medicine",
-      "org_acronym": "",
-      "start": "2026-10-07T12:30:00+01:00",
-      "end": "2026-10-07T13:45:00+01:00",
-      "venue": "LG08, LSHTM",
-      "address": "Keppel Street, London WC1E 7HT",
-      "url": "https://www.lshtm.ac.uk/newsevents/events/beyond-belief-how-evidence-shows-what-really-works",
-      "rsvp_url": "https://lshtm.zoom.us/j/84498465427",
-      "ideology": "nonpartisan",
-      "format": "hybrid",
-      "cost": "Free",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "access": "Free and open to all; no registration required",
-      "source": "Official organiser event page",
-      "description": "Helen Pearson discusses evidence-based decisions across government, education, policing and conservation.",
-      "simulated": false,
-      "verified_at": "2026-10-06T21:11:11.152818+00:00",
-      "source_urls": [
-        "https://www.lshtm.ac.uk/newsevents/events/beyond-belief-how-evidence-shows-what-really-works",
-        "https://www.lshtm.ac.uk/newsevents/events-feed"
-      ],
-      "organisationIds": [
-        "LUNI-LSHTM"
-      ],
-      "review_decision": "approve",
-      "reviewed_at": "2026-10-06T21:18:50.048290+00:00",
-      "independently_reviewed": true,
-      "publication_approved": true,
-      "verificationCaveats": [],
-      "review_source_urls": [
-        "https://www.lshtm.ac.uk/newsevents/events/beyond-belief-how-evidence-shows-what-really-works"
-      ],
-      "status": "scheduled",
-      "notes": "Free food, free drinks and young-professional offers are unverified unless labelled."
-    },
-    {
-      "id": "LUE-02b9187386a0",
-      "title": "The Brazilian Elections After the First-round Results: What Now?",
-      "org": "University College London (UCL)",
-      "org_acronym": "",
-      "start": "2026-10-07T13:00:00+01:00",
-      "end": "2026-10-07T15:00:00+01:00",
-      "venue": "Room 103",
-      "address": "51 Gordon Square, London, WC1H 0PN, United Kingdom",
-      "url": "https://www.ucl.ac.uk/social-historical-sciences/events/2026/oct/brazilian-elections-after-first-round-results-what-now",
-      "rsvp_url": "https://www.eventbrite.co.uk/e/the-brazilian-elections-after-the-first-round-results-what-now-tickets-2000990672968",
-      "ideology": "foreign_policy",
-      "format": "in_person",
-      "cost": "Free",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "access": "Open to All; Pre-booking essential",
-      "source": "Official organiser event or registration page",
-      "description": "Panel assessing Brazil’s elections following the first-round results.",
-      "simulated": false,
-      "verified_at": "2026-10-06T21:08:13.467171+00:00",
-      "source_urls": [
-        "https://www.ucl.ac.uk/social-historical-sciences/events/2026/oct/brazilian-elections-after-first-round-results-what-now",
-        "https://www.ucl.ac.uk/events/all-events?ucl_audience%5BPublic%5D=Public&0=39&page=1"
-      ],
-      "organisationIds": [
-        "LUE-UCL"
-      ],
-      "review_decision": "approve",
-      "reviewed_at": "2026-10-06T21:24:16.314667+00:00",
-      "independently_reviewed": true,
-      "publication_approved": true,
-      "verificationCaveats": [
-        "Registration destination linked by organiser; live ticket availability not independently checked."
-      ],
-      "review_source_urls": [
-        "https://www.ucl.ac.uk/social-historical-sciences/events/2026/oct/brazilian-elections-after-first-round-results-what-now",
-        "https://www.ucl.ac.uk/events/all-events?ucl_audience%5BPublic%5D=Public&0=39&page=1"
-      ],
-      "notes": "Registration destination linked by organiser; live ticket availability not independently checked. Free food, free drinks and young-professional offers are unverified unless labelled."
-    },
-    {
-      "id": "LUE-fe2533ed21c8",
-      "title": "Sixty-six years on - how can Nigeria escape the fragility trap and unlock its potential?",
-      "org": "London School of Economics and Political Science (LSE)",
-      "org_acronym": "",
-      "start": "2026-10-07T17:30:00+01:00",
-      "end": "2026-10-07T18:45:00+01:00",
-      "venue": "Wolfson Theatre, Cheng Kin Ku Building",
-      "address": "",
-      "url": "https://www.lse.ac.uk/international-relations/events/2026/sixty-six-years-on-how-can-nigeria-escape-the-fragility-trap-and-unlock-its-potential",
-      "rsvp_url": "https://www.eventbrite.co.uk/e/1999096148394?aff=oddtdtcreator",
-      "ideology": "foreign_policy",
-      "format": "in_person",
-      "cost": "Free",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "access": "Public event; advance registration required. This public event is free and open to all but a ticket must be booked via  Eventbrite . If you have a query see  LSE's Events FAQ  or email  ir.events@lse.ac.uk .",
-      "source": "Official organiser event or registration page",
-      "description": "Public panel or conversation hosted by the Department of International Relations and the Firoz Lalji Institute for Africa at LSE. Participants: Dr Olu Fasan, Aanu Adeoye, Professor Milli Lake.",
-      "speakers": [
-        "Dr Olu Fasan",
-        "Aanu Adeoye",
-        "Professor Milli Lake"
-      ],
-      "simulated": false,
-      "verified_at": "2026-10-06T21:07:40.563591+00:00",
-      "source_urls": [
-        "https://www.lse.ac.uk/international-relations/events/2026/sixty-six-years-on-how-can-nigeria-escape-the-fragility-trap-and-unlock-its-potential",
-        "https://www.lse.ac.uk/Events"
-      ],
-      "organisationIds": [
-        "LUE-LSE"
-      ],
-      "review_decision": "correct",
-      "reviewed_at": "2026-10-06T21:28:09.043107+00:00",
-      "independently_reviewed": true,
-      "publication_approved": true,
-      "verificationCaveats": [
-        "Street address not independently verified; published campus venue retained."
-      ],
-      "review_source_urls": [
-        "https://www.lse.ac.uk/international-relations/events/2026/sixty-six-years-on-how-can-nigeria-escape-the-fragility-trap-and-unlock-its-potential",
-        "https://www.lse.ac.uk/Events",
-        "https://www.lse.ac.uk/events",
-        "https://www.eventbrite.co.uk/e/1999096148394?aff=oddtdtcreator"
-      ],
-      "notes": "Street address not independently verified; published campus venue retained. Attendance routes: Register: https://www.eventbrite.co.uk/e/1999096148394?aff=oddtdtcreator. Free food, free drinks and young-professional offers are unverified unless labelled.",
-      "registrationUrls": [
-        {
-          "label": "Register",
-          "url": "https://www.eventbrite.co.uk/e/1999096148394?aff=oddtdtcreator"
-        }
-      ]
-    },
-    {
-      "id": "LUC-ffb039e7736a",
-      "title": "Tocqueville on Political Emotions",
-      "org": "University of London / School of Advanced Study",
-      "org_acronym": "",
-      "start": "2026-10-07T17:30:00+01:00",
-      "end": "2026-10-07T19:30:00+01:00",
-      "venue": "IHR John S Cohen Room, N203, Second Floor, IHR, Senate House, Malet Street, London WC1E 7HU",
-      "address": "IHR John S Cohen Room, N203, Second Floor, IHR, Senate House, Malet Street, London WC1E 7HU",
-      "url": "https://www.sas.ac.uk/news-events/events/tocqueville-political-emotions",
-      "rsvp_url": "https://sas.sym-online.com/registrationforms/ihrbooking_hop_early_careers61151/",
-      "ideology": "nonpartisan",
-      "format": "in_person",
-      "cost": "Free",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "access": "All welcome; advance booking required",
-      "source": "Official organiser event or registration page",
-      "description": "All welcome- this seminar is free to attend but booking is required. This session will be held in-person",
-      "simulated": false,
-      "verified_at": "2026-10-06T21:15:12.021537+00:00",
-      "source_urls": [
-        "https://www.sas.ac.uk/news-events/events/tocqueville-political-emotions"
-      ],
-      "organisationIds": [
-        "LU-C-006"
-      ],
-      "review_decision": "approve",
-      "reviewed_at": "2026-10-06T21:25:53.835725+00:00",
-      "independently_reviewed": true,
-      "publication_approved": true,
-      "verificationCaveats": [],
-      "review_source_urls": [
-        "https://www.sas.ac.uk/news-events/events/tocqueville-political-emotions"
-      ],
-      "publicEligibilityEvidence": "All welcome; advance booking required",
-      "geographicScope": "Greater London",
-      "notes": "Free food, free drinks and young-professional offers are unverified unless labelled."
-    },
-    {
-      "id": "LUE-2fbc97fe3007",
-      "title": "The Architecture of Founder-Led Governance",
-      "org": "University College London (UCL)",
-      "org_acronym": "",
-      "start": "2026-10-07T18:00:00+01:00",
-      "end": "2026-10-07T19:45:00+01:00",
-      "venue": "Gideon Schreier Lecture Theatre, UCL Laws",
-      "address": "Bentham House, Endsleigh Gardens, London, WC1H 0EG, United Kingdom",
-      "url": "https://www.ucl.ac.uk/laws/events/2026/oct/architecture-founder-led-governance",
-      "rsvp_url": "https://ucl-centre-law-finance-launch-2026.eventbrite.co.uk",
-      "ideology": "law",
-      "format": "in_person",
-      "cost": "Free",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "access": "Listed in UCL’s Public events calendar; Pre-booking essential",
-      "source": "Official organiser event or registration page",
-      "description": "Legal discussion of corporate governance in founder-led companies.",
-      "simulated": false,
-      "verified_at": "2026-10-06T21:08:16.727660+00:00",
-      "source_urls": [
-        "https://www.ucl.ac.uk/laws/events/2026/oct/architecture-founder-led-governance",
-        "https://www.ucl.ac.uk/events/all-events?ucl_audience%5BPublic%5D=Public&0=39&page=1"
-      ],
-      "organisationIds": [
-        "LUE-UCL"
-      ],
-      "review_decision": "approve",
-      "reviewed_at": "2026-10-06T21:24:16.315036+00:00",
-      "independently_reviewed": true,
-      "publication_approved": true,
-      "verificationCaveats": [
-        "Registration destination linked by organiser; live ticket availability not independently checked."
-      ],
-      "review_source_urls": [
-        "https://www.ucl.ac.uk/laws/events/2026/oct/architecture-founder-led-governance",
-        "https://www.ucl.ac.uk/events/all-events?ucl_audience%5BPublic%5D=Public&0=39&page=1"
-      ],
-      "notes": "Registration destination linked by organiser; live ticket availability not independently checked. Free food, free drinks and young-professional offers are unverified unless labelled.",
-      "source_row_ids": [
-        "LUE-UCL"
-      ]
-    },
-    {
-      "id": "LUE-30017179724c",
-      "title": "Heroes, Traitors, and Survivors in the Imperial Borderlands",
-      "org": "University College London (UCL)",
-      "org_acronym": "",
-      "start": "2026-10-07T18:00:00+01:00",
-      "end": "2026-10-07T20:00:00+01:00",
-      "venue": "Masaryk room",
-      "address": "14-16 Taviton street, London, WC1H 0BW, United Kingdom",
-      "url": "https://www.ucl.ac.uk/arts-humanities/events/2026/oct/heroes-traitors-and-survivors-imperial-borderlands",
-      "rsvp_url": "https://www.eventbrite.co.uk/e/heroes-traitors-and-survivors-in-the-imperial-borderlands-tickets-2001873447370?aff=oddtdtcreator&_gl=1%2A1qusr84%2A_up%2AMQ..%2A_ga%2AMTYwMjI3MzIyNy4xNzg5OTg1MzQx%2A_ga_TQVES5V6SH%2AczE3ODk5ODUzNDAkbzEkZzAkdDE3ODk5ODUzNDAkajYwJGwwJGgw",
-      "ideology": "foreign_policy",
-      "format": "in_person",
-      "cost": "Free",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "access": "Open to All; Pre-booking essential",
-      "source": "Official organiser event or registration page",
-      "description": "Seminar examining political loyalties and survival in imperial borderlands.",
-      "simulated": false,
-      "verified_at": "2026-10-06T21:07:15.708434+00:00",
-      "source_urls": [
-        "https://www.ucl.ac.uk/arts-humanities/events/2026/oct/heroes-traitors-and-survivors-imperial-borderlands"
-      ],
-      "organisationIds": [
-        "LUE-UCL"
-      ],
-      "review_decision": "approve",
-      "reviewed_at": "2026-10-06T21:24:16.314956+00:00",
-      "independently_reviewed": true,
-      "publication_approved": true,
-      "verificationCaveats": [
-        "Registration destination linked by organiser; live ticket availability not independently checked."
-      ],
-      "review_source_urls": [
-        "https://www.ucl.ac.uk/arts-humanities/events/2026/oct/heroes-traitors-and-survivors-imperial-borderlands"
-      ],
-      "notes": "Registration destination linked by organiser; live ticket availability not independently checked. Free food, free drinks and young-professional offers are unverified unless labelled."
-    },
-    {
-      "id": "eh-012-2026-10-07-f68d28867",
-      "title": "Blues Night",
-      "org": "Biggleswade Conservative Club",
-      "start": "2026-10-07T20:00:00+01:00",
-      "ideology": "other",
-      "format": "in_person",
-      "cost": "Free for members; £5 non-members on the door",
-      "source": "https://biggleswadeconclub.com/home/whats-on/events/",
-      "access": "Members and non-members admitted at stated rates",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "url": "https://biggleswadeconclub.com/home/whats-on/events/",
-      "simulated": false,
-      "verified_at": "2026-10-06T15:09:31.207957+00:00",
-      "venue": "Biggleswade Conservative Club",
-      "address": "Biggleswade Conservative Club, Biggleswade SG18 8BA",
-      "description": "Blues Night at Biggleswade Conservative Club.",
-      "notes": "Exact occurrence shown on club programme poster; no recurrence extrapolation. | 2026 programme image independently inspected from same-day captured official source; direct image re-fetch was blocked. | Availability: Advertised; ticket availability not verified | Cancellation/refunds: Not stated | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
-      "city": "Biggleswade, Bedfordshire",
-      "country": "England",
-      "availability": "Advertised; ticket availability not verified",
-      "cancellation": "Not stated",
-      "source_row_ids": [
-        "EH-012"
-      ],
-      "source_urls": [
-        "https://biggleswadeconclub.com/home/whats-on/events/",
-        "https://biggleswadeconclub.com/wp-content/uploads/2026/01/JAZZBLUES-POSTER-1024x576.jpg",
-        "https://biggleswadeconclub.com/home/about-us/directions/"
-      ],
-      "review_decision": "pass_with_caveats",
-      "publication_approved": true,
-      "date": "2026-10-07",
-      "origin": "batch5/events.json",
-      "booking_fees": "Not stated",
-      "age_restrictions": "Unknown unless explicitly stated in access",
-      "physical_accessibility": "Unknown",
-      "source_checked_at": "2026-10-06T14:43:51.476804+00:00",
-      "evidence_checks": [
-        {
-          "url": "https://biggleswadeconclub.com/home/whats-on/events/",
-          "checked_at": "2026-10-06T14:43:51.476804+00:00",
-          "result": "retrieved"
-        },
-        {
-          "url": "https://biggleswadeconclub.com/wp-content/uploads/2026/01/JAZZBLUES-POSTER-1024x576.jpg",
-          "checked_at": "2026-10-06T14:46:35.238755+00:00",
-          "result": "retrieved"
-        },
-        {
-          "url": "https://biggleswadeconclub.com/home/about-us/directions/",
-          "checked_at": "2026-10-06T14:55:05.993612+00:00",
-          "result": "retrieved"
-        }
-      ],
-      "review_checked_at_original": "2026-10-06T15:09:31.207957+00:00",
-      "review_source_urls": [
-        "https://biggleswadeconclub.com/home/whats-on/events/",
-        "https://biggleswadeconclub.com/wp-content/uploads/2026/01/JAZZBLUES-POSTER-1024x576.jpg",
-        "https://biggleswadeconclub.com/home/about-us/directions/"
-      ],
-      "host_role": "organiser_or_venue_programme",
-      "source_ideology": "Not classified"
-    },
     {
       "id": "B2-RELATED-001",
       "title": "Post-Conference Political Bites in Uckfield",
@@ -699,134 +114,6 @@
       ],
       "host_role": "organiser_or_venue_programme",
       "source_ideology": "Not classified"
-    },
-    {
-      "id": "LUC-3a42843a01fc",
-      "title": "Political Emotions in the Body and Democracy",
-      "org": "University of London / School of Advanced Study",
-      "org_acronym": "",
-      "start": "2026-10-08T10:30:00+01:00",
-      "end": "2026-10-08T10:45:00+01:00",
-      "venue": "Macmillan Hall, Senate House",
-      "address": "Malet Street, London WC1E 7HU",
-      "url": "https://www.sas.ac.uk/news-events/events/school-of-advanced-study-festival-2026",
-      "rsvp_url": "",
-      "ideology": "nonpartisan",
-      "format": "in_person",
-      "cost": "Free",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "access": "Festival is open to members of the public; drop in",
-      "source": "Official organiser event or registration page",
-      "description": "Manos Tsakiris discusses how political emotions are experienced in the body and their possible implications for democracy.",
-      "simulated": false,
-      "verified_at": "2026-10-06T21:11:55.469149+00:00",
-      "source_urls": [
-        "https://www.sas.ac.uk/news-events/events/school-of-advanced-study-festival-2026"
-      ],
-      "organisationIds": [
-        "LU-C-006"
-      ],
-      "review_decision": "approve",
-      "reviewed_at": "2026-10-06T21:25:53.835725+00:00",
-      "independently_reviewed": true,
-      "publication_approved": true,
-      "verificationCaveats": [],
-      "review_source_urls": [
-        "https://www.sas.ac.uk/news-events/events/school-of-advanced-study-festival-2026"
-      ],
-      "publicEligibilityEvidence": "Festival is open to members of the public; drop in",
-      "sourceTimingEvidence": "10:30am–10:45am, Manos Tsakiris, Political Emotions in the Body and Democracy",
-      "parentEvent": "SAS Festival of Research and Engagement",
-      "geographicScope": "Greater London",
-      "notes": "Free food, free drinks and young-professional offers are unverified unless labelled."
-    },
-    {
-      "id": "london-lshtm-singapore-2026-10-08",
-      "title": "A historical analysis of mental health policymaking in Singapore",
-      "org": "London School of Hygiene & Tropical Medicine",
-      "org_acronym": "",
-      "start": "2026-10-08T12:45:00+01:00",
-      "end": "2026-10-08T14:00:00+01:00",
-      "venue": "Online",
-      "address": "",
-      "url": "https://www.lshtm.ac.uk/newsevents/events/historical-analysis-mental-health-policymaking-singapore",
-      "rsvp_url": "https://lshtm.zoom.us/j/81131726952",
-      "ideology": "nonpartisan",
-      "format": "online",
-      "cost": "Free",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "access": "Free and open to all; no registration required",
-      "source": "Official organiser event page",
-      "description": "Cheryl Sim discusses community-based mental healthcare and policy development in Singapore.",
-      "simulated": false,
-      "verified_at": "2026-10-06T21:11:11.143546+00:00",
-      "source_urls": [
-        "https://www.lshtm.ac.uk/newsevents/events/historical-analysis-mental-health-policymaking-singapore",
-        "https://www.lshtm.ac.uk/newsevents/events-feed"
-      ],
-      "organisationIds": [
-        "LUNI-LSHTM"
-      ],
-      "review_decision": "approve",
-      "reviewed_at": "2026-10-06T21:18:50.048290+00:00",
-      "independently_reviewed": true,
-      "publication_approved": true,
-      "verificationCaveats": [],
-      "review_source_urls": [
-        "https://www.lshtm.ac.uk/newsevents/events/historical-analysis-mental-health-policymaking-singapore"
-      ],
-      "status": "scheduled",
-      "notes": "Free food, free drinks and young-professional offers are unverified unless labelled."
-    },
-    {
-      "id": "london-lshtm-inclusion-2026-10-08",
-      "title": "Inclusion of people with disabilities in sexual health: An analysis of national sexual health guidelines in the United Kingdom",
-      "org": "London School of Hygiene & Tropical Medicine",
-      "org_acronym": "",
-      "start": "2026-10-08T13:00:00+01:00",
-      "end": "2026-10-08T14:00:00+01:00",
-      "venue": "LG19, LSHTM",
-      "address": "Keppel Street, London WC1E 7HT",
-      "url": "https://www.lshtm.ac.uk/newsevents/events/inclusion-people-disabilities-sexual-health-analysis-national-sexual-health",
-      "rsvp_url": "https://lshtm.zoom.us/j/85954714163",
-      "ideology": "nonpartisan",
-      "format": "hybrid",
-      "cost": "Free",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "access": "Free and open to all; no registration required",
-      "source": "Official organiser event page",
-      "description": "Yoshiko Sakuma examines disability inclusion in UK guidelines and implications for health policy.",
-      "simulated": false,
-      "verified_at": "2026-10-06T21:11:11.150967+00:00",
-      "source_urls": [
-        "https://www.lshtm.ac.uk/newsevents/events/inclusion-people-disabilities-sexual-health-analysis-national-sexual-health",
-        "https://www.lshtm.ac.uk/newsevents/events-feed"
-      ],
-      "organisationIds": [
-        "LUNI-LSHTM"
-      ],
-      "review_decision": "approve",
-      "reviewed_at": "2026-10-06T21:18:50.048290+00:00",
-      "independently_reviewed": true,
-      "publication_approved": true,
-      "verificationCaveats": [],
-      "review_source_urls": [
-        "https://www.lshtm.ac.uk/newsevents/events/inclusion-people-disabilities-sexual-health-analysis-national-sexual-health"
-      ],
-      "status": "scheduled",
-      "notes": "Free food, free drinks and young-professional offers are unverified unless labelled."
     },
     {
       "id": "LUC-c3c6278ad36b",
@@ -1040,7 +327,9 @@
           "label": "Attend online",
           "url": "https://lselive.eckoenterprise.net/events/20261008/welcome"
         }
-      ]
+      ],
+      "actual_host": "London School of Economics and Political Science and LSE Students’ Union",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "LUE-899e8f7d0045",
@@ -1361,7 +650,9 @@
       ],
       "notes": "SOAS names Senate House (SALT), whereas the ticket listing uses a generic Thornhaugh Street postal address; follow the specifically named venue and confirm directions before attending. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "publicEligibilityEvidence": "Source explicitly says free to attend with registration",
-      "geographicScope": "Greater London"
+      "geographicScope": "Greater London",
+      "actual_host": "SOAS Department of Politics and International Studies (Africa cluster), SOAS Global Development Seminar Series, SOAS Centre of African Studies, Royal African Society",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "LUE-8d7514817664",
@@ -1452,7 +743,9 @@
       ],
       "publicEligibilityEvidence": "All welcome; advance booking required",
       "geographicScope": "Greater London",
-      "notes": "Free food, free drinks and young-professional offers are unverified unless labelled."
+      "notes": "Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "actual_host": "Institute of Historical Research, School of Advanced Study, University of London",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "B3-2026-10-09-4ea04db00e",
@@ -1631,7 +924,7 @@
       "description": "Bowiesque – A Tribute to David Bowie at Lewes Con Club.",
       "notes": "Arrival/doors time: 2026-10-09T19:00:00+01:00; distinct from programme start | Availability: Advertised; ticket inventory not verified | Cancellation/refunds: Check ticket seller; venue does not manage most promoter tickets | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "doors": "2026-10-09T19:00:00+01:00",
-      "city": "Lewes Constitutional Club",
+      "city": "Lewes",
       "country": "England",
       "availability": "Advertised; ticket inventory not verified",
       "cancellation": "Check ticket seller; venue does not manage most promoter tickets",
@@ -1640,7 +933,8 @@
       ],
       "source_urls": [
         "https://www.lewesconclub.com/events/bowiesque-a-tribute-to-david-bowie/",
-        "https://www.lewesconclub.com/"
+        "https://www.lewesconclub.com/",
+        "https://www.lewesconclub.com/contact/"
       ],
       "review_decision": "pass_with_caveats",
       "publication_approved": true,
@@ -1668,7 +962,8 @@
         "https://www.lewesconclub.com/"
       ],
       "host_role": "venue-listed event; separate promoter where identified",
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T12:57:02+00:00"
     },
     {
       "id": "eh-014-2026-10-10-9c69d16df",
@@ -1765,7 +1060,7 @@
       "notes": "Arrival/doors time: 2026-10-10T19:30:00+01:00; distinct from programme start | Availability: Advertised; ticket inventory not verified | Cancellation/refunds: Check ticket seller; venue does not manage most promoter tickets | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "time": "TBC",
       "doors": "2026-10-10T19:30:00+01:00",
-      "city": "Lewes Constitutional Club",
+      "city": "Lewes",
       "country": "England",
       "availability": "Advertised; ticket inventory not verified",
       "cancellation": "Check ticket seller; venue does not manage most promoter tickets",
@@ -1774,7 +1069,8 @@
       ],
       "source_urls": [
         "https://www.lewesconclub.com/events/a-certain-ratio/",
-        "https://www.lewesconclub.com/"
+        "https://www.lewesconclub.com/",
+        "https://www.lewesconclub.com/contact/"
       ],
       "review_decision": "pass_with_caveats",
       "publication_approved": true,
@@ -1802,7 +1098,8 @@
         "https://www.lewesconclub.com/"
       ],
       "host_role": "venue-listed event; separate promoter where identified",
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T12:57:02+00:00"
     },
     {
       "id": "eh-027-2026-10-10-a6a58c40b",
@@ -1996,71 +1293,6 @@
         "https://courtbarn.co.uk/events/"
       ],
       "host_role": "organiser_or_venue_programme",
-      "source_ideology": "Not classified"
-    },
-    {
-      "id": "regional-2026-10-10-quorn-quiz",
-      "title": "Quorn & Mountsorrel Castle Branch Fun & Friendly Quiz Evening",
-      "org": "Quorn & Mountsorrel Castle Branch / Loughborough Conservatives",
-      "start": "2026-10-10T18:30:00+01:00",
-      "ideology": "other",
-      "format": "in_person",
-      "cost": "Unknown",
-      "source": "https://www.loughboroughconservatives.com/events/quorn-mountsorrel-castle-branch",
-      "access": "Everyone explicitly welcome",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "url": "https://www.loughboroughconservatives.com/events/quorn-mountsorrel-castle-branch",
-      "simulated": false,
-      "verified_at": "2026-10-06T15:09:31.207957+00:00",
-      "notes": "No venue, ticket price or end time in published text; office contact 07888 628240 for further details | Arrival/doors time: 2026-10-10T18:00:00+01:00; distinct from programme start | Availability: Advertised; live capacity not confirmed | Cancellation/refunds: Not stated in checked sources | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
-      "doors": "2026-10-10T18:00:00+01:00",
-      "city": "Loughborough area",
-      "country": "England",
-      "availability": "Advertised; live capacity not confirmed",
-      "cancellation": "Not stated in checked sources",
-      "source_row_ids": [
-        "EH-073"
-      ],
-      "source_urls": [
-        "https://www.loughboroughconservatives.com/events/quorn-mountsorrel-castle-branch",
-        "https://www.loughboroughconservatives.com/events",
-        "https://www.loughboroughconservatives.com/"
-      ],
-      "review_decision": "pass_with_caveats",
-      "publication_approved": true,
-      "date": "2026-10-10",
-      "origin": "batch4/all_events.json",
-      "booking_fees": "Not separately stated; final checkout total not verified",
-      "age_restrictions": "Not stated",
-      "physical_accessibility": "Not stated",
-      "source_checked_at": "2026-10-06T15:08:49+00:00",
-      "evidence_checks": [
-        {
-          "url": "https://www.loughboroughconservatives.com/events",
-          "checked_at": "2026-10-06T15:08:49+00:00",
-          "result": "retrieved_web_index"
-        },
-        {
-          "url": "https://www.loughboroughconservatives.com/",
-          "checked_at": "2026-10-06T15:08:49+00:00",
-          "result": "retrieved_web_index"
-        },
-        {
-          "url": "https://www.loughboroughconservatives.com/events/quorn-mountsorrel-castle-branch",
-          "checked_at": "2026-10-06T15:08:49+00:00",
-          "result": "retrieved_web_index"
-        }
-      ],
-      "review_checked_at_original": "2026-10-06T15:09:31.207957+00:00",
-      "review_source_urls": [
-        "https://www.loughboroughconservatives.com/events/quorn-mountsorrel-castle-branch",
-        "https://www.loughboroughconservatives.com/events",
-        "https://www.loughboroughconservatives.com/"
-      ],
       "source_ideology": "Not classified"
     },
     {
@@ -3425,7 +2657,9 @@
       ],
       "publicEligibilityEvidence": "Organiser-linked booking page is publicly listed, unprotected, with general registration",
       "geographicScope": "Greater London",
-      "notes": "Free food, free drinks and young-professional offers are unverified unless labelled."
+      "notes": "Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "actual_host": "King’s College London, Department of European & International Studies / School of Politics & Economics",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "LUE-0edce53e8c62",
@@ -3711,7 +2945,7 @@
       "start": "2026-10-14T00:00:00+01:00",
       "ideology": "other",
       "format": "online",
-      "cost": "Unknown",
+      "cost": "Free",
       "source": "https://conservativewomen.uk/events/how-to-be-an-mp-20261014/",
       "access": "Full members only",
       "tags": {
@@ -3741,7 +2975,7 @@
       "publication_approved": true,
       "date": "2026-10-14",
       "origin": "batch2/events.json",
-      "booking_fees": "Unknown unless explicitly stated in price",
+      "booking_fees": "No booking fee stated in current index; registration details not freshly available",
       "age_restrictions": "Unknown unless explicitly stated in access",
       "physical_accessibility": "Unknown",
       "source_checked_at": "2026-10-06T14:46:06.145899+00:00",
@@ -3752,7 +2986,8 @@
         "https://conservativewomen.uk/",
         "https://conservativewomen.uk/events/"
       ],
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "eh-027-2026-10-14-0cce7500a",
@@ -3910,7 +3145,7 @@
       "notes": "Arrival/doors time: 2026-10-14T19:00:00+01:00; distinct from programme start | Availability: Advertised; ticket inventory not verified | Cancellation/refunds: Check ticket seller; venue does not manage most promoter tickets | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "time": "TBC",
       "doors": "2026-10-14T19:00:00+01:00",
-      "city": "Lewes Constitutional Club",
+      "city": "Lewes",
       "country": "England",
       "availability": "Advertised; ticket inventory not verified",
       "cancellation": "Check ticket seller; venue does not manage most promoter tickets",
@@ -3919,7 +3154,8 @@
       ],
       "source_urls": [
         "https://www.lewesconclub.com/events/an-evening-of-music-and-comedy/",
-        "https://www.lewesconclub.com/"
+        "https://www.lewesconclub.com/",
+        "https://www.lewesconclub.com/contact/"
       ],
       "review_decision": "pass_with_caveats",
       "publication_approved": true,
@@ -3947,7 +3183,8 @@
         "https://www.lewesconclub.com/"
       ],
       "host_role": "venue-listed event; separate promoter where identified",
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T12:57:02+00:00"
     },
     {
       "id": "LUE-8ac27093eafd",
@@ -4329,6 +3566,41 @@
       "geographicScope": "Greater London"
     },
     {
+      "id": "LUE-1fec2d9d116d",
+      "title": "Sickle and Veil: Communist Gender and Policies towards Muslim Minorities in Eastern Europe",
+      "org": "University College London (UCL)",
+      "org_acronym": "",
+      "start": "2026-10-14T18:00:00+01:00",
+      "end": "2026-10-14T20:00:00+01:00",
+      "venue": "Masaryk room",
+      "address": "14-16 Taviton street, London, WC1H 0BW, United Kingdom",
+      "url": "https://www.ucl.ac.uk/arts-humanities/events/2026/oct/sickle-and-veil-communist-gender-and-policies-towards-muslim-minorities-eastern-europe",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/book-talk-sickle-and-veil-tickets-2002190640102",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "cost": "Free",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "access": "Open to All; Pre-booking essential",
+      "source": "Official organiser event or registration page",
+      "description": "SSEES seminar on communist gender policies and Muslim minorities in Eastern Europe.",
+      "simulated": false,
+      "verified_at": "2026-10-08T12:50:23+00:00",
+      "source_urls": [
+        "https://www.ucl.ac.uk/arts-humanities/events/2026/oct/sickle-and-veil-communist-gender-and-policies-towards-muslim-minorities-eastern-europe"
+      ],
+      "notes": "Pre-booking essential. Official page retrieved through search states availability Yes; direct page and Eventbrite fetch failed, so live ticket inventory is unconfirmed. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "availability": "Organiser page states availability Yes; live ticket inventory unconfirmed",
+      "booking_fees": "Free event; no separate fee verified",
+      "age_restrictions": "Not stated; organiser marks open to all",
+      "cancellation": "No cancellation or reschedule notice in source retrieved; status subject to organiser",
+      "host_role": "SSEES Events, University College London",
+      "publication_approved": true
+    },
+    {
       "id": "LUE-a670a120a97b",
       "title": "Courts and Constitutions: Judicial Review 250 Years After Independence",
       "org": "University College London (UCL)",
@@ -4683,6 +3955,43 @@
       ]
     },
     {
+      "id": "university-lse-fairer-britain-2026-10-14",
+      "title": "Why we need a fairer Britain",
+      "org": "London School of Economics and Political Science (LSE)",
+      "actual_host": "LSE International Inequalities Institute",
+      "start": "2026-10-14T18:30:00+01:00",
+      "end": "2026-10-14T20:00:00+01:00",
+      "venue": "Pankhurst House, Room G.01, LSE campus",
+      "address": "London; exact street address not independently verified",
+      "format": "hybrid",
+      "cost": "Unknown",
+      "access": "Explicitly in-person and online public event; consult organiser page for booking",
+      "url": "https://www.lse.ac.uk/international-inequalities/events/public-events/fairer-britain",
+      "source": "https://www.lse.ac.uk/international-inequalities/events/public-events/fairer-britain",
+      "source_urls": [
+        "https://www.lse.ac.uk/international-inequalities/events/public-events/fairer-britain"
+      ],
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "simulated": false,
+      "verified_at": "2026-10-08T13:00:00+00:00",
+      "age_requirement": "Not stated",
+      "membership_requirement": "Not stated unless specified in access",
+      "registration_status": "See access and notes; live inventory not verified",
+      "cancellation_status": "No cancellation or reschedule notice seen in checked source",
+      "notes": "Socio-economic inequality and reforms to public services, tax, housing and work. Event-specific fee, direct registration links and inventory were not exposed. Doors time not stated. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "publication_approved": true,
+      "age_restrictions": "Not stated",
+      "availability": "See access and notes; live inventory not verified",
+      "cancellation": "No cancellation or reschedule notice seen in checked source",
+      "booking_fees": "Not independently verified"
+    },
+    {
       "id": "B1-b84cbfb0368f",
       "title": "What is the greatest threat to free speech today?",
       "org": "Free Speech Union",
@@ -4722,7 +4031,7 @@
       "publication_approved": true,
       "date": "2026-10-14",
       "origin": "batch1/events.json",
-      "booking_fees": "Unknown unless explicitly stated in price",
+      "booking_fees": "£0.00 per ticket shown",
       "age_restrictions": "Unknown unless explicitly stated in access",
       "physical_accessibility": "Unknown",
       "source_checked_at": "2026-10-06T15:06:11.083295+00:00",
@@ -4743,7 +4052,8 @@
         "https://www.tickettailor.com/events/freespeechunion/2395927",
         "https://www.tickettailor.com/checkout/view-event/id/9026309/chk/2560239a5d62d9115de13e4068e2c96e/?modal_widget=true&widget=true"
       ],
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "B3-2026-10-15-63bafbfeb8",
@@ -5771,9 +5081,9 @@
       "address": "6 Old Queen Street, London",
       "rsvp_url": "https://events.spectator.co.uk/events/masters-of-war-from-napoleon-to-churchill",
       "description": "History discussion with Andrew Roberts, Michael Gove and Madeline Grant. Livestream notification signup advertised.",
-      "notes": "Detail page explicitly states sold out | Arrival/doors time: 2026-10-15T18:15:00+01:00; distinct from programme start | Availability: Sold out | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "notes": "Detail page explicitly states sold out | Arrival/doors time: 2026-10-15T18:15:00+01:00; distinct from programme start | Availability: Sold out for in-person attendance; livestream notification signup offered | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "doors": "2026-10-15T18:15:00+01:00",
-      "availability": "Sold out",
+      "availability": "Sold out for in-person attendance; livestream notification signup offered",
       "cancellation": "Unknown; no refund or cancellation policy verified",
       "source_row_ids": [
         "EH-131"
@@ -5814,7 +5124,8 @@
           "availability": "Sold out"
         }
       },
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "B3-2026-10-15-418b6ddb92",
@@ -5977,7 +5288,7 @@
       "start": "2026-10-16T10:00:00+01:00",
       "ideology": "other",
       "format": "in_person",
-      "cost": "Not published on event detail page",
+      "cost": "£250, taxes included; palace entrance and lunch included",
       "source": "https://events.spectator.co.uk/events/henry-viii-his-wives-and-the-tudor-court-history-tour",
       "access": "Advance booking; see event/ticket terms",
       "tags": {
@@ -5990,23 +5301,24 @@
       "verified_at": "2026-10-06T14:56:00.452369+00:00",
       "venue": "Hampton Court Palace",
       "address": "Meet at Hampton Court Palace entrance; lunch at The Mitre",
-      "rsvp_url": "https://events.spectator.co.uk/events/henry-viii-his-wives-and-the-tudor-court-history-tour",
+      "rsvp_url": "https://shop.spectator.co.uk/products/henry-viii-his-wives-and-the-tudor-court-friday-16-october-hampton-court-palace-10am-4pm",
       "description": "History study day led by Dr Elizabeth Norton; limited to 20 places. Entry and lunch included.",
-      "notes": "Live ticket inventory and final booking fees not independently verified | Palace entrance and lunch included | Availability: Not stated | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
-      "availability": "Not stated",
-      "cancellation": "Unknown; no refund or cancellation policy verified",
+      "notes": "Official shop states sold out; no separate booking fee verified | Palace entrance and lunch included | Availability: Sold out on official shop page | Cancellation/refunds: Unknown; refund terms not verified | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "availability": "Sold out on official shop page",
+      "cancellation": "Unknown; refund terms not verified",
       "source_row_ids": [
         "EH-131"
       ],
       "source_urls": [
         "https://events.spectator.co.uk/events/henry-viii-his-wives-and-the-tudor-court-history-tour",
-        "https://events.spectator.co.uk/"
+        "https://events.spectator.co.uk/",
+        "https://shop.spectator.co.uk/products/henry-viii-his-wives-and-the-tudor-court-friday-16-october-hampton-court-palace-10am-4pm"
       ],
       "review_decision": "pass",
       "publication_approved": true,
       "date": "2026-10-16",
       "origin": "batch1/events.json",
-      "booking_fees": "Unknown unless explicitly stated in price",
+      "booking_fees": "No separate fee verified",
       "age_restrictions": "Unknown unless explicitly stated in access",
       "physical_accessibility": "Unknown",
       "source_checked_at": "2026-10-06T15:06:11.090944+00:00",
@@ -6026,7 +5338,9 @@
       "review_source_urls": [
         "https://events.spectator.co.uk/events/henry-viii-his-wives-and-the-tudor-court-history-tour"
       ],
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "end": "2026-10-16T16:00:00+01:00",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "B3-2026-10-16-15e7a4f2d1",
@@ -6413,7 +5727,7 @@
       "address": "Great Smith Street, Westminster, London SW1P 3NZ",
       "rsvp_url": "https://www.eventbrite.co.uk/e/battle-of-ideas-2026-tickets-1851549427179",
       "description": "Live recording with Tom Slater, Fraser Myers, Poppy Coburn, Francis Foster and Andrew Gold.",
-      "notes": "Festival session, not a separately ticketed standalone event | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Refunds up to 1 day before event; Eventbrite fees may be non-refundable | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "notes": "Festival session, not a separately ticketed standalone event | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Refunds up to 1 day before event; Eventbrite fees may be non-refundable | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled. spiked advertises a 20% reader discount through the booking link in its 2 October 2026 announcement; eligibility, final price and availability must be checked at checkout.",
       "availability": "Unknown; current ticket availability not verified",
       "cancellation": "Refunds up to 1 day before event; Eventbrite fees may be non-refundable",
       "source_row_ids": [
@@ -6424,7 +5738,8 @@
         "https://www.battleofideas.org.uk/session/the-spiked-podcast-live-latest-in-politics-free-speech-and-the-culture-war/",
         "https://www.battleofideas.org.uk/programme/saturday/",
         "https://www.battleofideas.org.uk/tickets/",
-        "https://www.eventbrite.co.uk/e/battle-of-ideas-2026-tickets-1851549427179"
+        "https://www.eventbrite.co.uk/e/battle-of-ideas-2026-tickets-1851549427179",
+        "https://www.spiked-online.com/2026/10/02/see-our-podcasts-live-at-the-battle-of-ideas-festival/"
       ],
       "review_decision": "correction",
       "publication_approved": true,
@@ -6456,7 +5771,8 @@
           "cancellation": "Refunds up to 1 day before event; Eventbrite fees may be non-refundable"
         }
       },
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "B2-RELATED-002",
@@ -6856,7 +6172,7 @@
       "description": "Circa 79 Punky Reggae Party at Lewes Con Club.",
       "notes": "Arrival/doors time: 2026-10-17T19:30:00+01:00; distinct from programme start | Availability: Advertised; ticket inventory not verified | Cancellation/refunds: Check ticket seller; venue does not manage most promoter tickets | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "doors": "2026-10-17T19:30:00+01:00",
-      "city": "Lewes Constitutional Club",
+      "city": "Lewes",
       "country": "England",
       "availability": "Advertised; ticket inventory not verified",
       "cancellation": "Check ticket seller; venue does not manage most promoter tickets",
@@ -6865,7 +6181,8 @@
       ],
       "source_urls": [
         "https://www.lewesconclub.com/events/circa-79-punky-reggae-party/",
-        "https://www.lewesconclub.com/"
+        "https://www.lewesconclub.com/",
+        "https://www.lewesconclub.com/contact/"
       ],
       "review_decision": "pass_with_caveats",
       "publication_approved": true,
@@ -6893,7 +6210,8 @@
         "https://www.lewesconclub.com/"
       ],
       "host_role": "venue-listed event; separate promoter where identified",
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T12:57:02+00:00"
     },
     {
       "id": "B1-d714d05b5524",
@@ -7219,7 +6537,7 @@
       "address": "Great Smith Street, Westminster, London SW1P 3NZ",
       "rsvp_url": "https://www.eventbrite.co.uk/e/battle-of-ideas-2026-tickets-1851549427179",
       "description": "Live spiked podcast with Tom Slater and Christopher Snowdon, Tony Lapidus and Gawain Towler.",
-      "notes": "Festival session, not a separately ticketed standalone event | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Refunds up to 1 day before event; Eventbrite fees may be non-refundable | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "notes": "Festival session, not a separately ticketed standalone event | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Refunds up to 1 day before event; Eventbrite fees may be non-refundable | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled. spiked advertises a 20% reader discount through the booking link in its 2 October 2026 announcement; eligibility, final price and availability must be checked at checkout.",
       "availability": "Unknown; current ticket availability not verified",
       "cancellation": "Refunds up to 1 day before event; Eventbrite fees may be non-refundable",
       "source_row_ids": [
@@ -7230,7 +6548,8 @@
         "https://www.battleofideas.org.uk/session/podcast-live-last-orders-the-latest-nanny-state-news/",
         "https://www.battleofideas.org.uk/programme/sunday/",
         "https://www.battleofideas.org.uk/tickets/",
-        "https://www.eventbrite.co.uk/e/battle-of-ideas-2026-tickets-1851549427179"
+        "https://www.eventbrite.co.uk/e/battle-of-ideas-2026-tickets-1851549427179",
+        "https://www.spiked-online.com/2026/10/02/see-our-podcasts-live-at-the-battle-of-ideas-festival/"
       ],
       "review_decision": "correction",
       "publication_approved": true,
@@ -7262,7 +6581,8 @@
           "cancellation": "Refunds up to 1 day before event; Eventbrite fees may be non-refundable"
         }
       },
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "eh-020-2026-10-18-25e84119d",
@@ -7350,7 +6670,7 @@
       "description": "Fleetwood Mac Greatest Hits at Lewes Con Club.",
       "notes": "Arrival/doors time: 2026-10-18T19:00:00+01:00; distinct from programme start | Availability: Advertised; ticket inventory not verified | Cancellation/refunds: Check ticket seller; venue does not manage most promoter tickets | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "doors": "2026-10-18T19:00:00+01:00",
-      "city": "Lewes Constitutional Club",
+      "city": "Lewes",
       "country": "England",
       "availability": "Advertised; ticket inventory not verified",
       "cancellation": "Check ticket seller; venue does not manage most promoter tickets",
@@ -7359,7 +6679,8 @@
       ],
       "source_urls": [
         "https://www.lewesconclub.com/events/fleetwood-mac-greatest-hits/",
-        "https://www.lewesconclub.com/"
+        "https://www.lewesconclub.com/",
+        "https://www.lewesconclub.com/contact/"
       ],
       "review_decision": "pass_with_caveats",
       "publication_approved": true,
@@ -7397,7 +6718,8 @@
         }
       },
       "host_role": "organiser; Lewes Con Club venue",
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T12:57:02+00:00"
     },
     {
       "id": "eh-016-2026-10-18-72b4031b5",
@@ -7614,6 +6936,45 @@
       ]
     },
     {
+      "id": "university-imperial-cop31-2026-10-19",
+      "title": "Countdown to COP31: Accelerating Action in a World of Extremes",
+      "org": "Imperial College London",
+      "actual_host": "Grantham Institute, Imperial College London; Delegation of the European Union to the UK",
+      "start": "2026-10-19T17:00:00+01:00",
+      "end": "2026-10-19T20:00:00+01:00",
+      "venue": "Location shared after registration",
+      "address": "London",
+      "format": "in_person",
+      "cost": "Free",
+      "access": "Open to all to register interest; invitation subject to available capacity; registration of interest does not guarantee attendance",
+      "url": "https://www.imperial.ac.uk/events/213705/countdown-to-cop31/",
+      "source": "https://www.imperial.ac.uk/events/213705/countdown-to-cop31/",
+      "source_urls": [
+        "https://www.imperial.ac.uk/events/213705/countdown-to-cop31/",
+        "https://www.imperial.ac.uk/grantham/events/",
+        "https://luma.com/qc4kzybs"
+      ],
+      "rsvp_url": "https://luma.com/qc4kzybs",
+      "ideology": "foreign_policy",
+      "simulated": false,
+      "verified_at": "2026-10-08T13:00:00+00:00",
+      "age_requirement": "Not stated",
+      "membership_requirement": "Not stated unless specified in access",
+      "registration_status": "See access and notes; live inventory not verified",
+      "cancellation_status": "No cancellation or reschedule notice seen in checked source",
+      "notes": "Official event is free and open to all to register interest. Luma confirms London, United Kingdom, host approval and private address. Registering interest does not guarantee attendance. Panel and networking reception together run 17:00–20:00 BST; separate segment times not stated. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "publication_approved": true,
+      "availability": "Request to join visible; host approval and capacity limit apply",
+      "age_restrictions": "Not stated",
+      "cancellation": "No cancellation or reschedule notice seen in checked source",
+      "booking_fees": "Not independently verified"
+    },
+    {
       "id": "LUC-1818127f32fb",
       "title": "Russia’s “Hybrid Warfare” against the West",
       "org": "King's College London",
@@ -7777,6 +7138,46 @@
       "source_ideology": "Not classified"
     },
     {
+      "id": "B1-58828cf534b2",
+      "title": "The Alternative Budget: Launch Event",
+      "org": "Institute of Economic Affairs",
+      "start": "2026-10-19T18:30:00+01:00",
+      "cost": "Unknown",
+      "url": "https://economicaffairs.co.uk/p/invitation-the-alternative-budget",
+      "source": "https://economicaffairs.co.uk/p/invitation-the-alternative-budget",
+      "access": "Open to all; registration required; places strictly limited",
+      "ideology": "other",
+      "format": "in_person",
+      "simulated": false,
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "publication_approved": true,
+      "actual_hosts": [
+        "Institute of Economic Affairs"
+      ],
+      "date": "2026-10-19",
+      "venue": "Institute of Economic Affairs",
+      "address": "2 Lord North Street, Westminster, London SW 1P 3 LB",
+      "city": "London",
+      "country": "United Kingdom",
+      "booking_fees": "Unknown",
+      "age_restrictions": "Unknown",
+      "availability": "Registration/RSVP link advertised; current capacity and form operation not independently verified",
+      "cancellation": "Unknown; no cancellation/rescheduling notice in inspected official sources",
+      "rsvp_url": "https://instituteofeconomicaffairs.beaconforms.com/form/951ad12f",
+      "source_urls": [
+        "https://iea.org.uk/events-upcoming/",
+        "https://economicaffairs.co.uk/p/invitation-the-alternative-budget",
+        "https://instituteofeconomicaffairs.beaconforms.com/form/951ad12f"
+      ],
+      "verified_at": "2026-10-08T13:02:52.243251+00:00",
+      "doors": "2026-10-19T18:00:00+01:00",
+      "notes": "Free food, free drinks and young-professional offers are unverified unless labelled."
+    },
+    {
       "id": "LUE-7a9a9bde1bc8",
       "title": "From crisis to stability to what? Greece in a fragmenting world",
       "org": "London School of Economics and Political Science (LSE)",
@@ -7899,6 +7300,43 @@
       ]
     },
     {
+      "id": "university-lse-public-sphere-2026-10-19",
+      "title": "Rethinking the public sphere: space and society in an age of crisis",
+      "org": "London School of Economics and Political Science (LSE)",
+      "actual_host": "LSE Department of Geography and Environment",
+      "start": "2026-10-19T18:30:00+01:00",
+      "end": "2026-10-19T20:00:00+01:00",
+      "venue": "LSE campus, venue TBC to ticket holders",
+      "address": "London; exact room/address to be confirmed",
+      "format": "in_person",
+      "cost": "Unknown",
+      "access": "Explicitly in-person public event; consult organiser page for booking",
+      "url": "https://www.lse.ac.uk/geography-and-environment/events/2026/rethinking-the-public-sphere",
+      "source": "https://www.lse.ac.uk/geography-and-environment/events/2026/rethinking-the-public-sphere",
+      "source_urls": [
+        "https://www.lse.ac.uk/geography-and-environment/events/2026/rethinking-the-public-sphere"
+      ],
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "simulated": false,
+      "verified_at": "2026-10-08T13:00:00+00:00",
+      "age_requirement": "Not stated",
+      "membership_requirement": "Not stated unless specified in access",
+      "registration_status": "See access and notes; live inventory not verified",
+      "cancellation_status": "No cancellation or reschedule notice seen in checked source",
+      "notes": "Lecture on public life, inequality, political polarisation and urban governance. Fee, exact room, direct booking and inventory not exposed. Doors time not stated. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "publication_approved": true,
+      "age_restrictions": "Not stated",
+      "availability": "See access and notes; live inventory not verified",
+      "cancellation": "No cancellation or reschedule notice seen in checked source",
+      "booking_fees": "Not independently verified"
+    },
+    {
       "id": "LUE-78655cd57b7a",
       "title": "America and the World After Trump",
       "org": "University College London (UCL)",
@@ -7987,7 +7425,9 @@
         "https://www.sinfoniasmithsq.org.uk/event/the-intelligence-squared-economic-outlook-with-michael-gove/"
       ],
       "notes": "Online registration route and price not separately verified despite organiser hybrid heading Booking page did not load in web tool; live seat inventory not verified; venue page contains hidden multiple stock-status templates, not taken as sold-out evidence Free food, free drinks and young-professional offers are unverified unless labelled.",
-      "status": "scheduled"
+      "status": "scheduled",
+      "actual_host": "Intelligence Squared, in partnership with Guinness Global Investors",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "LUC-d8fa2463ce9c",
@@ -8582,7 +8022,7 @@
       "notes": "Calendar incorrectly shows 07:30–10:30; event body says doors 19:30–22:30. Programme start is not stated. | Arrival/doors time: 2026-10-21T19:30:00+01:00; distinct from programme start | Availability: Advertised; ticket inventory not verified | Cancellation/refunds: Check ticket seller; venue does not manage most promoter tickets | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "time": "TBC",
       "doors": "2026-10-21T19:30:00+01:00",
-      "city": "Lewes Constitutional Club",
+      "city": "Lewes",
       "country": "England",
       "availability": "Advertised; ticket inventory not verified",
       "cancellation": "Check ticket seller; venue does not manage most promoter tickets",
@@ -8591,7 +8031,8 @@
       ],
       "source_urls": [
         "https://www.lewesconclub.com/events/martha-tilston-3/",
-        "https://www.lewesconclub.com/"
+        "https://www.lewesconclub.com/",
+        "https://www.lewesconclub.com/contact/"
       ],
       "review_decision": "pass_with_caveats",
       "publication_approved": true,
@@ -8619,7 +8060,8 @@
         "https://www.lewesconclub.com/"
       ],
       "host_role": "venue-listed event; separate promoter where identified",
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T12:57:02+00:00"
     },
     {
       "id": "eh-027-2026-10-21-f0a221bf0",
@@ -9529,6 +8971,43 @@
       "notes": "Free food, free drinks and young-professional offers are unverified unless labelled."
     },
     {
+      "id": "university-lse-banking-transition-2026-10-22",
+      "title": "State of the Banking Transition 2026: from pledges to practice",
+      "org": "London School of Economics and Political Science (LSE)",
+      "actual_host": "TPI Global Climate Transition Centre, LSE",
+      "start": "2026-10-22T16:00:00+01:00",
+      "end": "2026-10-22T17:00:00+01:00",
+      "venue": "Online, UK-hosted",
+      "address": "",
+      "format": "online",
+      "cost": "Unknown",
+      "access": "Explicit online public event; consult organiser page for registration",
+      "url": "https://www.lse.ac.uk/events/state-of-the-banking-transition-2026",
+      "source": "https://www.lse.ac.uk/events/state-of-the-banking-transition-2026",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/state-of-the-banking-transition-2026"
+      ],
+      "rsvp_url": "",
+      "ideology": "nonpartisan",
+      "simulated": false,
+      "verified_at": "2026-10-08T13:00:00+00:00",
+      "age_requirement": "Not stated",
+      "membership_requirement": "Not stated unless specified in access",
+      "registration_status": "See access and notes; live inventory not verified",
+      "cancellation_status": "No cancellation or reschedule notice seen in checked source",
+      "notes": "Banking climate commitments, transition plans and financial disclosure policy. Fee, direct registration URL and live availability not exposed. Doors time not stated. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "publication_approved": true,
+      "age_restrictions": "Not stated",
+      "availability": "See access and notes; live inventory not verified",
+      "cancellation": "No cancellation or reschedule notice seen in checked source",
+      "booking_fees": "Not independently verified"
+    },
+    {
       "id": "LUC-b823ba629853",
       "title": "Sustainable use of AI in the legislative work of Parliaments",
       "org": "University of London / School of Advanced Study",
@@ -10232,7 +9711,7 @@
       "description": "Goblin Band + Spitzer Space Telescope at Lewes Con Club.",
       "notes": "Arrival/doors time: 2026-10-22T19:30:00+01:00; distinct from programme start | Availability: Advertised; ticket inventory not verified | Cancellation/refunds: Check ticket seller; venue does not manage most promoter tickets | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "doors": "2026-10-22T19:30:00+01:00",
-      "city": "Lewes Constitutional Club",
+      "city": "Lewes",
       "country": "England",
       "availability": "Advertised; ticket inventory not verified",
       "cancellation": "Check ticket seller; venue does not manage most promoter tickets",
@@ -10241,7 +9720,8 @@
       ],
       "source_urls": [
         "https://www.lewesconclub.com/events/goblin-band-spitzer-space-telescope/",
-        "https://www.lewesconclub.com/"
+        "https://www.lewesconclub.com/",
+        "https://www.lewesconclub.com/contact/"
       ],
       "review_decision": "pass_with_caveats",
       "publication_approved": true,
@@ -10269,7 +9749,8 @@
         "https://www.lewesconclub.com/"
       ],
       "host_role": "venue-listed event; separate promoter where identified",
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T12:57:02+00:00"
     },
     {
       "id": "nc-002-2026-10-23-29aae4705",
@@ -10297,7 +9778,7 @@
       "notes": "Arrival/doors time: 2026-10-23T19:00:00+01:00; distinct from programme start | Availability: Advertised; ticket inventory not verified | Cancellation/refunds: Check ticket seller; venue does not manage most promoter tickets | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "time": "TBC",
       "doors": "2026-10-23T19:00:00+01:00",
-      "city": "Lewes Constitutional Club",
+      "city": "Lewes",
       "country": "England",
       "availability": "Advertised; ticket inventory not verified",
       "cancellation": "Check ticket seller; venue does not manage most promoter tickets",
@@ -10306,7 +9787,8 @@
       ],
       "source_urls": [
         "https://www.lewesconclub.com/events/the-pogue-traders-4/",
-        "https://www.lewesconclub.com/"
+        "https://www.lewesconclub.com/",
+        "https://www.lewesconclub.com/contact/"
       ],
       "review_decision": "pass_with_caveats",
       "publication_approved": true,
@@ -10334,7 +9816,8 @@
         "https://www.lewesconclub.com/"
       ],
       "host_role": "venue-listed event; separate promoter where identified",
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T12:57:02+00:00"
     },
     {
       "id": "LUC-329a48f8689a",
@@ -10606,7 +10089,7 @@
       "notes": "Arrival/doors time: 2026-10-24T19:00:00+01:00; distinct from programme start | Availability: Advertised; ticket inventory not verified | Cancellation/refunds: Check ticket seller; venue does not manage most promoter tickets | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "time": "TBC",
       "doors": "2026-10-24T19:00:00+01:00",
-      "city": "Lewes Constitutional Club",
+      "city": "Lewes",
       "country": "England",
       "availability": "Advertised; ticket inventory not verified",
       "cancellation": "Check ticket seller; venue does not manage most promoter tickets",
@@ -10615,7 +10098,8 @@
       ],
       "source_urls": [
         "https://www.lewesconclub.com/events/skyscrapers-dead-sea-scouts-seema-tree/",
-        "https://www.lewesconclub.com/"
+        "https://www.lewesconclub.com/",
+        "https://www.lewesconclub.com/contact/"
       ],
       "review_decision": "pass_with_caveats",
       "publication_approved": true,
@@ -10643,69 +10127,8 @@
         "https://www.lewesconclub.com/"
       ],
       "host_role": "venue-listed event; separate promoter where identified",
-      "source_ideology": "Not classified"
-    },
-    {
-      "id": "nc-002-2026-10-24-9503f7875",
-      "title": "Lewes Record Fair",
-      "org": "Promoter not stated; listed by Lewes Con Club",
-      "start": "2026-10-24T10:00:00+01:00",
-      "ideology": "other",
-      "format": "in_person",
-      "cost": "Lewes Record Fair / Free entry / 10:00am to 3:00pm /",
-      "source": "https://www.lewesconclub.com/events/lewes-record-fair/",
-      "access": "Members and non-members welcome; check event-specific age restrictions",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "url": "https://www.lewesconclub.com/events/lewes-record-fair/",
-      "simulated": false,
-      "verified_at": "2026-10-06T15:09:31.207957+00:00",
-      "end": "2026-10-24T15:00:00+01:00",
-      "venue": "Lewes Con Club",
-      "address": "139 High Street, Lewes, East Sussex BN7 1XS",
-      "description": "Lewes Record Fair at Lewes Con Club.",
-      "notes": "Availability: Advertised; ticket inventory not verified | Cancellation/refunds: Check ticket seller; venue does not manage most promoter tickets | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
-      "city": "Lewes Constitutional Club",
-      "country": "England",
-      "availability": "Advertised; ticket inventory not verified",
-      "cancellation": "Check ticket seller; venue does not manage most promoter tickets",
-      "source_row_ids": [
-        "NC-002"
-      ],
-      "source_urls": [
-        "https://www.lewesconclub.com/events/lewes-record-fair/",
-        "https://www.lewesconclub.com/"
-      ],
-      "review_decision": "pass_with_caveats",
-      "publication_approved": true,
-      "date": "2026-10-24",
-      "origin": "batch5/events.json",
-      "booking_fees": "Not stated",
-      "age_restrictions": "Unknown unless explicitly stated in access",
-      "physical_accessibility": "Unknown",
-      "source_checked_at": "2026-10-06T14:45:36.479429+00:00",
-      "evidence_checks": [
-        {
-          "url": "https://www.lewesconclub.com/events/lewes-record-fair/",
-          "checked_at": "2026-10-06T14:45:36.479429+00:00",
-          "result": "retrieved"
-        },
-        {
-          "url": "https://www.lewesconclub.com/",
-          "checked_at": "2026-10-06T14:44:40.269579+00:00",
-          "result": "retrieved"
-        }
-      ],
-      "review_checked_at_original": "2026-10-06T15:09:31.207957+00:00",
-      "review_source_urls": [
-        "https://www.lewesconclub.com/events/lewes-record-fair/",
-        "https://www.lewesconclub.com/"
-      ],
-      "host_role": "venue-listed event; separate promoter where identified",
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T12:57:02+00:00"
     },
     {
       "id": "eh-037-2026-10-24-28bf1d888",
@@ -10745,7 +10168,7 @@
       "origin": "batch5/events.json",
       "booking_fees": "Not stated",
       "age_restrictions": "Unknown unless explicitly stated in access",
-      "physical_accessibility": "Unknown",
+      "physical_accessibility": "Step-free entrance; no accessible WC or hearing loop; no club car park",
       "source_checked_at": "2026-10-06T14:44:10.564492+00:00",
       "evidence_checks": [
         {
@@ -10759,7 +10182,8 @@
         "https://weyconclub.com/"
       ],
       "host_role": "organiser_or_venue_programme",
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "eh-031-2026-10-24-0769d11f5",
@@ -11030,7 +10454,7 @@
       "description": "Go Kid Music Club – Spooky Party! at Lewes Con Club.",
       "notes": "Arrival/doors time: 2026-10-25T14:00:00+00:00; distinct from programme start | Availability: Advertised; ticket inventory not verified | Cancellation/refunds: Check ticket seller; venue does not manage most promoter tickets | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "doors": "2026-10-25T14:00:00+00:00",
-      "city": "Lewes Constitutional Club",
+      "city": "Lewes",
       "country": "England",
       "availability": "Advertised; ticket inventory not verified",
       "cancellation": "Check ticket seller; venue does not manage most promoter tickets",
@@ -11039,7 +10463,8 @@
       ],
       "source_urls": [
         "https://www.lewesconclub.com/events/go-kid-music-club-spooky-party/",
-        "https://www.lewesconclub.com/"
+        "https://www.lewesconclub.com/",
+        "https://www.lewesconclub.com/contact/"
       ],
       "review_decision": "pass_with_caveats",
       "publication_approved": true,
@@ -11077,7 +10502,8 @@
         }
       },
       "host_role": "event host; Lewes Con Club venue",
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T12:57:02+00:00"
     },
     {
       "id": "eh-014-2026-10-25-54382678f",
@@ -11287,9 +10713,9 @@
       "start": "2026-10-26T00:00:00+00:00",
       "ideology": "other",
       "format": "online",
-      "cost": "30",
+      "cost": "£30",
       "source": "https://conservativewomen.uk/events/speak-to-win-20261026/",
-      "access": "Full members only",
+      "access": "Full CWO members only; limited to six participants. Political CV and community/voluntary activity story expected in advance.",
       "tags": {
         "free_food": false,
         "free_drinks": false,
@@ -11300,10 +10726,10 @@
       "verified_at": "2026-10-06T14:49:55.909948+00:00",
       "venue": "Online (UK organiser)",
       "rsvp_url": "https://conservativewomen.uk/login/",
-      "notes": "Do not convert 6–7.30 to precise 24-hour time until meridiem is verified. | Britain-hosted online candidate; not a physical event. | 6–7.30; AM/PM not explicitly stated in visible text | £30; additional booking fees not verified | Availability: not independently confirmed | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "notes": "Official detail search excerpt says digital event, 26 October 2026,6–7.30; AM/PM not stated. £30; fees/refunds/age unknown. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "time": "TBC",
       "country": "England",
-      "availability": "not independently confirmed",
+      "availability": "Advertised on current homepage; live registration availability unverified",
       "cancellation": "Unknown; no refund or cancellation policy verified",
       "source_row_ids": [
         "EH-157"
@@ -11328,7 +10754,8 @@
         "https://conservativewomen.uk/",
         "https://conservativewomen.uk/events/"
       ],
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "eh-027-2026-10-26-62233cc90",
@@ -11609,7 +11036,8 @@
       "simulated": false,
       "verified_at": "2026-10-06T21:17:40.634319+00:00",
       "source_urls": [
-        "https://www.eventbrite.co.uk/e/politics-and-economic-shocks-from-the-imf-crisis-to-the-mini-budget-tickets-2002611527989"
+        "https://www.eventbrite.co.uk/e/politics-and-economic-shocks-from-the-imf-crisis-to-the-mini-budget-tickets-2002611527989",
+        "https://www.qmul.ac.uk/events/upcoming-events/politics-and-economic-shocks-from-the-imf-crisis-to-the-mini-budget-1.html"
       ],
       "organisationIds": [
         "LU-C-003"
@@ -11627,7 +11055,9 @@
       ],
       "notes": "Queen Mary web source captured in evidence/qmul-web-verification.json; direct HTTP fetch returned 403 Exact room to be announced one week before the event Free food, free drinks and young-professional offers are unverified unless labelled.",
       "publicEligibilityEvidence": "All welcome; tickets must be reserved in advance",
-      "geographicScope": "Greater London"
+      "geographicScope": "Greater London",
+      "actual_host": "Mile End Institute, Queen Mary University of London",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "LUC-1672263068d4",
@@ -11769,11 +11199,11 @@
       "end": "2026-10-27T22:30:00+00:00",
       "venue": "Private space in Little Venice, near Warwick Avenue station",
       "rsvp_url": "https://www.tickettailor.com/events/queensparkandmaidavaleconservatives/2366137",
-      "notes": "Source row is legacy Westminster North with an unrelated supplied domain. Corrected organisation researched; exact address sent 24 hours before. | Live ticket header starts 18:00; description twice says 18:30–22:30. Confirm start; unavailable does not by itself mean cancelled or sold out. | Availability: Unavailable on official Ticket Tailor page at verification; reason not stated | Cancellation/refunds: No cancellation notice found in sources checked; live status remains subject to organiser confirmation | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "notes": "Source row is legacy Westminster North with an unrelated supplied domain. Corrected organisation researched; exact address sent 24 hours before. | Live ticket header starts 18:00; description twice says 18:30–22:30. Confirm start; unavailable does not by itself mean cancelled or sold out. | Availability: Organiser continues to advertise; current ticket availability unknown. Ticket Tailor was unavailable at the October 6 check; current retrieval failed. | Cancellation/refunds: No cancellation notice found in sources checked; live status remains subject to organiser confirmation | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "time": "TBC",
       "city": "London",
       "country": "England",
-      "availability": "Unavailable on official Ticket Tailor page at verification; reason not stated",
+      "availability": "Organiser continues to advertise; current ticket availability unknown. Ticket Tailor was unavailable at the October 6 check; current retrieval failed.",
       "cancellation": "No cancellation notice found in sources checked; live status remains subject to organiser confirmation",
       "source_row_ids": [
         "NC-061"
@@ -11833,7 +11263,48 @@
           "timeStatus": "conflicting_published_start"
         }
       },
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T12:57:02+00:00"
+    },
+    {
+      "id": "B1-de0923163b93",
+      "title": "Food for Thought with James Turk",
+      "org": "Institute of Economic Affairs",
+      "start": "2026-10-27T12:30:00+00:00",
+      "cost": "Unknown",
+      "url": "https://economicaffairs.co.uk/p/invitation-food-for-thought-with-8e6",
+      "source": "https://economicaffairs.co.uk/p/invitation-food-for-thought-with-8e6",
+      "access": "RSVP advertised; membership/guest eligibility not stated",
+      "ideology": "other",
+      "format": "in_person",
+      "simulated": false,
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "publication_approved": true,
+      "actual_hosts": [
+        "Institute of Economic Affairs"
+      ],
+      "date": "2026-10-27",
+      "venue": "IEA Office",
+      "address": "Institute of Economic Affairs, Westminster, London; street address should be confirmed in RSVP",
+      "city": "London",
+      "country": "United Kingdom",
+      "booking_fees": "Unknown",
+      "age_restrictions": "Unknown",
+      "availability": "Registration/RSVP link advertised; current capacity and form operation not independently verified",
+      "cancellation": "Unknown; no cancellation/rescheduling notice in inspected official sources",
+      "rsvp_url": "https://instituteofeconomicaffairs.beaconforms.com/form/daf6ed26",
+      "source_urls": [
+        "https://iea.org.uk/events-upcoming/",
+        "https://economicaffairs.co.uk/p/invitation-food-for-thought-with-8e6",
+        "https://instituteofeconomicaffairs.beaconforms.com/form/daf6ed26"
+      ],
+      "verified_at": "2026-10-08T13:02:52.243251+00:00",
+      "end": "2026-10-27T14:00:00+00:00",
+      "notes": "Free food, free drinks and young-professional offers are unverified unless labelled."
     },
     {
       "id": "london-lshtm-bcg-2026-10-27",
@@ -11917,7 +11388,9 @@
       ],
       "publicEligibilityEvidence": "Public lecture or event tag; registration offered",
       "geographicScope": "London-hosted online",
-      "notes": "Free food, free drinks and young-professional offers are unverified unless labelled."
+      "notes": "Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "actual_host": "Centre for Political Economy and Institutional Studies and Birkbeck Responsible Business Centre, Birkbeck Business School",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "LUC-4d6789116096",
@@ -11971,7 +11444,10 @@
       "receptionStart": "2026-10-27T19:30:00+00:00",
       "registrationStart": "2026-10-27T17:30:00+00:00",
       "publicEligibilityEvidence": "Organiser-managed Luma lists event visibility public, registration open, free in-person and online tickets with no membership restriction or approval requirement",
-      "geographicScope": "Greater London and London-hosted online"
+      "geographicScope": "Greater London and London-hosted online",
+      "programme_end": "2026-10-27T19:30:00+00:00",
+      "reception_end": "2026-10-27T20:30:00+00:00",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "LUC-2d0aad3754c5",
@@ -12278,7 +11754,7 @@
       "start": "2026-10-28T00:00:00+00:00",
       "ideology": "other",
       "format": "online",
-      "cost": "30",
+      "cost": "£30",
       "source": "https://conservativewomen.uk/events/developing-a-political-cv-20261028/",
       "access": "Full members only",
       "tags": {
@@ -12308,7 +11784,7 @@
       "publication_approved": true,
       "date": "2026-10-28",
       "origin": "batch2/events.json",
-      "booking_fees": "Unknown unless explicitly stated in price",
+      "booking_fees": "Unknown",
       "age_restrictions": "Unknown unless explicitly stated in access",
       "physical_accessibility": "Unknown",
       "source_checked_at": "2026-10-06T14:46:06.145899+00:00",
@@ -12319,7 +11795,8 @@
         "https://conservativewomen.uk/",
         "https://conservativewomen.uk/events/"
       ],
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "eh-027-2026-10-28-f96589533",
@@ -12410,7 +11887,7 @@
       "description": "Theatre Of Hate + Skids at Lewes Con Club.",
       "notes": "Availability: Advertised; ticket inventory not verified | Cancellation/refunds: Check ticket seller; venue does not manage most promoter tickets | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "time": "TBC",
-      "city": "Lewes Constitutional Club",
+      "city": "Lewes",
       "country": "England",
       "availability": "Advertised; ticket inventory not verified",
       "cancellation": "Check ticket seller; venue does not manage most promoter tickets",
@@ -12419,7 +11896,8 @@
       ],
       "source_urls": [
         "https://www.lewesconclub.com/events/theatre-of-hate-the-skids/",
-        "https://www.lewesconclub.com/"
+        "https://www.lewesconclub.com/",
+        "https://www.lewesconclub.com/contact/"
       ],
       "review_decision": "pass_with_caveats",
       "publication_approved": true,
@@ -12447,7 +11925,8 @@
         "https://www.lewesconclub.com/"
       ],
       "host_role": "venue-listed event; separate promoter where identified",
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T12:57:02+00:00"
     },
     {
       "id": "eh-015-2026-10-28-73fd65970",
@@ -13095,10 +12574,10 @@
       "id": "B1-177bce07eb51",
       "title": "Santa Rita Grand Cru Wines of Chile Lunch",
       "org": "The Spectator and Boisdale",
-      "start": "2026-10-29T12:15:00+00:00",
+      "start": "2026-10-29T13:00:00+00:00",
       "ideology": "other",
       "format": "in_person",
-      "cost": "£149 all inclusive; £135 Spectator readers",
+      "cost": "£149 all-inclusive; £135 for Spectator readers",
       "source": "https://events.spectator.co.uk/events/santa-rita-grand-cru-wines-of-chile-lunch",
       "access": "Advance booking; see event/ticket terms",
       "tags": {
@@ -13114,15 +12593,17 @@
       "address": "Upper Level, 1 Cabot Place, London E14 4QT",
       "rsvp_url": "https://events.spectator.co.uk/events/santa-rita-grand-cru-wines-of-chile-lunch",
       "description": "Wine tasting and four-course Chilean-inspired lunch with Jonathan Ray, Terry Pennington and Ranald Macdonald.",
-      "notes": "Live ticket inventory and final booking fees not independently verified | Canapés, four-course lunch and wines included | Availability: Booking advertised | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
-      "availability": "Booking advertised",
+      "notes": "Reception and tasting 12:15–13:00; lunch 13:00. Organised by The Spectator and Boisdale; no religious institution identified as host. Age, separate fees and cancellation terms unverified. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "availability": "Advertised; current ticket inventory unverified because booking page could not be retrieved",
       "cancellation": "Unknown; no refund or cancellation policy verified",
       "source_row_ids": [
         "EH-131"
       ],
       "source_urls": [
         "https://events.spectator.co.uk/events/santa-rita-grand-cru-wines-of-chile-lunch",
-        "https://events.spectator.co.uk/"
+        "https://events.spectator.co.uk/",
+        "https://club.spectator.co.uk/events/santa-rita-grand-cru-wines-of-chile-lunch-thursday-29-october-boisdale-canary-wharf-12-15-for-1pm-ps135",
+        "https://boisdaletickets.co.uk/p/13144?code=SPECTATOR"
       ],
       "review_decision": "correction",
       "publication_approved": true,
@@ -13156,7 +12637,9 @@
           "org": "The Spectator and Boisdale"
         }
       },
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "doors": "2026-10-29T12:15:00+00:00",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "LUE-6179934cf713",
@@ -13790,65 +13273,6 @@
       "source_ideology": "Not classified"
     },
     {
-      "id": "regional-2026-10-30-verwood-fish-chip-quiz",
-      "title": "Fish and Chip Supper Quiz",
-      "org": "Verwood / North Dorset Conservatives",
-      "start": "2026-10-30T00:00:00+00:00",
-      "ideology": "other",
-      "format": "in_person",
-      "cost": "Not verified",
-      "source": "https://www.ndca.org.uk/",
-      "access": "Not explicitly confirmed",
-      "tags": {
-        "free_food": false,
-        "free_drinks": false,
-        "young_professionals": false
-      },
-      "url": "https://www.ndca.org.uk/",
-      "simulated": false,
-      "verified_at": "2026-10-06T15:09:31.207957+00:00",
-      "rsvp_url": "https://www.ndca.org.uk/events/fish-and-chip-supper-quiz",
-      "notes": "Official homepage confirms date and tickets via verwood@ndca.org.uk | Detail page was unavailable to web extraction and browser navigation security check was dismissed without a decision; no bypass attempted | Time, venue, price and public eligibility remain unverified | Availability: Advertised; live capacity not confirmed | Cancellation/refunds: Not stated in checked sources | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
-      "time": "TBC",
-      "city": "Verwood / North Dorset",
-      "country": "England",
-      "availability": "Advertised; live capacity not confirmed",
-      "cancellation": "Not stated in checked sources",
-      "source_row_ids": [
-        "EH-080"
-      ],
-      "source_urls": [
-        "https://www.ndca.org.uk/",
-        "https://www.ndca.org.uk/events/fish-and-chip-supper-quiz"
-      ],
-      "review_decision": "pass_with_caveats",
-      "publication_approved": true,
-      "date": "2026-10-30",
-      "origin": "batch4/all_events.json",
-      "booking_fees": "Not separately stated; final checkout total not verified",
-      "age_restrictions": "Not stated",
-      "physical_accessibility": "Not stated",
-      "source_checked_at": "2026-10-06T15:08:49+00:00",
-      "evidence_checks": [
-        {
-          "url": "https://www.ndca.org.uk/",
-          "checked_at": "2026-10-06T15:08:49+00:00",
-          "result": "retrieved_web_index"
-        },
-        {
-          "url": "https://www.ndca.org.uk/events/fish-and-chip-supper-quiz",
-          "checked_at": "2026-10-06T15:08:49+00:00",
-          "result": "retrieval_failed"
-        }
-      ],
-      "review_checked_at_original": "2026-10-06T15:09:31.207957+00:00",
-      "review_source_urls": [
-        "https://www.ndca.org.uk/",
-        "https://www.ndca.org.uk/events/fish-and-chip-supper-quiz"
-      ],
-      "source_ideology": "Not classified"
-    },
-    {
       "id": "LUC-98611517de91",
       "title": "Book Launch: Currency of Nihilism",
       "org": "City St George's, University of London / Bayes Business School",
@@ -14203,7 +13627,7 @@
       "description": "Large 90s at Lewes Con Club.",
       "notes": "DJ support starts when doors open at 19:30; main band 20:45. Main-band start is not the first programme activity. | Arrival/doors time: 2026-10-30T19:30:00+00:00; distinct from programme start | Availability: Advertised; ticket inventory not verified | Cancellation/refunds: Check ticket seller; venue does not manage most promoter tickets | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
       "doors": "2026-10-30T19:30:00+00:00",
-      "city": "Lewes Constitutional Club",
+      "city": "Lewes",
       "country": "England",
       "availability": "Advertised; ticket inventory not verified",
       "cancellation": "Check ticket seller; venue does not manage most promoter tickets",
@@ -14212,7 +13636,8 @@
       ],
       "source_urls": [
         "https://www.lewesconclub.com/events/large-90s-3/",
-        "https://www.lewesconclub.com/"
+        "https://www.lewesconclub.com/",
+        "https://www.lewesconclub.com/contact/"
       ],
       "review_decision": "pass_with_caveats",
       "publication_approved": true,
@@ -14240,7 +13665,8 @@
         "https://www.lewesconclub.com/"
       ],
       "host_role": "venue-listed event; separate promoter where identified",
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "refresh_checked_at": "2026-10-08T12:57:02+00:00"
     },
     {
       "id": "eh-014-2026-10-31-d88e9f1c3",
@@ -15488,8 +14914,8 @@
       "address": "Precise venue not published",
       "rsvp_url": "https://policyexchange.org.uk/all-events-2/a-doctrine-for-government",
       "description": "Keynote speech by Danny Kruger MP, followed by Q&A.",
-      "notes": "Page includes webinar-registration label; remote format not confirmed from an active booking link | Availability: Unknown; current ticket availability not verified | Cancellation/refunds: Unknown; no refund or cancellation policy verified | Price and any booking fees are unknown | Ideology not classified; affiliation does not establish the views of attendees or performers. Free food, free drinks and young-professional offers are unverified unless labelled.",
-      "availability": "Unknown; current ticket availability not verified",
+      "notes": "Official detail now exposes a Zoom webinar link, but destination has no event-specific readable content. Retain in-person format; do not assert confirmed online access. Exact Central London venue supplied privately; cost, age, fees and refund terms unknown. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "availability": "In-person applications advertised; confirmation required and capacity limited",
       "cancellation": "Unknown; no refund or cancellation policy verified",
       "source_row_ids": [
         "EH-199"
@@ -15497,7 +14923,8 @@
       "source_urls": [
         "https://policyexchange.org.uk/events/a-doctrine-for-government/",
         "https://policyexchange.org.uk/all-events-2/",
-        "https://policyexchange.org.uk/all-events-2/a-doctrine-for-government"
+        "https://policyexchange.org.uk/all-events-2/a-doctrine-for-government",
+        "https://us02web.zoom.us/webinar/register/WN_sf7PHZFnTBewCTZdbLXhFA"
       ],
       "review_decision": "correction",
       "publication_approved": true,
@@ -15531,7 +14958,9 @@
           "url": "https://policyexchange.org.uk/events/a-doctrine-for-government/"
         }
       },
-      "source_ideology": "Not classified"
+      "source_ideology": "Not classified",
+      "online_registration_url": "https://us02web.zoom.us/webinar/register/WN_sf7PHZFnTBewCTZdbLXhFA",
+      "refresh_checked_at": "2026-10-08T13:11:47.441110+00:00"
     },
     {
       "id": "LUC-bf6608be9065",
@@ -15771,6 +15200,43 @@
       "source_ideology": "Not classified"
     },
     {
+      "id": "university-rli-asylum-standards-2026-11-03",
+      "title": "“Minimum Legal Standards for Asylum Procedures” New RLI Declaration on International Protection - Launch Event",
+      "org": "University of London / School of Advanced Study",
+      "actual_host": "Refugee Law Initiative, School of Advanced Study, University of London",
+      "start": "2026-11-03T17:00:00+00:00",
+      "end": "2026-11-03T18:00:00+00:00",
+      "venue": "Online, UK-hosted",
+      "address": "",
+      "format": "online",
+      "cost": "Unknown",
+      "access": "Public and open to all; prior registration required",
+      "url": "https://rli.sas.ac.uk/news-events/events/minimum-legal-standards-asylum-procedures-new-rli-declaration-international-protection-launch-event",
+      "source": "https://rli.sas.ac.uk/news-events/events/minimum-legal-standards-asylum-procedures-new-rli-declaration-international-protection-launch-event",
+      "source_urls": [
+        "https://rli.sas.ac.uk/news-events/events/minimum-legal-standards-asylum-procedures-new-rli-declaration-international-protection-launch-event"
+      ],
+      "rsvp_url": "https://sas.sym-online.com/registrationforms/rli-declaration-launch-2026/",
+      "ideology": "law",
+      "simulated": false,
+      "verified_at": "2026-10-08T13:00:00+00:00",
+      "age_requirement": "Not stated",
+      "membership_requirement": "Not stated unless specified in access",
+      "registration_status": "See access and notes; live inventory not verified",
+      "cancellation_status": "No cancellation or reschedule notice seen in checked source",
+      "notes": "Body explicitly describes a virtual/online panel. Header contains the institutional Senate House address; this is not evidence of an in-person attendance option. Booking reaches a cookie/JavaScript check; price and inventory not exposed. Page updated 7 October 2026. Doors time not stated. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "publication_approved": true,
+      "age_restrictions": "Not stated",
+      "availability": "See access and notes; live inventory not verified",
+      "cancellation": "No cancellation or reschedule notice seen in checked source",
+      "booking_fees": "Not independently verified"
+    },
+    {
       "id": "LUE-ef301286f753",
       "title": "State of the sovereign transition 2026: from national targets to sector signals",
       "org": "London School of Economics and Political Science (LSE)",
@@ -15978,7 +15444,535 @@
         "https://www.cheshamandamershamconservatives.co.uk/"
       ],
       "source_ideology": "Not classified"
+    },
+    {
+      "id": "LUE-7f759d99df1a",
+      "title": "Understanding the 2026 US Midterms: A Post-Election Analysis",
+      "org": "University College London (UCL)",
+      "org_acronym": "",
+      "start": "2026-11-04T17:00:00+00:00",
+      "end": "2026-11-04T19:00:00+00:00",
+      "venue": "Room 103",
+      "address": "51 Gordon Square, London, WC1H 0PN, United Kingdom",
+      "url": "https://www.ucl.ac.uk/social-historical-sciences/events/2026/nov/understanding-2026-us-midterms-post-election-analysis",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/understanding-the-2026-us-midterms-a-post-election-analysis-tickets-2000995539524",
+      "cost": "Free",
+      "ideology": "foreign_policy",
+      "format": "in_person",
+      "access": "Open to All; Pre-booking essential",
+      "description": "Post-election panel analysing the 2026 US midterm results.",
+      "notes": "Registration destination linked by organiser; live ticket availability not independently checked. Doors time not stated. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "actual_host": "UCL Institute of the Americas",
+      "source_urls": [
+        "https://www.ucl.ac.uk/social-historical-sciences/events/2026/nov/understanding-2026-us-midterms-post-election-analysis",
+        "https://www.ucl.ac.uk/events/all-events?ucl_audience%5BPublic%5D=Public&0=39&page=9"
+      ],
+      "source": "Official organiser event or registration page",
+      "simulated": false,
+      "verified_at": "2026-10-08T13:00:00+00:00",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "registration_status": "Registration advertised by organiser; live inventory not verified",
+      "age_requirement": "Not stated",
+      "membership_requirement": "No membership restriction stated",
+      "cancellation_status": "No cancellation or reschedule notice seen in checked official source",
+      "publication_approved": true,
+      "age_restrictions": "Not stated",
+      "availability": "Registration advertised by organiser; live inventory not verified",
+      "cancellation": "No cancellation or reschedule notice seen in checked official source",
+      "booking_fees": "Not independently verified"
+    },
+    {
+      "id": "LUE-56cefbce445d",
+      "title": "The conservative tradition in sociological thought",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-04T18:30:00+00:00",
+      "end": "2026-11-04T20:00:00+00:00",
+      "venue": "LSE campus, venue TBC to ticket holders; online attendance also advertised",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/conservative-tradition-sociological-thought",
+      "rsvp_url": "",
+      "cost": "Unknown; event-specific price not exposed",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "description": "Public panel or conversation hosted by the Department of Sociology. Participants: Professor Shamus Khan, Professor Sam Friedman.",
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders. Doors time not stated. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "actual_host": "LSE Department of Sociology",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/conservative-tradition-sociological-thought",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "source": "Official organiser event or registration page",
+      "simulated": false,
+      "verified_at": "2026-10-08T13:00:00+00:00",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "registration_status": "Registration advertised by organiser; live inventory not verified",
+      "age_requirement": "Not stated",
+      "membership_requirement": "No membership restriction stated",
+      "cancellation_status": "No cancellation or reschedule notice seen in checked official source",
+      "publication_approved": true,
+      "speakers": [
+        "Professor Shamus Khan",
+        "Professor Sam Friedman"
+      ],
+      "age_restrictions": "Not stated",
+      "availability": "Registration advertised by organiser; live inventory not verified",
+      "cancellation": "No cancellation or reschedule notice seen in checked official source",
+      "booking_fees": "Not independently verified"
+    },
+    {
+      "id": "LUC-bcc0764df499",
+      "title": "The Conservative Party’s Legacy: Asylum, Migration and Refugee Policy",
+      "org": "University of London / School of Advanced Study",
+      "org_acronym": "",
+      "start": "2026-11-04T18:30:00+00:00",
+      "end": "2026-11-04T19:30:00+00:00",
+      "venue": "IALS Lecture Theatre, Institute of Advanced Legal Studies, 17 Russell Square, London WC1B 5DR",
+      "address": "IALS Lecture Theatre, Institute of Advanced Legal Studies, 17 Russell Square, London WC1B 5DR",
+      "url": "https://rli.sas.ac.uk/news-events/events/conservative-partys-legacy-asylum-migration-refugee-policy",
+      "rsvp_url": "https://sas.sym-online.com/registrationforms/rli-seminar-series-4-november/",
+      "cost": "Free",
+      "ideology": "law",
+      "format": "in_person",
+      "access": "All welcome; advance booking required",
+      "description": "The Conservative Party’s Legacy: Asylum, Migration and Refugee PolicyHow have the UK’s political parties approached refugees and migration, and what shapes their positions today? This seminar series, organised by the Refugee Law Initiative and History & Policy, brings together politicians, policymakers, academics and practitioners to…",
+      "notes": "Doors time not stated. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "actual_host": "Refugee Law Initiative and History & Policy, School of Advanced Study, University of London",
+      "source_urls": [
+        "https://www.sas.ac.uk/news-events/events/conservative-partys-legacy-asylum-migration-refugee-policy",
+        "https://rli.sas.ac.uk/news-events/events/conservative-partys-legacy-asylum-migration-refugee-policy"
+      ],
+      "source": "Official organiser event or registration page",
+      "simulated": false,
+      "verified_at": "2026-10-08T13:00:00+00:00",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "registration_status": "Registration advertised by organiser; live inventory not verified",
+      "age_requirement": "Not stated",
+      "membership_requirement": "No membership restriction stated",
+      "cancellation_status": "No cancellation or reschedule notice seen in checked official source",
+      "publication_approved": true,
+      "age_restrictions": "Not stated",
+      "availability": "Registration advertised by organiser; live inventory not verified",
+      "cancellation": "No cancellation or reschedule notice seen in checked official source",
+      "booking_fees": "Not independently verified"
+    },
+    {
+      "id": "nc-002-2026-11-04-945d462b2",
+      "title": "The Furrow Collective",
+      "org": "Love Thy Neighbour",
+      "start": "2026-11-04T19:45:00+00:00",
+      "cost": "Unknown",
+      "url": "https://www.lewesconclub.com/events/the-furrow-collective/",
+      "source": "https://www.lewesconclub.com/events/the-furrow-collective/",
+      "access": "Members and non-members welcome; check event-specific age restrictions",
+      "ideology": "other",
+      "format": "in_person",
+      "simulated": false,
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "publication_approved": true,
+      "verified_at": "2026-10-08T12:57:02+00:00",
+      "end": "2026-11-04T22:30:00+00:00",
+      "venue": "Lewes Con Club",
+      "address": "139 High Street, Lewes, East Sussex BN7 1XS",
+      "rsvp_url": "https://lovethyneighbour.seetickets.com/event/the-furrow-collective/lewes-con-club/3656066",
+      "description": "The Furrow Collective at Lewes Con Club.",
+      "notes": "Official detail confirms 4 November 2026, doors 19:30, programme starts 19:45, listed end 22:30 GMT; unreserved seating. Price, fees, age limits and live ticket inventory are unknown. Booking page could not be retrieved. Members and non-members welcome under venue policy. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "doors": "2026-11-04T19:30:00+00:00",
+      "city": "Lewes",
+      "country": "England",
+      "availability": "Advertised by venue; live ticket inventory not verified",
+      "cancellation": "No cancellation notice in retrieved event detail; refund terms unknown",
+      "source_urls": [
+        "https://www.lewesconclub.com/events/the-furrow-collective/",
+        "https://www.lewesconclub.com/",
+        "https://www.lewesconclub.com/events/",
+        "https://www.lewesconclub.com/contact/"
+      ],
+      "date": "2026-11-04",
+      "booking_fees": "Unknown",
+      "age_restrictions": "Not stated in retrieved event detail",
+      "physical_accessibility": "Not verified",
+      "host_role": "Promoter; Lewes Con Club is the venue",
+      "time": "19:45"
+    },
+    {
+      "id": "B1-604dcd60cbb0",
+      "title": "No Agenda Breakfast: ThatRound",
+      "org": "The Entrepreneurs Network",
+      "start": "2026-11-05T00:00:00+00:00",
+      "cost": "Free",
+      "url": "https://www.tenentrepreneurs.org/events/breakfast-thatround",
+      "source": "https://www.tenentrepreneurs.org/events/breakfast-thatround",
+      "access": "Request a place; patrons, advisers and supporters given priority; relevant professional audience",
+      "ideology": "other",
+      "format": "in_person",
+      "simulated": false,
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "publication_approved": true,
+      "verified_at": "2026-10-08T13:02:52.243251+00:00",
+      "end": "2026-11-05T10:00:00+00:00",
+      "venue": "LABS Hogarth House",
+      "address": "136 High Holborn, London WC 1V 6 PX",
+      "rsvp_url": "https://luma.com/i6seihpu",
+      "description": "Small-group entrepreneurs’ breakfast; limited places.",
+      "notes": "Arrival and coffee/pastries from 08:45. Conversation start not separately published;10:00 finish. Free; places limited. Patrons, advisers and supporters prioritised. No cancellation notice in inspected sources. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "availability": "Request to join; host approval required",
+      "cancellation": "Unknown; no cancellation/refund policy found",
+      "source_urls": [
+        "https://www.tenentrepreneurs.org/events/breakfast-thatround",
+        "https://www.tenentrepreneurs.org/events/",
+        "https://luma.com/event/evt-7Ei3mxMg4ybu72D",
+        "https://luma.com/i6seihpu"
+      ],
+      "date": "2026-11-05",
+      "booking_fees": "No fee stated; event explicitly free",
+      "age_restrictions": "Unknown",
+      "physical_accessibility": "Unknown",
+      "time": "TBC",
+      "doors": "2026-11-05T08:45:00+00:00"
+    },
+    {
+      "id": "LUC-60dc6cef8ed1",
+      "title": "Just Transitions to a Carbon-Neutral Economy: Employment Challenges Over the Next 25 Years",
+      "org": "University of London / School of Advanced Study",
+      "org_acronym": "",
+      "start": "2026-11-05T10:00:00+00:00",
+      "end": "2026-11-05T16:00:00+00:00",
+      "venue": "Hybrid | Online-via Zoom & IHR Wolfson Room NB01, Basement, IHR, Senate House, Malet Street, London WC1E 7HU",
+      "address": "Hybrid | Online-via Zoom & IHR Wolfson Room NB01, Basement, IHR, Senate House, Malet Street, London WC1E 7HU",
+      "url": "https://www.sas.ac.uk/news-events/events/just-transitions-carbon-neutral-economy-employment-challenges-over-next-25-years",
+      "rsvp_url": "https://sas.sym-online.com/registrationforms/ihrbooking_history_lab482255042660721/",
+      "cost": "In-person £30; standard online £10; student/unwaged online free; booking fees not verified",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "access": "All welcome; advance booking required",
+      "description": "Transition to a green, carbon-neutral economy, or ‘net-zero’, is the urgent challenge facing us all given the reality of climate change. Informed opinion agrees that failure to act will lead to soaring temperatures and global catastrophe. The main question is how we organise for a just transition that involves workers and their unions in…",
+      "notes": "Registration checkout fees not verified Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "actual_host": "History & Policy Trade Union and Employment Forum at the Institute of Historical Research, University of London; British Universities’ Industrial Relations Association (BUIRA)",
+      "source_urls": [
+        "https://www.sas.ac.uk/news-events/events/just-transitions-carbon-neutral-economy-employment-challenges-over-next-25-years"
+      ],
+      "source": "Official organiser event or registration page",
+      "simulated": false,
+      "verified_at": "2026-10-08T13:00:00+00:00",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "registration_status": "Registration advertised by organiser; live inventory not verified",
+      "age_requirement": "Not stated",
+      "membership_requirement": "No membership restriction stated",
+      "cancellation_status": "No cancellation or reschedule notice seen in checked official source",
+      "publication_approved": true,
+      "doors": "2026-11-05T09:30:00+00:00",
+      "age_restrictions": "Not stated",
+      "availability": "Registration advertised by organiser; live inventory not verified",
+      "cancellation": "No cancellation or reschedule notice seen in checked official source",
+      "booking_fees": "Not independently verified"
+    },
+    {
+      "id": "nc-002-2026-11-05-727b987b3",
+      "title": "Lewes Bonfire Night 2026: club opening",
+      "org": "Lewes Con Club",
+      "start": "2026-11-05T17:00:00+00:00",
+      "cost": "Unknown",
+      "url": "https://www.lewesconclub.com/events/lewes-bonfire-night-2022/",
+      "source": "https://www.lewesconclub.com/events/lewes-bonfire-night-2022/",
+      "access": "All welcome, as stated by club; age restrictions not stated",
+      "ideology": "other",
+      "format": "in_person",
+      "simulated": false,
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "publication_approved": true,
+      "verified_at": "2026-10-08T12:57:02+00:00",
+      "end": "2026-11-05T22:00:00+00:00",
+      "venue": "Lewes Con Club",
+      "address": "139 High Street, Lewes, East Sussex BN7 1XS",
+      "description": "Lewes Bonfire Night 2026 at Lewes Con Club.",
+      "notes": "Official event body explicitly states club opening from 17:00 until approximately 22:00 GMT on 5 November 2026; all welcome. This listing is the club opening, not a claim that the club organises the town procession or a fireworks display. Admission charge, booking requirement, age rules and cancellation terms are not stated. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "city": "Lewes",
+      "country": "England",
+      "availability": "Club opening advertised; no registration requirement or live capacity stated",
+      "cancellation": "No cancellation notice in retrieved detail; other terms not stated",
+      "source_urls": [
+        "https://www.lewesconclub.com/events/lewes-bonfire-night-2022/",
+        "https://www.lewesconclub.com/",
+        "https://www.lewesconclub.com/events/",
+        "https://www.lewesconclub.com/contact/"
+      ],
+      "date": "2026-11-05",
+      "booking_fees": "Unknown",
+      "age_restrictions": "Not stated in retrieved event detail",
+      "physical_accessibility": "Not verified",
+      "host_role": "Club opening hosted by venue",
+      "time": "17:00"
+    },
+    {
+      "id": "london-rh-ai-education-2026-11-05",
+      "title": "Age of AI: AI and the needs of education",
+      "org": "Royal Holloway, University of London",
+      "org_acronym": "",
+      "start": "2026-11-05T18:00:00+00:00",
+      "venue": "Stewart House",
+      "address": "32 Russell Square, London WC1B 5DN",
+      "url": "https://www.royalholloway.ac.uk/about-us/events/age-of-ai-ai-and-the-needs-of-education/",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/age-of-ai-ai-and-the-needs-of-education-tickets-2002626789637?aff=oddtdtcreator",
+      "cost": "Free",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "access": "Public lecture; advance booking essential",
+      "description": "A panel discusses AI in education, academic integrity, intellectual property and critical thinking.",
+      "notes": "End time not stated; omitted Eventbrite booking availability not verified Doors time not stated. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "actual_host": "Royal Holloway, University of London",
+      "source_urls": [
+        "https://www.royalholloway.ac.uk/about-us/events/age-of-ai-ai-and-the-needs-of-education",
+        "https://www.royalholloway.ac.uk/about-us/events/",
+        "https://www.royalholloway.ac.uk/about-us/events/?page=2"
+      ],
+      "source": "Official organiser event page",
+      "simulated": false,
+      "verified_at": "2026-10-08T13:00:00+00:00",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "registration_status": "Registration advertised by organiser; live inventory not verified",
+      "age_requirement": "Not stated",
+      "membership_requirement": "No membership restriction stated",
+      "cancellation_status": "No cancellation or reschedule notice seen in checked official source",
+      "publication_approved": true,
+      "age_restrictions": "Not stated",
+      "availability": "Registration advertised by organiser; live inventory not verified",
+      "cancellation": "No cancellation or reschedule notice seen in checked official source",
+      "booking_fees": "Not independently verified"
+    },
+    {
+      "id": "LUE-bb33335a4f6e",
+      "title": "Policy & practice seminar: Reimagining the future of Global Majority Giving",
+      "org": "University College London (UCL)",
+      "org_acronym": "",
+      "start": "2026-11-05T18:15:00+00:00",
+      "end": "2026-11-05T19:30:00+00:00",
+      "venue": "LG04",
+      "address": "26 Bedford Way, London, WC1H 0AP, United Kingdom",
+      "url": "https://www.ucl.ac.uk/social-historical-sciences/events/2026/nov/policy-practice-seminar-reimagining-future-global-majority-giving",
+      "rsvp_url": "https://www.eventbrite.co.uk/e/policy-practice-seminar-reimagining-the-future-of-global-majority-giving-tickets-2002218927711?aff=website",
+      "cost": "Free",
+      "ideology": "nonpartisan",
+      "format": "in_person",
+      "access": "Open to All; Ticketed",
+      "description": "Policy discussion on philanthropy and giving across Global Majority communities.",
+      "notes": "Registration destination linked by organiser; live ticket availability not independently checked. Seats are allocated first come, first served; registration does not guarantee a seat. Doors time not stated. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "actual_host": "UCL Political Science and School of Public Policy",
+      "source_urls": [
+        "https://www.ucl.ac.uk/social-historical-sciences/events/2026/nov/policy-practice-seminar-reimagining-future-global-majority-giving"
+      ],
+      "source": "Official organiser event or registration page",
+      "simulated": false,
+      "verified_at": "2026-10-08T13:00:00+00:00",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "registration_status": "Registration advertised by organiser; live inventory not verified",
+      "age_requirement": "Not stated",
+      "membership_requirement": "No membership restriction stated",
+      "cancellation_status": "No cancellation or reschedule notice seen in checked official source",
+      "publication_approved": true,
+      "age_restrictions": "Not stated",
+      "availability": "Registration advertised by organiser; live inventory not verified",
+      "cancellation": "No cancellation or reschedule notice seen in checked official source",
+      "booking_fees": "Not independently verified"
+    },
+    {
+      "id": "LUE-7a4cf786cd9f",
+      "title": "Sustainability and behavioural change: a discussion",
+      "org": "London School of Economics and Political Science (LSE)",
+      "org_acronym": "",
+      "start": "2026-11-05T18:30:00+00:00",
+      "end": "2026-11-05T20:00:00+00:00",
+      "venue": "LSE campus, venue TBC to ticket holders; online attendance also advertised",
+      "address": "",
+      "url": "https://www.lse.ac.uk/events/sustainability-behavioural-change",
+      "rsvp_url": "",
+      "cost": "Unknown; event-specific price not exposed",
+      "ideology": "nonpartisan",
+      "format": "hybrid",
+      "access": "Public event; check organiser page for attendance and registration instructions",
+      "description": "Public panel or conversation hosted by the School of Public Policy and the Global School of Sustainability. Participants: Dr Liam Beiser-McGrath, Dr Kate Laffan, Baroness Parminter, Elizabeth J Z Robinson, Professor Liam Delaney.",
+      "notes": "Direct registration link and live ticket availability were not exposed in the retrieved event page; use the organiser page for booking. Exact campus venue will be confirmed to ticket holders. Doors time not stated. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "actual_host": "LSE School of Public Policy and Global School of Sustainability",
+      "source_urls": [
+        "https://www.lse.ac.uk/events/sustainability-behavioural-change",
+        "https://www.lse.ac.uk/Events"
+      ],
+      "source": "Official organiser event or registration page",
+      "simulated": false,
+      "verified_at": "2026-10-08T13:00:00+00:00",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "registration_status": "Registration advertised by organiser; live inventory not verified",
+      "age_requirement": "Not stated",
+      "membership_requirement": "No membership restriction stated",
+      "cancellation_status": "No cancellation or reschedule notice seen in checked official source",
+      "publication_approved": true,
+      "speakers": [
+        "Dr Liam Beiser-McGrath",
+        "Dr Kate Laffan",
+        "Baroness Parminter",
+        "Elizabeth J Z Robinson",
+        "Professor Liam Delaney"
+      ],
+      "age_restrictions": "Not stated",
+      "availability": "Registration advertised by organiser; live inventory not verified",
+      "cancellation": "No cancellation or reschedule notice seen in checked official source",
+      "booking_fees": "Not independently verified"
+    },
+    {
+      "id": "eh-220-2026-11-05-e1daae5e3",
+      "title": "Bob Blackman MP: In Conversation",
+      "org": "UCL Conservative Society",
+      "start": "2026-11-05T18:30:00+00:00",
+      "cost": "Free event ticket",
+      "url": "https://studentsunionucl.org/whats-on/clubs-societies/bob-blackman-mp-in-conversation?v=96822",
+      "source": "https://studentsunionucl.org/whats-on/clubs-societies/bob-blackman-mp-in-conversation?v=96822",
+      "access": "Booking login required; exact eligibility/membership restrictions not stated",
+      "ideology": "other",
+      "format": "in_person",
+      "simulated": false,
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "publication_approved": true,
+      "verified_at": "2026-10-08T13:05:46.462457+00:00",
+      "end": "2026-11-05T20:00:00+00:00",
+      "venue": "UK venue supplied privately to ticket holders",
+      "rsvp_url": "https://studentsunionucl.org/whats-on/clubs-societies/bob-blackman-mp-in-conversation?v=96822",
+      "description": "Guest talk or conversation followed by audience questions.",
+      "notes": "Official indexed detail confirms Thursday 5 November 2026,18:30–20:00, doors 18:15. Official venue page explicitly identifies United Kingdom; venue emailed privately. Direct detail retrieval failed, so do not claim live inventory verification. No cancellation notice found. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "doors": "2026-11-05T18:15:00+00:00",
+      "country": "United Kingdom",
+      "availability": "Book-tickets/login route advertised in indexed official detail; live ticket inventory unverified",
+      "cancellation": "Not stated",
+      "source_urls": [
+        "https://studentsunionucl.org/whats-on/clubs-societies/bob-blackman-mp-in-conversation",
+        "https://studentsunionucl.org/whats-on/venue/tbc-will-be-emailed-to-those-with-tickets-privately",
+        "https://studentsunionucl.org/clubs-societies/conservative-society"
+      ],
+      "date": "2026-11-05",
+      "booking_fees": "Free ticket; no separate fee stated",
+      "age_restrictions": "Not stated; family-friendly flag is No and is not a specific age limit",
+      "physical_accessibility": "Official event detail marks wheelchair accessible: No",
+      "host_role": "organiser_or_venue_programme",
+      "address": "Not publicly disclosed; emailed to ticket holders"
+    },
+    {
+      "id": "london-iq-ghattas-2026-11-05",
+      "title": "America’s Undoing in the Middle East, with Kim Ghattas and Lyse Doucet",
+      "org": "Intelligence Squared (UK)",
+      "actual_host": "Intelligence Squared",
+      "start": "2026-11-05T19:00:00+00:00",
+      "end": "2026-11-05T20:30:00+00:00",
+      "venue": "Swedenborg House",
+      "address": "20–21 Bloomsbury Way, Holborn, London WC1A 2TH",
+      "format": "in_person",
+      "cost": "Unknown",
+      "access": "Sold out on official organiser page; no ticket availability implied",
+      "url": "https://www.intelligencesquared.com/events/americas-undoing-in-the-middle-east-with-kim-ghattas-and-lyse-doucet",
+      "source": "https://www.intelligencesquared.com/events/americas-undoing-in-the-middle-east-with-kim-ghattas-and-lyse-doucet",
+      "source_urls": [
+        "https://www.intelligencesquared.com/events/americas-undoing-in-the-middle-east-with-kim-ghattas-and-lyse-doucet"
+      ],
+      "rsvp_url": "",
+      "ideology": "foreign_policy",
+      "simulated": false,
+      "verified_at": "2026-10-08T13:00:00+00:00",
+      "age_requirement": "Not stated",
+      "membership_requirement": "Not stated unless specified in access",
+      "registration_status": "Sold out",
+      "cancellation_status": "No cancellation or reschedule notice seen in checked source",
+      "notes": "Official calendar and event page both mark SOLD OUT. Ticket price, booking fees, doors and age limits not stated. Lyse Doucet is moderator; actual organiser is Intelligence Squared. Doors time not stated. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "publication_approved": true,
+      "age_restrictions": "Not stated",
+      "availability": "Sold out",
+      "cancellation": "No cancellation or reschedule notice seen in checked source",
+      "booking_fees": "Not independently verified"
+    },
+    {
+      "id": "eh-020-2026-11-05-25e84119d",
+      "title": "Club Bingo",
+      "org": "Fairwater Conservative Club",
+      "start": "2026-11-05T19:30:00+00:00",
+      "cost": "Unknown",
+      "url": "https://www.fairwatercons.co.uk/copy-of-club-events",
+      "source": "https://www.fairwatercons.co.uk/copy-of-club-events",
+      "access": "Members and guests only",
+      "ideology": "other",
+      "format": "in_person",
+      "simulated": false,
+      "tags": {
+        "free_food": false,
+        "free_drinks": false,
+        "young_professionals": false
+      },
+      "publication_approved": true,
+      "verified_at": "2026-10-08T13:04:58.212161+00:00",
+      "venue": "Fairwater Conservative Club",
+      "address": "61 Ely Road, Llandaff, Cardiff CF5 2BY",
+      "description": "Club Bingo at Fairwater Conservative Club.",
+      "notes": "Explicit November 2026 date; starts 19:30 GMT. Members and guests only. Price, booking requirements, age limits, end time and refund terms are not stated. No live-capacity assurance. Free food, free drinks and young-professional offers are unverified unless labelled.",
+      "city": "Cardiff",
+      "country": "Wales",
+      "availability": "Advertised in official 2026 calendar; booking requirements and live capacity not stated",
+      "cancellation": "No cancellation or rescheduling notice in the calendar checked; refund terms not stated",
+      "source_urls": [
+        "https://www.fairwatercons.co.uk/copy-of-club-events",
+        "https://www.fairwatercons.co.uk/"
+      ],
+      "date": "2026-11-05",
+      "booking_fees": "Not stated",
+      "age_restrictions": "Not stated",
+      "physical_accessibility": "Unknown",
+      "host_role": "organiser_or_venue_programme"
     }
   ],
-  "editorial_scope": "Non-religious organisations and events; see data/listing-policy.json."
+  "editorial_scope": "Religious-institution sources and hosts excluded; religion topics under otherwise in-scope hosts remain eligible. See data/listing-policy.json."
 }

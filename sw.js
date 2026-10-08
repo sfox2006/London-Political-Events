@@ -1,6 +1,6 @@
 /* London Political Events — shell cache, network-first events.
    Bump SHELL_CACHE when HTML, CSS, JS, fonts, or icons change. */
-const SHELL_CACHE = "london-events-main-v16";
+const SHELL_CACHE = "london-events-main-v17";
 const DATA_CACHE = "london-events-main-data-v4";
 
 const SHELL = [

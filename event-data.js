@@ -87,6 +87,16 @@
         if (event.simulated !== false) errors.push(`${label} must have simulated: false in live mode.`);
         if (typeof event.url !== "string" || !event.url) errors.push(`${label}.url must link to the original event page in live mode.`);
         if (!isoStamp(event.verified_at)) errors.push(`${label}.verified_at is required in live mode, with an offset.`);
+        for (const field of ["start", "end", "doors", "arrival"]) {
+          if (!isoStamp(event[field])) continue;
+          const offset = event[field].endsWith("Z") ? "+00:00" : event[field].slice(-6);
+          if (offset !== localStamp(new Date(event[field])).slice(-6)) errors.push(`${label}.${field} must use the actual Europe/London BST/GMT offset.`);
+        }
+        if (data.window && dateOnly(data.window.start) && dateOnly(data.window.end) && isoStamp(event.start)) {
+          const first = localStamp(new Date(event.start)).slice(0, 10);
+          const last = event.end && isoStamp(event.end) ? localStamp(new Date(Date.parse(event.end) - 1)).slice(0, 10) : first;
+          if (first > data.window.end || last < data.window.start) errors.push(`${label} is outside the inclusive publication window.`);
+        }
       }
     }
     return errors;

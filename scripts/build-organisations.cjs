@@ -2,6 +2,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const { excludesOrganisation } = require('./listing-policy.cjs');
+const organisationStatus = require('./organisation-status.cjs');
 const root = path.join(__dirname, '..');
 const eventsPage = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 // Derive shared header and About content from the events page to prevent drift.
@@ -26,17 +27,18 @@ for (const org of records) {
   names.add(org.name);
   if (!['https:', 'http:'].includes(new URL(org.url).protocol)) throw new Error(`Invalid source URL: ${org.name}`);
   if (!['Event hosts', 'Needs checking'].includes(org.source_sheet)) throw new Error(`Unknown source status: ${org.name}`);
+  if (!['Event hosts', 'Needs checking'].includes(organisationStatus(org))) throw new Error(`Unknown verification status: ${org.name}`);
 }
-const evidenced = records.filter(org => org.source_sheet === 'Event hosts').length;
+const evidenced = records.filter(org => organisationStatus(org) === 'Event hosts').length;
 const candidates = records.length - evidenced;
 const options = key => [...new Set(records.map(org => org[key]))].sort((a,b)=>a.localeCompare(b,'en-GB')).map(value => `<option value="${escape(value)}">${escape(value)}</option>`).join('\n');
 const field = (label,value) => value ? `<div><dt>${label}</dt><dd>${escape(value)}</dd></div>` : '';
 const cards = [...records].sort((a,b)=>a.name.localeCompare(b.name,'en-GB')).map(org => `
-    <article class="organisation" data-type="${escape(org.type)}" data-reach="${escape(org.reach)}" data-status="${escape(org.source_sheet)}">
+    <article class="organisation" data-type="${escape(org.type)}" data-reach="${escape(org.reach)}" data-status="${escape(organisationStatus(org))}">
       <details>
         <summary>
           <span class="organisation-heading"><span class="organisation-name">${escape(org.name)}</span><span class="organisation-meta">${escape(org.type)} · ${escape(org.area)}</span></span>
-          <span class="evidence-label${org.source_sheet === 'Needs checking' ? ' evidence-pending' : ''}">${escape(org.evidence_status)}</span>
+          <span class="evidence-label${organisationStatus(org) === 'Needs checking' ? ' evidence-pending' : ''}">${escape(org.evidence_status)}</span>
         </summary>
         <div class="organisation-details">
           <dl>${field('Political tradition / connection',org.tradition)}${field('Country / reach',org.reach)}${field('Event activity',org.events)}${field('Evidence / example',org.evidence)}${field('Access',org.access)}${field('Notes',org.notes)}</dl>
@@ -56,9 +58,9 @@ const html = `<!DOCTYPE html>
   <title>Organisations | London Political Events</title>
   <link rel="canonical" href="https://sfox2006.github.io/London-Political-Events/organisations.html" />
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" href="assets/icon.svg?v=16" type="image/svg+xml" />
-  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=16" />
-  <link rel="stylesheet" href="styles.css?v=16" />
+  <link rel="icon" href="assets/icon.svg?v=17" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=17" />
+  <link rel="stylesheet" href="styles.css?v=17" />
   ${symbolStyles}
 </head>
 <body class="directory-page">
@@ -91,14 +93,14 @@ const html = `<!DOCTYPE html>
     </section>
   </main>
   <footer class="site-footer">
-    <a class="brand-credit" href="https://www.fightingforafreefuture.com/" target="_blank" rel="noopener noreferrer"><img src="assets/fff-logo.png?v=16" width="160" height="160" alt="Fighting for a Free Future" loading="lazy" /></a>
+    <a class="brand-credit" href="https://www.fightingforafreefuture.com/" target="_blank" rel="noopener noreferrer"><img src="assets/fff-logo.png?v=17" width="160" height="160" alt="Fighting for a Free Future" loading="lazy" /></a>
     <div class="footer-suggestion"><h2>Suggest a listing or help verify an organisation</h2>${suggestion}</div>
     <div class="footer-suggestion"><h2>Get the weekly email</h2><p>A free Sunday roundup of London politics and ideas events.</p><a class="suggestion-button" href="${newsletterForm}" target="_blank" rel="noopener noreferrer">Sign up for the London weekly email <span aria-hidden="true">↗</span></a></div>
     <p>An independent calendar of politics, ideas and social events across the UK and online. <a href="./">Back to events</a>. Check each organiser's event page for current details.</p>
   </footer>
   ${about}
-  <script src="directory-header.js?v=16" defer></script>
-  <script src="organisations.js?v=16" defer></script>
+  <script src="directory-header.js?v=17" defer></script>
+  <script src="organisations.js?v=17" defer></script>
 </body>
 </html>
 `;

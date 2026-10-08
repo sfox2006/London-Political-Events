@@ -79,8 +79,9 @@
       "url": "https://righttolife.org.uk/about-us",
       "notes": "Recheck current non-religious event activity before listing.",
       "checked_on": "2026-10-07",
-      "source_sheet": "Needs checking",
-      "source_row": 16
+      "source_sheet": "Event hosts",
+      "source_row": 16,
+      "verification_status": "Needs checking"
     },
     {
       "name": "Society for the Protection of Unborn Children",
@@ -6213,5 +6214,5 @@
       "method": "Consumer-authored repository projection from supported Library text reads; source claims and full independent review remain in Library."
     }
   ],
-  "editorial_scope": "Non-religious organisations and events; see data/listing-policy.json."
+  "editorial_scope": "Religious-institution sources and hosts excluded; religion topics under otherwise in-scope hosts remain eligible. See data/listing-policy.json."
 }

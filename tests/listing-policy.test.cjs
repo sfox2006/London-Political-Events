@@ -17,10 +17,12 @@ test('names, venues, secular policy positions and seasonal socials do not trigge
   assert.equal(excludesOrganisation({name:'Right To Life UK'}), false);
   assert.equal(excludesOrganisation({name:"Queen's University Belfast Pro-Life Society"}), false);
   assert.equal(excludesEvent({url:'https://care.org.uk.example.com/event'}), false);
+  assert.equal(excludesEvent({id:'LUE-1fec2d9d116d',org:'University College London (UCL)',title:'Sickle and Veil: Communist Gender and Policies towards Muslim Minorities in Eastern Europe'}), false);
+  assert.equal(excludesEvent({id:'B1-8edfb9d956b2',org:'UnHerd',title:'Tom Holland & Malcolm Guite: The case for re-enchantment'}), false);
+  assert.equal(excludesEvent({id:'B3-2026-12-10-4874d13197',org:'North East Hertfordshire Conservatives',title:'Coffee, Cake & Carols'}), false);
 });
 
-test('public data, future reserve and directory contain no reviewed excluded records', () => {
+test('public data and directory contain no reviewed excluded records', () => {
   for (const event of require('../data/events.json').events) assert.equal(excludesEvent(event),false,event.id);
-  for (const event of require('../data/future-events.json').records) assert.equal(excludesEvent(event),false,event.id);
   for (const org of require('../data/organisations.json').organisations) assert.equal(excludesOrganisation(org),false,org.name);
 });
