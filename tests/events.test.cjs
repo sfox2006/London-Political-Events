@@ -89,6 +89,13 @@ test("UK-wide venue search and source notes are retained in details and exports"
   assert.match(calendar.detailsInner(event), /Doors 18:00; programme 18:30/);
   assert.match(new URL(calendar.googleCalendarUrl(event)).searchParams.get("details"), /Food and drinks unverified/);
 });
+test("availability and refund qualifications reach details and calendar exports", () => {
+  const event = {...fixture.events[0],simulated:false,availability:"Sold out for in-person attendance; livestream signup offered",cancellation:"Refund terms unknown"};
+  assert.match(calendar.detailsInner(event),/Sold out for in-person attendance/);
+  assert.match(calendar.detailsInner(event),/Refund terms unknown/);
+  assert.match(new URL(calendar.googleCalendarUrl(event)).searchParams.get('details'),/Sold out for in-person attendance/);
+  assert.match(calendar.icsContent(event),/Refund terms unknown/);
+});
 test("doors-only times remain labelled when programme time is TBC, including exports", () => {
   const event = {...fixture.events[0],simulated:false,start:"2026-10-12T18:15:00+01:00",start_label:"doors",notes:"Programme time TBC; only doors time is advertised."};
   delete event.end;

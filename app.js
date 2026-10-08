@@ -1110,7 +1110,7 @@
     const access = fieldText(event.access);
     if (access) lines.push(`Access: ${access}`);
     if (event.cost) lines.push(`Cost: ${event.cost}`);
-    for (const [key,label] of [["booking_fees","Booking fees"],["age_restrictions","Age restrictions"],["physical_accessibility","Accessibility"]]) if (event[key]) lines.push(`${label}: ${fieldText(event[key])}`);
+    for (const [key,label] of [["availability","Availability"],["cancellation","Cancellation/refunds"],["booking_fees","Booking fees"],["age_restrictions","Age restrictions"],["physical_accessibility","Accessibility"]]) if (event[key]) lines.push(`${label}: ${fieldText(event[key])}`);
     const notes = fieldText(event.notes);
     if (notes) lines.push(`Notes: ${notes}`);
     if (event.url) lines.push(String(event.url).trim());
@@ -1504,7 +1504,7 @@
     }
     const notes = fieldText(event.notes);
     if (notes) parts.push(`<p class="detail-line"><span class="detail-label">Notes</span> ${escapeHtml(notes)}</p>`);
-    for (const [key,label] of [["booking_fees","Booking fees"],["age_restrictions","Age"],["physical_accessibility","Accessibility"]]) {
+    for (const [key,label] of [["availability","Availability"],["cancellation","Cancellation/refunds"],["booking_fees","Booking fees"],["age_restrictions","Age"],["physical_accessibility","Accessibility"]]) {
       if (event[key]) parts.push(`<p class="detail-line"><span class="detail-label">${label}</span> ${escapeHtml(fieldText(event[key]))}</p>`);
     }
     const formatRaw = fieldText(event.format);
