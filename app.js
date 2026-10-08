@@ -373,7 +373,8 @@
     if (Number.isNaN(startDate.getTime())) return false;
     // A midnight placeholder never expires an unknown-time event on its own day.
     // The publication rule excludes already-started sessions with an unpublished end.
-    if (!timeIsUnknown(event) && Date.parse(event.end || event.start) <= Date.now()) return false;
+    if (event.end && Date.parse(event.end) <= Date.now()) return false;
+    if (!event.end && !timeIsUnknown(event) && Date.parse(event.start) <= Date.now()) return false;
     const startYmd = eventYmdInTz(startDate);
     const window = listWindow();
     if (ymdCmp(startYmd, window.end) > 0) return false;

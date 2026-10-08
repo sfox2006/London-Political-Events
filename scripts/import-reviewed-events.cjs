@@ -5,6 +5,7 @@ const path = require("node:path");
 const data = require("../event-data.js");
 const publicLocation = require("./public-location.cjs");
 const { excludesEvent } = require("./listing-policy.cjs");
+const privateResearchDirectory = require("./private-research.cjs");
 const root = path.join(__dirname, "..");
 const filename = process.argv[2];
 if (!filename) throw new Error("Supply the reviewed event JSON file.");
@@ -18,25 +19,37 @@ const dateKey = day => `${day.y}-${String(day.m).padStart(2,"0")}-${String(day.d
 const range = data.browsingWindow(now);
 const window = { start:dateKey(range.start), end:dateKey(range.end) };
 const current = JSON.parse(fs.readFileSync(path.join(root, "data/events.json"), "utf8"));
-const reservePath = path.join(root,"data/future-events.json");
+const reservePath = path.join(privateResearchDirectory(),"future-events.json");
 const reserve = fs.existsSync(reservePath) ? JSON.parse(fs.readFileSync(reservePath,"utf8")) : {events:[]};
 const incomingErrors = data.validatePayload({mode:"live",timezone:data.TZ,events:rows});
 if (incomingErrors.length) throw new Error(incomingErrors.join("\n"));
 const normal = value => String(value).normalize("NFKC").toLowerCase().replace(/\s+/g," ").trim();
 const eventKey = event => [normal(event.org), normal(event.title), event.start.slice(0,10)].join("|");
-const reserveRecords = (reserve.records || reserve.events || []).filter(event => !excludesEvent(event)).map(publicLocation);
-const currentIds = new Map([...(current.mode === "live" ? current.events : []),...reserveRecords].map(event => [eventKey(event), event.id]));
+// Retain private historical, held and unreviewed records without promoting them.
+const reserveRecords = reserve.records || reserve.events || [];
+const currentRows = current.mode === "live" ? current.events : [];
+const currentKeys = new Set(currentRows.map(eventKey));
+const reserveKeys = new Set(reserveRecords.map(eventKey));
+const currentIds = new Map([...reserveRecords,...currentRows].map(event => [eventKey(event), event.id]));
 const keys = new Map();
 const events = rows.map(source => {
   const event = publicLocation(source);
   if (event.simulated !== false || String(event.id).startsWith("demo-london-")) throw new Error(`Not a reviewed real event: ${event.id}`);
   if (event.publication_approved !== true) throw new Error(`Record lacks publication approval: ${event.id}`);
+  if (/hold|unreviewed/i.test(event.review_decision || "")) throw new Error(`Record still has an unresolved review decision: ${event.id}`);
   for (const key of ["start", "end", "doors", "arrival"]) {
     if (!event[key]) continue;
     const value = event[key].replace(/(T\d{2}:\d{2})([+-])/, "$1:00$2").replace(/Z$/, "+00:00");
     if (data.localStamp(new Date(event[key])) !== value) throw new Error(`${event.id}.${key} must use the actual Europe/London wall time and BST/GMT offset.`);
   }
   const key = eventKey(event);
+  const willPublish = event.start.slice(0,10) <= window.end && (event.end
+    ? Date.parse(event.end) > now.getTime()
+    : event.start.slice(0,10) >= window.start && (event.time === "TBC" || Date.parse(event.start) > now.getTime()));
+  if (reserveKeys.has(key) && !currentKeys.has(key) && willPublish &&
+      Date.parse(event.verified_at) < data.midnight(range.start).getTime()) {
+    throw new Error(`Private reserve record requires fresh source verification before promotion: ${event.id}`);
+  }
   if (keys.has(key)) throw new Error(`Review possible duplicate host/title/day: ${keys.get(key)} and ${event.id}`);
   keys.set(key, event.id);
   if (currentIds.has(key)) event.id = currentIds.get(key);
@@ -57,7 +70,8 @@ for (const event of events) {
   // Updating a reserve with newly reviewed details preserves its source history and stable ID.
   if (futureByKey.has(eventKey(event))) futureByKey.set(eventKey(event),event);
 }
-const payload = { mode:"live", timezone:data.TZ, generated:data.localStamp(now), window, events:publicEvents };
+const payload = { ...current, mode:"live", timezone:data.TZ, generated:data.localStamp(now), window, events:publicEvents };
+delete payload.demo_anchor;
 const errors = data.validatePayload(payload);
 if (errors.length) throw new Error(errors.join("\n"));
 const futurePayload = {...reserve,timezone:data.TZ,generated:data.localStamp(now),publication:"research_reserve",requires_reverification:true,

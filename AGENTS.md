@@ -5,7 +5,7 @@ This is a self-contained static site, adapted from Sam's DC calendar. Preserve t
 ## Event research
 
 - Read `docs/REAL_EVENTS.md` before adding real listings.
-- The production feed is `data/events.json`. Research drafts can be separate JSON files, then validated and consolidated into that feed.
+- The production feed is `data/events.json`. Keep research drafts, holds and later discoveries in a private directory outside this repository, then validate and consolidate reviewed in-window records into that feed.
 - Do not treat any `demo-london-*` listing as evidence of a real event. The initial 43 events and their hosts, people, venues, prices and perks are fictional.
 - Verify real events on the original organiser's event or registration page. Do not invent dates, speakers, access conditions, perks or price information.
 - Use ISO 8601 timestamps with explicit UTC offsets. Apply `Europe/London` and the offset appropriate to each date: BST `+01:00` or GMT `+00:00`.
@@ -24,4 +24,4 @@ This is a self-contained static site, adapted from Sam's DC calendar. Preserve t
 
 ## Editorial scope
 
-The owner excludes religious organisations and religious content. Do not collect or publish worship, prayer, carol services, religious education or religion-centred talks, including academic events primarily about religion. Check `data/listing-policy.json` for reviewed exclusions before researching or importing. Add newly reviewed exclusions to that file. Do not infer religion from a personal name, a church venue, a country or a political position. Seasonal social events and secular issue groups remain eligible. The original research coverage is an audit only; excluded sources must not be reintroduced from it.
+The owner excludes actual religious institutions as sources or hosts. Religion topics hosted by otherwise aligned, in-scope organisations remain eligible. Hold genuinely ambiguous host classifications for review; never infer personal religion. Check `data/listing-policy.json` for reviewed exclusions before researching or importing. Add newly reviewed exclusions to that file. Do not infer religion from a personal name, a church venue, a country or a political position. Seasonal social events and secular issue groups remain eligible. The original research coverage is an audit only; excluded sources must not be reintroduced from it.

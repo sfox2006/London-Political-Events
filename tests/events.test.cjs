@@ -58,6 +58,11 @@ test("ended events and already-started sessions with unpublished end are hidden"
   const now = Date.now();
   const event = {...fixture.events[0],simulated:false,start:data.localStamp(new Date(now-3600000)),end:data.localStamp(new Date(now-1000))};
   assert.equal(calendar.inListWindow(event),false);
+  event.time = "TBC";
+  assert.equal(calendar.inListWindow(event),false, "A confirmed end expires a TBC programme start too");
+  delete event.time;
+  delete event.end;
+  assert.equal(calendar.inListWindow(event),false, "An unknown end does not keep a started session visible");
   event.start = data.localStamp(new Date(now+3600000));
   delete event.end;
   assert.equal(calendar.inListWindow(event),true);

@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-07",
-  "scope": "Exclude religious organisations, faith-based advocacy, worship/prayer/carol events and religion-centred talks from listings and future research. Review content and organiser evidence; do not infer religion from a personal name, venue, country or political position. Ordinary seasonal social events remain eligible.",
+  "updated": "2026-10-08",
+  "scope": "Exclude actual religious institutions as sources or hosts. Religion topics hosted by otherwise aligned, in-scope organisations remain eligible. Hold genuinely ambiguous host classifications for review. Do not infer personal religion from names, speakers, venues, countries or political positions. Preserve verified access and source restrictions.",
   "organisation_names": [
     "CARE (Christian Action Research and Education)",
     "The Christian Institute",
@@ -29,7 +29,6 @@
     "B1-1a4d574ac02a",
     "B1-759bfbb1a38f",
     "B1-e44e90d2bdb0",
-    "LUE-1fec2d9d116d",
     "B2-011",
     "B1-d3526ebe7bc4",
     "B1-94db6c832f5b",
@@ -46,10 +45,6 @@
     "B1-lead-a0cf539b7182",
     "B1-lead-f46cf5cb0ee4",
     "B1-lead-5cd8b4bbea28",
-    "B1-8edfb9d956b2",
-    "eh-026-2026-12-04-580716723",
-    "B3-2026-12-10-4874d13197",
-    "eh-020-2026-12-16-37d68f81c",
     "B1-0d3ccdbe0946",
     "B1-338b254a327e"
   ],
@@ -66,7 +61,6 @@
   ],
   "sources": [
     "https://theceme.org/about-us/",
-    "https://www.stmarys.ac.uk/events/2026/human-flourishing-in-the-age-of-artificial-intelligence",
-    "https://club.unherd.com/event/the-case-for-re-enchantment/"
+    "https://www.stmarys.ac.uk/events/2026/human-flourishing-in-the-age-of-artificial-intelligence"
   ]
 }
